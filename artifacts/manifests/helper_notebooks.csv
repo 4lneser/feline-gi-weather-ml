@@ -1,0 +1,9 @@
+section,source_script,notebook
+helper,build_feline_weather_exposures.py,01_build_feline_weather_exposures.ipynb
+helper,weather_data_final.py,02_weather_data_final.ipynb
+helper,weather_data_transform.py,03_weather_data_transform.ipynb
+helper,run_eda_case_only.py,04_run_eda_case_only.ipynb
+helper,apriori_weather_patterns.py,05_apriori_weather_patterns.ipynb
+helper,apriori_refined_final.py,06_apriori_refined_final.ipynb
+helper,lunar_incidence_analysis.py,07_lunar_incidence_analysis.ipynb
+helper,eda_lunar_sex_addendum.py,08_eda_lunar_sex_addendum.ipynb

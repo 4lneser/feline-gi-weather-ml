@@ -1,0 +1,2 @@
+rule,q_low,q_high,precipitation_hours_mean_7d_threshold_low,precipitation_hours_peak_14d_threshold_low,surface_pressure_max_day1_threshold_high,support,support_count,confidence,lift,baseline_prevalence,antecedent_prevalence
+full_rule_20_80,0.2,0.8,1.428571428571429,10.0,1010.4,0.025477707006369428,8,0.6153846153846154,1.596948506039415,0.3853503184713376,0.041401273885350316

@@ -1,0 +1,10 @@
+- Read-only consolidation completed using pre-generated outputs; no model reruns were performed.
+- LightGBM replication files were not found locally; replication labels were reported as HistGB-only.
+- No disease met the strict robust criterion requiring replicated significance and stable environmental ranking.
+- Suggestive signals: acute gastroenteritis; parvovirus enteritis.
+- Exploratory/fragile signals: acute flare-up of triaditis/chronic enteropathy; acute pancreatitis.
+- Environmental-only SHAP ranking stability (Spearman) was high across diseases, indicating internally consistent environmental feature ordering across folds.
+- In combined models, the highest environmental SHAP contribution ratio was observed for acute flare-up of triaditis/chronic enteropathy (env_ratio=0.458).
+- Moon-feature SHAP ranks were generally lower-order (median rank=18.0) with limited top-10 persistence (mean top10 frequency=0.083).
+- Permutation results test discrimination above chance for environmental-only models under internal resampling only.
+- These findings are exploratory and non-causal; no causal inference is supported by this analysis.

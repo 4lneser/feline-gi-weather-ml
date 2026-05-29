@@ -1,0 +1,8 @@
+block,Dtag,n_dim,k,silhouette_score
+clinical_only,D80,9,2,0.47981243555336717
+clinical_only,D80,9,3,0.3402013597045793
+clinical_only,D80,9,4,0.2582300329205627
+clinical_only,D80,9,5,0.2579425491693749
+clinical_only,D80,9,6,0.2584706101525741
+clinical_only,D80,9,7,0.26016423802921085
+clinical_only,D80,9,8,0.2670399607951133

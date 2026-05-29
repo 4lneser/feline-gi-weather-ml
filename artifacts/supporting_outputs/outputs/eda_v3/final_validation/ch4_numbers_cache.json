@@ -1,0 +1,4079 @@
+{
+  "generated_at": "2026-03-01T00:40:08.433320+00:00",
+  "paths": {
+    "outputs_base": "/Users/omaralneser/Documents/TYP/outputs/eda_v3",
+    "repo_figures": "/Users/omaralneser/Documents/TYP/thesis-paper/TYP_template/figures"
+  },
+  "A_dataset_sizes_label_counts": {
+    "overall": {
+      "total_n": {
+        "value": 315,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/tables/outcome_distribution.csv",
+          "operation": "sum(count)"
+        }
+      },
+      "per_diagnosis": [
+        {
+          "diagnosis": "acute pancreatitis",
+          "count": 124,
+          "pct": 39.37,
+          "source": {
+            "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/tables/outcome_distribution.csv",
+            "row_index": 0,
+            "columns": [
+              "outcome",
+              "count",
+              "pct"
+            ]
+          }
+        },
+        {
+          "diagnosis": "acute flare-up of triaditis/chronic enteropathy",
+          "count": 90,
+          "pct": 28.57,
+          "source": {
+            "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/tables/outcome_distribution.csv",
+            "row_index": 1,
+            "columns": [
+              "outcome",
+              "count",
+              "pct"
+            ]
+          }
+        },
+        {
+          "diagnosis": "acute gastroenteritis",
+          "count": 60,
+          "pct": 19.05,
+          "source": {
+            "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/tables/outcome_distribution.csv",
+            "row_index": 2,
+            "columns": [
+              "outcome",
+              "count",
+              "pct"
+            ]
+          }
+        },
+        {
+          "diagnosis": "parvovirus enteritis",
+          "count": 41,
+          "pct": 13.02,
+          "source": {
+            "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/tables/outcome_distribution.csv",
+            "row_index": 3,
+            "columns": [
+              "outcome",
+              "count",
+              "pct"
+            ]
+          }
+        }
+      ]
+    },
+    "holdout_split_counts": {
+      "test": {
+        "total_n": 63,
+        "per_diagnosis": [
+          {
+            "diagnosis": "acute flare-up of triaditis/chronic enteropathy",
+            "n": 18,
+            "pct_within_split": 28.571428571428573,
+            "source": {
+              "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/final_validation/holdout_audit/holdout_split_counts.csv",
+              "row_index": 0,
+              "columns": [
+                "split",
+                "class_label",
+                "n",
+                "pct_within_split"
+              ]
+            }
+          },
+          {
+            "diagnosis": "acute gastroenteritis",
+            "n": 12,
+            "pct_within_split": 19.047619047619047,
+            "source": {
+              "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/final_validation/holdout_audit/holdout_split_counts.csv",
+              "row_index": 1,
+              "columns": [
+                "split",
+                "class_label",
+                "n",
+                "pct_within_split"
+              ]
+            }
+          },
+          {
+            "diagnosis": "acute pancreatitis",
+            "n": 25,
+            "pct_within_split": 39.68253968253968,
+            "source": {
+              "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/final_validation/holdout_audit/holdout_split_counts.csv",
+              "row_index": 2,
+              "columns": [
+                "split",
+                "class_label",
+                "n",
+                "pct_within_split"
+              ]
+            }
+          },
+          {
+            "diagnosis": "parvovirus enteritis",
+            "n": 8,
+            "pct_within_split": 12.698412698412698,
+            "source": {
+              "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/final_validation/holdout_audit/holdout_split_counts.csv",
+              "row_index": 3,
+              "columns": [
+                "split",
+                "class_label",
+                "n",
+                "pct_within_split"
+              ]
+            }
+          }
+        ],
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/final_validation/holdout_audit/holdout_split_counts.csv",
+          "row_filter": {
+            "split": "test"
+          }
+        }
+      },
+      "train": {
+        "total_n": 252,
+        "per_diagnosis": [
+          {
+            "diagnosis": "acute flare-up of triaditis/chronic enteropathy",
+            "n": 72,
+            "pct_within_split": 28.571428571428573,
+            "source": {
+              "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/final_validation/holdout_audit/holdout_split_counts.csv",
+              "row_index": 4,
+              "columns": [
+                "split",
+                "class_label",
+                "n",
+                "pct_within_split"
+              ]
+            }
+          },
+          {
+            "diagnosis": "acute gastroenteritis",
+            "n": 48,
+            "pct_within_split": 19.047619047619047,
+            "source": {
+              "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/final_validation/holdout_audit/holdout_split_counts.csv",
+              "row_index": 5,
+              "columns": [
+                "split",
+                "class_label",
+                "n",
+                "pct_within_split"
+              ]
+            }
+          },
+          {
+            "diagnosis": "acute pancreatitis",
+            "n": 99,
+            "pct_within_split": 39.285714285714285,
+            "source": {
+              "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/final_validation/holdout_audit/holdout_split_counts.csv",
+              "row_index": 6,
+              "columns": [
+                "split",
+                "class_label",
+                "n",
+                "pct_within_split"
+              ]
+            }
+          },
+          {
+            "diagnosis": "parvovirus enteritis",
+            "n": 33,
+            "pct_within_split": 13.095238095238097,
+            "source": {
+              "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/final_validation/holdout_audit/holdout_split_counts.csv",
+              "row_index": 7,
+              "columns": [
+                "split",
+                "class_label",
+                "n",
+                "pct_within_split"
+              ]
+            }
+          }
+        ],
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/final_validation/holdout_audit/holdout_split_counts.csv",
+          "row_filter": {
+            "split": "train"
+          }
+        }
+      }
+    }
+  },
+  "B_supervised_performance": {
+    "multiclass_cv": [
+      {
+        "model": "hist_gb",
+        "feature_block": "clinical_only",
+        "n_folds": 5,
+        "metrics": {
+          "accuracy": {
+            "mean": 0.5809523809523809,
+            "std": 0.1074217416869119
+          },
+          "balanced_accuracy": {
+            "mean": 0.6063888888888889,
+            "std": 0.0859686321275181
+          },
+          "macro_f1": {
+            "mean": 0.6099259550715472,
+            "std": 0.1018317402234338
+          },
+          "weighted_f1": {
+            "mean": 0.5772032264714533,
+            "std": 0.109876534759386
+          }
+        },
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/tables/cv_metric_summary.csv",
+          "row_index": 0
+        }
+      },
+      {
+        "model": "hist_gb",
+        "feature_block": "combined",
+        "n_folds": 5,
+        "metrics": {
+          "accuracy": {
+            "mean": 0.5746031746031746,
+            "std": 0.0713403335055372
+          },
+          "balanced_accuracy": {
+            "mean": 0.6055,
+            "std": 0.0854392811075376
+          },
+          "macro_f1": {
+            "mean": 0.6143144878113553,
+            "std": 0.073527791948155
+          },
+          "weighted_f1": {
+            "mean": 0.5756971482105351,
+            "std": 0.0668036970461159
+          }
+        },
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/tables/cv_metric_summary.csv",
+          "row_index": 1
+        }
+      },
+      {
+        "model": "hist_gb",
+        "feature_block": "environmental_only",
+        "n_folds": 5,
+        "metrics": {
+          "accuracy": {
+            "mean": 0.3682539682539682,
+            "std": 0.0519219912184003
+          },
+          "balanced_accuracy": {
+            "mean": 0.3388888888888888,
+            "std": 0.0299399798259001
+          },
+          "macro_f1": {
+            "mean": 0.3434075442634589,
+            "std": 0.0377876354522842
+          },
+          "weighted_f1": {
+            "mean": 0.3630820568821303,
+            "std": 0.0484449655341148
+          }
+        },
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/tables/cv_metric_summary.csv",
+          "row_index": 2
+        }
+      },
+      {
+        "model": "logistic_ovr",
+        "feature_block": "clinical_only",
+        "n_folds": 5,
+        "metrics": {
+          "accuracy": {
+            "mean": 0.5555555555555556,
+            "std": 0.0489239206584839
+          },
+          "balanced_accuracy": {
+            "mean": 0.5988055555555556,
+            "std": 0.0330311242580855
+          },
+          "macro_f1": {
+            "mean": 0.5854804468771285,
+            "std": 0.0432832912837991
+          },
+          "weighted_f1": {
+            "mean": 0.5492267203439289,
+            "std": 0.052847390368925
+          }
+        },
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/tables/cv_metric_summary.csv",
+          "row_index": 3
+        }
+      },
+      {
+        "model": "logistic_ovr",
+        "feature_block": "combined",
+        "n_folds": 5,
+        "metrics": {
+          "accuracy": {
+            "mean": 0.5333333333333333,
+            "std": 0.0509422429710514
+          },
+          "balanced_accuracy": {
+            "mean": 0.5793611111111112,
+            "std": 0.038205503449466
+          },
+          "macro_f1": {
+            "mean": 0.5739070807272848,
+            "std": 0.0450502546093571
+          },
+          "weighted_f1": {
+            "mean": 0.5299459889283957,
+            "std": 0.0516627302836163
+          }
+        },
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/tables/cv_metric_summary.csv",
+          "row_index": 4
+        }
+      },
+      {
+        "model": "logistic_ovr",
+        "feature_block": "environmental_only",
+        "n_folds": 5,
+        "metrics": {
+          "accuracy": {
+            "mean": 0.3079365079365079,
+            "std": 0.0496903994999953
+          },
+          "balanced_accuracy": {
+            "mean": 0.3240555555555556,
+            "std": 0.0468017843848387
+          },
+          "macro_f1": {
+            "mean": 0.3088115947179816,
+            "std": 0.0423873041810342
+          },
+          "weighted_f1": {
+            "mean": 0.3016831519422689,
+            "std": 0.0491826517833746
+          }
+        },
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/tables/cv_metric_summary.csv",
+          "row_index": 5
+        }
+      },
+      {
+        "model": "random_forest",
+        "feature_block": "clinical_only",
+        "n_folds": 5,
+        "metrics": {
+          "accuracy": {
+            "mean": 0.5365079365079365,
+            "std": 0.0506943473735597
+          },
+          "balanced_accuracy": {
+            "mean": 0.5303888888888888,
+            "std": 0.0508751914789978
+          },
+          "macro_f1": {
+            "mean": 0.5281156673525702,
+            "std": 0.0470878915981197
+          },
+          "weighted_f1": {
+            "mean": 0.5109964370938188,
+            "std": 0.0491787873548886
+          }
+        },
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/tables/cv_metric_summary.csv",
+          "row_index": 6
+        }
+      },
+      {
+        "model": "random_forest",
+        "feature_block": "combined",
+        "n_folds": 5,
+        "metrics": {
+          "accuracy": {
+            "mean": 0.5333333333333333,
+            "std": 0.0509422429710514
+          },
+          "balanced_accuracy": {
+            "mean": 0.5218055555555555,
+            "std": 0.070413447767761
+          },
+          "macro_f1": {
+            "mean": 0.5090566670412588,
+            "std": 0.0638310230015005
+          },
+          "weighted_f1": {
+            "mean": 0.4863466231461822,
+            "std": 0.0537784380520417
+          }
+        },
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/tables/cv_metric_summary.csv",
+          "row_index": 7
+        }
+      },
+      {
+        "model": "random_forest",
+        "feature_block": "environmental_only",
+        "n_folds": 5,
+        "metrics": {
+          "accuracy": {
+            "mean": 0.3777777777777777,
+            "std": 0.0454534002008773
+          },
+          "balanced_accuracy": {
+            "mean": 0.342361111111111,
+            "std": 0.0393988145698087
+          },
+          "macro_f1": {
+            "mean": 0.3514465238719569,
+            "std": 0.0424225987093303
+          },
+          "weighted_f1": {
+            "mean": 0.3669609385163707,
+            "std": 0.0426422997218333
+          }
+        },
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/tables/cv_metric_summary.csv",
+          "row_index": 8
+        }
+      }
+    ],
+    "binary_ovr_cv_histgb": [
+      {
+        "model": "hist_gb_binary_acute_flare_up_of_triaditis_chronic_enteropathy",
+        "disease": "acute flare-up of triaditis/chronic enteropathy",
+        "feature_block": "clinical_only",
+        "n_folds": 5,
+        "roc_auc": {
+          "mean": 0.6454320987654321,
+          "std": 0.0675941428313122
+        },
+        "balanced_accuracy": {
+          "mean": 0.5755555555555555,
+          "std": 0.0310813349571096
+        },
+        "recall": {
+          "mean": 0.311111111111111,
+          "std": 0.0633430791721743
+        },
+        "precision": {
+          "mean": 0.4389285714285714,
+          "std": 0.0625815794114582
+        },
+        "f1": {
+          "mean": 0.3619957983193277,
+          "std": 0.0583829728331988
+        },
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/tables/cv_binary_metric_summary.csv",
+          "row_index": 0
+        }
+      },
+      {
+        "model": "hist_gb_binary_acute_flare_up_of_triaditis_chronic_enteropathy",
+        "disease": "acute flare-up of triaditis/chronic enteropathy",
+        "feature_block": "combined",
+        "n_folds": 5,
+        "roc_auc": {
+          "mean": 0.5777777777777778,
+          "std": 0.0625013336239365
+        },
+        "balanced_accuracy": {
+          "mean": 0.5055555555555555,
+          "std": 0.0479518791712001
+        },
+        "recall": {
+          "mean": 0.1888888888888888,
+          "std": 0.0633430791721743
+        },
+        "precision": {
+          "mean": 0.3013752913752914,
+          "std": 0.099694519852636
+        },
+        "f1": {
+          "mean": 0.2318819852746438,
+          "std": 0.0770366646701456
+        },
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/tables/cv_binary_metric_summary.csv",
+          "row_index": 1
+        }
+      },
+      {
+        "model": "hist_gb_binary_acute_flare_up_of_triaditis_chronic_enteropathy",
+        "disease": "acute flare-up of triaditis/chronic enteropathy",
+        "feature_block": "environmental_only",
+        "n_folds": 5,
+        "roc_auc": {
+          "mean": 0.5074074074074074,
+          "std": 0.0743564576365582
+        },
+        "balanced_accuracy": {
+          "mean": 0.4944444444444444,
+          "std": 0.0578685184888879
+        },
+        "recall": {
+          "mean": 0.1666666666666666,
+          "std": 0.1178511301977579
+        },
+        "precision": {
+          "mean": 0.2502747252747253,
+          "std": 0.1382539762067049
+        },
+        "f1": {
+          "mean": 0.1979168734491315,
+          "std": 0.1304407651578662
+        },
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/tables/cv_binary_metric_summary.csv",
+          "row_index": 2
+        }
+      },
+      {
+        "model": "hist_gb_binary_acute_gastroenteritis",
+        "disease": "acute gastroenteritis",
+        "feature_block": "clinical_only",
+        "n_folds": 5,
+        "roc_auc": {
+          "mean": 0.8444444444444444,
+          "std": 0.0584295996280284
+        },
+        "balanced_accuracy": {
+          "mean": 0.7857843137254902,
+          "std": 0.078767661402959
+        },
+        "recall": {
+          "mean": 0.5833333333333333,
+          "std": 0.1666666666666666
+        },
+        "precision": {
+          "mean": 0.9333333333333332,
+          "std": 0.0912870929175276
+        },
+        "f1": {
+          "mean": 0.7044444444444444,
+          "std": 0.1126559276056584
+        },
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/tables/cv_binary_metric_summary.csv",
+          "row_index": 3
+        }
+      },
+      {
+        "model": "hist_gb_binary_acute_gastroenteritis",
+        "disease": "acute gastroenteritis",
+        "feature_block": "combined",
+        "n_folds": 5,
+        "roc_auc": {
+          "mean": 0.8911764705882351,
+          "std": 0.0403498837530654
+        },
+        "balanced_accuracy": {
+          "mean": 0.7970588235294118,
+          "std": 0.0833585601954734
+        },
+        "recall": {
+          "mean": 0.6333333333333333,
+          "std": 0.1728036779443976
+        },
+        "precision": {
+          "mean": 0.7952380952380953,
+          "std": 0.0859198006522181
+        },
+        "f1": {
+          "mean": 0.6955465587044534,
+          "std": 0.1088773902084419
+        },
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/tables/cv_binary_metric_summary.csv",
+          "row_index": 4
+        }
+      },
+      {
+        "model": "hist_gb_binary_acute_gastroenteritis",
+        "disease": "acute gastroenteritis",
+        "feature_block": "environmental_only",
+        "n_folds": 5,
+        "roc_auc": {
+          "mean": 0.5962418300653594,
+          "std": 0.0470371171343672
+        },
+        "balanced_accuracy": {
+          "mean": 0.5377450980392157,
+          "std": 0.0357120543599097
+        },
+        "recall": {
+          "mean": 0.1499999999999999,
+          "std": 0.0697216688778396
+        },
+        "precision": {
+          "mean": 0.3123809523809523,
+          "std": 0.108253502768631
+        },
+        "f1": {
+          "mean": 0.20171998624011,
+          "std": 0.0846993597888206
+        },
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/tables/cv_binary_metric_summary.csv",
+          "row_index": 5
+        }
+      },
+      {
+        "model": "hist_gb_binary_acute_pancreatitis",
+        "disease": "acute pancreatitis",
+        "feature_block": "clinical_only",
+        "n_folds": 5,
+        "roc_auc": {
+          "mean": 0.6517840755735492,
+          "std": 0.0838005209638981
+        },
+        "balanced_accuracy": {
+          "mean": 0.5852712550607289,
+          "std": 0.0871630085369055
+        },
+        "recall": {
+          "mean": 0.4586666666666666,
+          "std": 0.1800246896647482
+        },
+        "precision": {
+          "mean": 0.5035773341399474,
+          "std": 0.0850358170446767
+        },
+        "f1": {
+          "mean": 0.472219054658079,
+          "std": 0.1264502356458547
+        },
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/tables/cv_binary_metric_summary.csv",
+          "row_index": 6
+        }
+      },
+      {
+        "model": "hist_gb_binary_acute_pancreatitis",
+        "disease": "acute pancreatitis",
+        "feature_block": "combined",
+        "n_folds": 5,
+        "roc_auc": {
+          "mean": 0.628591542959964,
+          "std": 0.0542246395999688
+        },
+        "balanced_accuracy": {
+          "mean": 0.5588063427800269,
+          "std": 0.0394719972937353
+        },
+        "recall": {
+          "mean": 0.4109999999999999,
+          "std": 0.0748665479369791
+        },
+        "precision": {
+          "mean": 0.4752923976608187,
+          "std": 0.0484952781657906
+        },
+        "f1": {
+          "mean": 0.439511658201133,
+          "std": 0.0614020680755095
+        },
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/tables/cv_binary_metric_summary.csv",
+          "row_index": 7
+        }
+      },
+      {
+        "model": "hist_gb_binary_acute_pancreatitis",
+        "disease": "acute pancreatitis",
+        "feature_block": "environmental_only",
+        "n_folds": 5,
+        "roc_auc": {
+          "mean": 0.4776054880791722,
+          "std": 0.0654279619932476
+        },
+        "balanced_accuracy": {
+          "mean": 0.4830587044534413,
+          "std": 0.0698262254544491
+        },
+        "recall": {
+          "mean": 0.3063333333333333,
+          "std": 0.095745612025942
+        },
+        "precision": {
+          "mean": 0.3670556826849733,
+          "std": 0.1037688908267658
+        },
+        "f1": {
+          "mean": 0.3334848484848484,
+          "std": 0.0982955315842779
+        },
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/tables/cv_binary_metric_summary.csv",
+          "row_index": 8
+        }
+      },
+      {
+        "model": "hist_gb_binary_parvovirus_enteritis",
+        "disease": "parvovirus enteritis",
+        "feature_block": "clinical_only",
+        "n_folds": 5,
+        "roc_auc": {
+          "mean": 0.9566647961092404,
+          "std": 0.0380523616156205
+        },
+        "balanced_accuracy": {
+          "mean": 0.8547979797979798,
+          "std": 0.0583329917126732
+        },
+        "recall": {
+          "mean": 0.7277777777777777,
+          "std": 0.1096254847815061
+        },
+        "precision": {
+          "mean": 0.8642857142857142,
+          "std": 0.1345817405815483
+        },
+        "f1": {
+          "mean": 0.7854147812971343,
+          "std": 0.1001145296205884
+        },
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/tables/cv_binary_metric_summary.csv",
+          "row_index": 9
+        }
+      },
+      {
+        "model": "hist_gb_binary_parvovirus_enteritis",
+        "disease": "parvovirus enteritis",
+        "feature_block": "combined",
+        "n_folds": 5,
+        "roc_auc": {
+          "mean": 0.95979797979798,
+          "std": 0.0176428245538789
+        },
+        "balanced_accuracy": {
+          "mean": 0.8547979797979798,
+          "std": 0.0558448476858867
+        },
+        "recall": {
+          "mean": 0.7277777777777777,
+          "std": 0.1096254847815061
+        },
+        "precision": {
+          "mean": 0.8666666666666668,
+          "std": 0.1263812574008591
+        },
+        "f1": {
+          "mean": 0.7849385908209439,
+          "std": 0.0895687584388335
+        },
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/tables/cv_binary_metric_summary.csv",
+          "row_index": 10
+        }
+      },
+      {
+        "model": "hist_gb_binary_parvovirus_enteritis",
+        "disease": "parvovirus enteritis",
+        "feature_block": "environmental_only",
+        "n_folds": 5,
+        "roc_auc": {
+          "mean": 0.6200430228208005,
+          "std": 0.0941545870710239
+        },
+        "balanced_accuracy": {
+          "mean": 0.5647222222222222,
+          "std": 0.0332656615267541
+        },
+        "recall": {
+          "mean": 0.1694444444444444,
+          "std": 0.0616453917254781
+        },
+        "precision": {
+          "mean": 0.45,
+          "std": 0.3095695936834452
+        },
+        "f1": {
+          "mean": 0.2359307359307359,
+          "std": 0.0857918665913697
+        },
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/tables/cv_binary_metric_summary.csv",
+          "row_index": 11
+        }
+      }
+    ],
+    "holdout_binary_results": [
+      {
+        "disease": "acute flare-up of triaditis/chronic enteropathy",
+        "feature_block": "combined",
+        "test_auc": 0.6098765432098765,
+        "test_balanced_accuracy": 0.5611111111111111,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/final_validation/holdout_results_binary.csv",
+          "row_index": 0
+        }
+      },
+      {
+        "disease": "acute gastroenteritis",
+        "feature_block": "combined",
+        "test_auc": 0.8447712418300654,
+        "test_balanced_accuracy": 0.7622549019607843,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/final_validation/holdout_results_binary.csv",
+          "row_index": 1
+        }
+      },
+      {
+        "disease": "acute pancreatitis",
+        "feature_block": "combined",
+        "test_auc": 0.5768421052631578,
+        "test_balanced_accuracy": 0.5089473684210526,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/final_validation/holdout_results_binary.csv",
+          "row_index": 2
+        }
+      },
+      {
+        "disease": "parvovirus enteritis",
+        "feature_block": "combined",
+        "test_auc": 0.943181818181818,
+        "test_balanced_accuracy": 0.8477272727272727,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/final_validation/holdout_results_binary.csv",
+          "row_index": 3
+        }
+      },
+      {
+        "disease": "acute flare-up of triaditis/chronic enteropathy",
+        "feature_block": "environmental_only",
+        "test_auc": 0.528395061728395,
+        "test_balanced_accuracy": 0.4888888888888889,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/final_validation/holdout_results_binary.csv",
+          "row_index": 4
+        }
+      },
+      {
+        "disease": "acute gastroenteritis",
+        "feature_block": "environmental_only",
+        "test_auc": 0.7287581699346405,
+        "test_balanced_accuracy": 0.6053921568627452,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/final_validation/holdout_results_binary.csv",
+          "row_index": 5
+        }
+      },
+      {
+        "disease": "acute pancreatitis",
+        "feature_block": "environmental_only",
+        "test_auc": 0.4452631578947368,
+        "test_balanced_accuracy": 0.4363157894736842,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/final_validation/holdout_results_binary.csv",
+          "row_index": 6
+        }
+      },
+      {
+        "disease": "parvovirus enteritis",
+        "feature_block": "environmental_only",
+        "test_auc": 0.759090909090909,
+        "test_balanced_accuracy": 0.6602272727272727,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/final_validation/holdout_results_binary.csv",
+          "row_index": 7
+        }
+      }
+    ],
+    "holdout_bootstrap_auc_ci": [
+      {
+        "disease": "acute flare-up of triaditis/chronic enteropathy",
+        "auc": 0.528395061728395,
+        "ci_low": 0.3703703703703704,
+        "ci_high": 0.6790541779192674,
+        "ci_width": 0.3086838075488969,
+        "n_test_total": 63,
+        "n_test_positive": 18,
+        "n_test_negative": 45,
+        "high_variance_risk": false,
+        "unstable": true,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/final_validation/holdout_audit/holdout_auc_bootstrap_ci.csv",
+          "row_index": 0
+        }
+      },
+      {
+        "disease": "acute gastroenteritis",
+        "auc": 0.7287581699346405,
+        "ci_low": 0.5582936196456605,
+        "ci_high": 0.8725647401817869,
+        "ci_width": 0.3142711205361264,
+        "n_test_total": 63,
+        "n_test_positive": 12,
+        "n_test_negative": 51,
+        "high_variance_risk": false,
+        "unstable": true,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/final_validation/holdout_audit/holdout_auc_bootstrap_ci.csv",
+          "row_index": 1
+        }
+      },
+      {
+        "disease": "acute pancreatitis",
+        "auc": 0.4452631578947368,
+        "ci_low": 0.2999833702882483,
+        "ci_high": 0.5964706874748356,
+        "ci_width": 0.2964873171865872,
+        "n_test_total": 63,
+        "n_test_positive": 25,
+        "n_test_negative": 38,
+        "high_variance_risk": false,
+        "unstable": true,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/final_validation/holdout_audit/holdout_auc_bootstrap_ci.csv",
+          "row_index": 2
+        }
+      },
+      {
+        "disease": "parvovirus enteritis",
+        "auc": 0.759090909090909,
+        "ci_low": 0.5551680303915839,
+        "ci_high": 0.9364420062695924,
+        "ci_width": 0.3812739758780085,
+        "n_test_total": 63,
+        "n_test_positive": 8,
+        "n_test_negative": 55,
+        "high_variance_risk": true,
+        "unstable": true,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/final_validation/holdout_audit/holdout_auc_bootstrap_ci.csv",
+          "row_index": 3
+        }
+      }
+    ],
+    "binary_ovr_cv_lgbm_env_only": [
+      {
+        "disease": "acute flare-up of triaditis/chronic enteropathy",
+        "feature_block": "environmental_only",
+        "roc_auc": {
+          "mean": 0.5609876543209877,
+          "std": 0.034792918427276
+        },
+        "balanced_accuracy": {
+          "mean": 0.5166666666666666,
+          "std": 0.0602464076076709
+        },
+        "n_folds": 5,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/final_validation/lgbm_cv_binary_env_only.csv",
+          "row_index": 0
+        }
+      },
+      {
+        "disease": "acute gastroenteritis",
+        "feature_block": "environmental_only",
+        "roc_auc": {
+          "mean": 0.6140522875816994,
+          "std": 0.0592004085097545
+        },
+        "balanced_accuracy": {
+          "mean": 0.580392156862745,
+          "std": 0.0228033399012019
+        },
+        "n_folds": 5,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/final_validation/lgbm_cv_binary_env_only.csv",
+          "row_index": 1
+        }
+      },
+      {
+        "disease": "acute pancreatitis",
+        "feature_block": "environmental_only",
+        "roc_auc": {
+          "mean": 0.4909784075573549,
+          "std": 0.0300273217164712
+        },
+        "balanced_accuracy": {
+          "mean": 0.4982638326585695,
+          "std": 0.0106633523476474
+        },
+        "n_folds": 5,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/final_validation/lgbm_cv_binary_env_only.csv",
+          "row_index": 2
+        }
+      },
+      {
+        "disease": "parvovirus enteritis",
+        "feature_block": "environmental_only",
+        "roc_auc": {
+          "mean": 0.6670043022820801,
+          "std": 0.0970874835593996
+        },
+        "balanced_accuracy": {
+          "mean": 0.5864141414141414,
+          "std": 0.0370478385687761
+        },
+        "n_folds": 5,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/final_validation/lgbm_cv_binary_env_only.csv",
+          "row_index": 3
+        }
+      }
+    ]
+  },
+  "C_robustness_explainability": {
+    "shap_stability": [
+      {
+        "disease": "acute flare-up of triaditis/chronic enteropathy",
+        "feature_block": "clinical_only",
+        "spearman_mean": 0.6013973662083406,
+        "spearman_std": 0.068338060280173,
+        "jaccard_top10_mean": 0.5183150183150182,
+        "jaccard_top10_std": 0.0734886543873219,
+        "jaccard_top20_mean": 0.7404479578392621,
+        "jaccard_top20_std": 0.0505336841937375,
+        "n_folds": 5,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/tables/shap_stability_summary_binary.csv",
+          "row_index": 0
+        }
+      },
+      {
+        "disease": "acute flare-up of triaditis/chronic enteropathy",
+        "feature_block": "combined",
+        "spearman_mean": 0.4957747171155535,
+        "spearman_std": 0.0614562123517227,
+        "jaccard_top10_mean": 0.3395604395604395,
+        "jaccard_top10_std": 0.0986622630584995,
+        "jaccard_top20_mean": 0.4221419449005655,
+        "jaccard_top20_std": 0.0787237692044932,
+        "n_folds": 5,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/tables/shap_stability_summary_binary.csv",
+          "row_index": 1
+        }
+      },
+      {
+        "disease": "acute flare-up of triaditis/chronic enteropathy",
+        "feature_block": "environmental_only",
+        "spearman_mean": 0.8153265385611095,
+        "spearman_std": 0.0363498398702302,
+        "jaccard_top10_mean": 0.3869047619047619,
+        "jaccard_top10_std": 0.1138065904738094,
+        "jaccard_top20_mean": 0.592154801720019,
+        "jaccard_top20_std": 0.0922622012116269,
+        "n_folds": 5,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/tables/shap_stability_summary_binary.csv",
+          "row_index": 2
+        }
+      },
+      {
+        "disease": "acute gastroenteritis",
+        "feature_block": "clinical_only",
+        "spearman_mean": 0.5847645844058652,
+        "spearman_std": 0.0499272179617579,
+        "jaccard_top10_mean": 0.4553113553113553,
+        "jaccard_top10_std": 0.1010123026916047,
+        "jaccard_top20_mean": 0.5669696165348339,
+        "jaccard_top20_std": 0.0891153954379944,
+        "n_folds": 5,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/tables/shap_stability_summary_binary.csv",
+          "row_index": 3
+        }
+      },
+      {
+        "disease": "acute gastroenteritis",
+        "feature_block": "combined",
+        "spearman_mean": 0.521399210851337,
+        "spearman_std": 0.0733152532610891,
+        "jaccard_top10_mean": 0.4514152514152513,
+        "jaccard_top10_std": 0.1516614302805953,
+        "jaccard_top20_mean": 0.4731786731786732,
+        "jaccard_top20_std": 0.0637683617311164,
+        "n_folds": 5,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/tables/shap_stability_summary_binary.csv",
+          "row_index": 4
+        }
+      },
+      {
+        "disease": "acute gastroenteritis",
+        "feature_block": "environmental_only",
+        "spearman_mean": 0.8289305243803241,
+        "spearman_std": 0.0324075064696489,
+        "jaccard_top10_mean": 0.582051282051282,
+        "jaccard_top10_std": 0.1081458364983701,
+        "jaccard_top20_mean": 0.6750724637681158,
+        "jaccard_top20_std": 0.0515701331612964,
+        "n_folds": 5,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/tables/shap_stability_summary_binary.csv",
+          "row_index": 5
+        }
+      },
+      {
+        "disease": "acute pancreatitis",
+        "feature_block": "clinical_only",
+        "spearman_mean": 0.5918868817850923,
+        "spearman_std": 0.0446027638851284,
+        "jaccard_top10_mean": 0.4341575091575091,
+        "jaccard_top10_std": 0.0924202453039981,
+        "jaccard_top20_mean": 0.5863196063196063,
+        "jaccard_top20_std": 0.0997944797662085,
+        "n_folds": 5,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/tables/shap_stability_summary_binary.csv",
+          "row_index": 6
+        }
+      },
+      {
+        "disease": "acute pancreatitis",
+        "feature_block": "combined",
+        "spearman_mean": 0.4480285921926213,
+        "spearman_std": 0.0575032259957541,
+        "jaccard_top10_mean": 0.3021708683473389,
+        "jaccard_top10_std": 0.0705522317763174,
+        "jaccard_top20_mean": 0.4303594234628717,
+        "jaccard_top20_std": 0.0527989152521951,
+        "n_folds": 5,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/tables/shap_stability_summary_binary.csv",
+          "row_index": 7
+        }
+      },
+      {
+        "disease": "acute pancreatitis",
+        "feature_block": "environmental_only",
+        "spearman_mean": 0.8331835645986205,
+        "spearman_std": 0.0322861960527731,
+        "jaccard_top10_mean": 0.3583979745744451,
+        "jaccard_top10_std": 0.1025001180116073,
+        "jaccard_top20_mean": 0.6634904226208573,
+        "jaccard_top20_std": 0.083750847084819,
+        "n_folds": 5,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/tables/shap_stability_summary_binary.csv",
+          "row_index": 8
+        }
+      },
+      {
+        "disease": "parvovirus enteritis",
+        "feature_block": "clinical_only",
+        "spearman_mean": 0.5165172450628325,
+        "spearman_std": 0.0756186001097146,
+        "jaccard_top10_mean": 0.4341575091575091,
+        "jaccard_top10_std": 0.0924202453039981,
+        "jaccard_top20_mean": 0.5182159347676589,
+        "jaccard_top20_std": 0.0711634363553985,
+        "n_folds": 5,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/tables/shap_stability_summary_binary.csv",
+          "row_index": 9
+        }
+      },
+      {
+        "disease": "parvovirus enteritis",
+        "feature_block": "combined",
+        "spearman_mean": 0.3860357084474509,
+        "spearman_std": 0.0653801715903967,
+        "jaccard_top10_mean": 0.4424908424908425,
+        "jaccard_top10_std": 0.0763257619866192,
+        "jaccard_top20_mean": 0.4550724881759364,
+        "jaccard_top20_std": 0.0968306507182896,
+        "n_folds": 5,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/tables/shap_stability_summary_binary.csv",
+          "row_index": 10
+        }
+      },
+      {
+        "disease": "parvovirus enteritis",
+        "feature_block": "environmental_only",
+        "spearman_mean": 0.7840719967887899,
+        "spearman_std": 0.03071875731461,
+        "jaccard_top10_mean": 0.4868131868131867,
+        "jaccard_top10_std": 0.0943645167328012,
+        "jaccard_top20_mean": 0.555980605545823,
+        "jaccard_top20_std": 0.0992235117900692,
+        "n_folds": 5,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/tables/shap_stability_summary_binary.csv",
+          "row_index": 11
+        }
+      }
+    ],
+    "permutation_env_only_histgb": [
+      {
+        "model": "histgb",
+        "disease": "acute flare-up of triaditis/chronic enteropathy",
+        "observed_auc": 0.5074074074074074,
+        "perm_mean": 0.5098881585646022,
+        "perm_std": 0.0501937511595423,
+        "p_value": 0.5422885572139303,
+        "effect_size": -0.0024807511571948,
+        "n_perm": 200,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/tables/permtest_envonly_auc_summary.csv",
+          "row_index": 0
+        }
+      },
+      {
+        "model": "histgb",
+        "disease": "acute gastroenteritis",
+        "observed_auc": 0.5962418300653594,
+        "perm_mean": 0.5024466514069439,
+        "perm_std": 0.0596445160614631,
+        "p_value": 0.0646766169154228,
+        "effect_size": 0.0937951786584154,
+        "n_perm": 200,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/tables/permtest_envonly_auc_summary.csv",
+          "row_index": 1
+        }
+      },
+      {
+        "model": "histgb",
+        "disease": "acute pancreatitis",
+        "observed_auc": 0.4776054880791722,
+        "perm_mean": 0.4970161939889786,
+        "perm_std": 0.0468283488489685,
+        "p_value": 0.6417910447761194,
+        "effect_size": -0.0194107059098063,
+        "n_perm": 200,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/tables/permtest_envonly_auc_summary.csv",
+          "row_index": 2
+        }
+      },
+      {
+        "model": "histgb",
+        "disease": "parvovirus enteritis",
+        "observed_auc": 0.6200430228208005,
+        "perm_mean": 0.4979338780254491,
+        "perm_std": 0.0663516641544648,
+        "p_value": 0.0497512437810945,
+        "effect_size": 0.1221091447953514,
+        "n_perm": 200,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/tables/permtest_envonly_auc_summary.csv",
+          "row_index": 3
+        }
+      }
+    ],
+    "permutation_env_only_lgbm": [
+      {
+        "model": "lgbm",
+        "disease": "acute flare-up of triaditis/chronic enteropathy",
+        "feature_block": "environmental_only",
+        "observed_auc": 0.5609876543209877,
+        "perm_mean": 0.5099569086490193,
+        "perm_std": 0.047679154131597,
+        "p_value": 0.1442786069651741,
+        "effect_size": 0.0510307456719684,
+        "n_perm": 200,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/final_validation/lgbm_permtest_env_only.csv",
+          "row_index": 0
+        }
+      },
+      {
+        "model": "lgbm",
+        "disease": "acute gastroenteritis",
+        "feature_block": "environmental_only",
+        "observed_auc": 0.6140522875816994,
+        "perm_mean": 0.5008865798499442,
+        "perm_std": 0.0563161218235059,
+        "p_value": 0.0298507462686567,
+        "effect_size": 0.1131657077317551,
+        "n_perm": 200,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/final_validation/lgbm_permtest_env_only.csv",
+          "row_index": 1
+        }
+      },
+      {
+        "model": "lgbm",
+        "disease": "acute pancreatitis",
+        "feature_block": "environmental_only",
+        "observed_auc": 0.4909784075573549,
+        "perm_mean": 0.5011840315358378,
+        "perm_std": 0.0463926335645449,
+        "p_value": 0.5472636815920398,
+        "effect_size": -0.0102056239784828,
+        "n_perm": 200,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/final_validation/lgbm_permtest_env_only.csv",
+          "row_index": 2
+        }
+      },
+      {
+        "model": "lgbm",
+        "disease": "parvovirus enteritis",
+        "feature_block": "environmental_only",
+        "observed_auc": 0.6670043022820801,
+        "perm_mean": 0.5016212967411139,
+        "perm_std": 0.06327485558308,
+        "p_value": 0.0049751243781094,
+        "effect_size": 0.1653830055409662,
+        "n_perm": 200,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/final_validation/lgbm_permtest_env_only.csv",
+          "row_index": 3
+        }
+      }
+    ],
+    "environmental_signal_summary": [
+      {
+        "disease": "parvovirus enteritis",
+        "histgb_cv_auc": 0.6200430228208005,
+        "histgb_holdout_auc": 0.759090909090909,
+        "lgbm_cv_auc": 0.6670043022820801,
+        "histgb_perm_p": 0.0497512437810945,
+        "lgbm_perm_p": 0.0049751243781094,
+        "shap_env_mean_spearman": 0.7840719967887899,
+        "delta_holdout_vs_cv": 0.1390478862701085,
+        "model_family_direction_consistent": true,
+        "environmental_signal_strength": "Suggestive",
+        "robustness_tier": "Low",
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/final_validation/environmental_signal_summary.csv",
+          "row_index": 0
+        }
+      },
+      {
+        "disease": "acute gastroenteritis",
+        "histgb_cv_auc": 0.5962418300653594,
+        "histgb_holdout_auc": 0.7287581699346405,
+        "lgbm_cv_auc": 0.6140522875816994,
+        "histgb_perm_p": 0.0646766169154228,
+        "lgbm_perm_p": 0.0298507462686567,
+        "shap_env_mean_spearman": 0.8289305243803241,
+        "delta_holdout_vs_cv": 0.1325163398692811,
+        "model_family_direction_consistent": true,
+        "environmental_signal_strength": "Weak",
+        "robustness_tier": "Low",
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/final_validation/environmental_signal_summary.csv",
+          "row_index": 1
+        }
+      },
+      {
+        "disease": "acute flare-up of triaditis/chronic enteropathy",
+        "histgb_cv_auc": 0.5074074074074074,
+        "histgb_holdout_auc": 0.528395061728395,
+        "lgbm_cv_auc": 0.5609876543209877,
+        "histgb_perm_p": 0.5422885572139303,
+        "lgbm_perm_p": 0.1442786069651741,
+        "shap_env_mean_spearman": 0.8153265385611095,
+        "delta_holdout_vs_cv": 0.0209876543209875,
+        "model_family_direction_consistent": true,
+        "environmental_signal_strength": "Weak",
+        "robustness_tier": "Low",
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/final_validation/environmental_signal_summary.csv",
+          "row_index": 2
+        }
+      },
+      {
+        "disease": "acute pancreatitis",
+        "histgb_cv_auc": 0.4776054880791722,
+        "histgb_holdout_auc": 0.4452631578947368,
+        "lgbm_cv_auc": 0.4909784075573549,
+        "histgb_perm_p": 0.6417910447761194,
+        "lgbm_perm_p": 0.5472636815920398,
+        "shap_env_mean_spearman": 0.8331835645986205,
+        "delta_holdout_vs_cv": -0.0323423301844353,
+        "model_family_direction_consistent": true,
+        "environmental_signal_strength": "Weak",
+        "robustness_tier": "Low",
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/final_validation/environmental_signal_summary.csv",
+          "row_index": 3
+        }
+      }
+    ]
+  },
+  "D_unsupervised": {
+    "pca_thresholds": [
+      {
+        "block": "environmental_only",
+        "n_features": 31,
+        "n_components": 20,
+        "n_pcs_70": 7,
+        "n_pcs_80": 10,
+        "n_pcs_90": 15,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/unsupervised/tables/pca_thresholds_summary.csv",
+          "row_index": 0
+        }
+      },
+      {
+        "block": "clinical_only",
+        "n_features": 27,
+        "n_components": 20,
+        "n_pcs_70": 6,
+        "n_pcs_80": 9,
+        "n_pcs_90": 12,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/unsupervised/tables/pca_thresholds_summary.csv",
+          "row_index": 1
+        }
+      },
+      {
+        "block": "combined",
+        "n_features": 58,
+        "n_components": 20,
+        "n_pcs_70": 12,
+        "n_pcs_80": 17,
+        "n_pcs_90": 20,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/unsupervised/tables/pca_thresholds_summary.csv",
+          "row_index": 2
+        }
+      }
+    ],
+    "pca_environmental_variance_keypoints": {
+      "pc3_cumulative_variance_ratio": {
+        "value": 0.4637512769282901,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/unsupervised/tables/pca_variance_environmental_only.csv",
+          "row_index": 2,
+          "column": "cumulative_variance_ratio",
+          "component": "PC3"
+        }
+      },
+      "pc3_explained_variance_ratio": {
+        "value": 0.0934424062606466,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/unsupervised/tables/pca_variance_environmental_only.csv",
+          "row_index": 2,
+          "column": "explained_variance_ratio",
+          "component": "PC3"
+        }
+      },
+      "pc6_cumulative_variance_ratio": {
+        "value": 0.6741693409224441,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/unsupervised/tables/pca_variance_environmental_only.csv",
+          "row_index": 5,
+          "column": "cumulative_variance_ratio",
+          "component": "PC6"
+        }
+      },
+      "pc6_explained_variance_ratio": {
+        "value": 0.0537816487207875,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/unsupervised/tables/pca_variance_environmental_only.csv",
+          "row_index": 5,
+          "column": "explained_variance_ratio",
+          "component": "PC6"
+        }
+      }
+    },
+    "clustering_summary": [
+      {
+        "block": "environmental_only",
+        "Dtag": "Dfixed6",
+        "n_dim": 6,
+        "kmeans_k_best": 2,
+        "kmeans_kbest_ari": 0.0182416566963438,
+        "kmeans_kbest_nmi": 0.0137079289517377,
+        "hclust_k4_ari": 0.0137796207914389,
+        "hclust_k4_nmi": 0.0166807071059255,
+        "hclust_k6_ari": 0.0224565301699632,
+        "hclust_k6_nmi": 0.0231449023964626,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/unsupervised/tables/clustering_summary.csv",
+          "row_index": 0
+        }
+      },
+      {
+        "block": "environmental_only",
+        "Dtag": "D80",
+        "n_dim": 10,
+        "kmeans_k_best": 2,
+        "kmeans_kbest_ari": 0.0168945032920936,
+        "kmeans_kbest_nmi": 0.0131980399063143,
+        "hclust_k4_ari": 0.0046342810504652,
+        "hclust_k4_nmi": 0.0132725707941095,
+        "hclust_k6_ari": 1.5017721310837738e-05,
+        "hclust_k6_nmi": 0.015780081243758,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/unsupervised/tables/clustering_summary.csv",
+          "row_index": 1
+        }
+      },
+      {
+        "block": "clinical_only",
+        "Dtag": "Dfixed6",
+        "n_dim": 6,
+        "kmeans_k_best": 2,
+        "kmeans_kbest_ari": 0.0979628496468308,
+        "kmeans_kbest_nmi": 0.0847362703174722,
+        "hclust_k4_ari": 0.070474559701609,
+        "hclust_k4_nmi": 0.0776701541709158,
+        "hclust_k6_ari": 0.0429623817712339,
+        "hclust_k6_nmi": 0.0819195618510701,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/unsupervised/tables/clustering_summary.csv",
+          "row_index": 2
+        }
+      },
+      {
+        "block": "clinical_only",
+        "Dtag": "D80",
+        "n_dim": 9,
+        "kmeans_k_best": 2,
+        "kmeans_kbest_ari": 0.0979628496468308,
+        "kmeans_kbest_nmi": 0.0847362703174722,
+        "hclust_k4_ari": 0.0617880696879057,
+        "hclust_k4_nmi": 0.094250340725986,
+        "hclust_k6_ari": 0.0768788117247713,
+        "hclust_k6_nmi": 0.1120703226528246,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/unsupervised/tables/clustering_summary.csv",
+          "row_index": 3
+        }
+      },
+      {
+        "block": "combined",
+        "Dtag": "Dfixed6",
+        "n_dim": 6,
+        "kmeans_k_best": 2,
+        "kmeans_kbest_ari": 0.094279663493603,
+        "kmeans_kbest_nmi": 0.0793267165933607,
+        "hclust_k4_ari": 0.0649966583037742,
+        "hclust_k4_nmi": 0.0685865240300246,
+        "hclust_k6_ari": 0.0447752725807466,
+        "hclust_k6_nmi": 0.0715494489064345,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/unsupervised/tables/clustering_summary.csv",
+          "row_index": 4
+        }
+      },
+      {
+        "block": "combined",
+        "Dtag": "D80",
+        "n_dim": 17,
+        "kmeans_k_best": 2,
+        "kmeans_kbest_ari": 0.094279663493603,
+        "kmeans_kbest_nmi": 0.0793267165933607,
+        "hclust_k4_ari": 0.0609437018633356,
+        "hclust_k4_nmi": 0.0665871221341653,
+        "hclust_k6_ari": 0.0549192469565885,
+        "hclust_k6_nmi": 0.0675817794338252,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/unsupervised/tables/clustering_summary.csv",
+          "row_index": 5
+        }
+      }
+    ],
+    "kmeans_environmental_silhouette": [
+      {
+        "Dtag": "Dfixed6",
+        "n_dim": 6,
+        "k_best": 2,
+        "k_best_silhouette": 0.2536381213124727,
+        "silhouette_curve": [
+          {
+            "k": 2,
+            "silhouette_score": 0.2536381213124727,
+            "source": {
+              "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/unsupervised/tables/kmeans_silhouette_environmental_only_Dfixed6.csv",
+              "row_index": 0
+            }
+          },
+          {
+            "k": 3,
+            "silhouette_score": 0.2524064735064758,
+            "source": {
+              "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/unsupervised/tables/kmeans_silhouette_environmental_only_Dfixed6.csv",
+              "row_index": 1
+            }
+          },
+          {
+            "k": 4,
+            "silhouette_score": 0.1912203144312631,
+            "source": {
+              "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/unsupervised/tables/kmeans_silhouette_environmental_only_Dfixed6.csv",
+              "row_index": 2
+            }
+          },
+          {
+            "k": 5,
+            "silhouette_score": 0.2048681677907393,
+            "source": {
+              "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/unsupervised/tables/kmeans_silhouette_environmental_only_Dfixed6.csv",
+              "row_index": 3
+            }
+          },
+          {
+            "k": 6,
+            "silhouette_score": 0.1971138864792581,
+            "source": {
+              "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/unsupervised/tables/kmeans_silhouette_environmental_only_Dfixed6.csv",
+              "row_index": 4
+            }
+          },
+          {
+            "k": 7,
+            "silhouette_score": 0.2081719931474051,
+            "source": {
+              "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/unsupervised/tables/kmeans_silhouette_environmental_only_Dfixed6.csv",
+              "row_index": 5
+            }
+          },
+          {
+            "k": 8,
+            "silhouette_score": 0.2125378916874209,
+            "source": {
+              "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/unsupervised/tables/kmeans_silhouette_environmental_only_Dfixed6.csv",
+              "row_index": 6
+            }
+          }
+        ],
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/unsupervised/tables/kmeans_silhouette_environmental_only_Dfixed6.csv",
+          "operation": "argmax(silhouette_score)"
+        }
+      },
+      {
+        "Dtag": "D80",
+        "n_dim": 10,
+        "k_best": 2,
+        "k_best_silhouette": 0.2166829437336788,
+        "silhouette_curve": [
+          {
+            "k": 2,
+            "silhouette_score": 0.2166829437336788,
+            "source": {
+              "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/unsupervised/tables/kmeans_silhouette_environmental_only_D80.csv",
+              "row_index": 0
+            }
+          },
+          {
+            "k": 3,
+            "silhouette_score": 0.2076962807021105,
+            "source": {
+              "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/unsupervised/tables/kmeans_silhouette_environmental_only_D80.csv",
+              "row_index": 1
+            }
+          },
+          {
+            "k": 4,
+            "silhouette_score": 0.1472858425179368,
+            "source": {
+              "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/unsupervised/tables/kmeans_silhouette_environmental_only_D80.csv",
+              "row_index": 2
+            }
+          },
+          {
+            "k": 5,
+            "silhouette_score": 0.1561056506661393,
+            "source": {
+              "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/unsupervised/tables/kmeans_silhouette_environmental_only_D80.csv",
+              "row_index": 3
+            }
+          },
+          {
+            "k": 6,
+            "silhouette_score": 0.1648517115537907,
+            "source": {
+              "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/unsupervised/tables/kmeans_silhouette_environmental_only_D80.csv",
+              "row_index": 4
+            }
+          },
+          {
+            "k": 7,
+            "silhouette_score": 0.1706096774211269,
+            "source": {
+              "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/unsupervised/tables/kmeans_silhouette_environmental_only_D80.csv",
+              "row_index": 5
+            }
+          },
+          {
+            "k": 8,
+            "silhouette_score": 0.1608358847210367,
+            "source": {
+              "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/unsupervised/tables/kmeans_silhouette_environmental_only_D80.csv",
+              "row_index": 6
+            }
+          }
+        ],
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/unsupervised/tables/kmeans_silhouette_environmental_only_D80.csv",
+          "operation": "argmax(silhouette_score)"
+        }
+      }
+    ],
+    "environmental_alignment_metrics": [
+      {
+        "Dtag": "Dfixed6",
+        "n_dim": 6,
+        "method": "kmeans",
+        "k_label": "k4",
+        "k": 4,
+        "ari": 0.0039794328265854,
+        "nmi": 0.0230176365788122,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/unsupervised/tables/clustering_alignment_environmental_only_Dfixed6.csv",
+          "row_index": 0
+        }
+      },
+      {
+        "Dtag": "Dfixed6",
+        "n_dim": 6,
+        "method": "kmeans",
+        "k_label": "k6",
+        "k": 6,
+        "ari": 0.0132645035551055,
+        "nmi": 0.0423647610757745,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/unsupervised/tables/clustering_alignment_environmental_only_Dfixed6.csv",
+          "row_index": 1
+        }
+      },
+      {
+        "Dtag": "Dfixed6",
+        "n_dim": 6,
+        "method": "kmeans",
+        "k_label": "kbest",
+        "k": 2,
+        "ari": 0.0182416566963438,
+        "nmi": 0.0137079289517377,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/unsupervised/tables/clustering_alignment_environmental_only_Dfixed6.csv",
+          "row_index": 2
+        }
+      },
+      {
+        "Dtag": "D80",
+        "n_dim": 10,
+        "method": "kmeans",
+        "k_label": "k4",
+        "k": 4,
+        "ari": 0.0039794328265854,
+        "nmi": 0.0230176365788122,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/unsupervised/tables/clustering_alignment_environmental_only_D80.csv",
+          "row_index": 0
+        }
+      },
+      {
+        "Dtag": "D80",
+        "n_dim": 10,
+        "method": "kmeans",
+        "k_label": "k6",
+        "k": 6,
+        "ari": 0.0110965676149254,
+        "nmi": 0.0309146598957457,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/unsupervised/tables/clustering_alignment_environmental_only_D80.csv",
+          "row_index": 1
+        }
+      },
+      {
+        "Dtag": "D80",
+        "n_dim": 10,
+        "method": "kmeans",
+        "k_label": "kbest",
+        "k": 2,
+        "ari": 0.0168945032920936,
+        "nmi": 0.0131980399063143,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/unsupervised/tables/clustering_alignment_environmental_only_D80.csv",
+          "row_index": 2
+        }
+      }
+    ]
+  },
+  "E_lunar": {
+    "moon_verdict_rows": [
+      {
+        "analysis_level": "overall_category",
+        "disease": "acute flare-up of triaditis/chronic enteropathy",
+        "stratum": "overall",
+        "metric": "moon_category",
+        "level": "full",
+        "window_deg": null,
+        "exposure_n": 38,
+        "case_n": 12,
+        "risk": 0.3157894736842105,
+        "baseline_risk": 0.2857142857142857,
+        "rr": 1.105263157894737,
+        "rr_ci_low": 0.5647103297857003,
+        "rr_ci_high": 1.9885906579707624,
+        "ci_excludes_1": false,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/lunar_final/moon_verdict_table.csv",
+          "row_index": 0
+        }
+      },
+      {
+        "analysis_level": "overall_category",
+        "disease": "acute flare-up of triaditis/chronic enteropathy",
+        "stratum": "overall",
+        "metric": "moon_category",
+        "level": "new",
+        "window_deg": null,
+        "exposure_n": 45,
+        "case_n": 18,
+        "risk": 0.4,
+        "baseline_risk": 0.2857142857142857,
+        "rr": 1.4,
+        "rr_ci_low": 0.7996635802651374,
+        "rr_ci_high": 2.28578727986296,
+        "ci_excludes_1": false,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/lunar_final/moon_verdict_table.csv",
+          "row_index": 1
+        }
+      },
+      {
+        "analysis_level": "overall_category",
+        "disease": "acute flare-up of triaditis/chronic enteropathy",
+        "stratum": "overall",
+        "metric": "moon_category",
+        "level": "waning",
+        "window_deg": null,
+        "exposure_n": 123,
+        "case_n": 32,
+        "risk": 0.2601626016260163,
+        "baseline_risk": 0.2857142857142857,
+        "rr": 0.9105691056910572,
+        "rr_ci_low": 0.564373945584114,
+        "rr_ci_high": 1.442004753505678,
+        "ci_excludes_1": false,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/lunar_final/moon_verdict_table.csv",
+          "row_index": 2
+        }
+      },
+      {
+        "analysis_level": "overall_category",
+        "disease": "acute flare-up of triaditis/chronic enteropathy",
+        "stratum": "overall",
+        "metric": "moon_category",
+        "level": "waxing",
+        "window_deg": null,
+        "exposure_n": 109,
+        "case_n": 28,
+        "risk": 0.2568807339449541,
+        "baseline_risk": 0.2857142857142857,
+        "rr": 0.8990825688073395,
+        "rr_ci_low": 0.5448093066118911,
+        "rr_ci_high": 1.4506957084458425,
+        "ci_excludes_1": false,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/lunar_final/moon_verdict_table.csv",
+          "row_index": 3
+        }
+      },
+      {
+        "analysis_level": "overall_window",
+        "disease": "acute flare-up of triaditis/chronic enteropathy",
+        "stratum": "overall",
+        "metric": "near_full",
+        "level": "yes",
+        "window_deg": 15.0,
+        "exposure_n": 22,
+        "case_n": 7,
+        "risk": 0.3181818181818182,
+        "baseline_risk": 0.2857142857142857,
+        "rr": 1.1136363636363638,
+        "rr_ci_low": 0.4841058689251773,
+        "rr_ci_high": 2.2075683880709804,
+        "ci_excludes_1": false,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/lunar_final/moon_verdict_table.csv",
+          "row_index": 4
+        }
+      },
+      {
+        "analysis_level": "overall_window",
+        "disease": "acute flare-up of triaditis/chronic enteropathy",
+        "stratum": "overall",
+        "metric": "near_full",
+        "level": "yes",
+        "window_deg": 30.0,
+        "exposure_n": 45,
+        "case_n": 12,
+        "risk": 0.2666666666666666,
+        "baseline_risk": 0.2857142857142857,
+        "rr": 0.9333333333333332,
+        "rr_ci_low": 0.4723988773317312,
+        "rr_ci_high": 1.719696287420026,
+        "ci_excludes_1": false,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/lunar_final/moon_verdict_table.csv",
+          "row_index": 5
+        }
+      },
+      {
+        "analysis_level": "overall_window",
+        "disease": "acute flare-up of triaditis/chronic enteropathy",
+        "stratum": "overall",
+        "metric": "near_new",
+        "level": "yes",
+        "window_deg": 15.0,
+        "exposure_n": 28,
+        "case_n": 9,
+        "risk": 0.3214285714285714,
+        "baseline_risk": 0.2857142857142857,
+        "rr": 1.1250000000000002,
+        "rr_ci_low": 0.53064107684432,
+        "rr_ci_high": 2.1229108383033073,
+        "ci_excludes_1": false,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/lunar_final/moon_verdict_table.csv",
+          "row_index": 6
+        }
+      },
+      {
+        "analysis_level": "overall_window",
+        "disease": "acute flare-up of triaditis/chronic enteropathy",
+        "stratum": "overall",
+        "metric": "near_new",
+        "level": "yes",
+        "window_deg": 30.0,
+        "exposure_n": 50,
+        "case_n": 19,
+        "risk": 0.38,
+        "baseline_risk": 0.2857142857142857,
+        "rr": 1.33,
+        "rr_ci_low": 0.7652773838169836,
+        "rr_ci_high": 2.1727055623879803,
+        "ci_excludes_1": false,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/lunar_final/moon_verdict_table.csv",
+          "row_index": 7
+        }
+      },
+      {
+        "analysis_level": "stratified_category",
+        "disease": "acute flare-up of triaditis/chronic enteropathy",
+        "stratum": "female_intact",
+        "metric": "moon_category",
+        "level": "full",
+        "window_deg": null,
+        "exposure_n": 2,
+        "case_n": 0,
+        "risk": 0.0,
+        "baseline_risk": 0.1025641025641025,
+        "rr": 0.0,
+        "rr_ci_low": 0.0,
+        "rr_ci_high": 16.192687665264714,
+        "ci_excludes_1": false,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/lunar_final/moon_verdict_table.csv",
+          "row_index": 8
+        }
+      },
+      {
+        "analysis_level": "stratified_category",
+        "disease": "acute flare-up of triaditis/chronic enteropathy",
+        "stratum": "female_intact",
+        "metric": "moon_category",
+        "level": "new",
+        "window_deg": null,
+        "exposure_n": 4,
+        "case_n": 0,
+        "risk": 0.0,
+        "baseline_risk": 0.1025641025641025,
+        "rr": 0.0,
+        "rr_ci_low": 0.0,
+        "rr_ci_high": 12.06274284143674,
+        "ci_excludes_1": false,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/lunar_final/moon_verdict_table.csv",
+          "row_index": 9
+        }
+      },
+      {
+        "analysis_level": "stratified_category",
+        "disease": "acute flare-up of triaditis/chronic enteropathy",
+        "stratum": "female_intact",
+        "metric": "moon_category",
+        "level": "waning",
+        "window_deg": null,
+        "exposure_n": 22,
+        "case_n": 3,
+        "risk": 0.1363636363636363,
+        "baseline_risk": 0.1025641025641025,
+        "rr": 1.3295454545454546,
+        "rr_ci_low": 0.2014031681199954,
+        "rr_ci_high": 8.208133991989103,
+        "ci_excludes_1": false,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/lunar_final/moon_verdict_table.csv",
+          "row_index": 10
+        }
+      },
+      {
+        "analysis_level": "stratified_category",
+        "disease": "acute flare-up of triaditis/chronic enteropathy",
+        "stratum": "female_intact",
+        "metric": "moon_category",
+        "level": "waxing",
+        "window_deg": null,
+        "exposure_n": 11,
+        "case_n": 1,
+        "risk": 0.0909090909090909,
+        "baseline_risk": 0.1025641025641025,
+        "rr": 0.8863636363636365,
+        "rr_ci_low": 0.0688394037624448,
+        "rr_ci_high": 9.291798826506035,
+        "ci_excludes_1": false,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/lunar_final/moon_verdict_table.csv",
+          "row_index": 11
+        }
+      },
+      {
+        "analysis_level": "stratified_category",
+        "disease": "acute flare-up of triaditis/chronic enteropathy",
+        "stratum": "female_neutered",
+        "metric": "moon_category",
+        "level": "full",
+        "window_deg": null,
+        "exposure_n": 11,
+        "case_n": 7,
+        "risk": 0.6363636363636364,
+        "baseline_risk": 0.3789473684210526,
+        "rr": 1.6792929292929293,
+        "rr_ci_low": 0.7379868927315865,
+        "rr_ci_high": 2.946676058337178,
+        "ci_excludes_1": false,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/lunar_final/moon_verdict_table.csv",
+          "row_index": 12
+        }
+      },
+      {
+        "analysis_level": "stratified_category",
+        "disease": "acute flare-up of triaditis/chronic enteropathy",
+        "stratum": "female_neutered",
+        "metric": "moon_category",
+        "level": "new",
+        "window_deg": null,
+        "exposure_n": 12,
+        "case_n": 5,
+        "risk": 0.4166666666666667,
+        "baseline_risk": 0.3789473684210526,
+        "rr": 1.099537037037037,
+        "rr_ci_low": 0.4031169392261837,
+        "rr_ci_high": 2.3636710840004636,
+        "ci_excludes_1": false,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/lunar_final/moon_verdict_table.csv",
+          "row_index": 13
+        }
+      },
+      {
+        "analysis_level": "stratified_category",
+        "disease": "acute flare-up of triaditis/chronic enteropathy",
+        "stratum": "female_neutered",
+        "metric": "moon_category",
+        "level": "waning",
+        "window_deg": null,
+        "exposure_n": 36,
+        "case_n": 12,
+        "risk": 0.3333333333333333,
+        "baseline_risk": 0.3789473684210526,
+        "rr": 0.8796296296296295,
+        "rr_ci_low": 0.4216539409662941,
+        "rr_ci_high": 1.7251442988532977,
+        "ci_excludes_1": false,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/lunar_final/moon_verdict_table.csv",
+          "row_index": 14
+        }
+      },
+      {
+        "analysis_level": "stratified_category",
+        "disease": "acute flare-up of triaditis/chronic enteropathy",
+        "stratum": "female_neutered",
+        "metric": "moon_category",
+        "level": "waxing",
+        "window_deg": null,
+        "exposure_n": 36,
+        "case_n": 12,
+        "risk": 0.3333333333333333,
+        "baseline_risk": 0.3789473684210526,
+        "rr": 0.8796296296296295,
+        "rr_ci_low": 0.4216539409662941,
+        "rr_ci_high": 1.7251442988532977,
+        "ci_excludes_1": false,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/lunar_final/moon_verdict_table.csv",
+          "row_index": 15
+        }
+      },
+      {
+        "analysis_level": "stratified_category",
+        "disease": "acute flare-up of triaditis/chronic enteropathy",
+        "stratum": "male_intact",
+        "metric": "moon_category",
+        "level": "full",
+        "window_deg": null,
+        "exposure_n": 5,
+        "case_n": 1,
+        "risk": 0.2,
+        "baseline_risk": 0.1568627450980392,
+        "rr": 1.275,
+        "rr_ci_low": 0.1293189749242775,
+        "rr_ci_high": 7.6442907655168595,
+        "ci_excludes_1": false,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/lunar_final/moon_verdict_table.csv",
+          "row_index": 16
+        }
+      },
+      {
+        "analysis_level": "stratified_category",
+        "disease": "acute flare-up of triaditis/chronic enteropathy",
+        "stratum": "male_intact",
+        "metric": "moon_category",
+        "level": "new",
+        "window_deg": null,
+        "exposure_n": 7,
+        "case_n": 2,
+        "risk": 0.2857142857142857,
+        "baseline_risk": 0.1568627450980392,
+        "rr": 1.8214285714285712,
+        "rr_ci_low": 0.2935204798812934,
+        "rr_ci_high": 7.847484769353499,
+        "ci_excludes_1": false,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/lunar_final/moon_verdict_table.csv",
+          "row_index": 17
+        }
+      },
+      {
+        "analysis_level": "stratified_category",
+        "disease": "acute flare-up of triaditis/chronic enteropathy",
+        "stratum": "male_intact",
+        "metric": "moon_category",
+        "level": "waning",
+        "window_deg": null,
+        "exposure_n": 19,
+        "case_n": 2,
+        "risk": 0.1052631578947368,
+        "baseline_risk": 0.1568627450980392,
+        "rr": 0.6710526315789473,
+        "rr_ci_low": 0.1048097069791196,
+        "rr_ci_high": 3.843073411425405,
+        "ci_excludes_1": false,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/lunar_final/moon_verdict_table.csv",
+          "row_index": 18
+        }
+      },
+      {
+        "analysis_level": "stratified_category",
+        "disease": "acute flare-up of triaditis/chronic enteropathy",
+        "stratum": "male_intact",
+        "metric": "moon_category",
+        "level": "waxing",
+        "window_deg": null,
+        "exposure_n": 20,
+        "case_n": 3,
+        "risk": 0.15,
+        "baseline_risk": 0.1568627450980392,
+        "rr": 0.95625,
+        "rr_ci_low": 0.1869563283253567,
+        "rr_ci_high": 4.4120178930705265,
+        "ci_excludes_1": false,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/lunar_final/moon_verdict_table.csv",
+          "row_index": 19
+        }
+      },
+      {
+        "analysis_level": "stratified_category",
+        "disease": "acute flare-up of triaditis/chronic enteropathy",
+        "stratum": "male_neutered",
+        "metric": "moon_category",
+        "level": "full",
+        "window_deg": null,
+        "exposure_n": 20,
+        "case_n": 4,
+        "risk": 0.2,
+        "baseline_risk": 0.3255813953488372,
+        "rr": 0.6142857142857143,
+        "rr_ci_low": 0.1964970294726898,
+        "rr_ci_high": 1.6589138291471903,
+        "ci_excludes_1": false,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/lunar_final/moon_verdict_table.csv",
+          "row_index": 20
+        }
+      },
+      {
+        "analysis_level": "stratified_category",
+        "disease": "acute flare-up of triaditis/chronic enteropathy",
+        "stratum": "male_neutered",
+        "metric": "moon_category",
+        "level": "new",
+        "window_deg": null,
+        "exposure_n": 22,
+        "case_n": 11,
+        "risk": 0.5,
+        "baseline_risk": 0.3255813953488372,
+        "rr": 1.5357142857142856,
+        "rr_ci_low": 0.7484523062695815,
+        "rr_ci_high": 2.7625133537351556,
+        "ci_excludes_1": false,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/lunar_final/moon_verdict_table.csv",
+          "row_index": 21
+        }
+      },
+      {
+        "analysis_level": "stratified_category",
+        "disease": "acute flare-up of triaditis/chronic enteropathy",
+        "stratum": "male_neutered",
+        "metric": "moon_category",
+        "level": "waning",
+        "window_deg": null,
+        "exposure_n": 46,
+        "case_n": 15,
+        "risk": 0.3260869565217391,
+        "baseline_risk": 0.3255813953488372,
+        "rr": 1.001552795031056,
+        "rr_ci_low": 0.5083369862772443,
+        "rr_ci_high": 1.8754531877180471,
+        "ci_excludes_1": false,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/lunar_final/moon_verdict_table.csv",
+          "row_index": 22
+        }
+      },
+      {
+        "analysis_level": "stratified_category",
+        "disease": "acute flare-up of triaditis/chronic enteropathy",
+        "stratum": "male_neutered",
+        "metric": "moon_category",
+        "level": "waxing",
+        "window_deg": null,
+        "exposure_n": 41,
+        "case_n": 12,
+        "risk": 0.2926829268292683,
+        "baseline_risk": 0.3255813953488372,
+        "rr": 0.8989547038327524,
+        "rr_ci_low": 0.4289953012373287,
+        "rr_ci_high": 1.7736594082495254,
+        "ci_excludes_1": false,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/lunar_final/moon_verdict_table.csv",
+          "row_index": 23
+        }
+      },
+      {
+        "analysis_level": "overall_category",
+        "disease": "acute gastroenteritis",
+        "stratum": "overall",
+        "metric": "moon_category",
+        "level": "full",
+        "window_deg": null,
+        "exposure_n": 38,
+        "case_n": 7,
+        "risk": 0.1842105263157894,
+        "baseline_risk": 0.1904761904761904,
+        "rr": 0.9671052631578948,
+        "rr_ci_low": 0.3883303188742035,
+        "rr_ci_high": 2.214042399635769,
+        "ci_excludes_1": false,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/lunar_final/moon_verdict_table.csv",
+          "row_index": 24
+        }
+      },
+      {
+        "analysis_level": "overall_category",
+        "disease": "acute gastroenteritis",
+        "stratum": "overall",
+        "metric": "moon_category",
+        "level": "new",
+        "window_deg": null,
+        "exposure_n": 45,
+        "case_n": 7,
+        "risk": 0.1555555555555555,
+        "baseline_risk": 0.1904761904761904,
+        "rr": 0.8166666666666668,
+        "rr_ci_low": 0.3261612783417521,
+        "rr_ci_high": 1.9069719982210764,
+        "ci_excludes_1": false,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/lunar_final/moon_verdict_table.csv",
+          "row_index": 25
+        }
+      },
+      {
+        "analysis_level": "overall_category",
+        "disease": "acute gastroenteritis",
+        "stratum": "overall",
+        "metric": "moon_category",
+        "level": "waning",
+        "window_deg": null,
+        "exposure_n": 123,
+        "case_n": 20,
+        "risk": 0.1626016260162601,
+        "baseline_risk": 0.1904761904761904,
+        "rr": 0.8536585365853658,
+        "rr_ci_low": 0.4539316748696045,
+        "rr_ci_high": 1.575744183420351,
+        "ci_excludes_1": false,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/lunar_final/moon_verdict_table.csv",
+          "row_index": 26
+        }
+      },
+      {
+        "analysis_level": "overall_category",
+        "disease": "acute gastroenteritis",
+        "stratum": "overall",
+        "metric": "moon_category",
+        "level": "waxing",
+        "window_deg": null,
+        "exposure_n": 109,
+        "case_n": 26,
+        "risk": 0.2385321100917431,
+        "baseline_risk": 0.1904761904761904,
+        "rr": 1.2522935779816515,
+        "rr_ci_low": 0.7087045491545817,
+        "rr_ci_high": 2.1635591595997057,
+        "ci_excludes_1": false,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/lunar_final/moon_verdict_table.csv",
+          "row_index": 27
+        }
+      },
+      {
+        "analysis_level": "overall_window",
+        "disease": "acute gastroenteritis",
+        "stratum": "overall",
+        "metric": "near_full",
+        "level": "yes",
+        "window_deg": 15.0,
+        "exposure_n": 22,
+        "case_n": 5,
+        "risk": 0.2272727272727272,
+        "baseline_risk": 0.1904761904761904,
+        "rr": 1.193181818181818,
+        "rr_ci_low": 0.426282288921209,
+        "rr_ci_high": 2.8779528322133334,
+        "ci_excludes_1": false,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/lunar_final/moon_verdict_table.csv",
+          "row_index": 28
+        }
+      },
+      {
+        "analysis_level": "overall_window",
+        "disease": "acute gastroenteritis",
+        "stratum": "overall",
+        "metric": "near_full",
+        "level": "yes",
+        "window_deg": 30.0,
+        "exposure_n": 45,
+        "case_n": 10,
+        "risk": 0.2222222222222222,
+        "baseline_risk": 0.1904761904761904,
+        "rr": 1.1666666666666667,
+        "rr_ci_low": 0.5282601967481366,
+        "rr_ci_high": 2.4028836799129407,
+        "ci_excludes_1": false,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/lunar_final/moon_verdict_table.csv",
+          "row_index": 29
+        }
+      },
+      {
+        "analysis_level": "overall_window",
+        "disease": "acute gastroenteritis",
+        "stratum": "overall",
+        "metric": "near_new",
+        "level": "yes",
+        "window_deg": 15.0,
+        "exposure_n": 28,
+        "case_n": 6,
+        "risk": 0.2142857142857142,
+        "baseline_risk": 0.1904761904761904,
+        "rr": 1.125,
+        "rr_ci_low": 0.4300482893888628,
+        "rr_ci_high": 2.6194818607059407,
+        "ci_excludes_1": false,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/lunar_final/moon_verdict_table.csv",
+          "row_index": 30
+        }
+      },
+      {
+        "analysis_level": "overall_window",
+        "disease": "acute gastroenteritis",
+        "stratum": "overall",
+        "metric": "near_new",
+        "level": "yes",
+        "window_deg": 30.0,
+        "exposure_n": 50,
+        "case_n": 9,
+        "risk": 0.18,
+        "baseline_risk": 0.1904761904761904,
+        "rr": 0.945,
+        "rr_ci_low": 0.4114252849858872,
+        "rr_ci_high": 2.040276895243525,
+        "ci_excludes_1": false,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/lunar_final/moon_verdict_table.csv",
+          "row_index": 31
+        }
+      },
+      {
+        "analysis_level": "stratified_category",
+        "disease": "acute gastroenteritis",
+        "stratum": "female_intact",
+        "metric": "moon_category",
+        "level": "full",
+        "window_deg": null,
+        "exposure_n": 2,
+        "case_n": 2,
+        "risk": 1.0,
+        "baseline_risk": 0.2564102564102564,
+        "rr": 3.9,
+        "rr_ci_low": 0.8333876470986996,
+        "rr_ci_high": 6.864065360354121,
+        "ci_excludes_1": false,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/lunar_final/moon_verdict_table.csv",
+          "row_index": 32
+        }
+      },
+      {
+        "analysis_level": "stratified_category",
+        "disease": "acute gastroenteritis",
+        "stratum": "female_intact",
+        "metric": "moon_category",
+        "level": "new",
+        "window_deg": null,
+        "exposure_n": 4,
+        "case_n": 0,
+        "risk": 0.0,
+        "baseline_risk": 0.2564102564102564,
+        "rr": 0.0,
+        "rr_ci_low": 0.0,
+        "rr_ci_high": 3.3627057600918677,
+        "ci_excludes_1": false,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/lunar_final/moon_verdict_table.csv",
+          "row_index": 33
+        }
+      },
+      {
+        "analysis_level": "stratified_category",
+        "disease": "acute gastroenteritis",
+        "stratum": "female_intact",
+        "metric": "moon_category",
+        "level": "waning",
+        "window_deg": null,
+        "exposure_n": 22,
+        "case_n": 3,
+        "risk": 0.1363636363636363,
+        "baseline_risk": 0.2564102564102564,
+        "rr": 0.5318181818181819,
+        "rr_ci_low": 0.115596179877042,
+        "rr_ci_high": 2.2881644595500727,
+        "ci_excludes_1": false,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/lunar_final/moon_verdict_table.csv",
+          "row_index": 34
+        }
+      },
+      {
+        "analysis_level": "stratified_category",
+        "disease": "acute gastroenteritis",
+        "stratum": "female_intact",
+        "metric": "moon_category",
+        "level": "waxing",
+        "window_deg": null,
+        "exposure_n": 11,
+        "case_n": 5,
+        "risk": 0.4545454545454545,
+        "baseline_risk": 0.2564102564102564,
+        "rr": 1.772727272727273,
+        "rr_ci_low": 0.5177688507923927,
+        "rr_ci_high": 4.9415246986631445,
+        "ci_excludes_1": false,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/lunar_final/moon_verdict_table.csv",
+          "row_index": 35
+        }
+      },
+      {
+        "analysis_level": "stratified_category",
+        "disease": "acute gastroenteritis",
+        "stratum": "female_neutered",
+        "metric": "moon_category",
+        "level": "full",
+        "window_deg": null,
+        "exposure_n": 11,
+        "case_n": 1,
+        "risk": 0.0909090909090909,
+        "baseline_risk": 0.1578947368421052,
+        "rr": 0.5757575757575758,
+        "rr_ci_low": 0.0664424669372645,
+        "rr_ci_high": 3.847350006673503,
+        "ci_excludes_1": false,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/lunar_final/moon_verdict_table.csv",
+          "row_index": 36
+        }
+      },
+      {
+        "analysis_level": "stratified_category",
+        "disease": "acute gastroenteritis",
+        "stratum": "female_neutered",
+        "metric": "moon_category",
+        "level": "new",
+        "window_deg": null,
+        "exposure_n": 12,
+        "case_n": 2,
+        "risk": 0.1666666666666666,
+        "baseline_risk": 0.1578947368421052,
+        "rr": 1.0555555555555556,
+        "rr_ci_low": 0.1922413412063357,
+        "rr_ci_high": 4.567870346493068,
+        "ci_excludes_1": false,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/lunar_final/moon_verdict_table.csv",
+          "row_index": 37
+        }
+      },
+      {
+        "analysis_level": "stratified_category",
+        "disease": "acute gastroenteritis",
+        "stratum": "female_neutered",
+        "metric": "moon_category",
+        "level": "waning",
+        "window_deg": null,
+        "exposure_n": 36,
+        "case_n": 7,
+        "risk": 0.1944444444444444,
+        "baseline_risk": 0.1578947368421052,
+        "rr": 1.2314814814814816,
+        "rr_ci_low": 0.3992246249511056,
+        "rr_ci_high": 3.5712507192530705,
+        "ci_excludes_1": false,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/lunar_final/moon_verdict_table.csv",
+          "row_index": 38
+        }
+      },
+      {
+        "analysis_level": "stratified_category",
+        "disease": "acute gastroenteritis",
+        "stratum": "female_neutered",
+        "metric": "moon_category",
+        "level": "waxing",
+        "window_deg": null,
+        "exposure_n": 36,
+        "case_n": 5,
+        "risk": 0.1388888888888889,
+        "baseline_risk": 0.1578947368421052,
+        "rr": 0.8796296296296298,
+        "rr_ci_low": 0.2489471437324331,
+        "rr_ci_high": 2.921961189998015,
+        "ci_excludes_1": false,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/lunar_final/moon_verdict_table.csv",
+          "row_index": 39
+        }
+      },
+      {
+        "analysis_level": "stratified_category",
+        "disease": "acute gastroenteritis",
+        "stratum": "male_intact",
+        "metric": "moon_category",
+        "level": "full",
+        "window_deg": null,
+        "exposure_n": 5,
+        "case_n": 2,
+        "risk": 0.4,
+        "baseline_risk": 0.2549019607843137,
+        "rr": 1.5692307692307694,
+        "rr_ci_low": 0.3026051884990644,
+        "rr_ci_high": 4.948531531042658,
+        "ci_excludes_1": false,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/lunar_final/moon_verdict_table.csv",
+          "row_index": 40
+        }
+      },
+      {
+        "analysis_level": "stratified_category",
+        "disease": "acute gastroenteritis",
+        "stratum": "male_intact",
+        "metric": "moon_category",
+        "level": "new",
+        "window_deg": null,
+        "exposure_n": 7,
+        "case_n": 1,
+        "risk": 0.1428571428571428,
+        "baseline_risk": 0.2549019607843137,
+        "rr": 0.5604395604395604,
+        "rr_ci_low": 0.0660661636279621,
+        "rr_ci_high": 3.3008294061629946,
+        "ci_excludes_1": false,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/lunar_final/moon_verdict_table.csv",
+          "row_index": 41
+        }
+      },
+      {
+        "analysis_level": "stratified_category",
+        "disease": "acute gastroenteritis",
+        "stratum": "male_intact",
+        "metric": "moon_category",
+        "level": "waning",
+        "window_deg": null,
+        "exposure_n": 19,
+        "case_n": 5,
+        "risk": 0.2631578947368421,
+        "baseline_risk": 0.2549019607843137,
+        "rr": 1.0323886639676114,
+        "rr_ci_low": 0.3037478920563043,
+        "rr_ci_high": 3.1386305768398333,
+        "ci_excludes_1": false,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/lunar_final/moon_verdict_table.csv",
+          "row_index": 42
+        }
+      },
+      {
+        "analysis_level": "stratified_category",
+        "disease": "acute gastroenteritis",
+        "stratum": "male_intact",
+        "metric": "moon_category",
+        "level": "waxing",
+        "window_deg": null,
+        "exposure_n": 20,
+        "case_n": 5,
+        "risk": 0.25,
+        "baseline_risk": 0.2549019607843137,
+        "rr": 0.9807692307692308,
+        "rr_ci_low": 0.2877906938935428,
+        "rr_ci_high": 3.01502874914574,
+        "ci_excludes_1": false,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/lunar_final/moon_verdict_table.csv",
+          "row_index": 43
+        }
+      },
+      {
+        "analysis_level": "stratified_category",
+        "disease": "acute gastroenteritis",
+        "stratum": "male_neutered",
+        "metric": "moon_category",
+        "level": "full",
+        "window_deg": null,
+        "exposure_n": 20,
+        "case_n": 2,
+        "risk": 0.1,
+        "baseline_risk": 0.1705426356589147,
+        "rr": 0.5863636363636364,
+        "rr_ci_low": 0.1138615233589624,
+        "rr_ci_high": 2.608531315263406,
+        "ci_excludes_1": false,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/lunar_final/moon_verdict_table.csv",
+          "row_index": 44
+        }
+      },
+      {
+        "analysis_level": "stratified_category",
+        "disease": "acute gastroenteritis",
+        "stratum": "male_neutered",
+        "metric": "moon_category",
+        "level": "new",
+        "window_deg": null,
+        "exposure_n": 22,
+        "case_n": 4,
+        "risk": 0.1818181818181818,
+        "baseline_risk": 0.1705426356589147,
+        "rr": 1.0661157024793388,
+        "rr_ci_low": 0.2985583418946606,
+        "rr_ci_high": 3.3375450642736957,
+        "ci_excludes_1": false,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/lunar_final/moon_verdict_table.csv",
+          "row_index": 45
+        }
+      },
+      {
+        "analysis_level": "stratified_category",
+        "disease": "acute gastroenteritis",
+        "stratum": "male_neutered",
+        "metric": "moon_category",
+        "level": "waning",
+        "window_deg": null,
+        "exposure_n": 46,
+        "case_n": 5,
+        "risk": 0.108695652173913,
+        "baseline_risk": 0.1705426356589147,
+        "rr": 0.6373517786561265,
+        "rr_ci_low": 0.1933960034662528,
+        "rr_ci_high": 1.996278607590026,
+        "ci_excludes_1": false,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/lunar_final/moon_verdict_table.csv",
+          "row_index": 46
+        }
+      },
+      {
+        "analysis_level": "stratified_category",
+        "disease": "acute gastroenteritis",
+        "stratum": "male_neutered",
+        "metric": "moon_category",
+        "level": "waxing",
+        "window_deg": null,
+        "exposure_n": 41,
+        "case_n": 11,
+        "risk": 0.2682926829268293,
+        "baseline_risk": 0.1705426356589147,
+        "rr": 1.5731707317073171,
+        "rr_ci_low": 0.6412980825849459,
+        "rr_ci_high": 3.633615071822742,
+        "ci_excludes_1": false,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/lunar_final/moon_verdict_table.csv",
+          "row_index": 47
+        }
+      },
+      {
+        "analysis_level": "overall_category",
+        "disease": "acute pancreatitis",
+        "stratum": "overall",
+        "metric": "moon_category",
+        "level": "full",
+        "window_deg": null,
+        "exposure_n": 38,
+        "case_n": 14,
+        "risk": 0.3684210526315789,
+        "baseline_risk": 0.3936507936507936,
+        "rr": 0.9359083191850592,
+        "rr_ci_low": 0.5212958384307753,
+        "rr_ci_high": 1.544621575218451,
+        "ci_excludes_1": false,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/lunar_final/moon_verdict_table.csv",
+          "row_index": 48
+        }
+      },
+      {
+        "analysis_level": "overall_category",
+        "disease": "acute pancreatitis",
+        "stratum": "overall",
+        "metric": "moon_category",
+        "level": "new",
+        "window_deg": null,
+        "exposure_n": 45,
+        "case_n": 15,
+        "risk": 0.3333333333333333,
+        "baseline_risk": 0.3936507936507936,
+        "rr": 0.8467741935483871,
+        "rr_ci_low": 0.4761457021075722,
+        "rr_ci_high": 1.4043728229617067,
+        "ci_excludes_1": false,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/lunar_final/moon_verdict_table.csv",
+          "row_index": 49
+        }
+      },
+      {
+        "analysis_level": "overall_category",
+        "disease": "acute pancreatitis",
+        "stratum": "overall",
+        "metric": "moon_category",
+        "level": "waning",
+        "window_deg": null,
+        "exposure_n": 123,
+        "case_n": 56,
+        "risk": 0.4552845528455284,
+        "baseline_risk": 0.3936507936507936,
+        "rr": 1.156569630212431,
+        "rr_ci_low": 0.8247493391837625,
+        "rr_ci_high": 1.591949980507872,
+        "ci_excludes_1": false,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/lunar_final/moon_verdict_table.csv",
+          "row_index": 50
+        }
+      },
+      {
+        "analysis_level": "overall_category",
+        "disease": "acute pancreatitis",
+        "stratum": "overall",
+        "metric": "moon_category",
+        "level": "waxing",
+        "window_deg": null,
+        "exposure_n": 109,
+        "case_n": 39,
+        "risk": 0.3577981651376147,
+        "baseline_risk": 0.3936507936507936,
+        "rr": 0.908922758212489,
+        "rr_ci_low": 0.6109602243437952,
+        "rr_ci_high": 1.3220951342193163,
+        "ci_excludes_1": false,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/lunar_final/moon_verdict_table.csv",
+          "row_index": 51
+        }
+      },
+      {
+        "analysis_level": "overall_window",
+        "disease": "acute pancreatitis",
+        "stratum": "overall",
+        "metric": "near_full",
+        "level": "yes",
+        "window_deg": 15.0,
+        "exposure_n": 22,
+        "case_n": 7,
+        "risk": 0.3181818181818182,
+        "baseline_risk": 0.3936507936507936,
+        "rr": 0.8082844574780059,
+        "rr_ci_low": 0.36471933993683,
+        "rr_ci_high": 1.543609239680232,
+        "ci_excludes_1": false,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/lunar_final/moon_verdict_table.csv",
+          "row_index": 52
+        }
+      },
+      {
+        "analysis_level": "overall_window",
+        "disease": "acute pancreatitis",
+        "stratum": "overall",
+        "metric": "near_full",
+        "level": "yes",
+        "window_deg": 30.0,
+        "exposure_n": 45,
+        "case_n": 17,
+        "risk": 0.3777777777777777,
+        "baseline_risk": 0.3936507936507936,
+        "rr": 0.9596774193548387,
+        "rr_ci_low": 0.5597258276771362,
+        "rr_ci_high": 1.5344836399480226,
+        "ci_excludes_1": false,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/lunar_final/moon_verdict_table.csv",
+          "row_index": 53
+        }
+      },
+      {
+        "analysis_level": "overall_window",
+        "disease": "acute pancreatitis",
+        "stratum": "overall",
+        "metric": "near_new",
+        "level": "yes",
+        "window_deg": 15.0,
+        "exposure_n": 28,
+        "case_n": 8,
+        "risk": 0.2857142857142857,
+        "baseline_risk": 0.3936507936507936,
+        "rr": 0.7258064516129032,
+        "rr_ci_low": 0.3400507290632811,
+        "rr_ci_high": 1.3788769547429738,
+        "ci_excludes_1": false,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/lunar_final/moon_verdict_table.csv",
+          "row_index": 54
+        }
+      },
+      {
+        "analysis_level": "overall_window",
+        "disease": "acute pancreatitis",
+        "stratum": "overall",
+        "metric": "near_new",
+        "level": "yes",
+        "window_deg": 30.0,
+        "exposure_n": 50,
+        "case_n": 17,
+        "risk": 0.34,
+        "baseline_risk": 0.3936507936507936,
+        "rr": 0.8637096774193549,
+        "rr_ci_low": 0.5001790993210868,
+        "rr_ci_high": 1.401930564731137,
+        "ci_excludes_1": false,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/lunar_final/moon_verdict_table.csv",
+          "row_index": 55
+        }
+      },
+      {
+        "analysis_level": "stratified_category",
+        "disease": "acute pancreatitis",
+        "stratum": "female_intact",
+        "metric": "moon_category",
+        "level": "full",
+        "window_deg": null,
+        "exposure_n": 2,
+        "case_n": 0,
+        "risk": 0.0,
+        "baseline_risk": 0.3076923076923077,
+        "rr": 0.0,
+        "rr_ci_low": 0.0,
+        "rr_ci_high": 3.5421565250435174,
+        "ci_excludes_1": false,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/lunar_final/moon_verdict_table.csv",
+          "row_index": 56
+        }
+      },
+      {
+        "analysis_level": "stratified_category",
+        "disease": "acute pancreatitis",
+        "stratum": "female_intact",
+        "metric": "moon_category",
+        "level": "new",
+        "window_deg": null,
+        "exposure_n": 4,
+        "case_n": 1,
+        "risk": 0.25,
+        "baseline_risk": 0.3076923076923077,
+        "rr": 0.8125,
+        "rr_ci_low": 0.0982002195190699,
+        "rr_ci_high": 3.7669569920345993,
+        "ci_excludes_1": false,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/lunar_final/moon_verdict_table.csv",
+          "row_index": 57
+        }
+      },
+      {
+        "analysis_level": "stratified_category",
+        "disease": "acute pancreatitis",
+        "stratum": "female_intact",
+        "metric": "moon_category",
+        "level": "waning",
+        "window_deg": null,
+        "exposure_n": 22,
+        "case_n": 8,
+        "risk": 0.3636363636363636,
+        "baseline_risk": 0.3076923076923077,
+        "rr": 1.181818181818182,
+        "rr_ci_low": 0.4250821732817346,
+        "rr_ci_high": 3.0727894142440615,
+        "ci_excludes_1": false,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/lunar_final/moon_verdict_table.csv",
+          "row_index": 58
+        }
+      },
+      {
+        "analysis_level": "stratified_category",
+        "disease": "acute pancreatitis",
+        "stratum": "female_intact",
+        "metric": "moon_category",
+        "level": "waxing",
+        "window_deg": null,
+        "exposure_n": 11,
+        "case_n": 3,
+        "risk": 0.2727272727272727,
+        "baseline_risk": 0.3076923076923077,
+        "rr": 0.8863636363636362,
+        "rr_ci_low": 0.2099430300059784,
+        "rr_ci_high": 3.0467403041627272,
+        "ci_excludes_1": false,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/lunar_final/moon_verdict_table.csv",
+          "row_index": 59
+        }
+      },
+      {
+        "analysis_level": "stratified_category",
+        "disease": "acute pancreatitis",
+        "stratum": "female_neutered",
+        "metric": "moon_category",
+        "level": "full",
+        "window_deg": null,
+        "exposure_n": 11,
+        "case_n": 3,
+        "risk": 0.2727272727272727,
+        "baseline_risk": 0.431578947368421,
+        "rr": 0.6319290465631928,
+        "rr_ci_low": 0.1832208887007582,
+        "rr_ci_high": 1.680698355448757,
+        "ci_excludes_1": false,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/lunar_final/moon_verdict_table.csv",
+          "row_index": 60
+        }
+      },
+      {
+        "analysis_level": "stratified_category",
+        "disease": "acute pancreatitis",
+        "stratum": "female_neutered",
+        "metric": "moon_category",
+        "level": "new",
+        "window_deg": null,
+        "exposure_n": 12,
+        "case_n": 5,
+        "risk": 0.4166666666666667,
+        "baseline_risk": 0.431578947368421,
+        "rr": 0.9654471544715448,
+        "rr_ci_low": 0.3633207245847125,
+        "rr_ci_high": 2.0219257657809444,
+        "ci_excludes_1": false,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/lunar_final/moon_verdict_table.csv",
+          "row_index": 61
+        }
+      },
+      {
+        "analysis_level": "stratified_category",
+        "disease": "acute pancreatitis",
+        "stratum": "female_neutered",
+        "metric": "moon_category",
+        "level": "waning",
+        "window_deg": null,
+        "exposure_n": 36,
+        "case_n": 17,
+        "risk": 0.4722222222222222,
+        "baseline_risk": 0.431578947368421,
+        "rr": 1.094173441734417,
+        "rr_ci_low": 0.601327438583543,
+        "rr_ci_high": 1.8717300319206935,
+        "ci_excludes_1": false,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/lunar_final/moon_verdict_table.csv",
+          "row_index": 62
+        }
+      },
+      {
+        "analysis_level": "stratified_category",
+        "disease": "acute pancreatitis",
+        "stratum": "female_neutered",
+        "metric": "moon_category",
+        "level": "waxing",
+        "window_deg": null,
+        "exposure_n": 36,
+        "case_n": 16,
+        "risk": 0.4444444444444444,
+        "baseline_risk": 0.431578947368421,
+        "rr": 1.0298102981029809,
+        "rr_ci_low": 0.5553663115469548,
+        "rr_ci_high": 1.795216455296034,
+        "ci_excludes_1": false,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/lunar_final/moon_verdict_table.csv",
+          "row_index": 63
+        }
+      },
+      {
+        "analysis_level": "stratified_category",
+        "disease": "acute pancreatitis",
+        "stratum": "male_intact",
+        "metric": "moon_category",
+        "level": "full",
+        "window_deg": null,
+        "exposure_n": 5,
+        "case_n": 0,
+        "risk": 0.0,
+        "baseline_risk": 0.2156862745098039,
+        "rr": 0.0,
+        "rr_ci_low": 0.0,
+        "rr_ci_high": 3.4776537460031096,
+        "ci_excludes_1": false,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/lunar_final/moon_verdict_table.csv",
+          "row_index": 64
+        }
+      },
+      {
+        "analysis_level": "stratified_category",
+        "disease": "acute pancreatitis",
+        "stratum": "male_intact",
+        "metric": "moon_category",
+        "level": "new",
+        "window_deg": null,
+        "exposure_n": 7,
+        "case_n": 2,
+        "risk": 0.2857142857142857,
+        "baseline_risk": 0.2156862745098039,
+        "rr": 1.3246753246753245,
+        "rr_ci_low": 0.2374391692679964,
+        "rr_ci_high": 5.131107692618445,
+        "ci_excludes_1": false,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/lunar_final/moon_verdict_table.csv",
+          "row_index": 65
+        }
+      },
+      {
+        "analysis_level": "stratified_category",
+        "disease": "acute pancreatitis",
+        "stratum": "male_intact",
+        "metric": "moon_category",
+        "level": "waning",
+        "window_deg": null,
+        "exposure_n": 19,
+        "case_n": 6,
+        "risk": 0.3157894736842105,
+        "baseline_risk": 0.2156862745098039,
+        "rr": 1.464114832535885,
+        "rr_ci_low": 0.443709773783036,
+        "rr_ci_high": 4.3213386827857345,
+        "ci_excludes_1": false,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/lunar_final/moon_verdict_table.csv",
+          "row_index": 66
+        }
+      },
+      {
+        "analysis_level": "stratified_category",
+        "disease": "acute pancreatitis",
+        "stratum": "male_intact",
+        "metric": "moon_category",
+        "level": "waxing",
+        "window_deg": null,
+        "exposure_n": 20,
+        "case_n": 3,
+        "risk": 0.15,
+        "baseline_risk": 0.2156862745098039,
+        "rr": 0.6954545454545454,
+        "rr_ci_low": 0.1512356320244507,
+        "rr_ci_high": 2.8848146401652004,
+        "ci_excludes_1": false,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/lunar_final/moon_verdict_table.csv",
+          "row_index": 67
+        }
+      },
+      {
+        "analysis_level": "stratified_category",
+        "disease": "acute pancreatitis",
+        "stratum": "male_neutered",
+        "metric": "moon_category",
+        "level": "full",
+        "window_deg": null,
+        "exposure_n": 20,
+        "case_n": 11,
+        "risk": 0.55,
+        "baseline_risk": 0.4651162790697674,
+        "rr": 1.1825,
+        "rr_ci_low": 0.6208933622581545,
+        "rr_ci_high": 1.9454687879416808,
+        "ci_excludes_1": false,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/lunar_final/moon_verdict_table.csv",
+          "row_index": 68
+        }
+      },
+      {
+        "analysis_level": "stratified_category",
+        "disease": "acute pancreatitis",
+        "stratum": "male_neutered",
+        "metric": "moon_category",
+        "level": "new",
+        "window_deg": null,
+        "exposure_n": 22,
+        "case_n": 7,
+        "risk": 0.3181818181818182,
+        "baseline_risk": 0.4651162790697674,
+        "rr": 0.6840909090909091,
+        "rr_ci_low": 0.2969479734627462,
+        "rr_ci_high": 1.3816401365720483,
+        "ci_excludes_1": false,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/lunar_final/moon_verdict_table.csv",
+          "row_index": 69
+        }
+      },
+      {
+        "analysis_level": "stratified_category",
+        "disease": "acute pancreatitis",
+        "stratum": "male_neutered",
+        "metric": "moon_category",
+        "level": "waning",
+        "window_deg": null,
+        "exposure_n": 46,
+        "case_n": 25,
+        "risk": 0.5434782608695652,
+        "baseline_risk": 0.4651162790697674,
+        "rr": 1.1684782608695652,
+        "rr_ci_low": 0.729282871081923,
+        "rr_ci_high": 1.7793259156986851,
+        "ci_excludes_1": false,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/lunar_final/moon_verdict_table.csv",
+          "row_index": 70
+        }
+      },
+      {
+        "analysis_level": "stratified_category",
+        "disease": "acute pancreatitis",
+        "stratum": "male_neutered",
+        "metric": "moon_category",
+        "level": "waxing",
+        "window_deg": null,
+        "exposure_n": 41,
+        "case_n": 17,
+        "risk": 0.4146341463414634,
+        "baseline_risk": 0.4651162790697674,
+        "rr": 0.8914634146341464,
+        "rr_ci_low": 0.5037891836331935,
+        "rr_ci_high": 1.4852698117898608,
+        "ci_excludes_1": false,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/lunar_final/moon_verdict_table.csv",
+          "row_index": 71
+        }
+      },
+      {
+        "analysis_level": "overall_category",
+        "disease": "parvovirus enteritis",
+        "stratum": "overall",
+        "metric": "moon_category",
+        "level": "full",
+        "window_deg": null,
+        "exposure_n": 38,
+        "case_n": 5,
+        "risk": 0.131578947368421,
+        "baseline_risk": 0.1301587301587301,
+        "rr": 1.0109114249037223,
+        "rr_ci_low": 0.3348794267121414,
+        "rr_ci_high": 2.805288176898498,
+        "ci_excludes_1": false,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/lunar_final/moon_verdict_table.csv",
+          "row_index": 72
+        }
+      },
+      {
+        "analysis_level": "overall_category",
+        "disease": "parvovirus enteritis",
+        "stratum": "overall",
+        "metric": "moon_category",
+        "level": "new",
+        "window_deg": null,
+        "exposure_n": 45,
+        "case_n": 5,
+        "risk": 0.1111111111111111,
+        "baseline_risk": 0.1301587301587301,
+        "rr": 0.8536585365853657,
+        "rr_ci_low": 0.2817190983193229,
+        "rr_ci_high": 2.4123434700652036,
+        "ci_excludes_1": false,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/lunar_final/moon_verdict_table.csv",
+          "row_index": 73
+        }
+      },
+      {
+        "analysis_level": "overall_category",
+        "disease": "parvovirus enteritis",
+        "stratum": "overall",
+        "metric": "moon_category",
+        "level": "waning",
+        "window_deg": null,
+        "exposure_n": 123,
+        "case_n": 15,
+        "risk": 0.1219512195121951,
+        "baseline_risk": 0.1301587301587301,
+        "rr": 0.9369422962522308,
+        "rr_ci_low": 0.4383367518692006,
+        "rr_ci_high": 1.965737985996679,
+        "ci_excludes_1": false,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/lunar_final/moon_verdict_table.csv",
+          "row_index": 74
+        }
+      },
+      {
+        "analysis_level": "overall_category",
+        "disease": "parvovirus enteritis",
+        "stratum": "overall",
+        "metric": "moon_category",
+        "level": "waxing",
+        "window_deg": null,
+        "exposure_n": 109,
+        "case_n": 16,
+        "risk": 0.146788990825688,
+        "baseline_risk": 0.1301587301587301,
+        "rr": 1.1277690758558965,
+        "rr_ci_low": 0.5378894862398937,
+        "rr_ci_high": 2.31189974235202,
+        "ci_excludes_1": false,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/lunar_final/moon_verdict_table.csv",
+          "row_index": 75
+        }
+      },
+      {
+        "analysis_level": "overall_window",
+        "disease": "parvovirus enteritis",
+        "stratum": "overall",
+        "metric": "near_full",
+        "level": "yes",
+        "window_deg": 15.0,
+        "exposure_n": 22,
+        "case_n": 3,
+        "risk": 0.1363636363636363,
+        "baseline_risk": 0.1301587301587301,
+        "rr": 1.0476718403547671,
+        "rr_ci_low": 0.2763946303324259,
+        "rr_ci_high": 3.422068097109444,
+        "ci_excludes_1": false,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/lunar_final/moon_verdict_table.csv",
+          "row_index": 76
+        }
+      },
+      {
+        "analysis_level": "overall_window",
+        "disease": "parvovirus enteritis",
+        "stratum": "overall",
+        "metric": "near_full",
+        "level": "yes",
+        "window_deg": 30.0,
+        "exposure_n": 45,
+        "case_n": 6,
+        "risk": 0.1333333333333333,
+        "baseline_risk": 0.1301587301587301,
+        "rr": 1.024390243902439,
+        "rr_ci_low": 0.3641711771242394,
+        "rr_ci_high": 2.68727650257629,
+        "ci_excludes_1": false,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/lunar_final/moon_verdict_table.csv",
+          "row_index": 77
+        }
+      },
+      {
+        "analysis_level": "overall_window",
+        "disease": "parvovirus enteritis",
+        "stratum": "overall",
+        "metric": "near_new",
+        "level": "yes",
+        "window_deg": 15.0,
+        "exposure_n": 28,
+        "case_n": 5,
+        "risk": 0.1785714285714285,
+        "baseline_risk": 0.1301587301587301,
+        "rr": 1.371951219512195,
+        "rr_ci_low": 0.4585347391373757,
+        "rr_ci_high": 3.653698199913755,
+        "ci_excludes_1": false,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/lunar_final/moon_verdict_table.csv",
+          "row_index": 78
+        }
+      },
+      {
+        "analysis_level": "overall_window",
+        "disease": "parvovirus enteritis",
+        "stratum": "overall",
+        "metric": "near_new",
+        "level": "yes",
+        "window_deg": 30.0,
+        "exposure_n": 50,
+        "case_n": 5,
+        "risk": 0.1,
+        "baseline_risk": 0.1301587301587301,
+        "rr": 0.7682926829268293,
+        "rr_ci_low": 0.253032220940138,
+        "rr_ci_high": 2.1927748418885336,
+        "ci_excludes_1": false,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/lunar_final/moon_verdict_table.csv",
+          "row_index": 79
+        }
+      },
+      {
+        "analysis_level": "stratified_category",
+        "disease": "parvovirus enteritis",
+        "stratum": "female_intact",
+        "metric": "moon_category",
+        "level": "full",
+        "window_deg": null,
+        "exposure_n": 2,
+        "case_n": 0,
+        "risk": 0.0,
+        "baseline_risk": 0.3333333333333333,
+        "rr": 0.0,
+        "rr_ci_low": 0.0,
+        "rr_ci_high": 3.187299481333111,
+        "ci_excludes_1": false,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/lunar_final/moon_verdict_table.csv",
+          "row_index": 80
+        }
+      },
+      {
+        "analysis_level": "stratified_category",
+        "disease": "parvovirus enteritis",
+        "stratum": "female_intact",
+        "metric": "moon_category",
+        "level": "new",
+        "window_deg": null,
+        "exposure_n": 4,
+        "case_n": 3,
+        "risk": 0.75,
+        "baseline_risk": 0.3333333333333333,
+        "rr": 2.25,
+        "rr_ci_low": 0.6132564147302357,
+        "rr_ci_high": 4.625719752794018,
+        "ci_excludes_1": false,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/lunar_final/moon_verdict_table.csv",
+          "row_index": 81
+        }
+      },
+      {
+        "analysis_level": "stratified_category",
+        "disease": "parvovirus enteritis",
+        "stratum": "female_intact",
+        "metric": "moon_category",
+        "level": "waning",
+        "window_deg": null,
+        "exposure_n": 22,
+        "case_n": 8,
+        "risk": 0.3636363636363636,
+        "baseline_risk": 0.3333333333333333,
+        "rr": 1.090909090909091,
+        "rr_ci_low": 0.4025256464145432,
+        "rr_ci_high": 2.764954071628906,
+        "ci_excludes_1": false,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/lunar_final/moon_verdict_table.csv",
+          "row_index": 82
+        }
+      },
+      {
+        "analysis_level": "stratified_category",
+        "disease": "parvovirus enteritis",
+        "stratum": "female_intact",
+        "metric": "moon_category",
+        "level": "waxing",
+        "window_deg": null,
+        "exposure_n": 11,
+        "case_n": 2,
+        "risk": 0.1818181818181818,
+        "baseline_risk": 0.3333333333333333,
+        "rr": 0.5454545454545455,
+        "rr_ci_low": 0.1047808375224331,
+        "rr_ci_high": 2.3117895831639412,
+        "ci_excludes_1": false,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/lunar_final/moon_verdict_table.csv",
+          "row_index": 83
+        }
+      },
+      {
+        "analysis_level": "stratified_category",
+        "disease": "parvovirus enteritis",
+        "stratum": "female_neutered",
+        "metric": "moon_category",
+        "level": "full",
+        "window_deg": null,
+        "exposure_n": 11,
+        "case_n": 0,
+        "risk": 0.0,
+        "baseline_risk": 0.031578947368421,
+        "rr": 0.0,
+        "rr_ci_low": 3.1265972621918535e-16,
+        "rr_ci_high": 23.97345224087782,
+        "ci_excludes_1": false,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/lunar_final/moon_verdict_table.csv",
+          "row_index": 84
+        }
+      },
+      {
+        "analysis_level": "stratified_category",
+        "disease": "parvovirus enteritis",
+        "stratum": "female_neutered",
+        "metric": "moon_category",
+        "level": "new",
+        "window_deg": null,
+        "exposure_n": 12,
+        "case_n": 0,
+        "risk": 0.0,
+        "baseline_risk": 0.031578947368421,
+        "rr": 0.0,
+        "rr_ci_low": 0.0,
+        "rr_ci_high": 22.460129581495067,
+        "ci_excludes_1": false,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/lunar_final/moon_verdict_table.csv",
+          "row_index": 85
+        }
+      },
+      {
+        "analysis_level": "stratified_category",
+        "disease": "parvovirus enteritis",
+        "stratum": "female_neutered",
+        "metric": "moon_category",
+        "level": "waning",
+        "window_deg": null,
+        "exposure_n": 36,
+        "case_n": 0,
+        "risk": 0.0,
+        "baseline_risk": 0.031578947368421,
+        "rr": 0.0,
+        "rr_ci_low": 0.0,
+        "rr_ci_high": 8.93047439807167,
+        "ci_excludes_1": false,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/lunar_final/moon_verdict_table.csv",
+          "row_index": 86
+        }
+      },
+      {
+        "analysis_level": "stratified_category",
+        "disease": "parvovirus enteritis",
+        "stratum": "female_neutered",
+        "metric": "moon_category",
+        "level": "waxing",
+        "window_deg": null,
+        "exposure_n": 36,
+        "case_n": 3,
+        "risk": 0.0833333333333333,
+        "baseline_risk": 0.031578947368421,
+        "rr": 2.638888888888889,
+        "rr_ci_low": 0.3238401482052319,
+        "rr_ci_high": 20.215915374934585,
+        "ci_excludes_1": false,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/lunar_final/moon_verdict_table.csv",
+          "row_index": 87
+        }
+      },
+      {
+        "analysis_level": "stratified_category",
+        "disease": "parvovirus enteritis",
+        "stratum": "male_intact",
+        "metric": "moon_category",
+        "level": "full",
+        "window_deg": null,
+        "exposure_n": 5,
+        "case_n": 2,
+        "risk": 0.4,
+        "baseline_risk": 0.3725490196078431,
+        "rr": 1.0736842105263158,
+        "rr_ci_low": 0.2307369202455189,
+        "rr_ci_high": 3.0381913516451697,
+        "ci_excludes_1": false,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/lunar_final/moon_verdict_table.csv",
+          "row_index": 88
+        }
+      },
+      {
+        "analysis_level": "stratified_category",
+        "disease": "parvovirus enteritis",
+        "stratum": "male_intact",
+        "metric": "moon_category",
+        "level": "new",
+        "window_deg": null,
+        "exposure_n": 7,
+        "case_n": 2,
+        "risk": 0.2857142857142857,
+        "baseline_risk": 0.3725490196078431,
+        "rr": 0.7669172932330827,
+        "rr_ci_low": 0.1612890741515055,
+        "rr_ci_high": 2.5318426612760527,
+        "ci_excludes_1": false,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/lunar_final/moon_verdict_table.csv",
+          "row_index": 89
+        }
+      },
+      {
+        "analysis_level": "stratified_category",
+        "disease": "parvovirus enteritis",
+        "stratum": "male_intact",
+        "metric": "moon_category",
+        "level": "waning",
+        "window_deg": null,
+        "exposure_n": 19,
+        "case_n": 6,
+        "risk": 0.3157894736842105,
+        "baseline_risk": 0.3725490196078431,
+        "rr": 0.8476454293628808,
+        "rr_ci_low": 0.3014057824834459,
+        "rr_ci_high": 2.1322783083736314,
+        "ci_excludes_1": false,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/lunar_final/moon_verdict_table.csv",
+          "row_index": 90
+        }
+      },
+      {
+        "analysis_level": "stratified_category",
+        "disease": "parvovirus enteritis",
+        "stratum": "male_intact",
+        "metric": "moon_category",
+        "level": "waxing",
+        "window_deg": null,
+        "exposure_n": 20,
+        "case_n": 9,
+        "risk": 0.45,
+        "baseline_risk": 0.3725490196078431,
+        "rr": 1.2078947368421054,
+        "rr_ci_low": 0.5065126668554414,
+        "rr_ci_high": 2.5983784529748752,
+        "ci_excludes_1": false,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/lunar_final/moon_verdict_table.csv",
+          "row_index": 91
+        }
+      },
+      {
+        "analysis_level": "stratified_category",
+        "disease": "parvovirus enteritis",
+        "stratum": "male_neutered",
+        "metric": "moon_category",
+        "level": "full",
+        "window_deg": null,
+        "exposure_n": 20,
+        "case_n": 3,
+        "risk": 0.15,
+        "baseline_risk": 0.0387596899224806,
+        "rr": 3.87,
+        "rr_ci_low": 0.5982906340049728,
+        "rr_ci_high": 21.624631307142653,
+        "ci_excludes_1": false,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/lunar_final/moon_verdict_table.csv",
+          "row_index": 92
+        }
+      },
+      {
+        "analysis_level": "stratified_category",
+        "disease": "parvovirus enteritis",
+        "stratum": "male_neutered",
+        "metric": "moon_category",
+        "level": "new",
+        "window_deg": null,
+        "exposure_n": 22,
+        "case_n": 0,
+        "risk": 0.0,
+        "baseline_risk": 0.0387596899224806,
+        "rr": 0.0,
+        "rr_ci_low": 1.5855070751399555e-16,
+        "rr_ci_high": 8.91925541662783,
+        "ci_excludes_1": false,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/lunar_final/moon_verdict_table.csv",
+          "row_index": 93
+        }
+      },
+      {
+        "analysis_level": "stratified_category",
+        "disease": "parvovirus enteritis",
+        "stratum": "male_neutered",
+        "metric": "moon_category",
+        "level": "waning",
+        "window_deg": null,
+        "exposure_n": 46,
+        "case_n": 1,
+        "risk": 0.0217391304347826,
+        "baseline_risk": 0.0387596899224806,
+        "rr": 0.5608695652173913,
+        "rr_ci_low": 0.0439597653225818,
+        "rr_ci_high": 6.801091644166553,
+        "ci_excludes_1": false,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/lunar_final/moon_verdict_table.csv",
+          "row_index": 94
+        }
+      },
+      {
+        "analysis_level": "stratified_category",
+        "disease": "parvovirus enteritis",
+        "stratum": "male_neutered",
+        "metric": "moon_category",
+        "level": "waxing",
+        "window_deg": null,
+        "exposure_n": 41,
+        "case_n": 1,
+        "risk": 0.024390243902439,
+        "baseline_risk": 0.0387596899224806,
+        "rr": 0.6292682926829268,
+        "rr_ci_low": 0.0493370124076502,
+        "rr_ci_high": 7.556940364878223,
+        "ci_excludes_1": false,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/lunar_final/moon_verdict_table.csv",
+          "row_index": 95
+        }
+      }
+    ],
+    "sex_neuter_distribution": [
+      {
+        "sex_neuter": "male_neutered",
+        "total_n": 129.0,
+        "pct_total": 0.4095238095238095,
+        "reported_stratified": 1.0,
+        "case_n__acute pancreatitis": 60.0,
+        "risk__acute pancreatitis": 0.4651162790697674,
+        "case_n__acute flare-up of triaditis/chronic enteropathy": 42.0,
+        "risk__acute flare-up of triaditis/chronic enteropathy": 0.3255813953488372,
+        "case_n__acute gastroenteritis": 22.0,
+        "risk__acute gastroenteritis": 0.1705426356589147,
+        "case_n__parvovirus enteritis": 5.0,
+        "risk__parvovirus enteritis": 0.0387596899224806,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/lunar_final/sex_neuter_distribution.csv",
+          "row_index": 0
+        }
+      },
+      {
+        "sex_neuter": "female_neutered",
+        "total_n": 95.0,
+        "pct_total": 0.3015873015873015,
+        "reported_stratified": 1.0,
+        "case_n__acute pancreatitis": 41.0,
+        "risk__acute pancreatitis": 0.431578947368421,
+        "case_n__acute flare-up of triaditis/chronic enteropathy": 36.0,
+        "risk__acute flare-up of triaditis/chronic enteropathy": 0.3789473684210526,
+        "case_n__acute gastroenteritis": 15.0,
+        "risk__acute gastroenteritis": 0.1578947368421052,
+        "case_n__parvovirus enteritis": 3.0,
+        "risk__parvovirus enteritis": 0.031578947368421,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/lunar_final/sex_neuter_distribution.csv",
+          "row_index": 1
+        }
+      },
+      {
+        "sex_neuter": "male_intact",
+        "total_n": 51.0,
+        "pct_total": 0.1619047619047619,
+        "reported_stratified": 1.0,
+        "case_n__acute pancreatitis": 11.0,
+        "risk__acute pancreatitis": 0.2156862745098039,
+        "case_n__acute flare-up of triaditis/chronic enteropathy": 8.0,
+        "risk__acute flare-up of triaditis/chronic enteropathy": 0.1568627450980392,
+        "case_n__acute gastroenteritis": 13.0,
+        "risk__acute gastroenteritis": 0.2549019607843137,
+        "case_n__parvovirus enteritis": 19.0,
+        "risk__parvovirus enteritis": 0.3725490196078431,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/lunar_final/sex_neuter_distribution.csv",
+          "row_index": 2
+        }
+      },
+      {
+        "sex_neuter": "female_intact",
+        "total_n": 39.0,
+        "pct_total": 0.1238095238095238,
+        "reported_stratified": 1.0,
+        "case_n__acute pancreatitis": 12.0,
+        "risk__acute pancreatitis": 0.3076923076923077,
+        "case_n__acute flare-up of triaditis/chronic enteropathy": 4.0,
+        "risk__acute flare-up of triaditis/chronic enteropathy": 0.1025641025641025,
+        "case_n__acute gastroenteritis": 10.0,
+        "risk__acute gastroenteritis": 0.2564102564102564,
+        "case_n__parvovirus enteritis": 13.0,
+        "risk__parvovirus enteritis": 0.3333333333333333,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/lunar_final/sex_neuter_distribution.csv",
+          "row_index": 3
+        }
+      },
+      {
+        "sex_neuter": "unknown_intact",
+        "total_n": 1.0,
+        "pct_total": 0.0031746031746031,
+        "reported_stratified": 0.0,
+        "case_n__acute pancreatitis": 0.0,
+        "risk__acute pancreatitis": 0.0,
+        "case_n__acute flare-up of triaditis/chronic enteropathy": 0.0,
+        "risk__acute flare-up of triaditis/chronic enteropathy": 0.0,
+        "case_n__acute gastroenteritis": 0.0,
+        "risk__acute gastroenteritis": 0.0,
+        "case_n__parvovirus enteritis": 1.0,
+        "risk__parvovirus enteritis": 1.0,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/lunar_final/sex_neuter_distribution.csv",
+          "row_index": 4
+        }
+      }
+    ],
+    "sex_neuter_small_strata": [
+      {
+        "sex_neuter": "unknown_intact",
+        "total_n": 1,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/lunar_final/sex_neuter_small_strata.csv",
+          "row_index": 0
+        }
+      }
+    ],
+    "stratification_rule": {
+      "minimum_total_n_for_stratified_visuals": 20,
+      "unknown_strata_retained_in_raw_tables": true,
+      "source": {
+        "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/lunar_final/moon_methods_notes.md",
+        "extract": "total_n >= threshold"
+      }
+    }
+  },
+  "F_apriori_refined_final2": {
+    "tracks": {
+      "diagnosis": {
+        "stable_rule_count": {
+          "value": 127,
+          "source": {
+            "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/apriori_refined_final2/diagnosis_rules_stable.csv",
+            "operation": "row_count"
+          }
+        },
+        "strongest_rule": {
+          "consequent_name": "diagnosis=acute gastroenteritis",
+          "antecedents": "snowfall_sum_mean_13d_low, surface_pressure_max_day1_low",
+          "support": 0.0507936507936507,
+          "support_count": 16,
+          "confidence": 0.3404255319148936,
+          "lift": 1.7872340425531916,
+          "baseline_prevalence": 0.1904761904761904,
+          "source": {
+            "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/apriori_refined_final2/diagnosis_rules_all.csv",
+            "row_index": 0
+          }
+        }
+      },
+      "severity": {
+        "stable_rule_count": {
+          "value": 1822,
+          "source": {
+            "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/apriori_refined_final2/severity_rules_stable.csv",
+            "operation": "row_count"
+          }
+        },
+        "strongest_rule": {
+          "consequent_name": "TOTAL_PROTEIN_INCREASED",
+          "antecedents": "precipitation_hours_mean_13d_low, precipitation_hours_mean_7d_low, precipitation_sum_mean_2d_low",
+          "support": 0.0507936507936507,
+          "support_count": 16,
+          "confidence": 0.4571428571428572,
+          "lift": 2.149253731343284,
+          "baseline_prevalence": 0.2126984126984127,
+          "source": {
+            "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/apriori_refined_final2/severity_rules_all.csv",
+            "row_index": 0
+          }
+        }
+      },
+      "cluster_kbest": {
+        "stable_rule_count": {
+          "value": 433,
+          "source": {
+            "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/apriori_refined_final2/cluster_rules_kbest_stable.csv",
+            "operation": "row_count"
+          }
+        },
+        "strongest_rule": {
+          "consequent_name": "cluster_clinical_kbest=1",
+          "antecedents": "precipitation_hours_mean_13d_high, precipitation_sum_mean_13d_high, snowfall_sum_mean_13d_low",
+          "support": 0.0507936507936507,
+          "support_count": 16,
+          "confidence": 0.5,
+          "lift": 2.3507462686567164,
+          "baseline_prevalence": 0.2126984126984127,
+          "source": {
+            "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/apriori_refined_final2/cluster_rules_kbest_all.csv",
+            "row_index": 0
+          }
+        }
+      },
+      "cluster_k6": {
+        "stable_rule_count": {
+          "value": 296,
+          "source": {
+            "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/apriori_refined_final2/cluster_rules_k6_stable.csv",
+            "operation": "row_count"
+          }
+        },
+        "strongest_rule": {
+          "consequent_name": "cluster_combined_k6=5",
+          "antecedents": "precipitation_hours_mean_13d_high, snowfall_sum_mean_13d_low",
+          "support": 0.0507936507936507,
+          "support_count": 16,
+          "confidence": 0.4,
+          "lift": 5.040000000000001,
+          "baseline_prevalence": 0.0793650793650793,
+          "source": {
+            "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/apriori_refined_final2/cluster_rules_k6_all.csv",
+            "row_index": 0
+          }
+        },
+        "k6_reporting_condition": {
+          "condition": ">=3 rules with lift >= 1.3",
+          "n_rules_lift_ge_1_3": 1459,
+          "passes": true,
+          "source": {
+            "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/apriori_refined_final2/cluster_rules_k6_all.csv",
+            "operation": "count(lift>=1.3)"
+          }
+        }
+      }
+    },
+    "bun_rule_validation": {
+      "robustness_classification": {
+        "value": "Moderately sensitive",
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/clinical_threshold_extension/bun_rule_validation/bun_rule_validation_summary.md",
+          "regex": "Robustness classification"
+        }
+      },
+      "full_rule": {
+        "support": 0.0634920634920634,
+        "confidence": 0.7692307692307692,
+        "lift": 2.0025429116338205,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/clinical_threshold_extension/bun_rule_validation/bun_rule_ablation_table.csv",
+          "row_filter": {
+            "variant": "full_rule"
+          }
+        }
+      },
+      "best_ablation_variant": {
+        "variant": "full_rule",
+        "lift": 2.0025429116338205,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/clinical_threshold_extension/bun_rule_validation/bun_rule_ablation_table.csv",
+          "row_index": 0
+        }
+      },
+      "sensitivity_20_80": {
+        "lift": 1.6020343293070565,
+        "confidence": 0.6153846153846154,
+        "support": 0.0253968253968253,
+        "source": {
+          "path": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/clinical_threshold_extension/bun_rule_validation/bun_rule_sensitivity_20_80.csv",
+          "row_index": 0
+        }
+      }
+    }
+  },
+  "G_chapter4_figure_inventory": {
+    "expected_chapter4_figures": [
+      "pca_scree_env.pdf",
+      "pca_pc1_pc2_env.pdf",
+      "kmeans_env_kbest_dfixed6.pdf",
+      "kmeans_env_k6_dfixed6.pdf",
+      "hclust_dendrogram_env_dfixed6.pdf",
+      "shap_ap_env.pdf",
+      "shap_tri_env.pdf",
+      "shap_ge_env.pdf",
+      "shap_parvo_env.pdf",
+      "permtest_ap_env.pdf",
+      "permtest_tri_env.pdf",
+      "permtest_ge_env.pdf",
+      "permtest_parvo_env.pdf"
+    ],
+    "found_in_repo_figures": [
+      "/Users/omaralneser/Documents/TYP/thesis-paper/TYP_template/figures/pca_scree_env.pdf",
+      "/Users/omaralneser/Documents/TYP/thesis-paper/TYP_template/figures/pca_pc1_pc2_env.pdf",
+      "/Users/omaralneser/Documents/TYP/thesis-paper/TYP_template/figures/kmeans_env_kbest_dfixed6.pdf",
+      "/Users/omaralneser/Documents/TYP/thesis-paper/TYP_template/figures/kmeans_env_k6_dfixed6.pdf",
+      "/Users/omaralneser/Documents/TYP/thesis-paper/TYP_template/figures/hclust_dendrogram_env_dfixed6.pdf",
+      "/Users/omaralneser/Documents/TYP/thesis-paper/TYP_template/figures/shap_ap_env.pdf",
+      "/Users/omaralneser/Documents/TYP/thesis-paper/TYP_template/figures/shap_tri_env.pdf",
+      "/Users/omaralneser/Documents/TYP/thesis-paper/TYP_template/figures/shap_ge_env.pdf",
+      "/Users/omaralneser/Documents/TYP/thesis-paper/TYP_template/figures/shap_parvo_env.pdf",
+      "/Users/omaralneser/Documents/TYP/thesis-paper/TYP_template/figures/permtest_ap_env.pdf",
+      "/Users/omaralneser/Documents/TYP/thesis-paper/TYP_template/figures/permtest_tri_env.pdf",
+      "/Users/omaralneser/Documents/TYP/thesis-paper/TYP_template/figures/permtest_ge_env.pdf",
+      "/Users/omaralneser/Documents/TYP/thesis-paper/TYP_template/figures/permtest_parvo_env.pdf"
+    ],
+    "missing_in_repo_figures": [],
+    "lunar_figures_present_in_repo": [],
+    "lunar_figures_available_in_outputs_lunar_final": [
+      "/Users/omaralneser/Documents/TYP/outputs/eda_v3/lunar_final/plots/moon_circular_curve_acute_flare_up_of_triaditis_chronic_enteropathy.png",
+      "/Users/omaralneser/Documents/TYP/outputs/eda_v3/lunar_final/plots/moon_circular_curve_acute_gastroenteritis.png",
+      "/Users/omaralneser/Documents/TYP/outputs/eda_v3/lunar_final/plots/moon_circular_curve_acute_pancreatitis.png",
+      "/Users/omaralneser/Documents/TYP/outputs/eda_v3/lunar_final/plots/moon_circular_curve_parvovirus_enteritis.png",
+      "/Users/omaralneser/Documents/TYP/outputs/eda_v3/lunar_final/plots/moon_rr_category_acute_flare_up_of_triaditis_chronic_enteropathy.png",
+      "/Users/omaralneser/Documents/TYP/outputs/eda_v3/lunar_final/plots/moon_rr_category_acute_gastroenteritis.png",
+      "/Users/omaralneser/Documents/TYP/outputs/eda_v3/lunar_final/plots/moon_rr_category_acute_pancreatitis.png",
+      "/Users/omaralneser/Documents/TYP/outputs/eda_v3/lunar_final/plots/moon_rr_category_parvovirus_enteritis.png",
+      "/Users/omaralneser/Documents/TYP/outputs/eda_v3/lunar_final/plots/moon_rr_stratified_heatmap_acute_flare_up_of_triaditis_chronic_enteropathy.png",
+      "/Users/omaralneser/Documents/TYP/outputs/eda_v3/lunar_final/plots/moon_rr_stratified_heatmap_acute_gastroenteritis.png",
+      "/Users/omaralneser/Documents/TYP/outputs/eda_v3/lunar_final/plots/moon_rr_stratified_heatmap_acute_pancreatitis.png",
+      "/Users/omaralneser/Documents/TYP/outputs/eda_v3/lunar_final/plots/moon_rr_stratified_heatmap_parvovirus_enteritis.png",
+      "/Users/omaralneser/Documents/TYP/outputs/eda_v3/lunar_final/plots/moon_rr_windows_acute_flare_up_of_triaditis_chronic_enteropathy.png",
+      "/Users/omaralneser/Documents/TYP/outputs/eda_v3/lunar_final/plots/moon_rr_windows_acute_gastroenteritis.png",
+      "/Users/omaralneser/Documents/TYP/outputs/eda_v3/lunar_final/plots/moon_rr_windows_acute_pancreatitis.png",
+      "/Users/omaralneser/Documents/TYP/outputs/eda_v3/lunar_final/plots/moon_rr_windows_parvovirus_enteritis.png"
+    ],
+    "source": {
+      "repo_figures_dir": "/Users/omaralneser/Documents/TYP/thesis-paper/TYP_template/figures",
+      "outputs_lunar_plots_dir": "/Users/omaralneser/Documents/TYP/outputs/eda_v3/lunar_final/plots"
+    }
+  },
+  "found_files": [
+    "/Users/omaralneser/Documents/TYP/outputs/eda_v3/tables/outcome_distribution.csv",
+    "/Users/omaralneser/Documents/TYP/outputs/eda_v3/final_validation/holdout_audit/holdout_split_counts.csv",
+    "/Users/omaralneser/Documents/TYP/outputs/eda_v3/tables/cv_metric_summary.csv",
+    "/Users/omaralneser/Documents/TYP/outputs/eda_v3/tables/cv_binary_metric_summary.csv",
+    "/Users/omaralneser/Documents/TYP/outputs/eda_v3/final_validation/holdout_results_binary.csv",
+    "/Users/omaralneser/Documents/TYP/outputs/eda_v3/final_validation/holdout_audit/holdout_auc_bootstrap_ci.csv",
+    "/Users/omaralneser/Documents/TYP/outputs/eda_v3/tables/shap_stability_summary_binary.csv",
+    "/Users/omaralneser/Documents/TYP/outputs/eda_v3/tables/permtest_envonly_auc_summary.csv",
+    "/Users/omaralneser/Documents/TYP/outputs/eda_v3/final_validation/lgbm_cv_binary_env_only.csv",
+    "/Users/omaralneser/Documents/TYP/outputs/eda_v3/final_validation/lgbm_permtest_env_only.csv",
+    "/Users/omaralneser/Documents/TYP/outputs/eda_v3/final_validation/environmental_signal_summary.csv",
+    "/Users/omaralneser/Documents/TYP/outputs/eda_v3/unsupervised/tables/pca_thresholds_summary.csv",
+    "/Users/omaralneser/Documents/TYP/outputs/eda_v3/unsupervised/tables/pca_variance_environmental_only.csv",
+    "/Users/omaralneser/Documents/TYP/outputs/eda_v3/unsupervised/tables/clustering_summary.csv",
+    "/Users/omaralneser/Documents/TYP/outputs/eda_v3/unsupervised/tables/kmeans_silhouette_environmental_only_Dfixed6.csv",
+    "/Users/omaralneser/Documents/TYP/outputs/eda_v3/unsupervised/tables/kmeans_silhouette_environmental_only_D80.csv",
+    "/Users/omaralneser/Documents/TYP/outputs/eda_v3/unsupervised/tables/clustering_alignment_environmental_only_Dfixed6.csv",
+    "/Users/omaralneser/Documents/TYP/outputs/eda_v3/unsupervised/tables/clustering_alignment_environmental_only_D80.csv",
+    "/Users/omaralneser/Documents/TYP/outputs/eda_v3/lunar_final/moon_verdict_table.csv",
+    "/Users/omaralneser/Documents/TYP/outputs/eda_v3/lunar_final/sex_neuter_distribution.csv",
+    "/Users/omaralneser/Documents/TYP/outputs/eda_v3/lunar_final/sex_neuter_small_strata.csv",
+    "/Users/omaralneser/Documents/TYP/outputs/eda_v3/lunar_final/moon_methods_notes.md",
+    "/Users/omaralneser/Documents/TYP/outputs/eda_v3/apriori_refined_final2/diagnosis_rules_stable.csv",
+    "/Users/omaralneser/Documents/TYP/outputs/eda_v3/apriori_refined_final2/severity_rules_stable.csv",
+    "/Users/omaralneser/Documents/TYP/outputs/eda_v3/apriori_refined_final2/cluster_rules_kbest_stable.csv",
+    "/Users/omaralneser/Documents/TYP/outputs/eda_v3/apriori_refined_final2/cluster_rules_k6_stable.csv",
+    "/Users/omaralneser/Documents/TYP/outputs/eda_v3/apriori_refined_final2/diagnosis_rules_all.csv",
+    "/Users/omaralneser/Documents/TYP/outputs/eda_v3/apriori_refined_final2/severity_rules_all.csv",
+    "/Users/omaralneser/Documents/TYP/outputs/eda_v3/apriori_refined_final2/cluster_rules_kbest_all.csv",
+    "/Users/omaralneser/Documents/TYP/outputs/eda_v3/apriori_refined_final2/cluster_rules_k6_all.csv",
+    "/Users/omaralneser/Documents/TYP/outputs/eda_v3/clinical_threshold_extension/bun_rule_validation/bun_rule_validation_summary.md",
+    "/Users/omaralneser/Documents/TYP/outputs/eda_v3/clinical_threshold_extension/bun_rule_validation/bun_rule_ablation_table.csv",
+    "/Users/omaralneser/Documents/TYP/outputs/eda_v3/clinical_threshold_extension/bun_rule_validation/bun_rule_sensitivity_20_80.csv"
+  ],
+  "missing_files": []
+}

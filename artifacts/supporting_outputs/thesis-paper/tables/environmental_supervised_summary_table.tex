@@ -1,0 +1,35 @@
+\begin{table}[htbp]
+\centering
+\small
+\setlength{\tabcolsep}{4pt}
+\setlength{\extrarowheight}{2pt}
+\renewcommand{\arraystretch}{1.28}
+\begin{tabularx}{\linewidth}{
+  >{\raggedright\arraybackslash}X
+  >{\centering\arraybackslash}m{0.13\linewidth}
+  >{\centering\arraybackslash}m{0.10\linewidth}
+  >{\centering\arraybackslash}m{0.10\linewidth}
+  >{\centering\arraybackslash}m{0.13\linewidth}
+  >{\centering\arraybackslash}m{0.10\linewidth}
+  >{\centering\arraybackslash}m{0.11\linewidth}
+}
+\hline
+\noalign{\vskip 2pt}
+\rule[-0.6ex]{0pt}{3.2ex}{\normalsize Disease} &
+{\normalsize \shortstack{HistGB CV\\AUC}} &
+{\normalsize \shortstack{Holdout\\AUC}} &
+{\normalsize \shortstack{HistGB\\$p$-value}} &
+{\normalsize \shortstack{LGBM CV\\AUC}} &
+{\normalsize \shortstack{LGBM\\$p$-value}} &
+{\normalsize \shortstack{SHAP\\$\rho$}} \\
+\noalign{\vskip 2pt}
+\hline
+Acute pancreatitis & 0.500 $\pm$ 0.070 & 0.526 & 0.4577 & 0.492 $\pm$ 0.046 & 0.5522 & 0.843 \\
+Triaditis/CE flare-up & 0.526 $\pm$ 0.089 & 0.501 & 0.3134 & 0.588 $\pm$ 0.038 & 0.0547 & 0.826 \\
+Acute gastroenteritis & 0.610 $\pm$ 0.052 & 0.727 & 0.0199 & 0.613 $\pm$ 0.049 & 0.0149 & 0.847 \\
+Parvovirus enteritis & 0.685 $\pm$ 0.152 & 0.695 & 0.0050 & 0.675 $\pm$ 0.068 & 0.0050 & 0.828 \\
+\hline
+\end{tabularx}
+\caption{Environmental-only supervised summary for binary one-vs-rest tasks under internal validation.}
+\label{tab:ch4_env_supervised_summary}
+\end{table}

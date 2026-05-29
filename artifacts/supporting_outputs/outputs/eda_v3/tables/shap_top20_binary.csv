@@ -1,0 +1,241 @@
+disease,feature_block,rank_within_group,feature,mean_abs_shap,std_abs_shap
+acute flare-up of triaditis/chronic enteropathy,clinical_only,1,num__neutrophil count (x 10^9/L),1.3788556254552662,0.2639789885671969
+acute flare-up of triaditis/chronic enteropathy,clinical_only,2,num__body weight,1.3497197438501993,0.21490570034379047
+acute flare-up of triaditis/chronic enteropathy,clinical_only,3,num__leukocyte count,1.24922172360195,0.2770322800994852
+acute flare-up of triaditis/chronic enteropathy,clinical_only,4,num__hospitalization time (days),0.9106866853081975,0.16569024193909837
+acute flare-up of triaditis/chronic enteropathy,clinical_only,5,num__K value,0.7479711449983301,0.1910075851629254
+acute flare-up of triaditis/chronic enteropathy,clinical_only,6,num__CREA concentration ,0.7239333328654516,0.21213419361966002
+acute flare-up of triaditis/chronic enteropathy,clinical_only,7,cat__regularly dewormed_yes,0.6888117405512555,0.2695362450898775
+acute flare-up of triaditis/chronic enteropathy,clinical_only,8,num__lymphocyte count,0.6318660977382602,0.1700975456863562
+acute flare-up of triaditis/chronic enteropathy,clinical_only,9,cat__neuter status_intact,0.6132236699523901,0.14338563956142011
+acute flare-up of triaditis/chronic enteropathy,clinical_only,10,num__Na value,0.5520059461971263,0.2268798080355753
+acute flare-up of triaditis/chronic enteropathy,clinical_only,11,num__Initial total protein concentration (in g/l),0.5500730491130834,0.1737566534672178
+acute flare-up of triaditis/chronic enteropathy,clinical_only,12,num__initial hematocrit,0.46856552848608457,0.17475876450592098
+acute flare-up of triaditis/chronic enteropathy,clinical_only,13,num__BUN concentration,0.45504734732983704,0.1429949934227063
+acute flare-up of triaditis/chronic enteropathy,clinical_only,14,cat__Na interpreatation_decreased,0.4383211141316569,0.1572423196422722
+acute flare-up of triaditis/chronic enteropathy,clinical_only,15,num__Albumin concentration (in g/l),0.42586115906591326,0.08727513978854046
+acute flare-up of triaditis/chronic enteropathy,clinical_only,16,num__Cl value,0.4245521706759036,0.256980596174528
+acute flare-up of triaditis/chronic enteropathy,clinical_only,17,cat__hematocrit interpretation_lower limit,0.2988119175685774,0.4008533846718679
+acute flare-up of triaditis/chronic enteropathy,clinical_only,18,cat__regularly dewormed_no,0.26147598024943364,0.15352320179925508
+acute flare-up of triaditis/chronic enteropathy,clinical_only,19,num__hospitalization time (days)__missing,0.16488784860478028,0.051177487867071866
+acute flare-up of triaditis/chronic enteropathy,clinical_only,20,num__altitude (MASL),0.14585907121879482,0.08277141377788465
+acute flare-up of triaditis/chronic enteropathy,combined,1,num__neutrophil count (x 10^9/L),1.0055787308769766,0.2653987714507311
+acute flare-up of triaditis/chronic enteropathy,combined,2,num__leukocyte count,0.9189641448376665,0.29884874242810117
+acute flare-up of triaditis/chronic enteropathy,combined,3,num__body weight,0.9097175440350231,0.2786205211801127
+acute flare-up of triaditis/chronic enteropathy,combined,4,cat__regularly dewormed_yes,0.8031142119521053,0.42232825215219866
+acute flare-up of triaditis/chronic enteropathy,combined,5,num__hospitalization time (days),0.7213754224049103,0.35678534880017054
+acute flare-up of triaditis/chronic enteropathy,combined,6,num__wind_direction_10m_dominant__day1,0.6533624158175125,0.24148675754584686
+acute flare-up of triaditis/chronic enteropathy,combined,7,num__wind_gusts_10m_max__peak_14d,0.6347692011783689,0.3374532796302558
+acute flare-up of triaditis/chronic enteropathy,combined,8,num__CREA concentration ,0.5250664784130403,0.2704941278354827
+acute flare-up of triaditis/chronic enteropathy,combined,9,num__wind_gusts_10m_max__day1,0.48535157672018814,0.10789507721883955
+acute flare-up of triaditis/chronic enteropathy,combined,10,num__K value,0.46660490898098433,0.13504432900748703
+acute flare-up of triaditis/chronic enteropathy,combined,11,cat__Na interpreatation_decreased,0.440153558486856,0.16527634160787003
+acute flare-up of triaditis/chronic enteropathy,combined,12,num__surface_pressure_max__mean_13d,0.4196739042771586,0.22750329818852646
+acute flare-up of triaditis/chronic enteropathy,combined,13,num__surface_pressure_max__day1,0.39508828602147295,0.09780003812015396
+acute flare-up of triaditis/chronic enteropathy,combined,14,num__moon_phase_sin,0.389392158444758,0.24034790435391454
+acute flare-up of triaditis/chronic enteropathy,combined,15,cat__eda3_weekday_mon,0.38727745612196063,0.2312737091148442
+acute flare-up of triaditis/chronic enteropathy,combined,16,num__Cl value,0.37040888115283754,0.18822626908224668
+acute flare-up of triaditis/chronic enteropathy,combined,17,num__precipitation_sum__mean_7d,0.35472245489698606,0.2867130957205734
+acute flare-up of triaditis/chronic enteropathy,combined,18,num__moon_phase_cos,0.3514038957052742,0.14114244283657873
+acute flare-up of triaditis/chronic enteropathy,combined,19,num__lymphocyte count,0.34280994415851823,0.056260287270398085
+acute flare-up of triaditis/chronic enteropathy,combined,20,num__Initial total protein concentration (in g/l),0.34252780587757864,0.24948497993696708
+acute flare-up of triaditis/chronic enteropathy,environmental_only,1,num__wind_direction_10m_dominant__day1,0.8293915051292501,0.3256884412278985
+acute flare-up of triaditis/chronic enteropathy,environmental_only,2,num__wind_gusts_10m_max__peak_14d,0.7680716995199001,0.20715000924517615
+acute flare-up of triaditis/chronic enteropathy,environmental_only,3,num__wind_gusts_10m_max__day1,0.6976964797590415,0.13885219906673177
+acute flare-up of triaditis/chronic enteropathy,environmental_only,4,num__precipitation_sum__peak_14d,0.6875237186110649,0.1842958699515244
+acute flare-up of triaditis/chronic enteropathy,environmental_only,5,num__precipitation_sum__mean_13d,0.5890124737539907,0.22315344350627175
+acute flare-up of triaditis/chronic enteropathy,environmental_only,6,num__surface_pressure_max__day1,0.5395254039967579,0.11041375776264326
+acute flare-up of triaditis/chronic enteropathy,environmental_only,7,num__surface_pressure_max__mean_13d,0.53253791918202,0.2388580004745048
+acute flare-up of triaditis/chronic enteropathy,environmental_only,8,num__precipitation_sum__mean_7d,0.5265345746391314,0.2378871730947528
+acute flare-up of triaditis/chronic enteropathy,environmental_only,9,num__moon_phase_sin,0.5150091492195922,0.12716300077673492
+acute flare-up of triaditis/chronic enteropathy,environmental_only,10,cat__eda3_weekday_sat,0.49337063058834635,0.3381040801129594
+acute flare-up of triaditis/chronic enteropathy,environmental_only,11,num__precipitation_hours__peak_14d,0.49000933193060403,0.08463444563119016
+acute flare-up of triaditis/chronic enteropathy,environmental_only,12,num__precipitation_sum__mean_2d,0.4673013321313963,0.11140180935120274
+acute flare-up of triaditis/chronic enteropathy,environmental_only,13,num__moon_phase_cos,0.4354792837036995,0.22498019530505983
+acute flare-up of triaditis/chronic enteropathy,environmental_only,14,num__wind_gusts_10m_max__mean_7d,0.4174248291974244,0.15939440552169126
+acute flare-up of triaditis/chronic enteropathy,environmental_only,15,num__precipitation_hours__mean_7d,0.3897556850540555,0.1458025641405694
+acute flare-up of triaditis/chronic enteropathy,environmental_only,16,num__wind_gusts_10m_max__mean_13d,0.331723914523678,0.19556235055025548
+acute flare-up of triaditis/chronic enteropathy,environmental_only,17,num__apparent_temperature_max__day1,0.32760407359811905,0.17065930721750414
+acute flare-up of triaditis/chronic enteropathy,environmental_only,18,num__wind_direction_10m_dominant__peak_14d,0.3264087432130268,0.09542323305056484
+acute flare-up of triaditis/chronic enteropathy,environmental_only,19,num__precipitation_sum__day1,0.3053874921207952,0.12640760305921211
+acute flare-up of triaditis/chronic enteropathy,environmental_only,20,num__precipitation_hours__mean_13d,0.29867753120035423,0.1529221336626795
+acute gastroenteritis,clinical_only,1,num__hospitalization time (days),4.335867768676482,0.3529705657591292
+acute gastroenteritis,clinical_only,2,num__hospitalization time (days)__missing,1.6307469228937403,0.19289015647025365
+acute gastroenteritis,clinical_only,3,num__BUN concentration,1.5350944812309848,0.1092569142439098
+acute gastroenteritis,clinical_only,4,num__lymphocyte count,1.2190658821097213,0.4465016773071962
+acute gastroenteritis,clinical_only,5,num__Cl value,0.7397868121103228,0.41341113411223873
+acute gastroenteritis,clinical_only,6,num__neutrophil count (x 10^9/L),0.6651587387237654,0.214946386908781
+acute gastroenteritis,clinical_only,7,num__Na value,0.6568259982565625,0.31381969189233394
+acute gastroenteritis,clinical_only,8,num__K value,0.6253569357250914,0.13377018571829563
+acute gastroenteritis,clinical_only,9,num__body weight,0.5993697927150768,0.3125560156453858
+acute gastroenteritis,clinical_only,10,num__CREA concentration ,0.5939672936457033,0.34086803601843685
+acute gastroenteritis,clinical_only,11,num__leukocyte count,0.5866447759508713,0.3035396553715028
+acute gastroenteritis,clinical_only,12,num__Initial total protein concentration (in g/l),0.5824818031448645,0.20708343337869592
+acute gastroenteritis,clinical_only,13,num__initial hematocrit,0.5632276778643902,0.14331183735162006
+acute gastroenteritis,clinical_only,14,cat__regularly dewormed_yes,0.3770238404613808,0.31036427750478734
+acute gastroenteritis,clinical_only,15,cat__breed_EKH,0.33065038297714794,0.23911408498951262
+acute gastroenteritis,clinical_only,16,cat__Albumin interpretation_physiological,0.3247764214349482,0.3604074196740737
+acute gastroenteritis,clinical_only,17,num__Albumin concentration (in g/l),0.30024638642460644,0.11821406688929575
+acute gastroenteritis,clinical_only,18,cat__regularly dewormed_Missing,0.25175413802072605,0.06120388696018919
+acute gastroenteritis,clinical_only,19,cat__Na interpreatation_physiological,0.2509514187106703,0.08279998233712331
+acute gastroenteritis,clinical_only,20,cat__fecal examination_negative,0.2161355906428779,0.3142634854648198
+acute gastroenteritis,combined,1,num__hospitalization time (days),4.437817455625146,0.2757150419026033
+acute gastroenteritis,combined,2,num__hospitalization time (days)__missing,1.8437497326588606,0.34879760279361766
+acute gastroenteritis,combined,3,num__wind_gusts_10m_max__peak_14d,1.4315835284856333,0.19694433979216033
+acute gastroenteritis,combined,4,num__BUN concentration,1.4021087631884892,0.21087498276123284
+acute gastroenteritis,combined,5,num__lymphocyte count,1.012031176836946,0.4251507592164075
+acute gastroenteritis,combined,6,num__wind_direction_10m_dominant__mean_13d,0.8214660610088483,0.3133979789233122
+acute gastroenteritis,combined,7,num__Cl value,0.6425406893677363,0.3579541577558618
+acute gastroenteritis,combined,8,num__wind_gusts_10m_max__day1,0.5321439366438707,0.15252735481530852
+acute gastroenteritis,combined,9,num__Initial total protein concentration (in g/l),0.4664009268719485,0.28962389822463974
+acute gastroenteritis,combined,10,num__wind_gusts_10m_max__mean_7d,0.44640411198497565,0.2945616939915979
+acute gastroenteritis,combined,11,num__precipitation_sum__mean_7d,0.41480653443998533,0.2670609218036168
+acute gastroenteritis,combined,12,num__surface_pressure_max__mean_13d,0.39248592859090614,0.13451629922318664
+acute gastroenteritis,combined,13,num__Na value,0.36862363472023363,0.2262269128850662
+acute gastroenteritis,combined,14,num__surface_pressure_max__day1,0.3542381376575861,0.22206852145721231
+acute gastroenteritis,combined,15,num__K value,0.2998403084710807,0.10691472529316386
+acute gastroenteritis,combined,16,num__moon_phase_sin,0.28411921640771204,0.23609188558809913
+acute gastroenteritis,combined,17,cat__regularly dewormed_yes,0.2814438660155797,0.256006327257855
+acute gastroenteritis,combined,18,num__neutrophil count (x 10^9/L),0.2557310683524817,0.15454729328443553
+acute gastroenteritis,combined,19,num__precipitation_hours__mean_2d,0.25028247787927904,0.152209628032082
+acute gastroenteritis,combined,20,num__wind_direction_10m_dominant__peak_14d,0.23307303240043842,0.050601668641698946
+acute gastroenteritis,environmental_only,1,num__wind_direction_10m_dominant__mean_13d,1.483757152183646,0.7679145970767081
+acute gastroenteritis,environmental_only,2,num__surface_pressure_max__day1,1.0904721190287103,0.4723364701883289
+acute gastroenteritis,environmental_only,3,num__wind_gusts_10m_max__day1,1.0666085795411517,0.2945215901168598
+acute gastroenteritis,environmental_only,4,num__wind_direction_10m_dominant__day1,0.9388092661945239,0.1986879184816289
+acute gastroenteritis,environmental_only,5,num__surface_pressure_max__mean_13d,0.937015404930753,0.15031977819263137
+acute gastroenteritis,environmental_only,6,num__precipitation_sum__mean_2d,0.897384399924411,0.29591372475276856
+acute gastroenteritis,environmental_only,7,num__apparent_temperature_max__day1,0.8179494304620049,0.27981047110758717
+acute gastroenteritis,environmental_only,8,num__wind_gusts_10m_max__mean_7d,0.6195309971994433,0.1354705808527491
+acute gastroenteritis,environmental_only,9,num__wind_gusts_10m_max__peak_14d,0.608850088544379,0.12607473853664325
+acute gastroenteritis,environmental_only,10,num__snowfall_sum__mean_13d,0.5799024518507269,0.27681518685538054
+acute gastroenteritis,environmental_only,11,num__precipitation_hours__peak_14d,0.5127370604471235,0.20654175630554697
+acute gastroenteritis,environmental_only,12,num__precipitation_hours__mean_2d,0.46000005789254494,0.1295394684981788
+acute gastroenteritis,environmental_only,13,num__precipitation_sum__mean_7d,0.4565699856312535,0.10804681942361663
+acute gastroenteritis,environmental_only,14,num__wind_gusts_10m_max__mean_13d,0.4457732605638974,0.06949894890138704
+acute gastroenteritis,environmental_only,15,num__wind_direction_10m_dominant__mean_7d,0.4371296944272953,0.21411182808936763
+acute gastroenteritis,environmental_only,16,num__wind_direction_10m_dominant__peak_14d,0.3880683362313744,0.19249467503585363
+acute gastroenteritis,environmental_only,17,num__moon_phase_sin,0.35798767040995816,0.22161657074095556
+acute gastroenteritis,environmental_only,18,num__moon_phase_cos,0.35577499480131414,0.07240800952161043
+acute gastroenteritis,environmental_only,19,num__daylight_duration__day1,0.30772277636038026,0.08181021864649303
+acute gastroenteritis,environmental_only,20,num__precipitation_hours__mean_7d,0.29567280521789796,0.14031725576901657
+acute pancreatitis,clinical_only,1,num__body weight,1.7845666783882497,0.21658525590722522
+acute pancreatitis,clinical_only,2,num__lymphocyte count,0.9201870456180048,0.4757345032221232
+acute pancreatitis,clinical_only,3,num__hospitalization time (days),0.8169150601960794,0.14697050027493475
+acute pancreatitis,clinical_only,4,num__hospitalization time (days)__missing,0.6949709883901998,0.19250931370477628
+acute pancreatitis,clinical_only,5,num__leukocyte count,0.6774761029058312,0.12033326655083551
+acute pancreatitis,clinical_only,6,num__CREA concentration ,0.6162825443185136,0.0878370851107182
+acute pancreatitis,clinical_only,7,num__BUN concentration,0.5281574254403012,0.18608451048558877
+acute pancreatitis,clinical_only,8,num__neutrophil count (x 10^9/L),0.5003614458294958,0.1671341895224948
+acute pancreatitis,clinical_only,9,num__Cl value,0.49208274857421086,0.17693106677168122
+acute pancreatitis,clinical_only,10,num__Initial total protein concentration (in g/l),0.48194041861164577,0.05917555561122724
+acute pancreatitis,clinical_only,11,num__Na value,0.4264597521203373,0.2376454428570121
+acute pancreatitis,clinical_only,12,num__Albumin concentration (in g/l),0.3812858521424565,0.06705959798612166
+acute pancreatitis,clinical_only,13,cat__regularly dewormed_yes,0.3805579647307008,0.21983587643207364
+acute pancreatitis,clinical_only,14,num__initial hematocrit,0.3588543889942111,0.08034934531342093
+acute pancreatitis,clinical_only,15,num__K value,0.3372283285573518,0.18635584418093756
+acute pancreatitis,clinical_only,16,num__K value__missing,0.3314505651567571,0.3935205753436651
+acute pancreatitis,clinical_only,17,cat__Albumin interpretation_physiological,0.32116343800866204,0.16150180672052106
+acute pancreatitis,clinical_only,18,cat__sex_F,0.2743800486394036,0.20514428685888333
+acute pancreatitis,clinical_only,19,cat__breed_EKH,0.22243740410646487,0.25335065557848024
+acute pancreatitis,clinical_only,20,num__altitude (MASL),0.2152117931120189,0.0795550264454554
+acute pancreatitis,combined,1,num__body weight,1.7465601585503934,0.47328748769939255
+acute pancreatitis,combined,2,num__lymphocyte count,0.7205698810769589,0.45204145722021305
+acute pancreatitis,combined,3,num__hospitalization time (days),0.6455486766552387,0.04951684718836634
+acute pancreatitis,combined,4,num__surface_pressure_max__day1,0.6016778683856371,0.2426368297127171
+acute pancreatitis,combined,5,num__hospitalization time (days)__missing,0.5837315932188325,0.1907310707139119
+acute pancreatitis,combined,6,num__wind_direction_10m_dominant__mean_13d,0.5510795485181798,0.11171656723548679
+acute pancreatitis,combined,7,num__wind_gusts_10m_max__day1,0.4749351856658343,0.07875302689990955
+acute pancreatitis,combined,8,num__BUN concentration,0.46424972337670134,0.20924906581666586
+acute pancreatitis,combined,9,num__moon_phase_sin,0.4291083091038114,0.19060065218425498
+acute pancreatitis,combined,10,num__leukocyte count,0.4223652439496849,0.2503973353672704
+acute pancreatitis,combined,11,cat__Albumin interpretation_physiological,0.4176650666274041,0.14713335117948792
+acute pancreatitis,combined,12,num__precipitation_sum__day1,0.4112230438608762,0.2669823004192623
+acute pancreatitis,combined,13,num__K value__missing,0.36882003831354215,0.45298618830826065
+acute pancreatitis,combined,14,num__precipitation_hours__peak_14d,0.35998288047568955,0.22788106818490564
+acute pancreatitis,combined,15,num__CREA concentration ,0.35818274596112537,0.12017012887482473
+acute pancreatitis,combined,16,num__surface_pressure_max__mean_13d,0.35510539363438753,0.2515980590245617
+acute pancreatitis,combined,17,num__Cl value,0.34230359850764214,0.10539292096609934
+acute pancreatitis,combined,18,num__neutrophil count (x 10^9/L),0.34162225941070073,0.16138015454113736
+acute pancreatitis,combined,19,cat__regularly dewormed_yes,0.3389530894875587,0.23719751518624557
+acute pancreatitis,combined,20,num__wind_gusts_10m_max__mean_7d,0.33239568594004687,0.1797307805695042
+acute pancreatitis,environmental_only,1,num__surface_pressure_max__day1,0.7061170181248108,0.20675191554408473
+acute pancreatitis,environmental_only,2,num__moon_phase_sin,0.6066672656986736,0.10637655684686954
+acute pancreatitis,environmental_only,3,num__wind_gusts_10m_max__mean_7d,0.5527266663292272,0.22945996795681822
+acute pancreatitis,environmental_only,4,num__precipitation_sum__peak_14d,0.5498499113381057,0.1894916974137269
+acute pancreatitis,environmental_only,5,num__wind_gusts_10m_max__day1,0.5390139325886616,0.1262555654561148
+acute pancreatitis,environmental_only,6,num__wind_direction_10m_dominant__mean_7d,0.5321370973831778,0.11146492536276427
+acute pancreatitis,environmental_only,7,num__daylight_duration__day1,0.5014690280372338,0.1938916953952339
+acute pancreatitis,environmental_only,8,num__surface_pressure_max__mean_13d,0.4966503955648728,0.15991651120176098
+acute pancreatitis,environmental_only,9,num__wind_direction_10m_dominant__peak_7d,0.44662696166019583,0.20367421750122627
+acute pancreatitis,environmental_only,10,num__wind_gusts_10m_max__peak_14d,0.42985099883639427,0.1707423914963582
+acute pancreatitis,environmental_only,11,num__precipitation_sum__day1,0.42878589347999013,0.16631550716605267
+acute pancreatitis,environmental_only,12,num__precipitation_sum__mean_2d,0.42876109172951227,0.11774598762266969
+acute pancreatitis,environmental_only,13,num__apparent_temperature_max__day1,0.41707764595453634,0.12106950964189912
+acute pancreatitis,environmental_only,14,num__precipitation_sum__mean_13d,0.4017189647858063,0.14488491541722182
+acute pancreatitis,environmental_only,15,num__precipitation_hours__mean_13d,0.395640867578763,0.14124679153195668
+acute pancreatitis,environmental_only,16,num__precipitation_hours__peak_14d,0.36902906273499697,0.2298048448847513
+acute pancreatitis,environmental_only,17,num__wind_direction_10m_dominant__mean_13d,0.36564682577554164,0.14242385258221887
+acute pancreatitis,environmental_only,18,num__precipitation_sum__mean_7d,0.34819244050333087,0.15558950587929513
+acute pancreatitis,environmental_only,19,num__wind_direction_10m_dominant__day1,0.3138559455593892,0.14098338824807988
+acute pancreatitis,environmental_only,20,num__precipitation_hours__day1,0.23712054312931405,0.10291410410567176
+parvovirus enteritis,clinical_only,1,num__hospitalization time (days),2.2470820781377117,0.3900833893020818
+parvovirus enteritis,clinical_only,2,num__body weight,2.1097793341507343,0.5605285864921796
+parvovirus enteritis,clinical_only,3,num__leukocyte count,2.0176456834001253,0.2620680585201951
+parvovirus enteritis,clinical_only,4,cat__neuter status_intact,1.289664867813342,0.5104298189949434
+parvovirus enteritis,clinical_only,5,num__neutrophil count (x 10^9/L),0.7554745171906461,0.28495371484232807
+parvovirus enteritis,clinical_only,6,cat__lymphocyte count interpreatation_lower limit,0.6585633944416438,0.2930016498012401
+parvovirus enteritis,clinical_only,7,num__CREA concentration ,0.6135410243924212,0.48323042665232707
+parvovirus enteritis,clinical_only,8,num__BUN concentration,0.5671077131972743,0.3170360762346166
+parvovirus enteritis,clinical_only,9,num__lymphocyte count,0.5640481095224276,0.2533690644795046
+parvovirus enteritis,clinical_only,10,num__initial hematocrit,0.5575964990718826,0.3106596261114879
+parvovirus enteritis,clinical_only,11,num__Albumin concentration (in g/l),0.5161917725898524,0.5848093468473428
+parvovirus enteritis,clinical_only,12,cat__urban or rural region_city,0.4891579217202772,0.4108798055023575
+parvovirus enteritis,clinical_only,13,cat__BARF diet_Missing,0.3957699332734683,0.24988168924279255
+parvovirus enteritis,clinical_only,14,num__Initial total protein concentration (in g/l),0.3488008772441132,0.20720153975292832
+parvovirus enteritis,clinical_only,15,cat__regularly dewormed_no,0.3228598061292673,0.24592948952911856
+parvovirus enteritis,clinical_only,16,num__K value,0.2782232991389292,0.16359257195304552
+parvovirus enteritis,clinical_only,17,num__Na value,0.25840034181494226,0.18984217501392228
+parvovirus enteritis,clinical_only,18,num__hospitalization time (days)__missing,0.238134853861655,0.17282388457746098
+parvovirus enteritis,clinical_only,19,cat__regularly vaccinated_yes,0.20715433414472334,0.3802045974555719
+parvovirus enteritis,clinical_only,20,cat__urban or rural region_small town,0.20442526970341915,0.2698113608852734
+parvovirus enteritis,combined,1,num__body weight,2.0384051007298796,0.4168343493914244
+parvovirus enteritis,combined,2,num__leukocyte count,1.9160514118621137,0.4143789568983776
+parvovirus enteritis,combined,3,num__hospitalization time (days),1.5377254360780754,0.25086658691280456
+parvovirus enteritis,combined,4,cat__neuter status_intact,1.0030175789420188,0.3488669115886312
+parvovirus enteritis,combined,5,num__surface_pressure_max__day1,0.7483739742179326,0.20363411148526522
+parvovirus enteritis,combined,6,num__neutrophil count (x 10^9/L),0.6643784867792346,0.3507004617988325
+parvovirus enteritis,combined,7,num__wind_direction_10m_dominant__peak_7d,0.48937228661801013,0.25182362917202206
+parvovirus enteritis,combined,8,num__wind_gusts_10m_max__peak_14d,0.47743176408252175,0.16450019610147598
+parvovirus enteritis,combined,9,num__lymphocyte count,0.44683476813943795,0.2600835506614265
+parvovirus enteritis,combined,10,num__CREA concentration ,0.4330623907317882,0.3146110682774954
+parvovirus enteritis,combined,11,num__Albumin concentration (in g/l),0.3887012340489773,0.32348000739354354
+parvovirus enteritis,combined,12,cat__lymphocyte count interpreatation_lower limit,0.3652189227816314,0.20332172124620615
+parvovirus enteritis,combined,13,num__surface_pressure_max__mean_13d,0.32287055961779415,0.1787859715486538
+parvovirus enteritis,combined,14,num__BUN concentration,0.31954290715188927,0.13171761072314994
+parvovirus enteritis,combined,15,num__wind_gusts_10m_max__day1,0.2671973271957852,0.1699459987183116
+parvovirus enteritis,combined,16,num__K value,0.24993578789602905,0.21361240798358325
+parvovirus enteritis,combined,17,num__precipitation_sum__mean_2d,0.23800107220065483,0.1931573185359003
+parvovirus enteritis,combined,18,num__precipitation_sum__mean_13d,0.21927897595513554,0.17766147239576258
+parvovirus enteritis,combined,19,num__wind_direction_10m_dominant__peak_14d,0.20744136093058718,0.32367800925567547
+parvovirus enteritis,combined,20,num__initial hematocrit,0.20534864790564286,0.22551881411334818
+parvovirus enteritis,environmental_only,1,num__daylight_duration__day1,1.2243114309498893,0.418192096938063
+parvovirus enteritis,environmental_only,2,num__wind_direction_10m_dominant__peak_7d,1.1847556762258273,0.4280306592952298
+parvovirus enteritis,environmental_only,3,num__precipitation_sum__mean_2d,1.1405355172377352,0.16285429956056263
+parvovirus enteritis,environmental_only,4,num__precipitation_sum__mean_7d,1.0993182848845002,0.44505203221964607
+parvovirus enteritis,environmental_only,5,num__precipitation_sum__mean_13d,0.8566977846309607,0.13735272251097808
+parvovirus enteritis,environmental_only,6,num__wind_direction_10m_dominant__mean_7d,0.7014693679471045,0.23186605665296312
+parvovirus enteritis,environmental_only,7,num__wind_gusts_10m_max__day1,0.6968679938446807,0.36647294205833536
+parvovirus enteritis,environmental_only,8,num__surface_pressure_max__day1,0.6899942307735177,0.3615147606186139
+parvovirus enteritis,environmental_only,9,num__wind_direction_10m_dominant__peak_14d,0.670719079776503,0.29913199108343336
+parvovirus enteritis,environmental_only,10,num__precipitation_sum__day1,0.6363230080032795,0.31812597152367644
+parvovirus enteritis,environmental_only,11,num__wind_direction_10m_dominant__day1,0.6170256590125579,0.16434373047876977
+parvovirus enteritis,environmental_only,12,num__surface_pressure_max__mean_13d,0.5150104618446768,0.19375514039929076
+parvovirus enteritis,environmental_only,13,num__precipitation_hours__peak_14d,0.4613529584658388,0.4434883712445298
+parvovirus enteritis,environmental_only,14,num__wind_direction_10m_dominant__mean_13d,0.45008601014475697,0.12622447048912708
+parvovirus enteritis,environmental_only,15,num__wind_gusts_10m_max__peak_14d,0.44083185415520826,0.1590396188999527
+parvovirus enteritis,environmental_only,16,num__precipitation_hours__mean_13d,0.4386034730202589,0.15463280405112353
+parvovirus enteritis,environmental_only,17,num__snowfall_sum__mean_13d,0.37803083973792373,0.3934983378167415
+parvovirus enteritis,environmental_only,18,num__wind_gusts_10m_max__mean_13d,0.3680139054078203,0.14388108082554044
+parvovirus enteritis,environmental_only,19,num__apparent_temperature_max__day1,0.3508027239121353,0.1307709637625262
+parvovirus enteritis,environmental_only,20,num__precipitation_sum__peak_14d,0.33524288899354243,0.12549934773063948

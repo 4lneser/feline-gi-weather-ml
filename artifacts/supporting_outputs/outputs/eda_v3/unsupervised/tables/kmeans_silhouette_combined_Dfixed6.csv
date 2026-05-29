@@ -1,0 +1,8 @@
+block,Dtag,n_dim,k,silhouette_score
+combined,Dfixed6,6,2,0.40635838091614973
+combined,Dfixed6,6,3,0.26532405680335236
+combined,Dfixed6,6,4,0.2543771121563298
+combined,Dfixed6,6,5,0.24064470464545504
+combined,Dfixed6,6,6,0.21261371892913664
+combined,Dfixed6,6,7,0.19347642016965313
+combined,Dfixed6,6,8,0.20719785780969713

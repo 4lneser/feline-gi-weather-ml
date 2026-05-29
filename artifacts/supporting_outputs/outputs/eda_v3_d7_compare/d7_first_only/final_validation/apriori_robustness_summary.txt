@@ -1,0 +1,3 @@
+n_stable=0
+n_moderately_sensitive=7
+n_unstable=3

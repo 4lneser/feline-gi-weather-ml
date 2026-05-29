@@ -1,0 +1,21 @@
+\begin{table}[htbp]
+\centering
+\small
+\begin{tabular}{p{0.30\linewidth} p{0.64\linewidth}}
+\toprule
+Component & Specification \\
+\midrule
+data\_slice & Validation fold only (X\_test) per CV fold; not train+validation combined. \\
+explainer & shap.TreeExplainer on fitted fold model. \\
+fold\_statistic & mean(abs(SHAP)) per feature within each fold. \\
+cross\_fold\_aggregation & mean\_abs\_shap and std\_abs\_shap across folds per disease x feature\_block x feature. \\
+ranking\_basis & Descending mean\_abs\_shap within disease x feature\_block (top20 exported). \\
+stability\_spearman & Pairwise Spearman rank correlation across fold pairs on union of top-50 features. \\
+stability\_jaccard10 & Pairwise Jaccard overlap of top-10 feature sets across folds. \\
+stability\_jaccard20 & Pairwise Jaccard overlap of top-20 feature sets across folds. \\
+environmental\_frame & Environmental-only SHAP uses same globally filtered kept\_weather\_numeric frame (31 numeric features in this run). \\
+\bottomrule
+\end{tabular}
+\caption{SHAP computation and stability protocol for fold-wise binary model interpretability.}
+\label{tab:shap_protocol}
+\end{table}

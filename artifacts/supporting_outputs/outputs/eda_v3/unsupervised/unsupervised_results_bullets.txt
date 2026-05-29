@@ -1,0 +1,39 @@
+PHASE 5 — Unsupervised Results (Model-aligned, exploratory)
+
+PCA variance thresholds
+- environmental_only (31 features, kept_weather_numeric): n_pcs_70=7, n_pcs_80=10, n_pcs_90=15; cumulative variance: PC3=0.464, PC6=0.674.
+- clinical_only: n_pcs_70=6, n_pcs_80=9, n_pcs_90=12; cumulative variance: PC3=0.559, PC6=0.724.
+- combined: n_pcs_70=12, n_pcs_80=17, n_pcs_90=21; cumulative variance: PC3=0.382, PC6=0.527.
+
+PC1–PC3 interpretation (top loading patterns)
+- environmental_only:
+  - PC1 is a precipitation burden axis (precipitation_hours/sum means and peaks positive) opposed to pressure (surface_pressure negative).
+  - PC2 is a snowfall axis (snowfall windows positive) opposed to warmer/daylight/wind-direction conditions (apparent_temperature/daylight/wind-direction negative).
+  - PC3 is wind-gust intensity (wind_gusts positive) opposed to precipitation-peak/wind-direction peak patterns (negative).
+- clinical_only:
+  - PC1 is dominated by coordinated missingness indicators for core labs (electrolytes/creatinine/protein missing flags positive), not a pure biology axis.
+  - PC2 contrasts inflammatory/azotemia markers (leukocyte, neutrophil, BUN, albumin positive) versus chloride/sodium (negative).
+  - PC3 reflects protein/hematocrit/body-mass status (albumin, hematocrit, total protein, body weight positive) opposed to BUN/hospitalization burden (negative).
+- combined:
+  - PC1 is again largely a missingness-pattern axis from clinical missing indicators.
+  - PC2 recreates the environmental precipitation-versus-pressure axis.
+  - PC3 recreates snowfall versus warmer/daylight/wind-direction contrast.
+
+KMeans clustering summary (on PCA scores)
+- environmental_only:
+  - Dfixed6: k_best=2, best silhouette=0.254; ARI/NMI at k_best=0.018/0.014 (weak alignment).
+  - D80: k_best=2, best silhouette=0.217; ARI/NMI at k_best=0.017/0.013 (weak alignment).
+- clinical_only:
+  - Dfixed6: k_best=2, best silhouette=0.532; ARI/NMI at k_best=0.098/0.085 (weak-to-moderate separation, still limited diagnosis agreement).
+  - D80: k_best=2, best silhouette=0.480; ARI/NMI at k_best=0.098/0.085.
+- combined:
+  - Dfixed6: k_best=2, best silhouette=0.406; ARI/NMI at k_best=0.094/0.079 (weak alignment).
+  - D80: k_best=2, best silhouette=0.277; ARI/NMI at k_best=0.094/0.079.
+
+Contingency pattern highlights
+- environmental_only k_best clusters remain mixed; both clusters are pancreatitis-heavy and do not isolate a single diagnosis cleanly.
+- clinical_only and combined k_best cluster 0 is pancreatitis-enriched; cluster 1 is gastroenteritis-enriched, but overlap across classes remains substantial.
+
+Interpretation guardrail
+- Unsupervised structure is present (especially clinical signal), but diagnosis alignment is generally weak by ARI/NMI.
+- These are exploratory latent-structure results and should not be interpreted causally.

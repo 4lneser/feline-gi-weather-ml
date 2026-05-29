@@ -1,0 +1,5 @@
+,pred_acute flare-up of triaditis/chronic enteropathy,pred_acute gastroenteritis,pred_acute pancreatitis,pred_parvovirus enteritis
+true_acute flare-up of triaditis/chronic enteropathy,5,1,11,1
+true_acute gastroenteritis,3,3,5,1
+true_acute pancreatitis,8,1,16,0
+true_parvovirus enteritis,1,1,2,4

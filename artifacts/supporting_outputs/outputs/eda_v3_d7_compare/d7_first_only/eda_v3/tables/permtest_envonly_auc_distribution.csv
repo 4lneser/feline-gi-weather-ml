@@ -1,0 +1,801 @@
+disease,perm_idx,perm_mean_auc
+acute flare-up of triaditis/chronic enteropathy,1,0.4819145500131892
+acute flare-up of triaditis/chronic enteropathy,2,0.4451782626282208
+acute flare-up of triaditis/chronic enteropathy,3,0.5269324713748318
+acute flare-up of triaditis/chronic enteropathy,4,0.4748819259033962
+acute flare-up of triaditis/chronic enteropathy,5,0.5575994332474018
+acute flare-up of triaditis/chronic enteropathy,6,0.47844250433092494
+acute flare-up of triaditis/chronic enteropathy,7,0.5650902082932212
+acute flare-up of triaditis/chronic enteropathy,8,0.5446802758911222
+acute flare-up of triaditis/chronic enteropathy,9,0.5233715355922093
+acute flare-up of triaditis/chronic enteropathy,10,0.5501091411363273
+acute flare-up of triaditis/chronic enteropathy,11,0.44215825271144416
+acute flare-up of triaditis/chronic enteropathy,12,0.519819340632175
+acute flare-up of triaditis/chronic enteropathy,13,0.4845276269341685
+acute flare-up of triaditis/chronic enteropathy,14,0.5944857152274486
+acute flare-up of triaditis/chronic enteropathy,15,0.44053410225948453
+acute flare-up of triaditis/chronic enteropathy,16,0.5691741006204989
+acute flare-up of triaditis/chronic enteropathy,17,0.54964368033848
+acute flare-up of triaditis/chronic enteropathy,18,0.5340948409042557
+acute flare-up of triaditis/chronic enteropathy,19,0.5667102873445584
+acute flare-up of triaditis/chronic enteropathy,20,0.459650472701147
+acute flare-up of triaditis/chronic enteropathy,21,0.5202200732495739
+acute flare-up of triaditis/chronic enteropathy,22,0.45013410912149154
+acute flare-up of triaditis/chronic enteropathy,23,0.5426908265385644
+acute flare-up of triaditis/chronic enteropathy,24,0.37529207584076985
+acute flare-up of triaditis/chronic enteropathy,25,0.5598466140198142
+acute flare-up of triaditis/chronic enteropathy,26,0.5275832048797263
+acute flare-up of triaditis/chronic enteropathy,27,0.501181790734637
+acute flare-up of triaditis/chronic enteropathy,28,0.5041046348515693
+acute flare-up of triaditis/chronic enteropathy,29,0.5447300369423133
+acute flare-up of triaditis/chronic enteropathy,30,0.48133651640898023
+acute flare-up of triaditis/chronic enteropathy,31,0.4927280409545247
+acute flare-up of triaditis/chronic enteropathy,32,0.3785246212612239
+acute flare-up of triaditis/chronic enteropathy,33,0.50510853460136
+acute flare-up of triaditis/chronic enteropathy,34,0.44234499647334796
+acute flare-up of triaditis/chronic enteropathy,35,0.503773367153535
+acute flare-up of triaditis/chronic enteropathy,36,0.4954898138034659
+acute flare-up of triaditis/chronic enteropathy,37,0.40962217851869165
+acute flare-up of triaditis/chronic enteropathy,38,0.518391931005966
+acute flare-up of triaditis/chronic enteropathy,39,0.4999567804012159
+acute flare-up of triaditis/chronic enteropathy,40,0.48079971939934624
+acute flare-up of triaditis/chronic enteropathy,41,0.4009609986692559
+acute flare-up of triaditis/chronic enteropathy,42,0.5121884177617998
+acute flare-up of triaditis/chronic enteropathy,43,0.4644883770824258
+acute flare-up of triaditis/chronic enteropathy,44,0.5389986302913481
+acute flare-up of triaditis/chronic enteropathy,45,0.5044050531283559
+acute flare-up of triaditis/chronic enteropathy,46,0.5284914713208135
+acute flare-up of triaditis/chronic enteropathy,47,0.4295168214392655
+acute flare-up of triaditis/chronic enteropathy,48,0.4934954258571297
+acute flare-up of triaditis/chronic enteropathy,49,0.4783470918157368
+acute flare-up of triaditis/chronic enteropathy,50,0.5823164418380159
+acute flare-up of triaditis/chronic enteropathy,51,0.4340001825105613
+acute flare-up of triaditis/chronic enteropathy,52,0.49665385481395363
+acute flare-up of triaditis/chronic enteropathy,53,0.39964255429306533
+acute flare-up of triaditis/chronic enteropathy,54,0.42913592913478915
+acute flare-up of triaditis/chronic enteropathy,55,0.5236174989300129
+acute flare-up of triaditis/chronic enteropathy,56,0.5077437538438185
+acute flare-up of triaditis/chronic enteropathy,57,0.47506452616363254
+acute flare-up of triaditis/chronic enteropathy,58,0.465109836423923
+acute flare-up of triaditis/chronic enteropathy,59,0.5579655899815739
+acute flare-up of triaditis/chronic enteropathy,60,0.606466269356295
+acute flare-up of triaditis/chronic enteropathy,61,0.570950119955733
+acute flare-up of triaditis/chronic enteropathy,62,0.5135716939508774
+acute flare-up of triaditis/chronic enteropathy,63,0.3925746273514329
+acute flare-up of triaditis/chronic enteropathy,64,0.3813375019707917
+acute flare-up of triaditis/chronic enteropathy,65,0.5238787819619695
+acute flare-up of triaditis/chronic enteropathy,66,0.5660022440732713
+acute flare-up of triaditis/chronic enteropathy,67,0.4287887207179022
+acute flare-up of triaditis/chronic enteropathy,68,0.4663336894927072
+acute flare-up of triaditis/chronic enteropathy,69,0.487399676707151
+acute flare-up of triaditis/chronic enteropathy,70,0.48020585495930346
+acute flare-up of triaditis/chronic enteropathy,71,0.5354976385273985
+acute flare-up of triaditis/chronic enteropathy,72,0.44668735158313966
+acute flare-up of triaditis/chronic enteropathy,73,0.5697669954708845
+acute flare-up of triaditis/chronic enteropathy,74,0.5005861657722124
+acute flare-up of triaditis/chronic enteropathy,75,0.5265604729542677
+acute flare-up of triaditis/chronic enteropathy,76,0.46335294299901086
+acute flare-up of triaditis/chronic enteropathy,77,0.49377605845690953
+acute flare-up of triaditis/chronic enteropathy,78,0.4528403035761192
+acute flare-up of triaditis/chronic enteropathy,79,0.5208644150315808
+acute flare-up of triaditis/chronic enteropathy,80,0.5637572478605755
+acute flare-up of triaditis/chronic enteropathy,81,0.4715215787954611
+acute flare-up of triaditis/chronic enteropathy,82,0.43337262551293626
+acute flare-up of triaditis/chronic enteropathy,83,0.48115332388667065
+acute flare-up of triaditis/chronic enteropathy,84,0.4504636444011119
+acute flare-up of triaditis/chronic enteropathy,85,0.49186654506763955
+acute flare-up of triaditis/chronic enteropathy,86,0.5339161598207052
+acute flare-up of triaditis/chronic enteropathy,87,0.45266880845623303
+acute flare-up of triaditis/chronic enteropathy,88,0.43311866538884114
+acute flare-up of triaditis/chronic enteropathy,89,0.47306104891304823
+acute flare-up of triaditis/chronic enteropathy,90,0.4587610072458734
+acute flare-up of triaditis/chronic enteropathy,91,0.48681996535510486
+acute flare-up of triaditis/chronic enteropathy,92,0.5561952029764017
+acute flare-up of triaditis/chronic enteropathy,93,0.5309729216956478
+acute flare-up of triaditis/chronic enteropathy,94,0.4566902044290755
+acute flare-up of triaditis/chronic enteropathy,95,0.5383888213825925
+acute flare-up of triaditis/chronic enteropathy,96,0.49278373001847947
+acute flare-up of triaditis/chronic enteropathy,97,0.5903307740629973
+acute flare-up of triaditis/chronic enteropathy,98,0.48680876955150243
+acute flare-up of triaditis/chronic enteropathy,99,0.5682619697390644
+acute flare-up of triaditis/chronic enteropathy,100,0.4994825691849517
+acute flare-up of triaditis/chronic enteropathy,101,0.40782404861421995
+acute flare-up of triaditis/chronic enteropathy,102,0.5412660909800904
+acute flare-up of triaditis/chronic enteropathy,103,0.4821142038337852
+acute flare-up of triaditis/chronic enteropathy,104,0.584803628433494
+acute flare-up of triaditis/chronic enteropathy,105,0.5754229021666246
+acute flare-up of triaditis/chronic enteropathy,106,0.4757775335329226
+acute flare-up of triaditis/chronic enteropathy,107,0.5149973899862477
+acute flare-up of triaditis/chronic enteropathy,108,0.42742136471483283
+acute flare-up of triaditis/chronic enteropathy,109,0.47497153728934494
+acute flare-up of triaditis/chronic enteropathy,110,0.43046466555248103
+acute flare-up of triaditis/chronic enteropathy,111,0.4425797084475359
+acute flare-up of triaditis/chronic enteropathy,112,0.5403062154514262
+acute flare-up of triaditis/chronic enteropathy,113,0.5475665986811972
+acute flare-up of triaditis/chronic enteropathy,114,0.48733818304412857
+acute flare-up of triaditis/chronic enteropathy,115,0.4030137520340329
+acute flare-up of triaditis/chronic enteropathy,116,0.5177573773170171
+acute flare-up of triaditis/chronic enteropathy,117,0.5551303447358803
+acute flare-up of triaditis/chronic enteropathy,118,0.5306278543323151
+acute flare-up of triaditis/chronic enteropathy,119,0.5230245436824384
+acute flare-up of triaditis/chronic enteropathy,120,0.5615851897778581
+acute flare-up of triaditis/chronic enteropathy,121,0.4994330225068344
+acute flare-up of triaditis/chronic enteropathy,122,0.5301209713326962
+acute flare-up of triaditis/chronic enteropathy,123,0.4856028999440847
+acute flare-up of triaditis/chronic enteropathy,124,0.4731757061885535
+acute flare-up of triaditis/chronic enteropathy,125,0.5242014954536518
+acute flare-up of triaditis/chronic enteropathy,126,0.5160869732593542
+acute flare-up of triaditis/chronic enteropathy,127,0.5105455585868923
+acute flare-up of triaditis/chronic enteropathy,128,0.5564139420521064
+acute flare-up of triaditis/chronic enteropathy,129,0.49510725533170125
+acute flare-up of triaditis/chronic enteropathy,130,0.5629711658596843
+acute flare-up of triaditis/chronic enteropathy,131,0.5006314041683724
+acute flare-up of triaditis/chronic enteropathy,132,0.5159306799135991
+acute flare-up of triaditis/chronic enteropathy,133,0.4992289625295158
+acute flare-up of triaditis/chronic enteropathy,134,0.4821089941582377
+acute flare-up of triaditis/chronic enteropathy,135,0.665844362291159
+acute flare-up of triaditis/chronic enteropathy,136,0.5141029669812159
+acute flare-up of triaditis/chronic enteropathy,137,0.4324924006386972
+acute flare-up of triaditis/chronic enteropathy,138,0.5480268439576836
+acute flare-up of triaditis/chronic enteropathy,139,0.3665412522612704
+acute flare-up of triaditis/chronic enteropathy,140,0.45366761073330314
+acute flare-up of triaditis/chronic enteropathy,141,0.45664073882972483
+acute flare-up of triaditis/chronic enteropathy,142,0.3914671872977521
+acute flare-up of triaditis/chronic enteropathy,143,0.5697011758596033
+acute flare-up of triaditis/chronic enteropathy,144,0.45046366269074917
+acute flare-up of triaditis/chronic enteropathy,145,0.5789761424991604
+acute flare-up of triaditis/chronic enteropathy,146,0.5816044836065786
+acute flare-up of triaditis/chronic enteropathy,147,0.4670416820091674
+acute flare-up of triaditis/chronic enteropathy,148,0.43557939466302065
+acute flare-up of triaditis/chronic enteropathy,149,0.5782607994842037
+acute flare-up of triaditis/chronic enteropathy,150,0.49554412253749885
+acute flare-up of triaditis/chronic enteropathy,151,0.45027338200843775
+acute flare-up of triaditis/chronic enteropathy,152,0.5105336815407802
+acute flare-up of triaditis/chronic enteropathy,153,0.5452307781537747
+acute flare-up of triaditis/chronic enteropathy,154,0.5144013820944282
+acute flare-up of triaditis/chronic enteropathy,155,0.44151460254721125
+acute flare-up of triaditis/chronic enteropathy,156,0.5591463215147426
+acute flare-up of triaditis/chronic enteropathy,157,0.5477507668588213
+acute flare-up of triaditis/chronic enteropathy,158,0.5601285799885288
+acute flare-up of triaditis/chronic enteropathy,159,0.5226050834894119
+acute flare-up of triaditis/chronic enteropathy,160,0.45535139756834236
+acute flare-up of triaditis/chronic enteropathy,161,0.4947794362882082
+acute flare-up of triaditis/chronic enteropathy,162,0.4483579432936652
+acute flare-up of triaditis/chronic enteropathy,163,0.501280361505676
+acute flare-up of triaditis/chronic enteropathy,164,0.46944720125247946
+acute flare-up of triaditis/chronic enteropathy,165,0.5488915945097895
+acute flare-up of triaditis/chronic enteropathy,166,0.5777030555782768
+acute flare-up of triaditis/chronic enteropathy,167,0.5161006946320968
+acute flare-up of triaditis/chronic enteropathy,168,0.5216651248843662
+acute flare-up of triaditis/chronic enteropathy,169,0.5160597754322398
+acute flare-up of triaditis/chronic enteropathy,170,0.5006373332558433
+acute flare-up of triaditis/chronic enteropathy,171,0.5169503514678953
+acute flare-up of triaditis/chronic enteropathy,172,0.48868538579977533
+acute flare-up of triaditis/chronic enteropathy,173,0.4746821669914068
+acute flare-up of triaditis/chronic enteropathy,174,0.5071716945072547
+acute flare-up of triaditis/chronic enteropathy,175,0.554870250088576
+acute flare-up of triaditis/chronic enteropathy,176,0.5597486887986619
+acute flare-up of triaditis/chronic enteropathy,177,0.5540728450258925
+acute flare-up of triaditis/chronic enteropathy,178,0.41072041417589633
+acute flare-up of triaditis/chronic enteropathy,179,0.6284696353949467
+acute flare-up of triaditis/chronic enteropathy,180,0.5572147995077253
+acute flare-up of triaditis/chronic enteropathy,181,0.4931356117395952
+acute flare-up of triaditis/chronic enteropathy,182,0.5686741414666858
+acute flare-up of triaditis/chronic enteropathy,183,0.491531587225517
+acute flare-up of triaditis/chronic enteropathy,184,0.5157820844576154
+acute flare-up of triaditis/chronic enteropathy,185,0.4594568909886041
+acute flare-up of triaditis/chronic enteropathy,186,0.5017596855675909
+acute flare-up of triaditis/chronic enteropathy,187,0.5196818007019164
+acute flare-up of triaditis/chronic enteropathy,188,0.5636202822148192
+acute flare-up of triaditis/chronic enteropathy,189,0.4695430599185988
+acute flare-up of triaditis/chronic enteropathy,190,0.4689598816069992
+acute flare-up of triaditis/chronic enteropathy,191,0.4839154582639772
+acute flare-up of triaditis/chronic enteropathy,192,0.4883038971282094
+acute flare-up of triaditis/chronic enteropathy,193,0.47925644963074543
+acute flare-up of triaditis/chronic enteropathy,194,0.5300610281352514
+acute flare-up of triaditis/chronic enteropathy,195,0.4614589138533704
+acute flare-up of triaditis/chronic enteropathy,196,0.43347385145683726
+acute flare-up of triaditis/chronic enteropathy,197,0.5144334042300304
+acute flare-up of triaditis/chronic enteropathy,198,0.49397599068117265
+acute flare-up of triaditis/chronic enteropathy,199,0.5169513544959561
+acute flare-up of triaditis/chronic enteropathy,200,0.5026455859007871
+acute gastroenteritis,1,0.545747295651551
+acute gastroenteritis,2,0.5373322442448414
+acute gastroenteritis,3,0.529831252243533
+acute gastroenteritis,4,0.5461257050966799
+acute gastroenteritis,5,0.4434467739935587
+acute gastroenteritis,6,0.5049098966699819
+acute gastroenteritis,7,0.5534704626291262
+acute gastroenteritis,8,0.5595145168064148
+acute gastroenteritis,9,0.5128044106092137
+acute gastroenteritis,10,0.484521846440005
+acute gastroenteritis,11,0.494124151811229
+acute gastroenteritis,12,0.5549970882832518
+acute gastroenteritis,13,0.5920857544208273
+acute gastroenteritis,14,0.5397581530365965
+acute gastroenteritis,15,0.5984887820964678
+acute gastroenteritis,16,0.5690048625976744
+acute gastroenteritis,17,0.43946501143124783
+acute gastroenteritis,18,0.44714110630987863
+acute gastroenteritis,19,0.5456771293549408
+acute gastroenteritis,20,0.5289866250928814
+acute gastroenteritis,21,0.4481000841568886
+acute gastroenteritis,22,0.46234311184791366
+acute gastroenteritis,23,0.5813660747317795
+acute gastroenteritis,24,0.5138130044558616
+acute gastroenteritis,25,0.5544075242014394
+acute gastroenteritis,26,0.43411415179609253
+acute gastroenteritis,27,0.492860239533709
+acute gastroenteritis,28,0.41634309841404005
+acute gastroenteritis,29,0.5114291329585446
+acute gastroenteritis,30,0.4979249558796598
+acute gastroenteritis,31,0.4974394452507661
+acute gastroenteritis,32,0.4925596990610467
+acute gastroenteritis,33,0.34703587120466917
+acute gastroenteritis,34,0.49522044055717523
+acute gastroenteritis,35,0.5432582359543143
+acute gastroenteritis,36,0.4029179757157929
+acute gastroenteritis,37,0.504879182426398
+acute gastroenteritis,38,0.5141834005880901
+acute gastroenteritis,39,0.4271892390740952
+acute gastroenteritis,40,0.5007962099628767
+acute gastroenteritis,41,0.5140271819683585
+acute gastroenteritis,42,0.48904581903769007
+acute gastroenteritis,43,0.5821211224341081
+acute gastroenteritis,44,0.3970960613563277
+acute gastroenteritis,45,0.4190624679874279
+acute gastroenteritis,46,0.5321508282325275
+acute gastroenteritis,47,0.543177952228239
+acute gastroenteritis,48,0.5193497413892151
+acute gastroenteritis,49,0.4828185703185703
+acute gastroenteritis,50,0.5538369079087936
+acute gastroenteritis,51,0.5239599970260348
+acute gastroenteritis,52,0.4870469280367099
+acute gastroenteritis,53,0.6160072106111087
+acute gastroenteritis,54,0.5623394102757622
+acute gastroenteritis,55,0.4754611360336984
+acute gastroenteritis,56,0.6051622510721857
+acute gastroenteritis,57,0.5839111295547584
+acute gastroenteritis,58,0.5024104819637627
+acute gastroenteritis,59,0.44378114649123057
+acute gastroenteritis,60,0.4893013416873854
+acute gastroenteritis,61,0.49618977861294644
+acute gastroenteritis,62,0.5132103853450505
+acute gastroenteritis,63,0.47189338019590127
+acute gastroenteritis,64,0.44313495119521307
+acute gastroenteritis,65,0.446398942734362
+acute gastroenteritis,66,0.5565681026792139
+acute gastroenteritis,67,0.4918659845210899
+acute gastroenteritis,68,0.5113673306702692
+acute gastroenteritis,69,0.4304149418675228
+acute gastroenteritis,70,0.5592041939216472
+acute gastroenteritis,71,0.5903978243978244
+acute gastroenteritis,72,0.5886721453792416
+acute gastroenteritis,73,0.40325894270338714
+acute gastroenteritis,74,0.5079823330549923
+acute gastroenteritis,75,0.4380782627263121
+acute gastroenteritis,76,0.484369914287316
+acute gastroenteritis,77,0.4725648229194116
+acute gastroenteritis,78,0.5579018947646398
+acute gastroenteritis,79,0.5307880096628106
+acute gastroenteritis,80,0.43166011648404795
+acute gastroenteritis,81,0.39470649764485577
+acute gastroenteritis,82,0.5121547049154758
+acute gastroenteritis,83,0.41301732581144346
+acute gastroenteritis,84,0.5616303167482413
+acute gastroenteritis,85,0.501136672574581
+acute gastroenteritis,86,0.464848100134425
+acute gastroenteritis,87,0.5468424225833699
+acute gastroenteritis,88,0.43194437426891164
+acute gastroenteritis,89,0.47573752777834405
+acute gastroenteritis,90,0.4653679098679098
+acute gastroenteritis,91,0.5017747818969983
+acute gastroenteritis,92,0.5396651634849555
+acute gastroenteritis,93,0.557420857446575
+acute gastroenteritis,94,0.5513632500619294
+acute gastroenteritis,95,0.5272997592470714
+acute gastroenteritis,96,0.5673599075597109
+acute gastroenteritis,97,0.49469330589378613
+acute gastroenteritis,98,0.40806785092238396
+acute gastroenteritis,99,0.4657820911513186
+acute gastroenteritis,100,0.5065861748678098
+acute gastroenteritis,101,0.5836061977238447
+acute gastroenteritis,102,0.4880709780428001
+acute gastroenteritis,103,0.5610245330800887
+acute gastroenteritis,104,0.5344889560575139
+acute gastroenteritis,105,0.4706624759939263
+acute gastroenteritis,106,0.4839249995903714
+acute gastroenteritis,107,0.3913982556185097
+acute gastroenteritis,108,0.5197509849164292
+acute gastroenteritis,109,0.5340809633084882
+acute gastroenteritis,110,0.4718056785981314
+acute gastroenteritis,111,0.43603219935993043
+acute gastroenteritis,112,0.5219869438569897
+acute gastroenteritis,113,0.5513314749255491
+acute gastroenteritis,114,0.4305388633956212
+acute gastroenteritis,115,0.40216326882993547
+acute gastroenteritis,116,0.546718023836396
+acute gastroenteritis,117,0.5174646059215673
+acute gastroenteritis,118,0.4196098696284601
+acute gastroenteritis,119,0.5474579834628868
+acute gastroenteritis,120,0.5369005905317034
+acute gastroenteritis,121,0.48951923895721566
+acute gastroenteritis,122,0.4932600031441862
+acute gastroenteritis,123,0.5332861755952766
+acute gastroenteritis,124,0.5178263506547852
+acute gastroenteritis,125,0.43891621400764624
+acute gastroenteritis,126,0.449190893140473
+acute gastroenteritis,127,0.47705923459530564
+acute gastroenteritis,128,0.5311240526600004
+acute gastroenteritis,129,0.462365193286246
+acute gastroenteritis,130,0.512545528939146
+acute gastroenteritis,131,0.3590212403853378
+acute gastroenteritis,132,0.5008391703491819
+acute gastroenteritis,133,0.5764788656200002
+acute gastroenteritis,134,0.403409380159167
+acute gastroenteritis,135,0.4947856861999541
+acute gastroenteritis,136,0.5045952327977054
+acute gastroenteritis,137,0.5132001479837218
+acute gastroenteritis,138,0.41336049116270634
+acute gastroenteritis,139,0.46525149921525494
+acute gastroenteritis,140,0.3710940593168484
+acute gastroenteritis,141,0.44689190548014074
+acute gastroenteritis,142,0.4594131278426965
+acute gastroenteritis,143,0.5044477966834451
+acute gastroenteritis,144,0.4799727067600884
+acute gastroenteritis,145,0.49501710718026953
+acute gastroenteritis,146,0.41841871515908025
+acute gastroenteritis,147,0.5283169820455553
+acute gastroenteritis,148,0.41903011959731257
+acute gastroenteritis,149,0.4872708057582006
+acute gastroenteritis,150,0.3643842533525724
+acute gastroenteritis,151,0.46321129318437276
+acute gastroenteritis,152,0.5339368995168108
+acute gastroenteritis,153,0.4902342428813017
+acute gastroenteritis,154,0.5794294795082051
+acute gastroenteritis,155,0.4768715197738505
+acute gastroenteritis,156,0.45468155860664183
+acute gastroenteritis,157,0.380346650555218
+acute gastroenteritis,158,0.5002537902359582
+acute gastroenteritis,159,0.4383027832965255
+acute gastroenteritis,160,0.5693360626925542
+acute gastroenteritis,161,0.45819504970498703
+acute gastroenteritis,162,0.4812787807985887
+acute gastroenteritis,163,0.4575133070211101
+acute gastroenteritis,164,0.6328757066240487
+acute gastroenteritis,165,0.5623211796139402
+acute gastroenteritis,166,0.5675422547704226
+acute gastroenteritis,167,0.49672863034460857
+acute gastroenteritis,168,0.4287205264722999
+acute gastroenteritis,169,0.5518470033733941
+acute gastroenteritis,170,0.5252849966623618
+acute gastroenteritis,171,0.6248105462791956
+acute gastroenteritis,172,0.39560519176223946
+acute gastroenteritis,173,0.382494502775035
+acute gastroenteritis,174,0.5269322328294219
+acute gastroenteritis,175,0.49767424167284113
+acute gastroenteritis,176,0.5569880220285326
+acute gastroenteritis,177,0.5786451347634503
+acute gastroenteritis,178,0.40862438827606445
+acute gastroenteritis,179,0.38744671344707104
+acute gastroenteritis,180,0.45121024945868654
+acute gastroenteritis,181,0.46068782737681363
+acute gastroenteritis,182,0.5625442848556056
+acute gastroenteritis,183,0.444815333837408
+acute gastroenteritis,184,0.4824218479932766
+acute gastroenteritis,185,0.4796321591877858
+acute gastroenteritis,186,0.524497782726339
+acute gastroenteritis,187,0.5392330150996452
+acute gastroenteritis,188,0.5236059903238489
+acute gastroenteritis,189,0.5771725003312174
+acute gastroenteritis,190,0.5551352100055305
+acute gastroenteritis,191,0.573824108397938
+acute gastroenteritis,192,0.44392759809303445
+acute gastroenteritis,193,0.48173875561234764
+acute gastroenteritis,194,0.5596623325880217
+acute gastroenteritis,195,0.5238172969174288
+acute gastroenteritis,196,0.542521034478977
+acute gastroenteritis,197,0.4634343434343434
+acute gastroenteritis,198,0.5106846323223189
+acute gastroenteritis,199,0.5644068695793768
+acute gastroenteritis,200,0.5279582409174954
+acute pancreatitis,1,0.44604490752595805
+acute pancreatitis,2,0.5137319118233803
+acute pancreatitis,3,0.4569127743537681
+acute pancreatitis,4,0.46615202047732274
+acute pancreatitis,5,0.45882570882587015
+acute pancreatitis,6,0.45345788139817333
+acute pancreatitis,7,0.526597831776253
+acute pancreatitis,8,0.4072410620149908
+acute pancreatitis,9,0.4971620797042663
+acute pancreatitis,10,0.651516477679976
+acute pancreatitis,11,0.44795015677722444
+acute pancreatitis,12,0.4942904089629236
+acute pancreatitis,13,0.5401519741396426
+acute pancreatitis,14,0.5369907921000896
+acute pancreatitis,15,0.556823265295026
+acute pancreatitis,16,0.5397504364005652
+acute pancreatitis,17,0.5027720849506563
+acute pancreatitis,18,0.5673222560214429
+acute pancreatitis,19,0.4884764502786183
+acute pancreatitis,20,0.521361013999585
+acute pancreatitis,21,0.5922123516073096
+acute pancreatitis,22,0.4797746241098855
+acute pancreatitis,23,0.6372946759361906
+acute pancreatitis,24,0.46501912748132124
+acute pancreatitis,25,0.4899390289024435
+acute pancreatitis,26,0.5119305467840813
+acute pancreatitis,27,0.5337013191080513
+acute pancreatitis,28,0.46889501753117313
+acute pancreatitis,29,0.5136791042505328
+acute pancreatitis,30,0.49348633741854864
+acute pancreatitis,31,0.5689041857480708
+acute pancreatitis,32,0.4767080921330676
+acute pancreatitis,33,0.5754211196866594
+acute pancreatitis,34,0.5374359582121085
+acute pancreatitis,35,0.4909945062311422
+acute pancreatitis,36,0.549121522917532
+acute pancreatitis,37,0.4143013764103481
+acute pancreatitis,38,0.4982607257141418
+acute pancreatitis,39,0.4345722154580621
+acute pancreatitis,40,0.4914240812521296
+acute pancreatitis,41,0.437128713774461
+acute pancreatitis,42,0.6004380609821792
+acute pancreatitis,43,0.5529040010813409
+acute pancreatitis,44,0.5067228957428445
+acute pancreatitis,45,0.474992222419123
+acute pancreatitis,46,0.4518262210267222
+acute pancreatitis,47,0.49562650067737907
+acute pancreatitis,48,0.5760095778220904
+acute pancreatitis,49,0.5012683241382401
+acute pancreatitis,50,0.5368679059812065
+acute pancreatitis,51,0.47313522165568944
+acute pancreatitis,52,0.41171748671748676
+acute pancreatitis,53,0.49397678342122786
+acute pancreatitis,54,0.5867292864067505
+acute pancreatitis,55,0.44551758492942095
+acute pancreatitis,56,0.45453864758212587
+acute pancreatitis,57,0.5270930309131348
+acute pancreatitis,58,0.49304440193955645
+acute pancreatitis,59,0.4896504258991804
+acute pancreatitis,60,0.5163241143461412
+acute pancreatitis,61,0.507047684903697
+acute pancreatitis,62,0.5072409895373282
+acute pancreatitis,63,0.4181349588454852
+acute pancreatitis,64,0.4899124056825602
+acute pancreatitis,65,0.5844916819702294
+acute pancreatitis,66,0.5769614601796025
+acute pancreatitis,67,0.470399226786952
+acute pancreatitis,68,0.45353543335039753
+acute pancreatitis,69,0.5073911183007602
+acute pancreatitis,70,0.4432925783636378
+acute pancreatitis,71,0.5169144576132184
+acute pancreatitis,72,0.5695186569290984
+acute pancreatitis,73,0.5706976186248627
+acute pancreatitis,74,0.4686910956312177
+acute pancreatitis,75,0.46945170513230144
+acute pancreatitis,76,0.45757240889827216
+acute pancreatitis,77,0.5730696208712279
+acute pancreatitis,78,0.5040349518913348
+acute pancreatitis,79,0.5223712798113528
+acute pancreatitis,80,0.5206967227880925
+acute pancreatitis,81,0.5363436656822916
+acute pancreatitis,82,0.49755119907558926
+acute pancreatitis,83,0.4662108619316857
+acute pancreatitis,84,0.5313681548802363
+acute pancreatitis,85,0.48965180921321283
+acute pancreatitis,86,0.5350420248526795
+acute pancreatitis,87,0.42600539444723884
+acute pancreatitis,88,0.40003178623460733
+acute pancreatitis,89,0.4238893081642452
+acute pancreatitis,90,0.424419029704744
+acute pancreatitis,91,0.44972064984142274
+acute pancreatitis,92,0.5822266139657444
+acute pancreatitis,93,0.4438384108185599
+acute pancreatitis,94,0.5335321869993653
+acute pancreatitis,95,0.41580110966893064
+acute pancreatitis,96,0.5294276046557792
+acute pancreatitis,97,0.47534660368870896
+acute pancreatitis,98,0.4172920381226029
+acute pancreatitis,99,0.4964795404342442
+acute pancreatitis,100,0.44389851986179085
+acute pancreatitis,101,0.575178941775922
+acute pancreatitis,102,0.5407306655181777
+acute pancreatitis,103,0.5102390622864597
+acute pancreatitis,104,0.5924394095822667
+acute pancreatitis,105,0.5417097385234995
+acute pancreatitis,106,0.5516169614961886
+acute pancreatitis,107,0.48886357216588283
+acute pancreatitis,108,0.49479714583588397
+acute pancreatitis,109,0.5044473045990074
+acute pancreatitis,110,0.49302295167458066
+acute pancreatitis,111,0.4435613219006484
+acute pancreatitis,112,0.5824319885661788
+acute pancreatitis,113,0.5093285225661429
+acute pancreatitis,114,0.4782541552040439
+acute pancreatitis,115,0.3953744193860473
+acute pancreatitis,116,0.5028472487741494
+acute pancreatitis,117,0.5681694236042063
+acute pancreatitis,118,0.4375614105015739
+acute pancreatitis,119,0.45111318889096663
+acute pancreatitis,120,0.47142499092119516
+acute pancreatitis,121,0.491625155360824
+acute pancreatitis,122,0.43801105472234847
+acute pancreatitis,123,0.47170856521633064
+acute pancreatitis,124,0.5378132744605469
+acute pancreatitis,125,0.5083142218480564
+acute pancreatitis,126,0.48200805804924796
+acute pancreatitis,127,0.5284358989505188
+acute pancreatitis,128,0.5372171566335329
+acute pancreatitis,129,0.42707032445476384
+acute pancreatitis,130,0.5660614767790952
+acute pancreatitis,131,0.4548035276906782
+acute pancreatitis,132,0.49911046032431833
+acute pancreatitis,133,0.4814871731976179
+acute pancreatitis,134,0.42550961771422624
+acute pancreatitis,135,0.44111504253167355
+acute pancreatitis,136,0.5645906292263233
+acute pancreatitis,137,0.4735167459798785
+acute pancreatitis,138,0.45479896197732045
+acute pancreatitis,139,0.5391604891186635
+acute pancreatitis,140,0.4334133784447256
+acute pancreatitis,141,0.46788979304927525
+acute pancreatitis,142,0.4496633372686995
+acute pancreatitis,143,0.5258895589784243
+acute pancreatitis,144,0.4581434106434106
+acute pancreatitis,145,0.5209365564213224
+acute pancreatitis,146,0.4692625728688447
+acute pancreatitis,147,0.551631730102258
+acute pancreatitis,148,0.4587942762494177
+acute pancreatitis,149,0.5076959317919082
+acute pancreatitis,150,0.45007639826060875
+acute pancreatitis,151,0.4943197296630183
+acute pancreatitis,152,0.5443606295852885
+acute pancreatitis,153,0.48059514646673085
+acute pancreatitis,154,0.3853317763394785
+acute pancreatitis,155,0.47711333037414044
+acute pancreatitis,156,0.48105333683905105
+acute pancreatitis,157,0.45751170269286207
+acute pancreatitis,158,0.49380113304677414
+acute pancreatitis,159,0.5326046245954552
+acute pancreatitis,160,0.4820532361104443
+acute pancreatitis,161,0.49502573055940163
+acute pancreatitis,162,0.40054023461918203
+acute pancreatitis,163,0.49435525379861023
+acute pancreatitis,164,0.5129053715294128
+acute pancreatitis,165,0.5842043908463758
+acute pancreatitis,166,0.5025644024118001
+acute pancreatitis,167,0.5059271666725083
+acute pancreatitis,168,0.4796173892429082
+acute pancreatitis,169,0.48420687810060625
+acute pancreatitis,170,0.489235509419215
+acute pancreatitis,171,0.3499131259829456
+acute pancreatitis,172,0.4942246062782997
+acute pancreatitis,173,0.4374797816017706
+acute pancreatitis,174,0.5179958819123155
+acute pancreatitis,175,0.474903039278324
+acute pancreatitis,176,0.5562147048806686
+acute pancreatitis,177,0.519298157366662
+acute pancreatitis,178,0.48198675787677453
+acute pancreatitis,179,0.5260931848596406
+acute pancreatitis,180,0.5288023792483094
+acute pancreatitis,181,0.5176694881044126
+acute pancreatitis,182,0.4199378948030164
+acute pancreatitis,183,0.4265884563075053
+acute pancreatitis,184,0.4774337108482777
+acute pancreatitis,185,0.5247398555433135
+acute pancreatitis,186,0.5611704196339085
+acute pancreatitis,187,0.5037458511142722
+acute pancreatitis,188,0.5507718609990595
+acute pancreatitis,189,0.4952879372240274
+acute pancreatitis,190,0.5092345571334018
+acute pancreatitis,191,0.5390616182886714
+acute pancreatitis,192,0.5179647642404521
+acute pancreatitis,193,0.5342189440113598
+acute pancreatitis,194,0.5309778922935726
+acute pancreatitis,195,0.4767249773242973
+acute pancreatitis,196,0.512341502759053
+acute pancreatitis,197,0.46449735450980567
+acute pancreatitis,198,0.4765758160234898
+acute pancreatitis,199,0.5838278185331541
+acute pancreatitis,200,0.41727598939854726
+parvovirus enteritis,1,0.4560739746663282
+parvovirus enteritis,2,0.42315142180371285
+parvovirus enteritis,3,0.4368088079180358
+parvovirus enteritis,4,0.4924665034170331
+parvovirus enteritis,5,0.5182744448533922
+parvovirus enteritis,6,0.39133665352632585
+parvovirus enteritis,7,0.49782625062475877
+parvovirus enteritis,8,0.5353760814218169
+parvovirus enteritis,9,0.3750934233479755
+parvovirus enteritis,10,0.60652084985787
+parvovirus enteritis,11,0.48035904551663344
+parvovirus enteritis,12,0.49520499108734406
+parvovirus enteritis,13,0.4102182941047004
+parvovirus enteritis,14,0.47697044355880786
+parvovirus enteritis,15,0.4260726561574019
+parvovirus enteritis,16,0.46814100346264087
+parvovirus enteritis,17,0.4362280576566292
+parvovirus enteritis,18,0.5064054364867232
+parvovirus enteritis,19,0.36944316511686365
+parvovirus enteritis,20,0.5384049100655869
+parvovirus enteritis,21,0.431633861324637
+parvovirus enteritis,22,0.51635432695959
+parvovirus enteritis,23,0.6011738165760722
+parvovirus enteritis,24,0.4730535631329282
+parvovirus enteritis,25,0.5131500728549606
+parvovirus enteritis,26,0.5151657389068113
+parvovirus enteritis,27,0.6038019123733409
+parvovirus enteritis,28,0.49615812891099004
+parvovirus enteritis,29,0.4609928690017959
+parvovirus enteritis,30,0.48247623102029225
+parvovirus enteritis,31,0.49363696650758637
+parvovirus enteritis,32,0.48792149724588174
+parvovirus enteritis,33,0.460237499126388
+parvovirus enteritis,34,0.430284142175995
+parvovirus enteritis,35,0.5118189707575855
+parvovirus enteritis,36,0.6318478076359254
+parvovirus enteritis,37,0.5090235888703323
+parvovirus enteritis,38,0.4341620504715742
+parvovirus enteritis,39,0.3441295423825278
+parvovirus enteritis,40,0.45247981800282044
+parvovirus enteritis,41,0.5008884295194409
+parvovirus enteritis,42,0.5488089893645449
+parvovirus enteritis,43,0.5673084969116715
+parvovirus enteritis,44,0.5031700157370655
+parvovirus enteritis,45,0.5641735218958939
+parvovirus enteritis,46,0.4567119146959281
+parvovirus enteritis,47,0.48139038514907434
+parvovirus enteritis,48,0.4971700886126499
+parvovirus enteritis,49,0.640362797347074
+parvovirus enteritis,50,0.5198461493425319
+parvovirus enteritis,51,0.46196078431372556
+parvovirus enteritis,52,0.5573577428860448
+parvovirus enteritis,53,0.48046048635946403
+parvovirus enteritis,54,0.41820628824403216
+parvovirus enteritis,55,0.42900123698310966
+parvovirus enteritis,56,0.5155470874155085
+parvovirus enteritis,57,0.4778480828623087
+parvovirus enteritis,58,0.4072017335018853
+parvovirus enteritis,59,0.5455344837221701
+parvovirus enteritis,60,0.5406993889608445
+parvovirus enteritis,61,0.4621667387426819
+parvovirus enteritis,62,0.4953314857932535
+parvovirus enteritis,63,0.3911661866745725
+parvovirus enteritis,64,0.4660115992382002
+parvovirus enteritis,65,0.6292343761558904
+parvovirus enteritis,66,0.4774871337621134
+parvovirus enteritis,67,0.462132942863937
+parvovirus enteritis,68,0.47779834216342165
+parvovirus enteritis,69,0.5514241809576494
+parvovirus enteritis,70,0.5075081207590617
+parvovirus enteritis,71,0.49328264389210774
+parvovirus enteritis,72,0.5321653970487707
+parvovirus enteritis,73,0.5815847410169911
+parvovirus enteritis,74,0.5257574690860002
+parvovirus enteritis,75,0.47091991755348256
+parvovirus enteritis,76,0.5724445496261447
+parvovirus enteritis,77,0.38449434338248356
+parvovirus enteritis,78,0.494199217651831
+parvovirus enteritis,79,0.5185911058132817
+parvovirus enteritis,80,0.47583749477257625
+parvovirus enteritis,81,0.5178700112315168
+parvovirus enteritis,82,0.4567455665613009
+parvovirus enteritis,83,0.5588444015703903
+parvovirus enteritis,84,0.49674666623489827
+parvovirus enteritis,85,0.44424731940604956
+parvovirus enteritis,86,0.507132765893681
+parvovirus enteritis,87,0.5370756213171074
+parvovirus enteritis,88,0.4665392455621025
+parvovirus enteritis,89,0.5022438282964599
+parvovirus enteritis,90,0.4603626995027993
+parvovirus enteritis,91,0.40385781651931313
+parvovirus enteritis,92,0.5099790297389457
+parvovirus enteritis,93,0.5652167789853035
+parvovirus enteritis,94,0.4407635873694522
+parvovirus enteritis,95,0.5244782803403493
+parvovirus enteritis,96,0.41234205147951786
+parvovirus enteritis,97,0.5666952704484466
+parvovirus enteritis,98,0.6347509378007006
+parvovirus enteritis,99,0.3951736229728144
+parvovirus enteritis,100,0.5162813968939768
+parvovirus enteritis,101,0.5272875044754743
+parvovirus enteritis,102,0.5823584883182407
+parvovirus enteritis,103,0.5465808625100724
+parvovirus enteritis,104,0.5461271948695885
+parvovirus enteritis,105,0.39896074237344076
+parvovirus enteritis,106,0.5583815183665723
+parvovirus enteritis,107,0.4979996269487904
+parvovirus enteritis,108,0.5372064982200928
+parvovirus enteritis,109,0.4147489469103173
+parvovirus enteritis,110,0.43500606863069624
+parvovirus enteritis,111,0.43152467148219104
+parvovirus enteritis,112,0.5243326421477682
+parvovirus enteritis,113,0.45536347362017854
+parvovirus enteritis,114,0.4586397239525343
+parvovirus enteritis,115,0.48132410539973564
+parvovirus enteritis,116,0.5788366497733074
+parvovirus enteritis,117,0.5819394999506027
+parvovirus enteritis,118,0.46232524626465316
+parvovirus enteritis,119,0.5101871699728843
+parvovirus enteritis,120,0.4840725507413861
+parvovirus enteritis,121,0.4553272876548739
+parvovirus enteritis,122,0.5357761648396323
+parvovirus enteritis,123,0.47061925735650345
+parvovirus enteritis,124,0.5722591234399952
+parvovirus enteritis,125,0.5600887257895344
+parvovirus enteritis,126,0.5960779769629726
+parvovirus enteritis,127,0.44603555031241654
+parvovirus enteritis,128,0.48868302154851867
+parvovirus enteritis,129,0.5291233548177379
+parvovirus enteritis,130,0.5220600228653434
+parvovirus enteritis,131,0.5260920329567919
+parvovirus enteritis,132,0.5533452658203802
+parvovirus enteritis,133,0.4775520194091623
+parvovirus enteritis,134,0.4372461060636688
+parvovirus enteritis,135,0.5308562604113616
+parvovirus enteritis,136,0.5516396299602743
+parvovirus enteritis,137,0.5066057989790241
+parvovirus enteritis,138,0.42379103721677536
+parvovirus enteritis,139,0.48748850111755804
+parvovirus enteritis,140,0.5453712203180651
+parvovirus enteritis,141,0.5327789903840324
+parvovirus enteritis,142,0.5121414706110723
+parvovirus enteritis,143,0.4508341129769701
+parvovirus enteritis,144,0.5370099960279967
+parvovirus enteritis,145,0.6291336724896113
+parvovirus enteritis,146,0.497770324913182
+parvovirus enteritis,147,0.40144996138144096
+parvovirus enteritis,148,0.40501241114123354
+parvovirus enteritis,149,0.5078278581198405
+parvovirus enteritis,150,0.4296471134968554
+parvovirus enteritis,151,0.5371112221112222
+parvovirus enteritis,152,0.4557853423162487
+parvovirus enteritis,153,0.5784878075692376
+parvovirus enteritis,154,0.4263873174691888
+parvovirus enteritis,155,0.49244897219077954
+parvovirus enteritis,156,0.5719752965197189
+parvovirus enteritis,157,0.44843988895201836
+parvovirus enteritis,158,0.373478635893675
+parvovirus enteritis,159,0.4842041802595104
+parvovirus enteritis,160,0.4077739190633928
+parvovirus enteritis,161,0.5015968128906134
+parvovirus enteritis,162,0.5248506263612531
+parvovirus enteritis,163,0.4652878985035784
+parvovirus enteritis,164,0.6449166067771543
+parvovirus enteritis,165,0.4466519616478476
+parvovirus enteritis,166,0.6262695798095618
+parvovirus enteritis,167,0.5058113201568654
+parvovirus enteritis,168,0.5640016588477201
+parvovirus enteritis,169,0.5275442505414156
+parvovirus enteritis,170,0.5179158936301793
+parvovirus enteritis,171,0.4290350137780775
+parvovirus enteritis,172,0.4675971353749132
+parvovirus enteritis,173,0.3933417508417508
+parvovirus enteritis,174,0.575794919366348
+parvovirus enteritis,175,0.4720455264899709
+parvovirus enteritis,176,0.5081089888979109
+parvovirus enteritis,177,0.5138539808140696
+parvovirus enteritis,178,0.52779023169459
+parvovirus enteritis,179,0.6468386542446692
+parvovirus enteritis,180,0.6251023162480547
+parvovirus enteritis,181,0.5312742724647487
+parvovirus enteritis,182,0.4812597160076152
+parvovirus enteritis,183,0.5390200687026084
+parvovirus enteritis,184,0.3949542326643167
+parvovirus enteritis,185,0.5178493603305634
+parvovirus enteritis,186,0.5240100682629418
+parvovirus enteritis,187,0.6236020332277642
+parvovirus enteritis,188,0.5476800699014321
+parvovirus enteritis,189,0.5104318376712466
+parvovirus enteritis,190,0.444745765899872
+parvovirus enteritis,191,0.5184656912419716
+parvovirus enteritis,192,0.5225385149842968
+parvovirus enteritis,193,0.5643066117979141
+parvovirus enteritis,194,0.4720461033915176
+parvovirus enteritis,195,0.5712973208892647
+parvovirus enteritis,196,0.5983068845658306
+parvovirus enteritis,197,0.5634197921592878
+parvovirus enteritis,198,0.43449350148598276
+parvovirus enteritis,199,0.4861363703299654
+parvovirus enteritis,200,0.43259576901086333

@@ -1,0 +1,4 @@
+encoding,moon_numeric_used,moon_categorical_used,numeric_features_before_corr,numeric_features_after_corr,categorical_features_used,rf_accuracy,rf_balanced_accuracy,rf_macro_f1,logistic_top_or_feature,logistic_top_or_value,logistic_n_rows
+sincos_fraction,"moon_phase_cos, moon_phase_fraction_illuminated, moon_phase_sin",(none),136,31,5,0.4444444444444444,0.41694444444444445,0.43321226795803064,wind_direction_10m_dominant__mean_13d,0.45514437402200797,48
+thresholded,"is_full_moon, is_new_moon",moon_phase_category,135,31,6,0.4126984126984127,0.39694444444444443,0.41164126667616197,wind_direction_10m_dominant__mean_7d,2.6935883677978727,48
+mixed,"is_full_moon, is_new_moon, moon_phase_cos, moon_phase_fraction_illuminated, moon_phase_sin",moon_phase_category,138,33,6,0.4126984126984127,0.38263888888888886,0.404204653557544,wind_gusts_10m_max__peak_14d,0.5621144854035108,48

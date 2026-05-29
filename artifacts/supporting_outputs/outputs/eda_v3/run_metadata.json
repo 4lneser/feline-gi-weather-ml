@@ -1,0 +1,1151 @@
+{
+  "input_path": "outputs/imputed_dataset_enriched.csv",
+  "output_root": "outputs/eda_v3",
+  "dataset_shape": [
+    315,
+    208
+  ],
+  "outcome_col": "group",
+  "date_col": "presentation_date",
+  "moon_cyclic_columns": [
+    "moon_phase_sin",
+    "moon_phase_cos"
+  ],
+  "feature_blocks": {
+    "clinical_only": {
+      "n_numeric": 27,
+      "n_categorical": 25,
+      "n_total": 52
+    },
+    "environmental_only": {
+      "n_numeric": 31,
+      "n_categorical": 5,
+      "n_total": 36
+    },
+    "combined": {
+      "n_numeric": 58,
+      "n_categorical": 30,
+      "n_total": 88
+    }
+  },
+  "cv_folds": 5,
+  "cv_summary": {
+    "n_splits": 5,
+    "results": {
+      "hist_gb": {
+        "clinical_only": {
+          "n_folds": 5,
+          "accuracy": {
+            "mean": 0.5809523809523809,
+            "std": 0.10742174168691195
+          },
+          "balanced_accuracy": {
+            "mean": 0.6063888888888889,
+            "std": 0.08596863212751812
+          },
+          "macro_f1": {
+            "mean": 0.6099259550715472,
+            "std": 0.10183174022343389
+          },
+          "weighted_f1": {
+            "mean": 0.5772032264714533,
+            "std": 0.10987653475938608
+          }
+        },
+        "combined": {
+          "n_folds": 5,
+          "accuracy": {
+            "mean": 0.5746031746031746,
+            "std": 0.07134033350553724
+          },
+          "balanced_accuracy": {
+            "mean": 0.6055,
+            "std": 0.08543928110753765
+          },
+          "macro_f1": {
+            "mean": 0.6143144878113553,
+            "std": 0.07352779194815504
+          },
+          "weighted_f1": {
+            "mean": 0.5756971482105351,
+            "std": 0.0668036970461159
+          }
+        },
+        "environmental_only": {
+          "n_folds": 5,
+          "accuracy": {
+            "mean": 0.3682539682539682,
+            "std": 0.051921991218400396
+          },
+          "balanced_accuracy": {
+            "mean": 0.33888888888888885,
+            "std": 0.029939979825900156
+          },
+          "macro_f1": {
+            "mean": 0.3434075442634589,
+            "std": 0.037787635452284245
+          },
+          "weighted_f1": {
+            "mean": 0.3630820568821303,
+            "std": 0.04844496553411488
+          }
+        }
+      },
+      "logistic_ovr": {
+        "clinical_only": {
+          "n_folds": 5,
+          "accuracy": {
+            "mean": 0.5555555555555556,
+            "std": 0.048923920658483964
+          },
+          "balanced_accuracy": {
+            "mean": 0.5988055555555556,
+            "std": 0.03303112425808554
+          },
+          "macro_f1": {
+            "mean": 0.5854804468771285,
+            "std": 0.04328329128379915
+          },
+          "weighted_f1": {
+            "mean": 0.5492267203439289,
+            "std": 0.052847390368925024
+          }
+        },
+        "combined": {
+          "n_folds": 5,
+          "accuracy": {
+            "mean": 0.5333333333333333,
+            "std": 0.050942242971051474
+          },
+          "balanced_accuracy": {
+            "mean": 0.5793611111111112,
+            "std": 0.03820550344946602
+          },
+          "macro_f1": {
+            "mean": 0.5739070807272848,
+            "std": 0.045050254609357125
+          },
+          "weighted_f1": {
+            "mean": 0.5299459889283957,
+            "std": 0.05166273028361631
+          }
+        },
+        "environmental_only": {
+          "n_folds": 5,
+          "accuracy": {
+            "mean": 0.3079365079365079,
+            "std": 0.04969039949999532
+          },
+          "balanced_accuracy": {
+            "mean": 0.3240555555555556,
+            "std": 0.046801784384838785
+          },
+          "macro_f1": {
+            "mean": 0.3088115947179816,
+            "std": 0.042387304181034216
+          },
+          "weighted_f1": {
+            "mean": 0.30168315194226897,
+            "std": 0.049182651783374616
+          }
+        }
+      },
+      "random_forest": {
+        "clinical_only": {
+          "n_folds": 5,
+          "accuracy": {
+            "mean": 0.5365079365079365,
+            "std": 0.05069434737355972
+          },
+          "balanced_accuracy": {
+            "mean": 0.5303888888888888,
+            "std": 0.05087519147899781
+          },
+          "macro_f1": {
+            "mean": 0.5281156673525702,
+            "std": 0.04708789159811975
+          },
+          "weighted_f1": {
+            "mean": 0.5109964370938188,
+            "std": 0.049178787354888606
+          }
+        },
+        "combined": {
+          "n_folds": 5,
+          "accuracy": {
+            "mean": 0.5333333333333333,
+            "std": 0.050942242971051474
+          },
+          "balanced_accuracy": {
+            "mean": 0.5218055555555555,
+            "std": 0.070413447767761
+          },
+          "macro_f1": {
+            "mean": 0.5090566670412588,
+            "std": 0.06383102300150058
+          },
+          "weighted_f1": {
+            "mean": 0.48634662314618227,
+            "std": 0.053778438052041716
+          }
+        },
+        "environmental_only": {
+          "n_folds": 5,
+          "accuracy": {
+            "mean": 0.37777777777777777,
+            "std": 0.045453400200877306
+          },
+          "balanced_accuracy": {
+            "mean": 0.34236111111111106,
+            "std": 0.039398814569808746
+          },
+          "macro_f1": {
+            "mean": 0.35144652387195696,
+            "std": 0.04242259870933031
+          },
+          "weighted_f1": {
+            "mean": 0.3669609385163707,
+            "std": 0.0426422997218333
+          }
+        }
+      }
+    },
+    "per_class_results": {
+      "hist_gb": {
+        "clinical_only": {
+          "acute flare-up of triaditis/chronic enteropathy": {
+            "n_folds": 5,
+            "precision": {
+              "mean": 0.48850140056022406,
+              "std": 0.13953086416497884
+            },
+            "recall": {
+              "mean": 0.4444444444444445,
+              "std": 0.13028932666176193
+            },
+            "f1": {
+              "mean": 0.4637258922707839,
+              "std": 0.13081311666770612
+            }
+          },
+          "acute gastroenteritis": {
+            "n_folds": 5,
+            "precision": {
+              "mean": 0.6651126651126651,
+              "std": 0.09363907126858197
+            },
+            "recall": {
+              "mean": 0.6333333333333333,
+              "std": 0.045643546458763805
+            },
+            "f1": {
+              "mean": 0.6457971014492754,
+              "std": 0.05184436989057706
+            }
+          },
+          "acute pancreatitis": {
+            "n_folds": 5,
+            "precision": {
+              "mean": 0.5360119047619049,
+              "std": 0.10764967761014965
+            },
+            "recall": {
+              "mean": 0.595,
+              "std": 0.20056171120131577
+            },
+            "f1": {
+              "mean": 0.5611248532996298,
+              "std": 0.14972413735765558
+            }
+          },
+          "parvovirus enteritis": {
+            "n_folds": 5,
+            "precision": {
+              "mean": 0.7980952380952381,
+              "std": 0.18327457314367895
+            },
+            "recall": {
+              "mean": 0.7527777777777778,
+              "std": 0.12857540901147907
+            },
+            "f1": {
+              "mean": 0.7690559732664995,
+              "std": 0.14305854763541628
+            }
+          }
+        },
+        "combined": {
+          "acute flare-up of triaditis/chronic enteropathy": {
+            "n_folds": 5,
+            "precision": {
+              "mean": 0.46313725490196084,
+              "std": 0.08845995364396714
+            },
+            "recall": {
+              "mean": 0.4111111111111111,
+              "std": 0.03042903097250921
+            },
+            "f1": {
+              "mean": 0.4325637623470441,
+              "std": 0.04579215641011793
+            }
+          },
+          "acute gastroenteritis": {
+            "n_folds": 5,
+            "precision": {
+              "mean": 0.8202602952602952,
+              "std": 0.06174779514739045
+            },
+            "recall": {
+              "mean": 0.6666666666666667,
+              "std": 0.13176156917368248
+            },
+            "f1": {
+              "mean": 0.7289026915113872,
+              "std": 0.0813627191360188
+            }
+          },
+          "acute pancreatitis": {
+            "n_folds": 5,
+            "precision": {
+              "mean": 0.5190549169859515,
+              "std": 0.08538020150259204
+            },
+            "recall": {
+              "mean": 0.5886666666666667,
+              "std": 0.0954404992070394
+            },
+            "f1": {
+              "mean": 0.549207390059849,
+              "std": 0.0771543249891406
+            }
+          },
+          "parvovirus enteritis": {
+            "n_folds": 5,
+            "precision": {
+              "mean": 0.7431746031746032,
+              "std": 0.13427670801724548
+            },
+            "recall": {
+              "mean": 0.7555555555555555,
+              "std": 0.1535962922327695
+            },
+            "f1": {
+              "mean": 0.7465841073271415,
+              "std": 0.1344205118279632
+            }
+          }
+        },
+        "environmental_only": {
+          "acute flare-up of triaditis/chronic enteropathy": {
+            "n_folds": 5,
+            "precision": {
+              "mean": 0.31995614035087716,
+              "std": 0.10128807013870372
+            },
+            "recall": {
+              "mean": 0.32222222222222224,
+              "std": 0.10686324478706302
+            },
+            "f1": {
+              "mean": 0.3208797032326444,
+              "std": 0.10406808734900538
+            }
+          },
+          "acute gastroenteritis": {
+            "n_folds": 5,
+            "precision": {
+              "mean": 0.3848901098901099,
+              "std": 0.11257201266953089
+            },
+            "recall": {
+              "mean": 0.3333333333333333,
+              "std": 0.05892556509887897
+            },
+            "f1": {
+              "mean": 0.34974898785425107,
+              "std": 0.05643160073755091
+            }
+          },
+          "acute pancreatitis": {
+            "n_folds": 5,
+            "precision": {
+              "mean": 0.40341759134862587,
+              "std": 0.0594374048882163
+            },
+            "recall": {
+              "mean": 0.4583333333333333,
+              "std": 0.12442088070559361
+            },
+            "f1": {
+              "mean": 0.4277375342324,
+              "std": 0.08811695422569946
+            }
+          },
+          "parvovirus enteritis": {
+            "n_folds": 5,
+            "precision": {
+              "mean": 0.3411111111111111,
+              "std": 0.11314799660534193
+            },
+            "recall": {
+              "mean": 0.24166666666666664,
+              "std": 0.07453559924999298
+            },
+            "f1": {
+              "mean": 0.27526395173453994,
+              "std": 0.07277819451894564
+            }
+          }
+        }
+      },
+      "logistic_ovr": {
+        "clinical_only": {
+          "acute flare-up of triaditis/chronic enteropathy": {
+            "n_folds": 5,
+            "precision": {
+              "mean": 0.41834586466165413,
+              "std": 0.10685473147285848
+            },
+            "recall": {
+              "mean": 0.37777777777777777,
+              "std": 0.12668615834434868
+            },
+            "f1": {
+              "mean": 0.3917398976222506,
+              "std": 0.1120520818708869
+            }
+          },
+          "acute gastroenteritis": {
+            "n_folds": 5,
+            "precision": {
+              "mean": 0.5282081807081808,
+              "std": 0.08064230709746152
+            },
+            "recall": {
+              "mean": 0.6666666666666667,
+              "std": 0.11785113019775792
+            },
+            "f1": {
+              "mean": 0.5874985754985755,
+              "std": 0.0872108913141142
+            }
+          },
+          "acute pancreatitis": {
+            "n_folds": 5,
+            "precision": {
+              "mean": 0.581444014075593,
+              "std": 0.046299435209027115
+            },
+            "recall": {
+              "mean": 0.548,
+              "std": 0.12930583900195688
+            },
+            "f1": {
+              "mean": 0.5608495633434107,
+              "std": 0.08743419062672483
+            }
+          },
+          "parvovirus enteritis": {
+            "n_folds": 5,
+            "precision": {
+              "mean": 0.8130952380952381,
+              "std": 0.06918090583698876
+            },
+            "recall": {
+              "mean": 0.8027777777777778,
+              "std": 0.11427779128180118
+            },
+            "f1": {
+              "mean": 0.8018337510442773,
+              "std": 0.06168834149808546
+            }
+          }
+        },
+        "combined": {
+          "acute flare-up of triaditis/chronic enteropathy": {
+            "n_folds": 5,
+            "precision": {
+              "mean": 0.3916755793226382,
+              "std": 0.058785084395730054
+            },
+            "recall": {
+              "mean": 0.3555555555555555,
+              "std": 0.06334307917217433
+            },
+            "f1": {
+              "mean": 0.3693939393939394,
+              "std": 0.0502834863792774
+            }
+          },
+          "acute gastroenteritis": {
+            "n_folds": 5,
+            "precision": {
+              "mean": 0.5647237076648841,
+              "std": 0.06436197851126255
+            },
+            "recall": {
+              "mean": 0.6,
+              "std": 0.06972166887783961
+            },
+            "f1": {
+              "mean": 0.5763600522970839,
+              "std": 0.02701754828854636
+            }
+          },
+          "acute pancreatitis": {
+            "n_folds": 5,
+            "precision": {
+              "mean": 0.5255066910988949,
+              "std": 0.08719971500188713
+            },
+            "recall": {
+              "mean": 0.5313333333333333,
+              "std": 0.12045284923524593
+            },
+            "f1": {
+              "mean": 0.526950354609929,
+              "std": 0.09880994260858546
+            }
+          },
+          "parvovirus enteritis": {
+            "n_folds": 5,
+            "precision": {
+              "mean": 0.8228571428571427,
+              "std": 0.12641041031787967
+            },
+            "recall": {
+              "mean": 0.8305555555555555,
+              "std": 0.10776202634039346
+            },
+            "f1": {
+              "mean": 0.8229239766081872,
+              "std": 0.10229272128360392
+            }
+          }
+        },
+        "environmental_only": {
+          "acute flare-up of triaditis/chronic enteropathy": {
+            "n_folds": 5,
+            "precision": {
+              "mean": 0.27878787878787875,
+              "std": 0.05659666155601402
+            },
+            "recall": {
+              "mean": 0.2666666666666667,
+              "std": 0.07243558228002943
+            },
+            "f1": {
+              "mean": 0.2690384615384615,
+              "std": 0.05622401510993485
+            }
+          },
+          "acute gastroenteritis": {
+            "n_folds": 5,
+            "precision": {
+              "mean": 0.2636796536796537,
+              "std": 0.06102675571072578
+            },
+            "recall": {
+              "mean": 0.3333333333333333,
+              "std": 0.05892556509887897
+            },
+            "f1": {
+              "mean": 0.2910178388439258,
+              "std": 0.04516719773432672
+            }
+          },
+          "acute pancreatitis": {
+            "n_folds": 5,
+            "precision": {
+              "mean": 0.33534175084175083,
+              "std": 0.09177470104936856
+            },
+            "recall": {
+              "mean": 0.299,
+              "std": 0.1476651617681029
+            },
+            "f1": {
+              "mean": 0.3123380955911165,
+              "std": 0.12238993735552513
+            }
+          },
+          "parvovirus enteritis": {
+            "n_folds": 5,
+            "precision": {
+              "mean": 0.3648212898212898,
+              "std": 0.051720568795184586
+            },
+            "recall": {
+              "mean": 0.39722222222222225,
+              "std": 0.16885142128254593
+            },
+            "f1": {
+              "mean": 0.3628519828984226,
+              "std": 0.11614462172359598
+            }
+          }
+        }
+      },
+      "random_forest": {
+        "clinical_only": {
+          "acute flare-up of triaditis/chronic enteropathy": {
+            "n_folds": 5,
+            "precision": {
+              "mean": 0.48311688311688317,
+              "std": 0.15139499332556508
+            },
+            "recall": {
+              "mean": 0.2111111111111111,
+              "std": 0.04648111258522643
+            },
+            "f1": {
+              "mean": 0.2924562334217507,
+              "std": 0.07269176833007651
+            }
+          },
+          "acute gastroenteritis": {
+            "n_folds": 5,
+            "precision": {
+              "mean": 0.5312698412698412,
+              "std": 0.11207574464246495
+            },
+            "recall": {
+              "mean": 0.5000000000000001,
+              "std": 0.10206207261596578
+            },
+            "f1": {
+              "mean": 0.5124375624375624,
+              "std": 0.10052070248405626
+            }
+          },
+          "acute pancreatitis": {
+            "n_folds": 5,
+            "precision": {
+              "mean": 0.5102224121736317,
+              "std": 0.05141855213719374
+            },
+            "recall": {
+              "mean": 0.7493333333333333,
+              "std": 0.11677138157766037
+            },
+            "f1": {
+              "mean": 0.6055236965057905,
+              "std": 0.06988212962780835
+            }
+          },
+          "parvovirus enteritis": {
+            "n_folds": 5,
+            "precision": {
+              "mean": 0.7783333333333334,
+              "std": 0.08732124598286492
+            },
+            "recall": {
+              "mean": 0.6611111111111111,
+              "std": 0.19656580904101967
+            },
+            "f1": {
+              "mean": 0.702045177045177,
+              "std": 0.1115325677294776
+            }
+          }
+        },
+        "combined": {
+          "acute flare-up of triaditis/chronic enteropathy": {
+            "n_folds": 5,
+            "precision": {
+              "mean": 0.39904761904761904,
+              "std": 0.24592829366216237
+            },
+            "recall": {
+              "mean": 0.11111111111111112,
+              "std": 0.06804138174397717
+            },
+            "f1": {
+              "mean": 0.17087784679089027,
+              "std": 0.10078533277558126
+            }
+          },
+          "acute gastroenteritis": {
+            "n_folds": 5,
+            "precision": {
+              "mean": 0.5293506493506492,
+              "std": 0.11186033264400533
+            },
+            "recall": {
+              "mean": 0.5000000000000001,
+              "std": 0.10206207261596578
+            },
+            "f1": {
+              "mean": 0.5128610519914869,
+              "std": 0.10410256645081918
+            }
+          },
+          "acute pancreatitis": {
+            "n_folds": 5,
+            "precision": {
+              "mean": 0.5038904644860402,
+              "std": 0.045317836343679925
+            },
+            "recall": {
+              "mean": 0.8150000000000001,
+              "std": 0.06576473218982953
+            },
+            "f1": {
+              "mean": 0.6221279331404692,
+              "std": 0.04873826115772084
+            }
+          },
+          "parvovirus enteritis": {
+            "n_folds": 5,
+            "precision": {
+              "mean": 0.8473015873015873,
+              "std": 0.10626862618886407
+            },
+            "recall": {
+              "mean": 0.6611111111111111,
+              "std": 0.19656580904101967
+            },
+            "f1": {
+              "mean": 0.7303598362421891,
+              "std": 0.12473625111827144
+            }
+          }
+        },
+        "environmental_only": {
+          "acute flare-up of triaditis/chronic enteropathy": {
+            "n_folds": 5,
+            "precision": {
+              "mean": 0.33333333333333337,
+              "std": 0.1009933303628402
+            },
+            "recall": {
+              "mean": 0.32222222222222224,
+              "std": 0.09938079899999067
+            },
+            "f1": {
+              "mean": 0.3227752639517345,
+              "std": 0.08783151349345801
+            }
+          },
+          "acute gastroenteritis": {
+            "n_folds": 5,
+            "precision": {
+              "mean": 0.3607142857142857,
+              "std": 0.12511332731248823
+            },
+            "recall": {
+              "mean": 0.2166666666666667,
+              "std": 0.07453559924999298
+            },
+            "f1": {
+              "mean": 0.26918964076858815,
+              "std": 0.09013478988274218
+            }
+          },
+          "acute pancreatitis": {
+            "n_folds": 5,
+            "precision": {
+              "mean": 0.39325764636109467,
+              "std": 0.0326869551026283
+            },
+            "recall": {
+              "mean": 0.5166666666666667,
+              "std": 0.09049247973665486
+            },
+            "f1": {
+              "mean": 0.4457115226578372,
+              "std": 0.05386537800357859
+            }
+          },
+          "parvovirus enteritis": {
+            "n_folds": 5,
+            "precision": {
+              "mean": 0.47222222222222215,
+              "std": 0.1712337223046938
+            },
+            "recall": {
+              "mean": 0.3138888888888889,
+              "std": 0.1267622689900515
+            },
+            "f1": {
+              "mean": 0.3681096681096681,
+              "std": 0.1307394346659892
+            }
+          }
+        }
+      }
+    }
+  },
+  "cv_binary_summary": {
+    "n_splits": 5,
+    "results": {
+      "acute flare-up of triaditis/chronic enteropathy": {
+        "clinical_only": {
+          "model": "hist_gb_binary_acute_flare_up_of_triaditis_chronic_enteropathy",
+          "n_folds": 5,
+          "balanced_accuracy": {
+            "mean": 0.5755555555555555,
+            "std": 0.03108133495710965
+          },
+          "recall": {
+            "mean": 0.31111111111111106,
+            "std": 0.06334307917217434
+          },
+          "precision": {
+            "mean": 0.43892857142857145,
+            "std": 0.06258157941145823
+          },
+          "f1": {
+            "mean": 0.3619957983193277,
+            "std": 0.05838297283319882
+          },
+          "roc_auc": {
+            "mean": 0.6454320987654321,
+            "std": 0.0675941428313122
+          }
+        },
+        "combined": {
+          "model": "hist_gb_binary_acute_flare_up_of_triaditis_chronic_enteropathy",
+          "n_folds": 5,
+          "balanced_accuracy": {
+            "mean": 0.5055555555555555,
+            "std": 0.04795187917120018
+          },
+          "recall": {
+            "mean": 0.18888888888888888,
+            "std": 0.06334307917217434
+          },
+          "precision": {
+            "mean": 0.3013752913752914,
+            "std": 0.09969451985263604
+          },
+          "f1": {
+            "mean": 0.2318819852746438,
+            "std": 0.07703666467014564
+          },
+          "roc_auc": {
+            "mean": 0.5777777777777778,
+            "std": 0.06250133362393652
+          }
+        },
+        "environmental_only": {
+          "model": "hist_gb_binary_acute_flare_up_of_triaditis_chronic_enteropathy",
+          "n_folds": 5,
+          "balanced_accuracy": {
+            "mean": 0.49444444444444446,
+            "std": 0.057868518488887945
+          },
+          "recall": {
+            "mean": 0.16666666666666666,
+            "std": 0.11785113019775792
+          },
+          "precision": {
+            "mean": 0.2502747252747253,
+            "std": 0.13825397620670493
+          },
+          "f1": {
+            "mean": 0.1979168734491315,
+            "std": 0.13044076515786623
+          },
+          "roc_auc": {
+            "mean": 0.5074074074074074,
+            "std": 0.07435645763655822
+          }
+        }
+      },
+      "acute gastroenteritis": {
+        "clinical_only": {
+          "model": "hist_gb_binary_acute_gastroenteritis",
+          "n_folds": 5,
+          "balanced_accuracy": {
+            "mean": 0.7857843137254902,
+            "std": 0.078767661402959
+          },
+          "recall": {
+            "mean": 0.5833333333333333,
+            "std": 0.16666666666666669
+          },
+          "precision": {
+            "mean": 0.9333333333333333,
+            "std": 0.09128709291752767
+          },
+          "f1": {
+            "mean": 0.7044444444444444,
+            "std": 0.11265592760565847
+          },
+          "roc_auc": {
+            "mean": 0.8444444444444444,
+            "std": 0.05842959962802842
+          }
+        },
+        "combined": {
+          "model": "hist_gb_binary_acute_gastroenteritis",
+          "n_folds": 5,
+          "balanced_accuracy": {
+            "mean": 0.7970588235294118,
+            "std": 0.0833585601954734
+          },
+          "recall": {
+            "mean": 0.6333333333333333,
+            "std": 0.17280367794439763
+          },
+          "precision": {
+            "mean": 0.7952380952380953,
+            "std": 0.08591980065221813
+          },
+          "f1": {
+            "mean": 0.6955465587044534,
+            "std": 0.10887739020844199
+          },
+          "roc_auc": {
+            "mean": 0.8911764705882351,
+            "std": 0.040349883753065495
+          }
+        },
+        "environmental_only": {
+          "model": "hist_gb_binary_acute_gastroenteritis",
+          "n_folds": 5,
+          "balanced_accuracy": {
+            "mean": 0.5377450980392157,
+            "std": 0.03571205435990977
+          },
+          "recall": {
+            "mean": 0.14999999999999997,
+            "std": 0.06972166887783963
+          },
+          "precision": {
+            "mean": 0.3123809523809523,
+            "std": 0.10825350276863102
+          },
+          "f1": {
+            "mean": 0.20171998624011006,
+            "std": 0.08469935978882064
+          },
+          "roc_auc": {
+            "mean": 0.5962418300653594,
+            "std": 0.04703711713436726
+          }
+        }
+      },
+      "acute pancreatitis": {
+        "clinical_only": {
+          "model": "hist_gb_binary_acute_pancreatitis",
+          "n_folds": 5,
+          "balanced_accuracy": {
+            "mean": 0.5852712550607289,
+            "std": 0.08716300853690556
+          },
+          "recall": {
+            "mean": 0.45866666666666667,
+            "std": 0.1800246896647482
+          },
+          "precision": {
+            "mean": 0.5035773341399474,
+            "std": 0.08503581704467676
+          },
+          "f1": {
+            "mean": 0.47221905465807906,
+            "std": 0.1264502356458547
+          },
+          "roc_auc": {
+            "mean": 0.6517840755735492,
+            "std": 0.0838005209638981
+          }
+        },
+        "combined": {
+          "model": "hist_gb_binary_acute_pancreatitis",
+          "n_folds": 5,
+          "balanced_accuracy": {
+            "mean": 0.5588063427800269,
+            "std": 0.03947199729373534
+          },
+          "recall": {
+            "mean": 0.4109999999999999,
+            "std": 0.07486654793697918
+          },
+          "precision": {
+            "mean": 0.4752923976608187,
+            "std": 0.048495278165790676
+          },
+          "f1": {
+            "mean": 0.439511658201133,
+            "std": 0.0614020680755095
+          },
+          "roc_auc": {
+            "mean": 0.628591542959964,
+            "std": 0.05422463959996889
+          }
+        },
+        "environmental_only": {
+          "model": "hist_gb_binary_acute_pancreatitis",
+          "n_folds": 5,
+          "balanced_accuracy": {
+            "mean": 0.4830587044534413,
+            "std": 0.06982622545444912
+          },
+          "recall": {
+            "mean": 0.30633333333333335,
+            "std": 0.09574561202594206
+          },
+          "precision": {
+            "mean": 0.3670556826849733,
+            "std": 0.10376889082676585
+          },
+          "f1": {
+            "mean": 0.33348484848484844,
+            "std": 0.0982955315842779
+          },
+          "roc_auc": {
+            "mean": 0.47760548807917225,
+            "std": 0.0654279619932476
+          }
+        }
+      },
+      "parvovirus enteritis": {
+        "clinical_only": {
+          "model": "hist_gb_binary_parvovirus_enteritis",
+          "n_folds": 5,
+          "balanced_accuracy": {
+            "mean": 0.8547979797979798,
+            "std": 0.0583329917126732
+          },
+          "recall": {
+            "mean": 0.7277777777777777,
+            "std": 0.10962548478150617
+          },
+          "precision": {
+            "mean": 0.8642857142857142,
+            "std": 0.13458174058154837
+          },
+          "f1": {
+            "mean": 0.7854147812971343,
+            "std": 0.10011452962058841
+          },
+          "roc_auc": {
+            "mean": 0.9566647961092405,
+            "std": 0.038052361615620554
+          }
+        },
+        "combined": {
+          "model": "hist_gb_binary_parvovirus_enteritis",
+          "n_folds": 5,
+          "balanced_accuracy": {
+            "mean": 0.8547979797979798,
+            "std": 0.05584484768588674
+          },
+          "recall": {
+            "mean": 0.7277777777777777,
+            "std": 0.10962548478150617
+          },
+          "precision": {
+            "mean": 0.8666666666666668,
+            "std": 0.12638125740085918
+          },
+          "f1": {
+            "mean": 0.7849385908209439,
+            "std": 0.08956875843883352
+          },
+          "roc_auc": {
+            "mean": 0.9597979797979799,
+            "std": 0.017642824553878975
+          }
+        },
+        "environmental_only": {
+          "model": "hist_gb_binary_parvovirus_enteritis",
+          "n_folds": 5,
+          "balanced_accuracy": {
+            "mean": 0.5647222222222222,
+            "std": 0.03326566152675416
+          },
+          "recall": {
+            "mean": 0.16944444444444445,
+            "std": 0.061645391725478185
+          },
+          "precision": {
+            "mean": 0.45,
+            "std": 0.3095695936834452
+          },
+          "f1": {
+            "mean": 0.23593073593073594,
+            "std": 0.08579186659136975
+          },
+          "roc_auc": {
+            "mean": 0.6200430228208005,
+            "std": 0.09415458707102396
+          }
+        }
+      }
+    }
+  },
+  "cv_binary_shap": {
+    "summary_csv": "outputs/eda_v3/tables/shap_summary_binary.csv",
+    "top20_csv": "outputs/eda_v3/tables/shap_top20_binary.csv",
+    "plot_files": [
+      "outputs/eda_v3/plots/shap_binary_acute_flare_up_of_triaditis_chronic_enteropathy_clinical_only.png",
+      "outputs/eda_v3/plots/shap_binary_acute_flare_up_of_triaditis_chronic_enteropathy_combined.png",
+      "outputs/eda_v3/plots/shap_binary_acute_flare_up_of_triaditis_chronic_enteropathy_environmental_only.png",
+      "outputs/eda_v3/plots/shap_binary_acute_gastroenteritis_clinical_only.png",
+      "outputs/eda_v3/plots/shap_binary_acute_gastroenteritis_combined.png",
+      "outputs/eda_v3/plots/shap_binary_acute_gastroenteritis_environmental_only.png",
+      "outputs/eda_v3/plots/shap_binary_acute_pancreatitis_clinical_only.png",
+      "outputs/eda_v3/plots/shap_binary_acute_pancreatitis_combined.png",
+      "outputs/eda_v3/plots/shap_binary_acute_pancreatitis_environmental_only.png",
+      "outputs/eda_v3/plots/shap_binary_parvovirus_enteritis_clinical_only.png",
+      "outputs/eda_v3/plots/shap_binary_parvovirus_enteritis_combined.png",
+      "outputs/eda_v3/plots/shap_binary_parvovirus_enteritis_environmental_only.png"
+    ],
+    "warnings": [],
+    "stability": {
+      "rankings_csv": "outputs/eda_v3/tables/shap_fold_rankings_binary.csv",
+      "stability_csv": "outputs/eda_v3/tables/shap_stability_summary_binary.csv",
+      "plot_files": [
+        "outputs/eda_v3/plots/shap_stability_acute_flare_up_of_triaditis_chronic_enteropathy_combined.png",
+        "outputs/eda_v3/plots/shap_stability_acute_gastroenteritis_combined.png",
+        "outputs/eda_v3/plots/shap_stability_acute_pancreatitis_combined.png",
+        "outputs/eda_v3/plots/shap_stability_parvovirus_enteritis_combined.png"
+      ],
+      "n_rows_rankings": 3000,
+      "n_rows_stability": 12
+    },
+    "runtime_seconds": 127.65684442594647
+  },
+  "permutation_test": {
+    "enabled": true,
+    "distribution_csv": "outputs/eda_v3/tables/permtest_envonly_auc_distribution.csv",
+    "summary_csv": "outputs/eda_v3/tables/permtest_envonly_auc_summary.csv",
+    "plot_files": [
+      "outputs/eda_v3/plots/permtest_envonly_acute_flare_up_of_triaditis_chronic_enteropathy.png",
+      "outputs/eda_v3/plots/permtest_envonly_acute_gastroenteritis.png",
+      "outputs/eda_v3/plots/permtest_envonly_acute_pancreatitis.png",
+      "outputs/eda_v3/plots/permtest_envonly_parvovirus_enteritis.png"
+    ],
+    "perm_jobs": 44,
+    "runtime_seconds": 447.9925254713744
+  },
+  "permutation_settings": {
+    "run_permutation_test": true,
+    "perm_n": 200,
+    "perm_jobs": 44,
+    "perm_jobs_mode": "auto_low_load",
+    "cpu_count_detected": 48,
+    "load_avg_1m": 20.046875
+  },
+  "robustness_summary_path": "outputs/eda_v3/robustness_summary.md",
+  "corr_threshold": 0.85,
+  "rf_all_metrics": {
+    "accuracy": 0.5079365079365079,
+    "balanced_accuracy": 0.5311111111111111,
+    "macro_f1": 0.5394777265745008,
+    "weighted_f1": 0.4870016823933874
+  },
+  "rf_weather_metrics": {
+    "accuracy": 0.4444444444444444,
+    "balanced_accuracy": 0.41694444444444445,
+    "macro_f1": 0.43321226795803064,
+    "weighted_f1": 0.43291440870133363
+  },
+  "weather_numeric_before": 136,
+  "weather_numeric_after": 31,
+  "moon_encoding_sensitivity_rows": 3
+}

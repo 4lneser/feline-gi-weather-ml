@@ -1,0 +1,181 @@
+model,feature_block,fold,class_label,precision,recall,f1,support
+random_forest,clinical_only,1,acute flare-up of triaditis/chronic enteropathy,0.42857142857142855,0.16666666666666666,0.24,18
+random_forest,clinical_only,1,acute gastroenteritis,0.6363636363636364,0.5833333333333334,0.6086956521739131,12
+random_forest,clinical_only,1,acute pancreatitis,0.5,0.8,0.6153846153846154,25
+random_forest,clinical_only,1,parvovirus enteritis,0.8,0.5,0.6153846153846154,8
+random_forest,clinical_only,2,acute flare-up of triaditis/chronic enteropathy,0.75,0.16666666666666666,0.2727272727272727,18
+random_forest,clinical_only,2,acute gastroenteritis,0.5454545454545454,0.5,0.5217391304347826,12
+random_forest,clinical_only,2,acute pancreatitis,0.5365853658536586,0.88,0.6666666666666666,25
+random_forest,clinical_only,2,parvovirus enteritis,0.7142857142857143,0.625,0.6666666666666666,8
+random_forest,clinical_only,3,acute flare-up of triaditis/chronic enteropathy,0.3,0.16666666666666666,0.21428571428571427,18
+random_forest,clinical_only,3,acute gastroenteritis,0.6363636363636364,0.5833333333333334,0.6086956521739131,12
+random_forest,clinical_only,3,acute pancreatitis,0.5151515151515151,0.68,0.5862068965517241,25
+random_forest,clinical_only,3,parvovirus enteritis,0.8888888888888888,1.0,0.9411764705882353,8
+random_forest,clinical_only,4,acute flare-up of triaditis/chronic enteropathy,0.3,0.17647058823529413,0.2222222222222222,17
+random_forest,clinical_only,4,acute gastroenteritis,0.36363636363636365,0.3333333333333333,0.34782608695652173,12
+random_forest,clinical_only,4,acute pancreatitis,0.45454545454545453,0.6,0.5172413793103449,25
+random_forest,clinical_only,4,parvovirus enteritis,0.6666666666666666,0.6666666666666666,0.6666666666666666,9
+random_forest,clinical_only,5,acute flare-up of triaditis/chronic enteropathy,0.25,0.1111111111111111,0.15384615384615385,18
+random_forest,clinical_only,5,acute gastroenteritis,0.42857142857142855,0.5,0.46153846153846156,12
+random_forest,clinical_only,5,acute pancreatitis,0.45714285714285713,0.6666666666666666,0.5423728813559322,24
+random_forest,clinical_only,5,parvovirus enteritis,0.8,0.5,0.6153846153846154,8
+logistic_ovr,clinical_only,1,acute flare-up of triaditis/chronic enteropathy,0.29411764705882354,0.2777777777777778,0.2857142857142857,18
+logistic_ovr,clinical_only,1,acute gastroenteritis,0.5625,0.75,0.6428571428571429,12
+logistic_ovr,clinical_only,1,acute pancreatitis,0.5217391304347826,0.48,0.5,25
+logistic_ovr,clinical_only,1,parvovirus enteritis,0.8571428571428571,0.75,0.8,8
+logistic_ovr,clinical_only,2,acute flare-up of triaditis/chronic enteropathy,0.7058823529411765,0.6666666666666666,0.6857142857142857,18
+logistic_ovr,clinical_only,2,acute gastroenteritis,0.5833333333333334,0.5833333333333334,0.5833333333333334,12
+logistic_ovr,clinical_only,2,acute pancreatitis,0.6428571428571429,0.72,0.6792452830188679,25
+logistic_ovr,clinical_only,2,parvovirus enteritis,0.8333333333333334,0.625,0.7142857142857143,8
+logistic_ovr,clinical_only,3,acute flare-up of triaditis/chronic enteropathy,0.46153846153846156,0.3333333333333333,0.3870967741935484,18
+logistic_ovr,clinical_only,3,acute gastroenteritis,0.5833333333333334,0.5833333333333334,0.5833333333333334,12
+logistic_ovr,clinical_only,3,acute pancreatitis,0.5714285714285714,0.64,0.6037735849056604,25
+logistic_ovr,clinical_only,3,parvovirus enteritis,0.7,0.875,0.7777777777777778,8
+logistic_ovr,clinical_only,4,acute flare-up of triaditis/chronic enteropathy,0.3125,0.29411764705882354,0.30303030303030304,17
+logistic_ovr,clinical_only,4,acute gastroenteritis,0.5625,0.75,0.6428571428571429,12
+logistic_ovr,clinical_only,4,acute pancreatitis,0.5454545454545454,0.48,0.5106382978723404,25
+logistic_ovr,clinical_only,4,parvovirus enteritis,0.8888888888888888,0.8888888888888888,0.8888888888888888,9
+logistic_ovr,clinical_only,5,acute flare-up of triaditis/chronic enteropathy,0.35714285714285715,0.2777777777777778,0.3125,18
+logistic_ovr,clinical_only,5,acute gastroenteritis,0.4666666666666667,0.5833333333333334,0.5185185185185185,12
+logistic_ovr,clinical_only,5,acute pancreatitis,0.48,0.5,0.4897959183673469,24
+logistic_ovr,clinical_only,5,parvovirus enteritis,0.75,0.75,0.75,8
+hist_gb,clinical_only,1,acute flare-up of triaditis/chronic enteropathy,0.5,0.4444444444444444,0.47058823529411764,18
+hist_gb,clinical_only,1,acute gastroenteritis,0.6666666666666666,0.6666666666666666,0.6666666666666666,12
+hist_gb,clinical_only,1,acute pancreatitis,0.6296296296296297,0.68,0.6538461538461539,25
+hist_gb,clinical_only,1,parvovirus enteritis,0.75,0.75,0.75,8
+hist_gb,clinical_only,2,acute flare-up of triaditis/chronic enteropathy,0.5625,0.5,0.5294117647058824,18
+hist_gb,clinical_only,2,acute gastroenteritis,0.7777777777777778,0.5833333333333334,0.6666666666666666,12
+hist_gb,clinical_only,2,acute pancreatitis,0.6451612903225806,0.8,0.7142857142857143,25
+hist_gb,clinical_only,2,parvovirus enteritis,0.7142857142857143,0.625,0.6666666666666666,8
+hist_gb,clinical_only,3,acute flare-up of triaditis/chronic enteropathy,0.46153846153846156,0.3333333333333333,0.3870967741935484,18
+hist_gb,clinical_only,3,acute gastroenteritis,0.6666666666666666,0.6666666666666666,0.6666666666666666,12
+hist_gb,clinical_only,3,acute pancreatitis,0.48148148148148145,0.52,0.5,25
+hist_gb,clinical_only,3,parvovirus enteritis,0.7272727272727273,1.0,0.8421052631578947,8
+hist_gb,clinical_only,4,acute flare-up of triaditis/chronic enteropathy,0.3181818181818182,0.4117647058823529,0.358974358974359,17
+hist_gb,clinical_only,4,acute gastroenteritis,0.6363636363636364,0.5833333333333334,0.6086956521739131,12
+hist_gb,clinical_only,4,acute pancreatitis,0.5,0.44,0.46808510638297873,25
+hist_gb,clinical_only,4,parvovirus enteritis,0.75,0.6666666666666666,0.7058823529411765,9
+hist_gb,clinical_only,5,acute flare-up of triaditis/chronic enteropathy,0.5294117647058824,0.5,0.5142857142857142,18
+hist_gb,clinical_only,5,acute gastroenteritis,0.6153846153846154,0.6666666666666666,0.64,12
+hist_gb,clinical_only,5,acute pancreatitis,0.5217391304347826,0.5,0.5106382978723404,24
+hist_gb,clinical_only,5,parvovirus enteritis,0.7777777777777778,0.875,0.8235294117647058,8
+random_forest,environmental_only,1,acute flare-up of triaditis/chronic enteropathy,0.25,0.16666666666666666,0.2,18
+random_forest,environmental_only,1,acute gastroenteritis,0.3333333333333333,0.16666666666666666,0.2222222222222222,12
+random_forest,environmental_only,1,acute pancreatitis,0.38461538461538464,0.6,0.46875,25
+random_forest,environmental_only,1,parvovirus enteritis,0.3333333333333333,0.25,0.2857142857142857,8
+random_forest,environmental_only,2,acute flare-up of triaditis/chronic enteropathy,0.23529411764705882,0.2222222222222222,0.22857142857142856,18
+random_forest,environmental_only,2,acute gastroenteritis,0.375,0.25,0.3,12
+random_forest,environmental_only,2,acute pancreatitis,0.42424242424242425,0.56,0.4827586206896552,25
+random_forest,environmental_only,2,parvovirus enteritis,0.4,0.25,0.3076923076923077,8
+random_forest,environmental_only,3,acute flare-up of triaditis/chronic enteropathy,0.36363636363636365,0.2222222222222222,0.27586206896551724,18
+random_forest,environmental_only,3,acute gastroenteritis,0.2727272727272727,0.25,0.2608695652173913,12
+random_forest,environmental_only,3,acute pancreatitis,0.3684210526315789,0.56,0.4444444444444444,25
+random_forest,environmental_only,3,parvovirus enteritis,0.3333333333333333,0.125,0.18181818181818182,8
+random_forest,environmental_only,4,acute flare-up of triaditis/chronic enteropathy,0.26666666666666666,0.23529411764705882,0.25,17
+random_forest,environmental_only,4,acute gastroenteritis,0.375,0.25,0.3,12
+random_forest,environmental_only,4,acute pancreatitis,0.36363636363636365,0.48,0.41379310344827586,25
+random_forest,environmental_only,4,parvovirus enteritis,0.42857142857142855,0.3333333333333333,0.375,9
+random_forest,environmental_only,5,acute flare-up of triaditis/chronic enteropathy,0.4117647058823529,0.3888888888888889,0.4,18
+random_forest,environmental_only,5,acute gastroenteritis,0.2727272727272727,0.25,0.2608695652173913,12
+random_forest,environmental_only,5,acute pancreatitis,0.4166666666666667,0.4166666666666667,0.4166666666666667,24
+random_forest,environmental_only,5,parvovirus enteritis,0.4,0.5,0.4444444444444444,8
+logistic_ovr,environmental_only,1,acute flare-up of triaditis/chronic enteropathy,0.2857142857142857,0.2222222222222222,0.25,18
+logistic_ovr,environmental_only,1,acute gastroenteritis,0.21428571428571427,0.25,0.23076923076923078,12
+logistic_ovr,environmental_only,1,acute pancreatitis,0.32,0.32,0.32,25
+logistic_ovr,environmental_only,1,parvovirus enteritis,0.3,0.375,0.3333333333333333,8
+logistic_ovr,environmental_only,2,acute flare-up of triaditis/chronic enteropathy,0.2857142857142857,0.3333333333333333,0.3076923076923077,18
+logistic_ovr,environmental_only,2,acute gastroenteritis,0.21052631578947367,0.3333333333333333,0.25806451612903225,12
+logistic_ovr,environmental_only,2,acute pancreatitis,0.35714285714285715,0.2,0.2564102564102564,25
+logistic_ovr,environmental_only,2,parvovirus enteritis,0.4444444444444444,0.5,0.47058823529411764,8
+logistic_ovr,environmental_only,3,acute flare-up of triaditis/chronic enteropathy,0.5,0.2777777777777778,0.35714285714285715,18
+logistic_ovr,environmental_only,3,acute gastroenteritis,0.3333333333333333,0.3333333333333333,0.3333333333333333,12
+logistic_ovr,environmental_only,3,acute pancreatitis,0.4666666666666667,0.56,0.509090909090909,25
+logistic_ovr,environmental_only,3,parvovirus enteritis,0.2727272727272727,0.375,0.3157894736842105,8
+logistic_ovr,environmental_only,4,acute flare-up of triaditis/chronic enteropathy,0.3181818181818182,0.4117647058823529,0.358974358974359,17
+logistic_ovr,environmental_only,4,acute gastroenteritis,0.45454545454545453,0.4166666666666667,0.43478260869565216,12
+logistic_ovr,environmental_only,4,acute pancreatitis,0.29411764705882354,0.2,0.23809523809523808,25
+logistic_ovr,environmental_only,4,parvovirus enteritis,0.38461538461538464,0.5555555555555556,0.45454545454545453,9
+logistic_ovr,environmental_only,5,acute flare-up of triaditis/chronic enteropathy,0.36363636363636365,0.2222222222222222,0.27586206896551724,18
+logistic_ovr,environmental_only,5,acute gastroenteritis,0.22727272727272727,0.4166666666666667,0.29411764705882354,12
+logistic_ovr,environmental_only,5,acute pancreatitis,0.38461538461538464,0.4166666666666667,0.4,24
+logistic_ovr,environmental_only,5,parvovirus enteritis,0.3333333333333333,0.125,0.18181818181818182,8
+hist_gb,environmental_only,1,acute flare-up of triaditis/chronic enteropathy,0.21428571428571427,0.16666666666666666,0.1875,18
+hist_gb,environmental_only,1,acute gastroenteritis,0.36363636363636365,0.3333333333333333,0.34782608695652173,12
+hist_gb,environmental_only,1,acute pancreatitis,0.46875,0.6,0.5263157894736842,25
+hist_gb,environmental_only,1,parvovirus enteritis,0.5,0.375,0.42857142857142855,8
+hist_gb,environmental_only,2,acute flare-up of triaditis/chronic enteropathy,0.35714285714285715,0.2777777777777778,0.3125,18
+hist_gb,environmental_only,2,acute gastroenteritis,0.4166666666666667,0.4166666666666667,0.4166666666666667,12
+hist_gb,environmental_only,2,acute pancreatitis,0.4,0.56,0.4666666666666667,25
+hist_gb,environmental_only,2,parvovirus enteritis,0.5,0.125,0.2,8
+hist_gb,environmental_only,3,acute flare-up of triaditis/chronic enteropathy,0.25,0.16666666666666666,0.2,18
+hist_gb,environmental_only,3,acute gastroenteritis,0.23076923076923078,0.25,0.24,12
+hist_gb,environmental_only,3,acute pancreatitis,0.36363636363636365,0.48,0.41379310344827586,25
+hist_gb,environmental_only,3,parvovirus enteritis,0.2,0.125,0.15384615384615385,8
+hist_gb,environmental_only,4,acute flare-up of triaditis/chronic enteropathy,0.375,0.35294117647058826,0.36363636363636365,17
+hist_gb,environmental_only,4,acute gastroenteritis,0.42857142857142855,0.25,0.3157894736842105,12
+hist_gb,environmental_only,4,acute pancreatitis,0.40625,0.52,0.45614035087719296,25
+hist_gb,environmental_only,4,parvovirus enteritis,0.375,0.3333333333333333,0.35294117647058826,9
+hist_gb,environmental_only,5,acute flare-up of triaditis/chronic enteropathy,0.4117647058823529,0.3888888888888889,0.4,18
+hist_gb,environmental_only,5,acute gastroenteritis,0.3333333333333333,0.3333333333333333,0.3333333333333333,12
+hist_gb,environmental_only,5,acute pancreatitis,0.391304347826087,0.375,0.3829787234042553,24
+hist_gb,environmental_only,5,parvovirus enteritis,0.3,0.375,0.3333333333333333,8
+random_forest,combined,1,acute flare-up of triaditis/chronic enteropathy,0.42857142857142855,0.16666666666666666,0.24,18
+random_forest,combined,1,acute gastroenteritis,0.7777777777777778,0.5833333333333334,0.6666666666666666,12
+random_forest,combined,1,acute pancreatitis,0.5121951219512195,0.84,0.6363636363636364,25
+random_forest,combined,1,parvovirus enteritis,0.8333333333333334,0.625,0.7142857142857143,8
+random_forest,combined,2,acute flare-up of triaditis/chronic enteropathy,0.5,0.16666666666666666,0.25,18
+random_forest,combined,2,acute gastroenteritis,0.6,0.5,0.5454545454545454,12
+random_forest,combined,2,acute pancreatitis,0.5365853658536586,0.88,0.6666666666666666,25
+random_forest,combined,2,parvovirus enteritis,0.8333333333333334,0.625,0.7142857142857143,8
+random_forest,combined,3,acute flare-up of triaditis/chronic enteropathy,0.25,0.05555555555555555,0.09090909090909091,18
+random_forest,combined,3,acute gastroenteritis,0.7,0.5833333333333334,0.6363636363636364,12
+random_forest,combined,3,acute pancreatitis,0.525,0.84,0.6461538461538462,25
+random_forest,combined,3,parvovirus enteritis,0.8888888888888888,1.0,0.9411764705882353,8
+random_forest,combined,4,acute flare-up of triaditis/chronic enteropathy,0.42857142857142855,0.17647058823529413,0.25,17
+random_forest,combined,4,acute gastroenteritis,0.36363636363636365,0.3333333333333333,0.34782608695652173,12
+random_forest,combined,4,acute pancreatitis,0.5135135135135135,0.76,0.6129032258064516,25
+random_forest,combined,4,parvovirus enteritis,0.75,0.6666666666666666,0.7058823529411765,9
+random_forest,combined,5,acute flare-up of triaditis/chronic enteropathy,0.42857142857142855,0.16666666666666666,0.24,18
+random_forest,combined,5,acute gastroenteritis,0.5454545454545454,0.5,0.5217391304347826,12
+random_forest,combined,5,acute pancreatitis,0.525,0.875,0.65625,24
+random_forest,combined,5,parvovirus enteritis,1.0,0.5,0.6666666666666666,8
+logistic_ovr,combined,1,acute flare-up of triaditis/chronic enteropathy,0.2631578947368421,0.2777777777777778,0.2702702702702703,18
+logistic_ovr,combined,1,acute gastroenteritis,0.6428571428571429,0.75,0.6923076923076923,12
+logistic_ovr,combined,1,acute pancreatitis,0.4782608695652174,0.44,0.4583333333333333,25
+logistic_ovr,combined,1,parvovirus enteritis,0.8571428571428571,0.75,0.8,8
+logistic_ovr,combined,2,acute flare-up of triaditis/chronic enteropathy,0.4444444444444444,0.4444444444444444,0.4444444444444444,18
+logistic_ovr,combined,2,acute gastroenteritis,0.6,0.5,0.5454545454545454,12
+logistic_ovr,combined,2,acute pancreatitis,0.6428571428571429,0.72,0.6792452830188679,25
+logistic_ovr,combined,2,parvovirus enteritis,0.8571428571428571,0.75,0.8,8
+logistic_ovr,combined,3,acute flare-up of triaditis/chronic enteropathy,0.4375,0.3888888888888889,0.4117647058823529,18
+logistic_ovr,combined,3,acute gastroenteritis,0.5833333333333334,0.5833333333333334,0.5833333333333334,12
+logistic_ovr,combined,3,acute pancreatitis,0.6,0.6,0.6,25
+logistic_ovr,combined,3,parvovirus enteritis,0.7,0.875,0.7777777777777778,8
+logistic_ovr,combined,4,acute flare-up of triaditis/chronic enteropathy,0.3888888888888889,0.4117647058823529,0.4,17
+logistic_ovr,combined,4,acute gastroenteritis,0.6,0.75,0.6666666666666666,12
+logistic_ovr,combined,4,acute pancreatitis,0.6190476190476191,0.52,0.5652173913043478,25
+logistic_ovr,combined,4,parvovirus enteritis,1.0,1.0,1.0,9
+logistic_ovr,combined,5,acute flare-up of triaditis/chronic enteropathy,0.38461538461538464,0.2777777777777778,0.3225806451612903,18
+logistic_ovr,combined,5,acute gastroenteritis,0.4117647058823529,0.5833333333333334,0.4827586206896552,12
+logistic_ovr,combined,5,acute pancreatitis,0.4166666666666667,0.4166666666666667,0.4166666666666667,24
+logistic_ovr,combined,5,parvovirus enteritis,0.75,0.75,0.75,8
+hist_gb,combined,1,acute flare-up of triaditis/chronic enteropathy,0.3157894736842105,0.3333333333333333,0.32432432432432434,18
+hist_gb,combined,1,acute gastroenteritis,0.8181818181818182,0.75,0.782608695652174,12
+hist_gb,combined,1,acute pancreatitis,0.48148148148148145,0.52,0.5,25
+hist_gb,combined,1,parvovirus enteritis,1.0,0.75,0.8571428571428571,8
+hist_gb,combined,2,acute flare-up of triaditis/chronic enteropathy,0.5333333333333333,0.4444444444444444,0.48484848484848486,18
+hist_gb,combined,2,acute gastroenteritis,0.875,0.5833333333333334,0.7,12
+hist_gb,combined,2,acute pancreatitis,0.5454545454545454,0.72,0.6206896551724138,25
+hist_gb,combined,2,parvovirus enteritis,0.7142857142857143,0.625,0.6666666666666666,8
+hist_gb,combined,3,acute flare-up of triaditis/chronic enteropathy,0.3157894736842105,0.3333333333333333,0.32432432432432434,18
+hist_gb,combined,3,acute gastroenteritis,0.8181818181818182,0.75,0.782608695652174,12
+hist_gb,combined,3,acute pancreatitis,0.4583333333333333,0.44,0.4489795918367347,25
+hist_gb,combined,3,parvovirus enteritis,0.8888888888888888,1.0,0.9411764705882353,8
+hist_gb,combined,4,acute flare-up of triaditis/chronic enteropathy,0.42105263157894735,0.47058823529411764,0.4444444444444444,17
+hist_gb,combined,4,acute gastroenteritis,0.8571428571428571,0.5,0.631578947368421,12
+hist_gb,combined,4,acute pancreatitis,0.5185185185185185,0.56,0.5384615384615384,25
+hist_gb,combined,4,parvovirus enteritis,0.6,0.6666666666666666,0.631578947368421,9
+hist_gb,combined,5,acute flare-up of triaditis/chronic enteropathy,0.47058823529411764,0.4444444444444444,0.45714285714285713,18
+hist_gb,combined,5,acute gastroenteritis,0.75,0.75,0.75,12
+hist_gb,combined,5,acute pancreatitis,0.5416666666666666,0.5416666666666666,0.5416666666666666,24
+hist_gb,combined,5,parvovirus enteritis,0.6666666666666666,0.75,0.7058823529411765,8

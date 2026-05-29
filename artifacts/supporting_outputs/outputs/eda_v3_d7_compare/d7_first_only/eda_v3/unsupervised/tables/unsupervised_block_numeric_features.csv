@@ -1,0 +1,117 @@
+block,numeric_feature
+environmental_only,apparent_temperature_max__day1
+environmental_only,daylight_duration__day1
+environmental_only,moon_phase_cos
+environmental_only,moon_phase_sin
+environmental_only,precipitation_hours__day1
+environmental_only,precipitation_hours__mean_13d
+environmental_only,precipitation_hours__mean_2d
+environmental_only,precipitation_hours__mean_7d
+environmental_only,precipitation_hours__peak_14d
+environmental_only,precipitation_hours__peak_7d
+environmental_only,precipitation_sum__day1
+environmental_only,precipitation_sum__mean_13d
+environmental_only,precipitation_sum__mean_2d
+environmental_only,precipitation_sum__mean_7d
+environmental_only,precipitation_sum__peak_14d
+environmental_only,snowfall_sum__day1
+environmental_only,snowfall_sum__mean_13d
+environmental_only,snowfall_sum__mean_2d
+environmental_only,snowfall_sum__mean_3d
+environmental_only,snowfall_sum__mean_7d
+environmental_only,surface_pressure_max__day1
+environmental_only,surface_pressure_max__mean_13d
+environmental_only,wind_direction_10m_dominant__day1
+environmental_only,wind_direction_10m_dominant__mean_13d
+environmental_only,wind_direction_10m_dominant__mean_7d
+environmental_only,wind_direction_10m_dominant__peak_14d
+environmental_only,wind_direction_10m_dominant__peak_7d
+environmental_only,wind_gusts_10m_max__day1
+environmental_only,wind_gusts_10m_max__mean_13d
+environmental_only,wind_gusts_10m_max__mean_7d
+environmental_only,wind_gusts_10m_max__peak_14d
+clinical_only,Albumin concentration (in g/l)
+clinical_only,Albumin concentration (in g/l)__missing
+clinical_only,BUN concentration
+clinical_only,BUN concentration__missing
+clinical_only,CREA concentration 
+clinical_only,CREA concentration __missing
+clinical_only,Cl value
+clinical_only,Cl value__missing
+clinical_only,Initial total protein concentration (in g/l)
+clinical_only,Initial total protein concentration (in g/l)__missing
+clinical_only,K value
+clinical_only,K value__missing
+clinical_only,Na value
+clinical_only,Na value__missing
+clinical_only,altitude (MASL)
+clinical_only,body weight
+clinical_only,body weight__missing
+clinical_only,hospitalization time (days)
+clinical_only,hospitalization time (days)__missing
+clinical_only,initial hematocrit
+clinical_only,initial hematocrit__missing
+clinical_only,leukocyte count
+clinical_only,leukocyte count__missing
+clinical_only,lymphocyte count
+clinical_only,lymphocyte count__missing
+clinical_only,neutrophil count (x 10^9/L)
+clinical_only,neutrophil count (x 10^9/L)__missing
+combined,Albumin concentration (in g/l)
+combined,Albumin concentration (in g/l)__missing
+combined,BUN concentration
+combined,BUN concentration__missing
+combined,CREA concentration 
+combined,CREA concentration __missing
+combined,Cl value
+combined,Cl value__missing
+combined,Initial total protein concentration (in g/l)
+combined,Initial total protein concentration (in g/l)__missing
+combined,K value
+combined,K value__missing
+combined,Na value
+combined,Na value__missing
+combined,altitude (MASL)
+combined,apparent_temperature_max__day1
+combined,body weight
+combined,body weight__missing
+combined,daylight_duration__day1
+combined,hospitalization time (days)
+combined,hospitalization time (days)__missing
+combined,initial hematocrit
+combined,initial hematocrit__missing
+combined,leukocyte count
+combined,leukocyte count__missing
+combined,lymphocyte count
+combined,lymphocyte count__missing
+combined,moon_phase_cos
+combined,moon_phase_sin
+combined,neutrophil count (x 10^9/L)
+combined,neutrophil count (x 10^9/L)__missing
+combined,precipitation_hours__day1
+combined,precipitation_hours__mean_13d
+combined,precipitation_hours__mean_2d
+combined,precipitation_hours__mean_7d
+combined,precipitation_hours__peak_14d
+combined,precipitation_hours__peak_7d
+combined,precipitation_sum__day1
+combined,precipitation_sum__mean_13d
+combined,precipitation_sum__mean_2d
+combined,precipitation_sum__mean_7d
+combined,precipitation_sum__peak_14d
+combined,snowfall_sum__day1
+combined,snowfall_sum__mean_13d
+combined,snowfall_sum__mean_2d
+combined,snowfall_sum__mean_3d
+combined,snowfall_sum__mean_7d
+combined,surface_pressure_max__day1
+combined,surface_pressure_max__mean_13d
+combined,wind_direction_10m_dominant__day1
+combined,wind_direction_10m_dominant__mean_13d
+combined,wind_direction_10m_dominant__mean_7d
+combined,wind_direction_10m_dominant__peak_14d
+combined,wind_direction_10m_dominant__peak_7d
+combined,wind_gusts_10m_max__day1
+combined,wind_gusts_10m_max__mean_13d
+combined,wind_gusts_10m_max__mean_7d
+combined,wind_gusts_10m_max__peak_14d

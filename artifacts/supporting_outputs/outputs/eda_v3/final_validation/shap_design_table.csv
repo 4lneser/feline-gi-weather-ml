@@ -1,0 +1,10 @@
+component,specification
+data_slice,Validation fold only (X_test) per CV fold; not train+validation combined.
+explainer,shap.TreeExplainer on fitted fold model.
+fold_statistic,mean(abs(SHAP)) per feature within each fold.
+cross_fold_aggregation,mean_abs_shap and std_abs_shap across folds per disease x feature_block x feature.
+ranking_basis,Descending mean_abs_shap within disease x feature_block (top20 exported).
+stability_spearman,Pairwise Spearman rank correlation across fold pairs on union of top-50 features.
+stability_jaccard10,Pairwise Jaccard overlap of top-10 feature sets across folds.
+stability_jaccard20,Pairwise Jaccard overlap of top-20 feature sets across folds.
+environmental_frame,Environmental-only SHAP uses same globally filtered kept_weather_numeric frame (31 numeric features in this run).

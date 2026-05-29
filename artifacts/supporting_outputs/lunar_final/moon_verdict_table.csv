@@ -1,0 +1,97 @@
+analysis_level,disease,stratum,metric,level,window_deg,exposure_n,case_n,risk,baseline_risk,rr,rr_ci_low,rr_ci_high,ci_excludes_1
+overall_category,acute flare-up of triaditis/chronic enteropathy,overall,moon_category,full,,38,12,0.3157894736842105,0.28343949044585987,1.114133648728563,0.568543869362522,2.007090726304566,False
+overall_category,acute flare-up of triaditis/chronic enteropathy,overall,moon_category,new,,45,18,0.4,0.28343949044585987,1.41123595505618,0.8050921014403258,2.307052199671623,False
+overall_category,acute flare-up of triaditis/chronic enteropathy,overall,moon_category,waning,,123,32,0.2601626016260163,0.28343949044585987,0.9178770439389788,0.5682052016146966,1.4554198756026249,False
+overall_category,acute flare-up of triaditis/chronic enteropathy,overall,moon_category,waxing,,108,27,0.25,0.28343949044585987,0.8820224719101124,0.5299138407776217,1.435011929601501,False
+overall_window,acute flare-up of triaditis/chronic enteropathy,overall,near_full,yes,15.0,22,7,0.3181818181818182,0.28343949044585987,1.1225740551583248,0.4873922246194331,2.2281056292911186,False
+overall_window,acute flare-up of triaditis/chronic enteropathy,overall,near_full,yes,30.0,45,12,0.26666666666666666,0.28343949044585987,0.9408239700374532,0.4756057600409328,1.7356948031040558,False
+overall_window,acute flare-up of triaditis/chronic enteropathy,overall,near_new,yes,15.0,28,9,0.32142857142857145,0.28343949044585987,1.1340288924558588,0.5342433370862072,2.142660501421639,False
+overall_window,acute flare-up of triaditis/chronic enteropathy,overall,near_new,yes,30.0,50,19,0.38,0.28343949044585987,1.340674157303371,0.7704724740842757,2.192918471068961,False
+stratified_category,acute flare-up of triaditis/chronic enteropathy,female_intact,moon_category,full,,2,0,0.0,0.10256410256410256,0.0,0.0,16.192687665264714,False
+stratified_category,acute flare-up of triaditis/chronic enteropathy,female_intact,moon_category,new,,4,0,0.0,0.10256410256410256,0.0,0.0,12.06274284143674,False
+stratified_category,acute flare-up of triaditis/chronic enteropathy,female_intact,moon_category,waning,,22,3,0.13636363636363635,0.10256410256410256,1.3295454545454546,0.20140316811999542,8.208133991989103,False
+stratified_category,acute flare-up of triaditis/chronic enteropathy,female_intact,moon_category,waxing,,11,1,0.09090909090909091,0.10256410256410256,0.8863636363636365,0.06883940376244486,9.291798826506035,False
+stratified_category,acute flare-up of triaditis/chronic enteropathy,female_neutered,moon_category,full,,11,7,0.6363636363636364,0.37894736842105264,1.6792929292929293,0.7379868927315865,2.946676058337178,False
+stratified_category,acute flare-up of triaditis/chronic enteropathy,female_neutered,moon_category,new,,12,5,0.4166666666666667,0.37894736842105264,1.099537037037037,0.4031169392261837,2.3636710840004636,False
+stratified_category,acute flare-up of triaditis/chronic enteropathy,female_neutered,moon_category,waning,,36,12,0.3333333333333333,0.37894736842105264,0.8796296296296295,0.4216539409662941,1.7251442988532977,False
+stratified_category,acute flare-up of triaditis/chronic enteropathy,female_neutered,moon_category,waxing,,36,12,0.3333333333333333,0.37894736842105264,0.8796296296296295,0.4216539409662941,1.7251442988532977,False
+stratified_category,acute flare-up of triaditis/chronic enteropathy,male_intact,moon_category,full,,5,1,0.2,0.1568627450980392,1.2750000000000001,0.12931897492427757,7.6442907655168595,False
+stratified_category,acute flare-up of triaditis/chronic enteropathy,male_intact,moon_category,new,,7,2,0.2857142857142857,0.1568627450980392,1.8214285714285714,0.29352047988129343,7.847484769353499,False
+stratified_category,acute flare-up of triaditis/chronic enteropathy,male_intact,moon_category,waning,,19,2,0.10526315789473684,0.1568627450980392,0.6710526315789473,0.10480970697911968,3.8430734114254044,False
+stratified_category,acute flare-up of triaditis/chronic enteropathy,male_intact,moon_category,waxing,,20,3,0.15,0.1568627450980392,0.9562499999999999,0.1869563283253567,4.4120178930705265,False
+stratified_category,acute flare-up of triaditis/chronic enteropathy,male_neutered,moon_category,full,,20,4,0.2,0.3203125,0.624390243902439,0.1989709396671106,1.6930105317819453,False
+stratified_category,acute flare-up of triaditis/chronic enteropathy,male_neutered,moon_category,new,,22,11,0.5,0.3203125,1.5609756097560976,0.7578753687733097,2.819293033723277,False
+stratified_category,acute flare-up of triaditis/chronic enteropathy,male_neutered,moon_category,waning,,46,15,0.32608695652173914,0.3203125,1.0180275715800637,0.5147369815134432,1.9140005604166632,False
+stratified_category,acute flare-up of triaditis/chronic enteropathy,male_neutered,moon_category,waxing,,40,11,0.275,0.3203125,0.8585365853658538,0.3973642005405397,1.743190967021448,False
+overall_category,acute gastroenteritis,overall,moon_category,full,,38,7,0.18421052631578946,0.1910828025477707,0.9640350877192981,0.38713829618213447,2.2068659363608893,False
+overall_category,acute gastroenteritis,overall,moon_category,new,,45,7,0.15555555555555556,0.1910828025477707,0.8140740740740741,0.32516009036810967,1.9007908543939716,False
+overall_category,acute gastroenteritis,overall,moon_category,waning,,123,20,0.16260162601626016,0.1910828025477707,0.8509485094850948,0.45253828158869325,1.5706366614213227,False
+overall_category,acute gastroenteritis,overall,moon_category,waxing,,108,26,0.24074074074074073,0.1910828025477707,1.2598765432098764,0.713310290444277,2.175098682101635,False
+overall_window,acute gastroenteritis,overall,near_full,yes,15.0,22,5,0.22727272727272727,0.1910828025477707,1.1893939393939392,0.42497376847630963,2.8686244097718245,False
+overall_window,acute gastroenteritis,overall,near_full,yes,30.0,45,10,0.2222222222222222,0.1910828025477707,1.1629629629629628,0.5266386438813242,2.39509511792084,False
+overall_window,acute gastroenteritis,overall,near_new,yes,15.0,28,6,0.21428571428571427,0.1910828025477707,1.1214285714285712,0.42872820879066714,2.6109912304561944,False
+overall_window,acute gastroenteritis,overall,near_new,yes,30.0,50,9,0.18,0.1910828025477707,0.942,0.4101623697512079,2.0336636649767024,False
+stratified_category,acute gastroenteritis,female_intact,moon_category,full,,2,2,1.0,0.2564102564102564,3.9000000000000004,0.8333876470986996,6.864065360354121,False
+stratified_category,acute gastroenteritis,female_intact,moon_category,new,,4,0,0.0,0.2564102564102564,0.0,0.0,3.3627057600918677,False
+stratified_category,acute gastroenteritis,female_intact,moon_category,waning,,22,3,0.13636363636363635,0.2564102564102564,0.5318181818181819,0.115596179877042,2.2881644595500727,False
+stratified_category,acute gastroenteritis,female_intact,moon_category,waxing,,11,5,0.45454545454545453,0.2564102564102564,1.772727272727273,0.5177688507923927,4.9415246986631445,False
+stratified_category,acute gastroenteritis,female_neutered,moon_category,full,,11,1,0.09090909090909091,0.15789473684210525,0.5757575757575758,0.06644246693726459,3.847350006673503,False
+stratified_category,acute gastroenteritis,female_neutered,moon_category,new,,12,2,0.16666666666666666,0.15789473684210525,1.0555555555555556,0.19224134120633576,4.567870346493068,False
+stratified_category,acute gastroenteritis,female_neutered,moon_category,waning,,36,7,0.19444444444444445,0.15789473684210525,1.2314814814814816,0.3992246249511056,3.5712507192530705,False
+stratified_category,acute gastroenteritis,female_neutered,moon_category,waxing,,36,5,0.1388888888888889,0.15789473684210525,0.8796296296296298,0.2489471437324331,2.921961189998015,False
+stratified_category,acute gastroenteritis,male_intact,moon_category,full,,5,2,0.4,0.2549019607843137,1.5692307692307694,0.3026051884990644,4.948531531042658,False
+stratified_category,acute gastroenteritis,male_intact,moon_category,new,,7,1,0.14285714285714285,0.2549019607843137,0.5604395604395604,0.0660661636279621,3.3008294061629946,False
+stratified_category,acute gastroenteritis,male_intact,moon_category,waning,,19,5,0.2631578947368421,0.2549019607843137,1.0323886639676114,0.3037478920563043,3.1386305768398333,False
+stratified_category,acute gastroenteritis,male_intact,moon_category,waxing,,20,5,0.25,0.2549019607843137,0.9807692307692308,0.28779069389354284,3.01502874914574,False
+stratified_category,acute gastroenteritis,male_neutered,moon_category,full,,20,2,0.1,0.171875,0.5818181818181819,0.11302719610261591,2.5877881339096707,False
+stratified_category,acute gastroenteritis,male_neutered,moon_category,new,,22,4,0.18181818181818182,0.171875,1.0578512396694215,0.2963706374366142,3.3110047263680715,False
+stratified_category,acute gastroenteritis,male_neutered,moon_category,waning,,46,5,0.10869565217391304,0.171875,0.6324110671936759,0.19197888245644776,1.9804040927059137,False
+stratified_category,acute gastroenteritis,male_neutered,moon_category,waxing,,40,11,0.275,0.171875,1.6,0.6533526287781801,3.68220881795227,False
+overall_category,acute pancreatitis,overall,moon_category,full,,38,14,0.3684210526315789,0.39490445859872614,0.9329371816638369,0.5197243429026573,1.539529972997034,False
+overall_category,acute pancreatitis,overall,moon_category,new,,45,15,0.3333333333333333,0.39490445859872614,0.8440860215053763,0.4747103159286856,1.399743528706201,False
+overall_category,acute pancreatitis,overall,moon_category,waning,,123,56,0.45528455284552843,0.39490445859872614,1.152897980592709,0.8222630544241392,1.5867023676380392,False
+overall_category,acute pancreatitis,overall,moon_category,waxing,,108,39,0.3611111111111111,0.39490445859872614,0.914426523297491,0.6150587212570886,1.3288700767394739,False
+overall_window,acute pancreatitis,overall,near_full,yes,15.0,22,7,0.3181818181818182,0.39490445859872614,0.8057184750733137,0.36361985904810057,1.5385209744637864,False
+overall_window,acute pancreatitis,overall,near_full,yes,30.0,45,17,0.37777777777777777,0.39490445859872614,0.9566308243727598,0.5580384813176975,1.5294254558366283,False
+overall_window,acute pancreatitis,overall,near_new,yes,15.0,28,8,0.2857142857142857,0.39490445859872614,0.7235023041474653,0.3390256140313545,1.3743317036093188,False
+overall_window,acute pancreatitis,overall,near_new,yes,30.0,50,17,0.34,0.39490445859872614,0.8609677419354839,0.49867126219695534,1.3973093209959861,False
+stratified_category,acute pancreatitis,female_intact,moon_category,full,,2,0,0.0,0.3076923076923077,0.0,0.0,3.5421565250435174,False
+stratified_category,acute pancreatitis,female_intact,moon_category,new,,4,1,0.25,0.3076923076923077,0.8125,0.09820021951906995,3.7669569920345993,False
+stratified_category,acute pancreatitis,female_intact,moon_category,waning,,22,8,0.36363636363636365,0.3076923076923077,1.1818181818181819,0.4250821732817346,3.0727894142440615,False
+stratified_category,acute pancreatitis,female_intact,moon_category,waxing,,11,3,0.2727272727272727,0.3076923076923077,0.8863636363636362,0.20994303000597847,3.0467403041627272,False
+stratified_category,acute pancreatitis,female_neutered,moon_category,full,,11,3,0.2727272727272727,0.43157894736842106,0.6319290465631928,0.18322088870075828,1.680698355448757,False
+stratified_category,acute pancreatitis,female_neutered,moon_category,new,,12,5,0.4166666666666667,0.43157894736842106,0.9654471544715447,0.3633207245847125,2.0219257657809444,False
+stratified_category,acute pancreatitis,female_neutered,moon_category,waning,,36,17,0.4722222222222222,0.43157894736842106,1.0941734417344173,0.601327438583543,1.8717300319206938,False
+stratified_category,acute pancreatitis,female_neutered,moon_category,waxing,,36,16,0.4444444444444444,0.43157894736842106,1.0298102981029809,0.5553663115469548,1.7952164552960341,False
+stratified_category,acute pancreatitis,male_intact,moon_category,full,,5,0,0.0,0.21568627450980393,0.0,0.0,3.4776537460031096,False
+stratified_category,acute pancreatitis,male_intact,moon_category,new,,7,2,0.2857142857142857,0.21568627450980393,1.3246753246753245,0.23743916926799644,5.131107692618445,False
+stratified_category,acute pancreatitis,male_intact,moon_category,waning,,19,6,0.3157894736842105,0.21568627450980393,1.464114832535885,0.443709773783036,4.3213386827857345,False
+stratified_category,acute pancreatitis,male_intact,moon_category,waxing,,20,3,0.15,0.21568627450980393,0.6954545454545454,0.15123563202445073,2.8848146401652004,False
+stratified_category,acute pancreatitis,male_neutered,moon_category,full,,20,11,0.55,0.46875,1.1733333333333333,0.6165330040343209,1.9294058056135763,False
+stratified_category,acute pancreatitis,male_neutered,moon_category,new,,22,7,0.3181818181818182,0.46875,0.6787878787878788,0.29486259195145115,1.37023246905504,False
+stratified_category,acute pancreatitis,male_neutered,moon_category,waning,,46,25,0.5434782608695652,0.46875,1.1594202898550725,0.7241613240374228,1.7646347107217883,False
+stratified_category,acute pancreatitis,male_neutered,moon_category,waxing,,40,17,0.425,0.46875,0.9066666666666666,0.5138195779451915,1.5034906851418057,False
+overall_category,parvovirus enteritis,overall,moon_category,full,,38,5,0.13157894736842105,0.1305732484076433,1.0077021822849808,0.3338459000751075,2.796241999498943,False
+overall_category,parvovirus enteritis,overall,moon_category,new,,45,5,0.1111111111111111,0.1305732484076433,0.8509485094850948,0.2808496385405218,2.404564416505368,False
+overall_category,parvovirus enteritis,overall,moon_category,waning,,123,15,0.12195121951219512,0.1305732484076433,0.9339678762641285,0.43698392851574586,1.9593990955080627,False
+overall_category,parvovirus enteritis,overall,moon_category,waxing,,108,16,0.14814814814814814,0.1305732484076433,1.1345980126467932,0.5413133047333556,2.3245388541169008,False
+overall_window,parvovirus enteritis,overall,near_full,yes,15.0,22,3,0.13636363636363635,0.1305732484076433,1.0443458980044344,0.27554160327254845,3.4110329972809352,False
+overall_window,parvovirus enteritis,overall,near_full,yes,30.0,45,6,0.13333333333333333,0.1305732484076433,1.021138211382114,0.3630472483845937,2.6786108759343823,False
+overall_window,parvovirus enteritis,overall,near_new,yes,15.0,28,5,0.17857142857142858,0.1305732484076433,1.367595818815331,0.4571195794437609,3.6419161654143983,False
+overall_window,parvovirus enteritis,overall,near_new,yes,30.0,50,5,0.1,0.1305732484076433,0.7658536585365854,0.25225129646550837,2.185703828514451,False
+stratified_category,parvovirus enteritis,female_intact,moon_category,full,,2,0,0.0,0.3333333333333333,0.0,0.0,3.187299481333111,False
+stratified_category,parvovirus enteritis,female_intact,moon_category,new,,4,3,0.75,0.3333333333333333,2.25,0.6132564147302357,4.625719752794018,False
+stratified_category,parvovirus enteritis,female_intact,moon_category,waning,,22,8,0.36363636363636365,0.3333333333333333,1.090909090909091,0.4025256464145432,2.764954071628906,False
+stratified_category,parvovirus enteritis,female_intact,moon_category,waxing,,11,2,0.18181818181818182,0.3333333333333333,0.5454545454545455,0.10478083752243313,2.3117895831639412,False
+stratified_category,parvovirus enteritis,female_neutered,moon_category,full,,11,0,0.0,0.031578947368421054,0.0,3.1265972621918535e-16,23.97345224087782,False
+stratified_category,parvovirus enteritis,female_neutered,moon_category,new,,12,0,0.0,0.031578947368421054,0.0,0.0,22.460129581495067,False
+stratified_category,parvovirus enteritis,female_neutered,moon_category,waning,,36,0,0.0,0.031578947368421054,0.0,0.0,8.93047439807167,False
+stratified_category,parvovirus enteritis,female_neutered,moon_category,waxing,,36,3,0.08333333333333333,0.031578947368421054,2.638888888888889,0.32384014820523194,20.215915374934585,False
+stratified_category,parvovirus enteritis,male_intact,moon_category,full,,5,2,0.4,0.37254901960784315,1.0736842105263158,0.23073692024551895,3.0381913516451697,False
+stratified_category,parvovirus enteritis,male_intact,moon_category,new,,7,2,0.2857142857142857,0.37254901960784315,0.7669172932330827,0.16128907415150553,2.5318426612760527,False
+stratified_category,parvovirus enteritis,male_intact,moon_category,waning,,19,6,0.3157894736842105,0.37254901960784315,0.8476454293628808,0.30140578248344596,2.1322783083736314,False
+stratified_category,parvovirus enteritis,male_intact,moon_category,waxing,,20,9,0.45,0.37254901960784315,1.2078947368421054,0.5065126668554414,2.5983784529748752,False
+stratified_category,parvovirus enteritis,male_neutered,moon_category,full,,20,3,0.15,0.0390625,3.84,0.5938184017622308,21.455858209904008,False
+stratified_category,parvovirus enteritis,male_neutered,moon_category,new,,22,0,0.0,0.0390625,0.0,1.5736553839057623e-16,8.849643577223677,False
+stratified_category,parvovirus enteritis,male_neutered,moon_category,waning,,46,1,0.021739130434782608,0.0390625,0.5565217391304348,0.043631165360147224,6.748011372642538,False
+stratified_category,parvovirus enteritis,male_neutered,moon_category,waxing,,40,1,0.025,0.0390625,0.64,0.05019624005119377,7.668401644316719,False

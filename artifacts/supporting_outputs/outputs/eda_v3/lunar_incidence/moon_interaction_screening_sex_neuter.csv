@@ -1,0 +1,17 @@
+disease,sex_neuter,n,cases,auc_fitted,coef_moon_sin,coef_moon_cos,note
+acute flare-up of triaditis/chronic enteropathy,female_intact,39,4,0.6142857142857143,-0.2419231765070743,0.47860439252993636,Exploratory stratum-specific moon-only model.
+acute flare-up of triaditis/chronic enteropathy,female_neutered,95,36,0.5903954802259886,-0.18855895257552835,-0.3779447322584864,Exploratory stratum-specific moon-only model.
+acute flare-up of triaditis/chronic enteropathy,male_intact,51,8,0.6017441860465117,0.1015223392011606,0.4486775688427209,Exploratory stratum-specific moon-only model.
+acute flare-up of triaditis/chronic enteropathy,male_neutered,129,42,0.6029009304871374,-0.09752084011823668,0.48693206673785416,Exploratory stratum-specific moon-only model.
+acute gastroenteritis,female_intact,39,10,0.7982758620689655,0.7488484314645567,-1.1681533383750027,Exploratory stratum-specific moon-only model.
+acute gastroenteritis,female_neutered,95,15,0.6345833333333333,-0.12846329975471285,0.730420929720173,Exploratory stratum-specific moon-only model.
+acute gastroenteritis,male_intact,51,13,0.5789473684210527,-0.18056363571344938,0.061399793195459025,Exploratory stratum-specific moon-only model.
+acute gastroenteritis,male_neutered,129,22,0.6699235344095157,0.6743694908388742,-0.23942297147155678,Exploratory stratum-specific moon-only model.
+acute pancreatitis,female_intact,39,12,0.6080246913580247,-0.3143910928237133,0.050989074466477116,Exploratory stratum-specific moon-only model.
+acute pancreatitis,female_neutered,95,41,0.5124209575429088,0.05859471788121299,0.07450541690134642,Exploratory stratum-specific moon-only model.
+acute pancreatitis,male_intact,51,11,0.6840909090909091,-0.416563242565626,0.6655292081322672,Exploratory stratum-specific moon-only model.
+acute pancreatitis,male_neutered,129,60,0.5640096618357487,-0.31383846773476637,-0.19516866980887781,Exploratory stratum-specific moon-only model.
+parvovirus enteritis,female_intact,39,13,0.6819526627218935,-0.3194576944008098,0.7317216024616429,Exploratory stratum-specific moon-only model.
+parvovirus enteritis,female_neutered,95,3,0.9347826086956522,2.3375992131179393,-1.35122405821731,Exploratory stratum-specific moon-only model.
+parvovirus enteritis,male_intact,51,19,0.6924342105263158,0.3918917137102964,-0.7190260548635977,Exploratory stratum-specific moon-only model.
+parvovirus enteritis,male_neutered,129,5,0.7193548387096774,0.29219156569154925,-0.6809011714572779,Exploratory stratum-specific moon-only model.

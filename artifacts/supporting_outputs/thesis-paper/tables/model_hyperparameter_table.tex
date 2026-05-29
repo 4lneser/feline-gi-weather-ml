@@ -1,0 +1,37 @@
+\begin{table}[htbp]
+\centering
+\small
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{llll}
+\toprule
+Model & Hyperparameter & Value & Explicitly Set \\
+\midrule
+hist\_gb\_multiclass & random\_state & 42 & Yes \\
+hist\_gb\_multiclass & max\_iter & 300 & Yes \\
+hist\_gb\_multiclass & learning\_rate & 0.1 & Yes \\
+hist\_gb\_multiclass & max\_depth & -- & Yes \\
+hist\_gb\_multiclass & class\_weight & balanced & Yes \\
+hist\_gb\_multiclass & early\_stopping & auto & No \\
+hist\_gb\_binary\_ovr & random\_state & 42 & Yes \\
+hist\_gb\_binary\_ovr & max\_iter & 300 & Yes \\
+hist\_gb\_binary\_ovr & learning\_rate & 0.1 & Yes \\
+hist\_gb\_binary\_ovr & max\_depth & -- & Yes \\
+hist\_gb\_binary\_ovr & class\_weight & not set & No \\
+hist\_gb\_binary\_ovr & early\_stopping & auto & No \\
+random\_forest & random\_state & 42 & Yes \\
+random\_forest & n\_estimators & 700 & Yes \\
+random\_forest & min\_samples\_leaf & 2 & Yes \\
+random\_forest & class\_weight & balanced\_subsample & Yes \\
+random\_forest & n\_jobs & -1 & Yes \\
+random\_forest & max\_depth & None (default) & No \\
+logistic\_ovr & solver & liblinear & Yes \\
+logistic\_ovr & class\_weight & balanced & Yes \\
+logistic\_ovr & max\_iter & 3000 & Yes \\
+logistic\_ovr & random\_state & 42 & Yes \\
+logistic\_ovr & multiclass\_wrapper & OneVsRestClassifier & Yes \\
+\bottomrule
+\end{tabular}%
+}
+\caption{Supervised model hyperparameters explicitly set in the final analysis pipeline.}
+\label{tab:model_hyperparameters}
+\end{table}

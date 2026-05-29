@@ -1,0 +1,15 @@
+metric,value
+N_total,314.0
+BUN_increased_count,121.0
+BUN_increased_prevalence,0.3853503184713376
+precipitation_hours_mean_7d_low_prevalence,0.2802547770700637
+precipitation_hours_peak_14d_low_prevalence,0.3089171974522293
+surface_pressure_max_day1_high_prevalence,0.2611464968152866
+full_conjunction_prevalence,0.08280254777070063
+full_support,0.06369426751592357
+full_confidence,0.7692307692307693
+full_lift,1.9961856325492688
+full_support_count,20.0
+threshold_q25_precipitation_hours_mean_7d,1.857142857142857
+threshold_q25_precipitation_hours_peak_14d,11.0
+threshold_q75_surface_pressure_max_day1,1009.1

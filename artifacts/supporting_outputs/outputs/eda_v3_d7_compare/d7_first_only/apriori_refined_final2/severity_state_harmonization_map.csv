@@ -1,0 +1,44 @@
+lab,state,consequent_name,prevalence,numeric_source,interpretation_source
+albumin,increased,ALBUMIN_INCREASED,0.14968152866242038,Albumin concentration (in g/l),Albumin interpretation
+albumin,lower_limit,ALBUMIN_LOWER_LIMIT,0.25796178343949044,Albumin concentration (in g/l),Albumin interpretation
+albumin,physiological,ALBUMIN_PHYSIOLOGICAL,0.43630573248407645,Albumin concentration (in g/l),Albumin interpretation
+albumin,upper_limit,ALBUMIN_UPPER_LIMIT,0.15605095541401273,Albumin concentration (in g/l),Albumin interpretation
+bun,increased,BUN_INCREASED,0.3885350318471338,BUN concentration,BUN interpreattion
+bun,lower_limit,BUN_LOWER_LIMIT,0.2611464968152866,BUN concentration,BUN interpreattion
+bun,physiological,BUN_PHYSIOLOGICAL,0.2070063694267516,BUN concentration,BUN interpreattion
+bun,upper_limit,BUN_UPPER_LIMIT,0.14331210191082802,BUN concentration,BUN interpreattion
+creatinine,increased,CREATININE_INCREASED,0.2929936305732484,CREA concentration ,CREA interpretation
+creatinine,lower_limit,CREATININE_LOWER_LIMIT,0.29936305732484075,CREA concentration ,CREA interpretation
+creatinine,physiological,CREATININE_PHYSIOLOGICAL,0.20382165605095542,CREA concentration ,CREA interpretation
+creatinine,upper_limit,CREATININE_UPPER_LIMIT,0.20382165605095542,CREA concentration ,CREA interpretation
+derived,dehydration_proxy,DEHYDRATION_PROXY,0.7802547770700637,BUN_INCREASED;CREATININE_INCREASED;HEMATOCRIT_INCREASED;TOTAL_PROTEIN_INCREASED;ALBUMIN_LOWER_LIMIT,
+hematocrit,increased,HEMATOCRIT_INCREASED,0.06369426751592357,initial hematocrit,hematocrit interpretation
+hematocrit,lower_limit,HEMATOCRIT_LOWER_LIMIT,0.46496815286624205,initial hematocrit,hematocrit interpretation
+hematocrit,physiological,HEMATOCRIT_PHYSIOLOGICAL,0.28662420382165604,initial hematocrit,hematocrit interpretation
+hematocrit,upper_limit,HEMATOCRIT_UPPER_LIMIT,0.18471337579617833,initial hematocrit,hematocrit interpretation
+leukocyte,increased,LEUKOCYTE_INCREASED,0.1624203821656051,leukocyte count,leukocyte count interpreatation
+leukocyte,lower_limit,LEUKOCYTE_LOWER_LIMIT,0.31210191082802546,leukocyte count,leukocyte count interpreatation
+leukocyte,physiological,LEUKOCYTE_PHYSIOLOGICAL,0.39490445859872614,leukocyte count,leukocyte count interpreatation
+leukocyte,upper_limit,LEUKOCYTE_UPPER_LIMIT,0.1305732484076433,leukocyte count,leukocyte count interpreatation
+lymphocyte,increased,LYMPHOCYTE_INCREASED,0.07006369426751592,lymphocyte count,lymphocyte count interpreatation
+lymphocyte,lower_limit,LYMPHOCYTE_LOWER_LIMIT,0.7643312101910829,lymphocyte count,lymphocyte count interpreatation
+lymphocyte,physiological,LYMPHOCYTE_PHYSIOLOGICAL,0.1178343949044586,lymphocyte count,lymphocyte count interpreatation
+neutrophil,increased,NEUTROPHIL_INCREASED,0.23885350318471338,neutrophil count (x 10^9/L),neutrophil count interpretation
+neutrophil,lower_limit,NEUTROPHIL_LOWER_LIMIT,0.31528662420382164,neutrophil count (x 10^9/L),neutrophil count interpretation
+neutrophil,physiological,NEUTROPHIL_PHYSIOLOGICAL,0.3503184713375796,neutrophil count (x 10^9/L),neutrophil count interpretation
+neutrophil,upper_limit,NEUTROPHIL_UPPER_LIMIT,0.09554140127388536,neutrophil count (x 10^9/L),neutrophil count interpretation
+serum_cl,increased,SERUM_CL_INCREASED,0.2770700636942675,Cl value,Cl interpreatation
+serum_cl,lower_limit,SERUM_CL_LOWER_LIMIT,0.1910828025477707,Cl value,Cl interpreatation
+serum_cl,physiological,SERUM_CL_PHYSIOLOGICAL,0.17197452229299362,Cl value,Cl interpreatation
+serum_cl,upper_limit,SERUM_CL_UPPER_LIMIT,0.35987261146496813,Cl value,Cl interpreatation
+serum_k,increased,SERUM_K_INCREASED,0.05732484076433121,K value,K interpreatation
+serum_k,lower_limit,SERUM_K_LOWER_LIMIT,0.5095541401273885,K value,K interpreatation
+serum_k,physiological,SERUM_K_PHYSIOLOGICAL,0.34076433121019106,K value,K interpreatation
+serum_k,upper_limit,SERUM_K_UPPER_LIMIT,0.09235668789808917,K value,K interpreatation
+serum_na,lower_limit,SERUM_NA_LOWER_LIMIT,0.4681528662420382,Na value,Na interpreatation
+serum_na,physiological,SERUM_NA_PHYSIOLOGICAL,0.3503184713375796,Na value,Na interpreatation
+serum_na,upper_limit,SERUM_NA_UPPER_LIMIT,0.14012738853503184,Na value,Na interpreatation
+total_protein,increased,TOTAL_PROTEIN_INCREASED,0.21019108280254778,Initial total protein concentration (in g/l),initial total protein interpreatation
+total_protein,lower_limit,TOTAL_PROTEIN_LOWER_LIMIT,0.20382165605095542,Initial total protein concentration (in g/l),initial total protein interpreatation
+total_protein,physiological,TOTAL_PROTEIN_PHYSIOLOGICAL,0.20063694267515925,Initial total protein concentration (in g/l),initial total protein interpreatation
+total_protein,upper_limit,TOTAL_PROTEIN_UPPER_LIMIT,0.3853503184713376,Initial total protein concentration (in g/l),initial total protein interpreatation

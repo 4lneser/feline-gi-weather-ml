@@ -1,0 +1,17 @@
+disease,term,coef,odds_ratio,p_value,note
+acute pancreatitis,moon_phase_sin,-0.13288411226694688,0.8755665536526234,,Exploratory sklearn logistic; p-values not estimated in this implementation.
+acute pancreatitis,moon_phase_cos,-0.05717223649533935,0.9444313898045783,,Exploratory sklearn logistic; p-values not estimated in this implementation.
+acute pancreatitis,doy_sin,0.246438884625801,1.2794609860911659,,Exploratory sklearn logistic; p-values not estimated in this implementation.
+acute pancreatitis,doy_cos,-0.06780929359162831,0.9344386600267219,,Exploratory sklearn logistic; p-values not estimated in this implementation.
+acute flare-up of triaditis/chronic enteropathy,moon_phase_sin,-0.06157200239267205,0.9402852405148775,,Exploratory sklearn logistic; p-values not estimated in this implementation.
+acute flare-up of triaditis/chronic enteropathy,moon_phase_cos,0.035196252443606066,1.0358229716428842,,Exploratory sklearn logistic; p-values not estimated in this implementation.
+acute flare-up of triaditis/chronic enteropathy,doy_sin,0.2817694473941013,1.3254730934809016,,Exploratory sklearn logistic; p-values not estimated in this implementation.
+acute flare-up of triaditis/chronic enteropathy,doy_cos,0.1023856095779469,1.1078105717427278,,Exploratory sklearn logistic; p-values not estimated in this implementation.
+acute gastroenteritis,moon_phase_sin,0.22414768766600726,1.2512558008318622,,Exploratory sklearn logistic; p-values not estimated in this implementation.
+acute gastroenteritis,moon_phase_cos,0.021552009638019034,1.0217859316718785,,Exploratory sklearn logistic; p-values not estimated in this implementation.
+acute gastroenteritis,doy_sin,-0.3669293132321279,0.6928586192498443,,Exploratory sklearn logistic; p-values not estimated in this implementation.
+acute gastroenteritis,doy_cos,-0.22097061567877754,0.8017402385367782,,Exploratory sklearn logistic; p-values not estimated in this implementation.
+parvovirus enteritis,moon_phase_sin,-0.03236619951054811,0.9681519803743257,,Exploratory sklearn logistic; p-values not estimated in this implementation.
+parvovirus enteritis,moon_phase_cos,0.036343211866748666,1.0370117001422787,,Exploratory sklearn logistic; p-values not estimated in this implementation.
+parvovirus enteritis,doy_sin,-0.6429491764286317,0.5257396365027366,,Exploratory sklearn logistic; p-values not estimated in this implementation.
+parvovirus enteritis,doy_cos,0.35497611665281115,1.4261465927205135,,Exploratory sklearn logistic; p-values not estimated in this implementation.

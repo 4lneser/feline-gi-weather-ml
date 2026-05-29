@@ -1,0 +1,23 @@
+\begin{table}[htbp]
+\centering
+\small
+\begin{tabular}{p{0.30\linewidth} p{0.64\linewidth}}
+\toprule
+Step & Specification \\
+\midrule
+input\_blocks & environmental\_only, clinical\_only, combined; numeric subsets aligned to modeling blocks. \\
+env\_alignment & Environmental numeric uses kept\_weather\_numeric after global correlation filter (31 features). \\
+numeric\_preprocessing & Median imputation for missing numeric values, then StandardScaler (centering + scaling). \\
+pca & PCA n\_components=min(n\_features,20); scree/loadings/scatter exported per block. \\
+pca\_thresholds & n\_pcs\_70, n\_pcs\_80, n\_pcs\_90 computed from cumulative explained variance. \\
+kmeans\_dims & Two PCA spaces: Dfixed6 (6 PCs cap) and D80 (PC count to reach 80\% variance; min2 max20). \\
+kmeans\_search & KMeans k=2..8 with n\_init=50, random\_state=42; evaluate k\_best plus k=4 and k=6. \\
+alignment\_metrics & ARI and NMI vs diagnosis labels for k=4, k=6, k\_best. \\
+hierarchical & Ward linkage on PCA scores; dendrogram + contingency at k=4 and k=6. \\
+k\_equals\_6\_meaning & k=6 refers to clustering cluster-count only (not discretization). \\
+clinical\_missing\_indicators & Clinical PCA includes \_\_missing indicators (13 of 27 clinical numeric features in this run). \\
+\bottomrule
+\end{tabular}
+\caption{Unsupervised analysis protocol aligned to model feature frames.}
+\label{tab:unsupervised_protocol}
+\end{table}

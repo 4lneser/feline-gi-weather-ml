@@ -1,0 +1,14 @@
+$ /opt/conda/bin/python3 /workspace/TYP/apriori_refined_final2.py --input outputs/eda_v3_d7_compare/datasets/d7_first_only.csv --outdir outputs/eda_v3_d7_compare/d7_first_only/apriori_refined_final2 --seed 42 --corr-threshold 0.85
+
+=== Apriori Refined Final2 ===
+Output directory: outputs/eda_v3_d7_compare/d7_first_only/apriori_refined_final2
+diagnosis: strongest => diagnosis=acute gastroenteritis <= snowfall_sum_mean_13d_low, surface_pressure_max_day1_low (lift=1.782, conf=0.340, support=0.051)
+severity: strongest => TOTAL_PROTEIN_INCREASED <= precipitation_hours_mean_13d_low, precipitation_hours_mean_7d_low, precipitation_sum_mean_2d_low (lift=2.175, conf=0.457, support=0.051)
+cluster_kbest: strongest => cluster_clinical_kbest=1 <= precipitation_hours_mean_13d_high, precipitation_sum_mean_13d_high, snowfall_sum_mean_13d_low (lift=2.343, conf=0.500, support=0.051)
+cluster_k6: strongest => cluster_combined_k6=5 <= precipitation_hours_mean_13d_high, snowfall_sum_mean_13d_low (lift=5.024, conf=0.400, support=0.051)
+Stable rule counts:
+- diagnosis: 117
+- severity: 1791
+- cluster_kbest: 423
+- cluster_k6: 980
+k=6 reporting condition passed: yes

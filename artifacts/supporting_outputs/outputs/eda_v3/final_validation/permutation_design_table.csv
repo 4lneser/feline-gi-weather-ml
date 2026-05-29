@@ -1,0 +1,9 @@
+element,description
+target_permutation_unit,Entire binary y vector permuted globally per disease and permutation index.
+folding_scheme,StratifiedKFold with fixed splits computed once from non-permuted y.
+stratification_preservation,Preserved at initial split construction; not re-stratified after permutation.
+permutation_timing,"Permutation applied after fixed split indices are defined, before fold-wise model fit/evaluation."
+auc_computation,"ROC-AUC computed on validation fold predictions only, then averaged across folds per permutation."
+null_distribution,Distribution of per-permutation fold-mean AUC values.
+p_value_formula,(count(perm_mean_auc >= observed_auc) + 1) / (n_perm + 1).
+n_perm_parameter,CLI --perm-n (default 200; observed runs used n_perm=200).

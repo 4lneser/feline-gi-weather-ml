@@ -1,0 +1,5 @@
+disease,replication_class,env_only_mean_spearman,env_only_jaccard10,env_only_jaccard20,final_robustness_call
+acute flare-up of triaditis/chronic enteropathy,HistGB only,0.8153265385611095,0.3869047619047619,0.592154801720019,Exploratory/fragile
+acute gastroenteritis,HistGB only,0.8289305243803241,0.582051282051282,0.6750724637681158,Suggestive
+acute pancreatitis,HistGB only,0.8331835645986205,0.3583979745744451,0.6634904226208573,Exploratory/fragile
+parvovirus enteritis,HistGB only,0.7840719967887899,0.4868131868131867,0.555980605545823,Suggestive

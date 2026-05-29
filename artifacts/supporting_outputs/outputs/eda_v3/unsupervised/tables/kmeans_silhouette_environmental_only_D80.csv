@@ -1,0 +1,8 @@
+block,Dtag,n_dim,k,silhouette_score
+environmental_only,D80,10,2,0.21668294373367888
+environmental_only,D80,10,3,0.20769628070211058
+environmental_only,D80,10,4,0.14728584251793686
+environmental_only,D80,10,5,0.15610565066613935
+environmental_only,D80,10,6,0.16485171155379078
+environmental_only,D80,10,7,0.1706096774211269
+environmental_only,D80,10,8,0.1608358847210367

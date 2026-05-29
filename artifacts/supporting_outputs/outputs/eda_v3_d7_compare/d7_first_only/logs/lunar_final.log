@@ -1,0 +1,54 @@
+$ /opt/conda/bin/python3 /workspace/TYP/lunar_final_analysis.py --input outputs/eda_v3_d7_compare/datasets/d7_first_only.csv --outdir outputs/eda_v3_d7_compare/d7_first_only/lunar_final --seed 42
+
+/workspace/TYP/lunar_final_analysis.py:170: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df["_outcome"] = df[outcome_col].astype(str)
+/workspace/TYP/lunar_final_analysis.py:171: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df["_date"] = pd.to_datetime(df[date_col], errors="coerce")
+/workspace/TYP/lunar_final_analysis.py:172: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df["_moon_angle"] = pd.to_numeric(df[angle_col], errors="coerce") % 360.0
+/workspace/TYP/lunar_final_analysis.py:174: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df["_moon_fraction"] = pd.to_numeric(df[frac_col], errors="coerce")
+/workspace/TYP/lunar_final_analysis.py:178: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df["moon_phase_sin"] = np.sin(np.deg2rad(df["_moon_angle"]))
+/workspace/TYP/lunar_final_analysis.py:179: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df["moon_phase_cos"] = np.cos(np.deg2rad(df["_moon_angle"]))
+/workspace/TYP/lunar_final_analysis.py:180: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df["_moon_category"] = normalize_moon_category(df[cat_col] if cat_col else None, df["_moon_angle"])
+/workspace/TYP/lunar_final_analysis.py:183: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df["_is_full_moon"] = pd.to_numeric(df[full_col], errors="coerce").fillna(0).astype(int).clip(0, 1)
+/workspace/TYP/lunar_final_analysis.py:187: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df["_is_new_moon"] = pd.to_numeric(df[new_col], errors="coerce").fillna(0).astype(int).clip(0, 1)
+/workspace/TYP/lunar_final_analysis.py:192: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[f"_near_new_{w}"] = (np.abs(circular_diff_deg(df["_moon_angle"].to_numpy(), 0.0)) <= float(w)).astype(int)
+/workspace/TYP/lunar_final_analysis.py:193: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df[f"_near_full_{w}"] = (np.abs(circular_diff_deg(df["_moon_angle"].to_numpy(), 180.0)) <= float(w)).astype(int)
+/workspace/TYP/lunar_final_analysis.py:196: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df["sex_mapped"] = df[sex_col].map(map_sex)
+/workspace/TYP/lunar_final_analysis.py:200: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df["neuter_mapped"] = df[neuter_col].map(map_neuter)
+/workspace/TYP/lunar_final_analysis.py:203: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df["sex_neuter"] = df["sex_mapped"] + "_" + df["neuter_mapped"]
+/workspace/TYP/lunar_final_analysis.py:205: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df["_doy"] = df["_date"].dt.dayofyear
+/workspace/TYP/lunar_final_analysis.py:206: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df["_doy_sin"] = np.sin(2.0 * np.pi * df["_doy"] / 365.25)
+/workspace/TYP/lunar_final_analysis.py:207: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df["_doy_cos"] = np.cos(2.0 * np.pi * df["_doy"] / 365.25)
+
+Top RR category per disease:
+- acute pancreatitis: waning (RR=1.153)
+- acute flare-up of triaditis/chronic enteropathy: new (RR=1.411)
+- acute gastroenteritis: waxing (RR=1.260)
+- parvovirus enteritis: waxing (RR=1.135)
+
+Any RR CI excludes 1 (category/window):
+- acute pancreatitis: no
+- acute flare-up of triaditis/chronic enteropathy: no
+- acute gastroenteritis: no
+- parvovirus enteritis: no
+
+Unknown stratum counts:
+- unknown_intact: n=1
+
+Outputs written to: /workspace/TYP/outputs/eda_v3_d7_compare/d7_first_only/lunar_final
+Outcome column used: group

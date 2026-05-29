@@ -1,0 +1,201 @@
+block,pc,rank,feature,loading_signed,loading_abs
+clinical_only,PC1,1,K value__missing,0.29457410422144265,0.29457410422144265
+clinical_only,PC1,2,Na value__missing,0.29457410422144265,0.29457410422144265
+clinical_only,PC1,3,Cl value__missing,0.293181445208176,0.293181445208176
+clinical_only,PC1,4,CREA concentration __missing,0.2916783269587756,0.2916783269587756
+clinical_only,PC1,5,Initial total protein concentration (in g/l)__missing,0.29162698758393013,0.29162698758393013
+clinical_only,PC1,6,initial hematocrit__missing,0.2913571338522685,0.2913571338522685
+clinical_only,PC1,7,BUN concentration__missing,0.28967457740365915,0.28967457740365915
+clinical_only,PC1,8,leukocyte count__missing,0.28817757019376294,0.28817757019376294
+clinical_only,PC1,9,Albumin concentration (in g/l)__missing,0.2881557796900408,0.2881557796900408
+clinical_only,PC1,10,neutrophil count (x 10^9/L)__missing,0.2860613443832,0.2860613443832
+clinical_only,PC1,11,lymphocyte count__missing,0.2860613443832,0.2860613443832
+clinical_only,PC1,12,hospitalization time (days)__missing,0.17650565866620682,0.17650565866620682
+clinical_only,PC1,13,Cl value,0.08511156660285624,0.08511156660285624
+clinical_only,PC1,14,body weight__missing,0.08050335021157984,0.08050335021157984
+clinical_only,PC1,15,hospitalization time (days),-0.07503140315639122,0.07503140315639122
+clinical_only,PC1,16,neutrophil count (x 10^9/L),-0.07244409379469768,0.07244409379469768
+clinical_only,PC1,17,leukocyte count,-0.06836425666690195,0.06836425666690195
+clinical_only,PC1,18,Na value,0.06499858229663077,0.06499858229663077
+clinical_only,PC1,19,initial hematocrit,-0.05094777935592791,0.05094777935592791
+clinical_only,PC1,20,body weight,-0.04633818980513906,0.04633818980513906
+clinical_only,PC2,1,leukocyte count,0.43992956602802197,0.43992956602802197
+clinical_only,PC2,2,neutrophil count (x 10^9/L),0.41232310411765605,0.41232310411765605
+clinical_only,PC2,3,Cl value,-0.3638830024142524,0.3638830024142524
+clinical_only,PC2,4,BUN concentration,0.335320201516735,0.335320201516735
+clinical_only,PC2,5,Albumin concentration (in g/l),0.2988521618546896,0.2988521618546896
+clinical_only,PC2,6,Initial total protein concentration (in g/l),0.2847303181479044,0.2847303181479044
+clinical_only,PC2,7,Na value,-0.2731129232083473,0.2731129232083473
+clinical_only,PC2,8,CREA concentration ,0.23245837833248,0.23245837833248
+clinical_only,PC2,9,lymphocyte count,0.2092994399877541,0.2092994399877541
+clinical_only,PC2,10,K value,-0.12887878631512567,0.12887878631512567
+clinical_only,PC2,11,body weight,0.10065810025173699,0.10065810025173699
+clinical_only,PC2,12,initial hematocrit__missing,0.05427319115833946,0.05427319115833946
+clinical_only,PC2,13,leukocyte count__missing,0.0534740800952437,0.0534740800952437
+clinical_only,PC2,14,Initial total protein concentration (in g/l)__missing,0.05190711158173762,0.05190711158173762
+clinical_only,PC2,15,lymphocyte count__missing,0.04695087398544536,0.04695087398544536
+clinical_only,PC2,16,neutrophil count (x 10^9/L)__missing,0.04695087398544535,0.04695087398544535
+clinical_only,PC2,17,initial hematocrit,0.0425399955071285,0.0425399955071285
+clinical_only,PC2,18,body weight__missing,0.03916858151255475,0.03916858151255475
+clinical_only,PC2,19,Albumin concentration (in g/l)__missing,0.037913909720637795,0.037913909720637795
+clinical_only,PC2,20,CREA concentration __missing,0.035198969679228906,0.035198969679228906
+clinical_only,PC3,1,Albumin concentration (in g/l),0.4990898975754072,0.4990898975754072
+clinical_only,PC3,2,initial hematocrit,0.4731336415241022,0.4731336415241022
+clinical_only,PC3,3,Initial total protein concentration (in g/l),0.4273752064001392,0.4273752064001392
+clinical_only,PC3,4,body weight,0.34536487854596504,0.34536487854596504
+clinical_only,PC3,5,Na value,0.25187577160414465,0.25187577160414465
+clinical_only,PC3,6,BUN concentration,-0.23555919842984444,0.23555919842984444
+clinical_only,PC3,7,hospitalization time (days),-0.1629762819644673,0.1629762819644673
+clinical_only,PC3,8,Cl value,0.15995502043371654,0.15995502043371654
+clinical_only,PC3,9,leukocyte count,-0.1226049736247699,0.1226049736247699
+clinical_only,PC3,10,lymphocyte count,-0.10355909752191142,0.10355909752191142
+clinical_only,PC3,11,altitude (MASL),-0.08394984192217951,0.08394984192217951
+clinical_only,PC3,12,hospitalization time (days)__missing,0.07621716157538738,0.07621716157538738
+clinical_only,PC3,13,CREA concentration ,-0.06334701016286802,0.06334701016286802
+clinical_only,PC3,14,neutrophil count (x 10^9/L),-0.06210048435191208,0.06210048435191208
+clinical_only,PC3,15,body weight__missing,0.045466585346406,0.045466585346406
+clinical_only,PC3,16,Initial total protein concentration (in g/l)__missing,-0.03207791428777093,0.03207791428777093
+clinical_only,PC3,17,Albumin concentration (in g/l)__missing,-0.03133967442199326,0.03133967442199326
+clinical_only,PC3,18,K value__missing,-0.026600934079389352,0.026600934079389352
+clinical_only,PC3,19,Na value__missing,-0.026600934079389352,0.026600934079389352
+clinical_only,PC3,20,Cl value__missing,-0.025654053408912372,0.025654053408912372
+clinical_only,PC4,1,Na value,0.5291870464989453,0.5291870464989453
+clinical_only,PC4,2,Cl value,0.44980376050702275,0.44980376050702275
+clinical_only,PC4,3,leukocyte count,0.42742296643464817,0.42742296643464817
+clinical_only,PC4,4,neutrophil count (x 10^9/L),0.35765528144534864,0.35765528144534864
+clinical_only,PC4,5,lymphocyte count,0.3460314163769745,0.3460314163769745
+clinical_only,PC4,6,Albumin concentration (in g/l),-0.1779546245476153,0.1779546245476153
+clinical_only,PC4,7,body weight,0.13077819903004795,0.13077819903004795
+clinical_only,PC4,8,BUN concentration,-0.1110847613745654,0.1110847613745654
+clinical_only,PC4,9,initial hematocrit,-0.09762116023985849,0.09762116023985849
+clinical_only,PC4,10,K value,0.06650695506712577,0.06650695506712577
+clinical_only,PC4,11,Initial total protein concentration (in g/l),-0.05511167864488188,0.05511167864488188
+clinical_only,PC4,12,altitude (MASL),-0.047993007466201734,0.047993007466201734
+clinical_only,PC4,13,hospitalization time (days)__missing,-0.046182903061793894,0.046182903061793894
+clinical_only,PC4,14,hospitalization time (days),0.04265987229035551,0.04265987229035551
+clinical_only,PC4,15,Initial total protein concentration (in g/l)__missing,-0.027223729654517966,0.027223729654517966
+clinical_only,PC4,16,CREA concentration ,0.02675305349388018,0.02675305349388018
+clinical_only,PC4,17,BUN concentration__missing,-0.023085908475553862,0.023085908475553862
+clinical_only,PC4,18,body weight__missing,-0.015228111052503279,0.015228111052503279
+clinical_only,PC4,19,leukocyte count__missing,0.01300725288227316,0.01300725288227316
+clinical_only,PC4,20,initial hematocrit__missing,0.013003848300420368,0.013003848300420368
+clinical_only,PC5,1,CREA concentration ,0.6526923038980958,0.6526923038980958
+clinical_only,PC5,2,BUN concentration,0.46782221353433173,0.46782221353433173
+clinical_only,PC5,3,K value,0.4148575834908797,0.4148575834908797
+clinical_only,PC5,4,lymphocyte count,-0.20472640594042626,0.20472640594042626
+clinical_only,PC5,5,Cl value,0.19586807747280777,0.19586807747280777
+clinical_only,PC5,6,altitude (MASL),-0.19401020599201066,0.19401020599201066
+clinical_only,PC5,7,leukocyte count,-0.1374960522789213,0.1374960522789213
+clinical_only,PC5,8,initial hematocrit,0.11909313928618855,0.11909313928618855
+clinical_only,PC5,9,Na value,0.11464739427487697,0.11464739427487697
+clinical_only,PC5,10,neutrophil count (x 10^9/L),-0.07534126501083431,0.07534126501083431
+clinical_only,PC5,11,hospitalization time (days),0.05719295763962798,0.05719295763962798
+clinical_only,PC5,12,Albumin concentration (in g/l),-0.04697964977172892,0.04697964977172892
+clinical_only,PC5,13,Initial total protein concentration (in g/l)__missing,-0.04038912506609702,0.04038912506609702
+clinical_only,PC5,14,body weight,0.03838823253988958,0.03838823253988958
+clinical_only,PC5,15,body weight__missing,0.03167834188601799,0.03167834188601799
+clinical_only,PC5,16,BUN concentration__missing,-0.027737108110677814,0.027737108110677814
+clinical_only,PC5,17,Albumin concentration (in g/l)__missing,-0.026790941903091496,0.026790941903091496
+clinical_only,PC5,18,CREA concentration __missing,-0.021424871979736332,0.021424871979736332
+clinical_only,PC5,19,initial hematocrit__missing,-0.018833321258721634,0.018833321258721634
+clinical_only,PC5,20,leukocyte count__missing,-0.018688845210037018,0.018688845210037018
+clinical_only,PC6,1,hospitalization time (days),0.5806906875890672,0.5806906875890672
+clinical_only,PC6,2,K value,0.4882944059692128,0.4882944059692128
+clinical_only,PC6,3,altitude (MASL),0.4040743652760458,0.4040743652760458
+clinical_only,PC6,4,Initial total protein concentration (in g/l),0.30281598067908805,0.30281598067908805
+clinical_only,PC6,5,body weight,-0.2108695458897626,0.2108695458897626
+clinical_only,PC6,6,lymphocyte count,-0.16154149184993635,0.16154149184993635
+clinical_only,PC6,7,BUN concentration,-0.15061064131188814,0.15061064131188814
+clinical_only,PC6,8,neutrophil count (x 10^9/L),0.14402669725426293,0.14402669725426293
+clinical_only,PC6,9,CREA concentration ,-0.12499658773738367,0.12499658773738367
+clinical_only,PC6,10,Albumin concentration (in g/l),0.09636134679281647,0.09636134679281647
+clinical_only,PC6,11,body weight__missing,-0.0655631977283259,0.0655631977283259
+clinical_only,PC6,12,Cl value__missing,0.06323003964434593,0.06323003964434593
+clinical_only,PC6,13,initial hematocrit__missing,-0.05296848113049453,0.05296848113049453
+clinical_only,PC6,14,leukocyte count__missing,-0.05270104540987715,0.05270104540987715
+clinical_only,PC6,15,hospitalization time (days)__missing,-0.05076214643857718,0.05076214643857718
+clinical_only,PC6,16,Na value__missing,0.04776596810435906,0.04776596810435906
+clinical_only,PC6,17,K value__missing,0.04776596810435883,0.04776596810435883
+clinical_only,PC6,18,CREA concentration __missing,0.04575826703398948,0.04575826703398948
+clinical_only,PC6,19,BUN concentration__missing,0.04217163402738115,0.04217163402738115
+clinical_only,PC6,20,Albumin concentration (in g/l)__missing,0.03708293889093736,0.03708293889093736
+clinical_only,PC7,1,body weight__missing,0.7544518202824875,0.7544518202824875
+clinical_only,PC7,2,body weight,-0.32959370086352363,0.32959370086352363
+clinical_only,PC7,3,hospitalization time (days)__missing,-0.26843967531520363,0.26843967531520363
+clinical_only,PC7,4,altitude (MASL),-0.2410371577050644,0.2410371577050644
+clinical_only,PC7,5,lymphocyte count,0.20395664003834368,0.20395664003834368
+clinical_only,PC7,6,K value,0.16945365116007086,0.16945365116007086
+clinical_only,PC7,7,initial hematocrit,0.1611030609103576,0.1611030609103576
+clinical_only,PC7,8,CREA concentration ,-0.13838572673905325,0.13838572673905325
+clinical_only,PC7,9,lymphocyte count__missing,0.10063058780036194,0.10063058780036194
+clinical_only,PC7,10,neutrophil count (x 10^9/L)__missing,0.10063058780035973,0.10063058780035973
+clinical_only,PC7,11,leukocyte count__missing,0.09426612178412294,0.09426612178412294
+clinical_only,PC7,12,initial hematocrit__missing,0.08074007063700082,0.08074007063700082
+clinical_only,PC7,13,Na value__missing,-0.07779837534356786,0.07779837534356786
+clinical_only,PC7,14,K value__missing,-0.07779837534356616,0.07779837534356616
+clinical_only,PC7,15,Cl value__missing,-0.07404022968518759,0.07404022968518759
+clinical_only,PC7,16,neutrophil count (x 10^9/L),-0.07299887881539988,0.07299887881539988
+clinical_only,PC7,17,BUN concentration__missing,-0.06305982150550601,0.06305982150550601
+clinical_only,PC7,18,hospitalization time (days),0.06013359512178715,0.06013359512178715
+clinical_only,PC7,19,CREA concentration __missing,-0.052044699585617575,0.052044699585617575
+clinical_only,PC7,20,Initial total protein concentration (in g/l)__missing,-0.04704422472768018,0.04704422472768018
+clinical_only,PC8,1,altitude (MASL),0.7136881211433143,0.7136881211433143
+clinical_only,PC8,2,hospitalization time (days),-0.48562286777556435,0.48562286777556435
+clinical_only,PC8,3,lymphocyte count,0.27518822983838415,0.27518822983838415
+clinical_only,PC8,4,initial hematocrit,0.20541481893829053,0.20541481893829053
+clinical_only,PC8,5,body weight,-0.18697729706356575,0.18697729706356575
+clinical_only,PC8,6,K value,0.16041306425103025,0.16041306425103025
+clinical_only,PC8,7,hospitalization time (days)__missing,0.1321655492764287,0.1321655492764287
+clinical_only,PC8,8,BUN concentration,0.11945276973843844,0.11945276973843844
+clinical_only,PC8,9,Cl value,0.09905897750842842,0.09905897750842842
+clinical_only,PC8,10,neutrophil count (x 10^9/L),-0.08942542390147727,0.08942542390147727
+clinical_only,PC8,11,body weight__missing,0.08131690434167521,0.08131690434167521
+clinical_only,PC8,12,CREA concentration ,0.07936446853075714,0.07936446853075714
+clinical_only,PC8,13,Initial total protein concentration (in g/l),-0.07406516207508194,0.07406516207508194
+clinical_only,PC8,14,CREA concentration __missing,-0.05604477336264619,0.05604477336264619
+clinical_only,PC8,15,Cl value__missing,-0.04115592177313512,0.04115592177313512
+clinical_only,PC8,16,Na value__missing,-0.02599921691214708,0.02599921691214708
+clinical_only,PC8,17,K value__missing,-0.02599921691214689,0.02599921691214689
+clinical_only,PC8,18,neutrophil count (x 10^9/L)__missing,-0.022051014672411835,0.022051014672411835
+clinical_only,PC8,19,lymphocyte count__missing,-0.022051014672411523,0.022051014672411523
+clinical_only,PC8,20,initial hematocrit__missing,-0.016849535000265772,0.016849535000265772
+clinical_only,PC9,1,lymphocyte count,0.5960015655697865,0.5960015655697865
+clinical_only,PC9,2,body weight__missing,-0.4166434653914004,0.4166434653914004
+clinical_only,PC9,3,K value,0.361679685299173,0.361679685299173
+clinical_only,PC9,4,initial hematocrit,0.30292344258884274,0.30292344258884274
+clinical_only,PC9,5,neutrophil count (x 10^9/L),-0.2781177719655193,0.2781177719655193
+clinical_only,PC9,6,altitude (MASL),-0.2762173069056894,0.2762173069056894
+clinical_only,PC9,7,Na value,-0.1611602579229475,0.1611602579229475
+clinical_only,PC9,8,CREA concentration ,-0.13873880006548434,0.13873880006548434
+clinical_only,PC9,9,Cl value,-0.12337749864622491,0.12337749864622491
+clinical_only,PC9,10,hospitalization time (days),0.10152592088834447,0.10152592088834447
+clinical_only,PC9,11,Initial total protein concentration (in g/l),-0.09649081841013882,0.09649081841013882
+clinical_only,PC9,12,Cl value__missing,0.06451702460995083,0.06451702460995083
+clinical_only,PC9,13,Na value__missing,0.057729824945164,0.057729824945164
+clinical_only,PC9,14,K value__missing,0.05772982494516393,0.05772982494516393
+clinical_only,PC9,15,body weight,0.051352752936064054,0.051352752936064054
+clinical_only,PC9,16,hospitalization time (days)__missing,0.021592574934164745,0.021592574934164745
+clinical_only,PC9,17,CREA concentration __missing,0.015899358320378573,0.015899358320378573
+clinical_only,PC9,18,leukocyte count,0.012368787379719122,0.012368787379719122
+clinical_only,PC9,19,neutrophil count (x 10^9/L)__missing,0.01196143577360929,0.01196143577360929
+clinical_only,PC9,20,lymphocyte count__missing,0.011961435773609188,0.011961435773609188
+clinical_only,PC10,1,body weight,0.6440266207912004,0.6440266207912004
+clinical_only,PC10,2,hospitalization time (days),0.3583856249638119,0.3583856249638119
+clinical_only,PC10,3,altitude (MASL),0.317305379677271,0.317305379677271
+clinical_only,PC10,4,Initial total protein concentration (in g/l),-0.26624616953489977,0.26624616953489977
+clinical_only,PC10,5,body weight__missing,0.2447682591644814,0.2447682591644814
+clinical_only,PC10,6,lymphocyte count__missing,0.1735056390295939,0.1735056390295939
+clinical_only,PC10,7,neutrophil count (x 10^9/L)__missing,0.17350563902959348,0.17350563902959348
+clinical_only,PC10,8,Albumin concentration (in g/l),-0.16423329715621957,0.16423329715621957
+clinical_only,PC10,9,initial hematocrit__missing,0.13242585439787383,0.13242585439787383
+clinical_only,PC10,10,leukocyte count__missing,0.12272873666777338,0.12272873666777338
+clinical_only,PC10,11,Cl value,-0.12170642314995343,0.12170642314995343
+clinical_only,PC10,12,CREA concentration ,0.11161901029493172,0.11161901029493172
+clinical_only,PC10,13,initial hematocrit,0.10626666118720629,0.10626666118720629
+clinical_only,PC10,14,CREA concentration __missing,-0.10370164212380005,0.10370164212380005
+clinical_only,PC10,15,Na value,-0.09134660993185466,0.09134660993185466
+clinical_only,PC10,16,neutrophil count (x 10^9/L),-0.08749488857289342,0.08749488857289342
+clinical_only,PC10,17,Albumin concentration (in g/l)__missing,-0.08585725274984649,0.08585725274984649
+clinical_only,PC10,18,BUN concentration,-0.08572631112734908,0.08572631112734908
+clinical_only,PC10,19,BUN concentration__missing,-0.08503376009036764,0.08503376009036764
+clinical_only,PC10,20,Initial total protein concentration (in g/l)__missing,-0.07782871022513668,0.07782871022513668

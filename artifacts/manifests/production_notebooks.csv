@@ -1,0 +1,14 @@
+section,source_script,notebook
+production,update_analysis_csv.py,01_update_analysis_csv.ipynb
+production,pre-processing.py,02_preprocessing_imputation.ipynb
+production,enrich_uv_and_moon.py,03_uv_moon_enrichment.ipynb
+production,run_eda_d7_compare.py,04_d7_variant_orchestration.ipynb
+production,run_eda_v3.py,05_eda_v3_main.ipynb
+production,lunar_final_analysis.py,06_lunar_final_analysis.ipynb
+production,apriori_refined_final2.py,07_apriori_refined_final2.ipynb
+production,clinical_threshold_apriori_extension.py,08_clinical_threshold_extension.ipynb
+production,bun_rule_validation.py,09_bun_rule_validation.ipynb
+production,final_validation_pass.py,10_final_validation_pass.ipynb
+production,holdout_forensic_audit.py,11_holdout_forensic_audit.ipynb
+production,scripts/regenerate_thesis_figures_vector.py,12_regenerate_thesis_figures_vector.ipynb
+production,scripts/refresh_chapter_figures_bw.py,13_refresh_chapter_figures_bw.ipynb

@@ -1,0 +1,13 @@
+group,n_columns
+weather_numeric,133
+weather_categorical,2
+moon_numeric,4
+moon_categorical,1
+moon_default_model_numeric,3
+moon_threshold_model_numeric,2
+moon_threshold_model_categorical,1
+temporal_derived,3
+all_numeric_model,163
+all_categorical_model,30
+excluded_metadata,8
+excluded_leakage,2

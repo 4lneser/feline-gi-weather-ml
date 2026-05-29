@@ -1,0 +1,2 @@
+variant,description,dataset_path,rows,id_column,target_id,date_column_used
+no_d7,Drop all D7 rows.,outputs/eda_v3_d7_compare/datasets/no_d7.csv,313,ID,D7,presentation_date

@@ -1,0 +1,14 @@
+parameter,value,applied_to
+min_support,0.05,"disease, cluster_clin, cluster_comb, severity"
+min_confidence,baseline prevalence of consequent,all tracks
+lift_threshold,1.25,disease
+lift_threshold,1.20,"cluster_clin, cluster_comb, severity"
+singleton_lift_min,1.50,disease
+singleton_lift_min,1.20,"cluster_clin, cluster_comb, severity"
+apriori_max_len,4,frequent itemset mining
+antecedent_length,1 to 3,rule filtering
+numeric_discretization,LOW<=25th percentile; HIGH>=75th percentile; middle omitted,environmental numeric antecedents
+categorical_encoding,one-hot boolean item flags,environmental categoricals
+lunar_items,"moon_near_full, moon_near_new booleans",environmental antecedents
+cluster_reporting,k_best only,cluster consequents
+top_n_rules,10 per consequent,all tracks

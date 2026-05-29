@@ -1,0 +1,69 @@
+$ /opt/conda/bin/python3 /workspace/TYP/clinical_threshold_apriori_extension.py --input outputs/eda_v3_d7_compare/datasets/d7_first_only.csv --outdir outputs/eda_v3_d7_compare/d7_first_only/clinical_threshold_extension --seed 42 --corr-threshold 0.85
+
+=== Clinical Threshold Extension ===
+Output directory: outputs/eda_v3_d7_compare/d7_first_only/clinical_threshold_extension
+Rows: 314
+Clinical state columns created from labs: 11
+  albumin: source=Albumin concentration (in g/l)
+    - increased: 46 (14.65%)
+    - lower_limit: 82 (26.11%)
+    - physiological: 137 (43.63%)
+    - upper_limit: 49 (15.61%)
+  bun: source=BUN concentration
+    - increased: 121 (38.54%)
+    - lower_limit: 82 (26.11%)
+    - physiological: 66 (21.02%)
+    - upper_limit: 45 (14.33%)
+  creatinine: source=CREA concentration 
+    - increased: 92 (29.30%)
+    - lower_limit: 94 (29.94%)
+    - physiological: 64 (20.38%)
+    - upper_limit: 64 (20.38%)
+  hematocrit: source=initial hematocrit
+    - increased: 20 (6.37%)
+    - lower_limit: 146 (46.50%)
+    - physiological: 90 (28.66%)
+    - upper_limit: 58 (18.47%)
+  leukocyte: source=leukocyte count
+    - increased: 51 (16.24%)
+    - lower_limit: 98 (31.21%)
+    - physiological: 124 (39.49%)
+    - upper_limit: 41 (13.06%)
+  lymphocyte: source=lymphocyte count
+    - increased: 21 (6.69%)
+    - lower_limit: 241 (76.75%)
+    - physiological: 37 (11.78%)
+    - upper_limit: 15 (4.78%)
+  neutrophil: source=neutrophil count (x 10^9/L)
+    - increased: 68 (21.66%)
+    - lower_limit: 102 (32.48%)
+    - physiological: 113 (35.99%)
+    - upper_limit: 31 (9.87%)
+  serum_cl: source=Cl value
+    - increased: 87 (27.71%)
+    - lower_limit: 60 (19.11%)
+    - physiological: 54 (17.20%)
+    - upper_limit: 113 (35.99%)
+  serum_k: source=K value
+    - increased: 18 (5.73%)
+    - lower_limit: 161 (51.27%)
+    - physiological: 107 (34.08%)
+    - upper_limit: 28 (8.92%)
+  serum_na: source=Na value
+    - increased: 13 (4.14%)
+    - lower_limit: 147 (46.82%)
+    - physiological: 110 (35.03%)
+    - upper_limit: 44 (14.01%)
+  total_protein: source=Initial total protein concentration (in g/l)
+    - increased: 66 (21.02%)
+    - lower_limit: 64 (20.38%)
+    - physiological: 63 (20.06%)
+    - upper_limit: 121 (38.54%)
+Severity markers and qualifying rule counts:
+  leukocyte_increased: 6
+  neutrophil_increased: 10
+  lymphocyte_increased: 0
+  albumin_low: 10
+  BUN_increased: 10
+  creatinine_increased: 10
+Strongest rule overall: BUN_increased <= precipitation_hours_mean_7d_low, precipitation_hours_peak_14d_low, surface_pressure_max_day1_high (lift=1.996, conf=0.769, support=0.064)

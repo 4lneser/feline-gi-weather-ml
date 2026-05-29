@@ -1,0 +1,12 @@
+step,specification
+input_blocks,"environmental_only, clinical_only, combined; numeric subsets aligned to modeling blocks."
+env_alignment,Environmental numeric uses kept_weather_numeric after global correlation filter (31 features).
+numeric_preprocessing,"Median imputation for missing numeric values, then StandardScaler (centering + scaling)."
+pca,"PCA n_components=min(n_features,20); scree/loadings/scatter exported per block."
+pca_thresholds,"n_pcs_70, n_pcs_80, n_pcs_90 computed from cumulative explained variance."
+kmeans_dims,Two PCA spaces: Dfixed6 (6 PCs cap) and D80 (PC count to reach 80% variance; min2 max20).
+kmeans_search,"KMeans k=2..8 with n_init=50, random_state=42; evaluate k_best plus k=4 and k=6."
+alignment_metrics,"ARI and NMI vs diagnosis labels for k=4, k=6, k_best."
+hierarchical,Ward linkage on PCA scores; dendrogram + contingency at k=4 and k=6.
+k_equals_6_meaning,k=6 refers to clustering cluster-count only (not discretization).
+clinical_missing_indicators,Clinical PCA includes __missing indicators (13 of 27 clinical numeric features in this run).

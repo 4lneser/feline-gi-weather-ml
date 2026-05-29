@@ -1,0 +1,4 @@
+block,Dtag,n_dim,method,k_label,k,ari,nmi
+clinical_only,Dfixed6,6,kmeans,k4,4,0.0768251709734015,0.09642495705824503
+clinical_only,Dfixed6,6,kmeans,k6,6,0.06449123307085325,0.1011954125445109
+clinical_only,Dfixed6,6,kmeans,kbest,2,0.0979628496468308,0.08473627031747222

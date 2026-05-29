@@ -1,0 +1,45 @@
+lab_key,source_column,state_column,state,count,pct
+albumin,Albumin concentration (in g/l),albumin_state,increased,46,14.64968152866242
+albumin,Albumin concentration (in g/l),albumin_state,lower_limit,82,26.11464968152866
+albumin,Albumin concentration (in g/l),albumin_state,physiological,137,43.63057324840764
+albumin,Albumin concentration (in g/l),albumin_state,upper_limit,49,15.605095541401274
+bun,BUN concentration,bun_state,increased,121,38.53503184713376
+bun,BUN concentration,bun_state,lower_limit,82,26.11464968152866
+bun,BUN concentration,bun_state,physiological,66,21.019108280254777
+bun,BUN concentration,bun_state,upper_limit,45,14.331210191082803
+creatinine,CREA concentration ,creatinine_state,increased,92,29.29936305732484
+creatinine,CREA concentration ,creatinine_state,lower_limit,94,29.936305732484076
+creatinine,CREA concentration ,creatinine_state,physiological,64,20.38216560509554
+creatinine,CREA concentration ,creatinine_state,upper_limit,64,20.38216560509554
+hematocrit,initial hematocrit,hematocrit_state,increased,20,6.369426751592357
+hematocrit,initial hematocrit,hematocrit_state,lower_limit,146,46.496815286624205
+hematocrit,initial hematocrit,hematocrit_state,physiological,90,28.662420382165607
+hematocrit,initial hematocrit,hematocrit_state,upper_limit,58,18.471337579617835
+leukocyte,leukocyte count,leukocyte_state,increased,51,16.24203821656051
+leukocyte,leukocyte count,leukocyte_state,lower_limit,98,31.21019108280255
+leukocyte,leukocyte count,leukocyte_state,physiological,124,39.49044585987261
+leukocyte,leukocyte count,leukocyte_state,upper_limit,41,13.05732484076433
+lymphocyte,lymphocyte count,lymphocyte_state,increased,21,6.687898089171974
+lymphocyte,lymphocyte count,lymphocyte_state,lower_limit,241,76.7515923566879
+lymphocyte,lymphocyte count,lymphocyte_state,physiological,37,11.78343949044586
+lymphocyte,lymphocyte count,lymphocyte_state,upper_limit,15,4.777070063694268
+neutrophil,neutrophil count (x 10^9/L),neutrophil_state,increased,68,21.656050955414013
+neutrophil,neutrophil count (x 10^9/L),neutrophil_state,lower_limit,102,32.48407643312102
+neutrophil,neutrophil count (x 10^9/L),neutrophil_state,physiological,113,35.98726114649681
+neutrophil,neutrophil count (x 10^9/L),neutrophil_state,upper_limit,31,9.872611464968152
+serum_cl,Cl value,serum_cl_state,increased,87,27.70700636942675
+serum_cl,Cl value,serum_cl_state,lower_limit,60,19.10828025477707
+serum_cl,Cl value,serum_cl_state,physiological,54,17.197452229299362
+serum_cl,Cl value,serum_cl_state,upper_limit,113,35.98726114649681
+serum_k,K value,serum_k_state,increased,18,5.732484076433121
+serum_k,K value,serum_k_state,lower_limit,161,51.27388535031847
+serum_k,K value,serum_k_state,physiological,107,34.07643312101911
+serum_k,K value,serum_k_state,upper_limit,28,8.9171974522293
+serum_na,Na value,serum_na_state,increased,13,4.140127388535032
+serum_na,Na value,serum_na_state,lower_limit,147,46.81528662420382
+serum_na,Na value,serum_na_state,physiological,110,35.031847133757964
+serum_na,Na value,serum_na_state,upper_limit,44,14.012738853503185
+total_protein,Initial total protein concentration (in g/l),total_protein_state,increased,66,21.019108280254777
+total_protein,Initial total protein concentration (in g/l),total_protein_state,lower_limit,64,20.38216560509554
+total_protein,Initial total protein concentration (in g/l),total_protein_state,physiological,63,20.063694267515924
+total_protein,Initial total protein concentration (in g/l),total_protein_state,upper_limit,121,38.53503184713376

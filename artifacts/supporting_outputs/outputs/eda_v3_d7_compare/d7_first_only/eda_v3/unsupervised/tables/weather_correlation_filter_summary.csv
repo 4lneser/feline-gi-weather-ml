@@ -1,0 +1,5 @@
+metric,value
+n_weather_numeric_before,136.0
+n_dropped_high_corr,105.0
+n_weather_numeric_after,31.0
+corr_threshold,0.85

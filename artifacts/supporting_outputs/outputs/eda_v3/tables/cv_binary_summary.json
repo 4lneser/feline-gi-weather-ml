@@ -1,0 +1,301 @@
+{
+  "n_splits": 5,
+  "results": {
+    "acute flare-up of triaditis/chronic enteropathy": {
+      "clinical_only": {
+        "model": "hist_gb_binary_acute_flare_up_of_triaditis_chronic_enteropathy",
+        "n_folds": 5,
+        "balanced_accuracy": {
+          "mean": 0.5755555555555555,
+          "std": 0.03108133495710965
+        },
+        "recall": {
+          "mean": 0.31111111111111106,
+          "std": 0.06334307917217434
+        },
+        "precision": {
+          "mean": 0.43892857142857145,
+          "std": 0.06258157941145823
+        },
+        "f1": {
+          "mean": 0.3619957983193277,
+          "std": 0.05838297283319882
+        },
+        "roc_auc": {
+          "mean": 0.6454320987654321,
+          "std": 0.0675941428313122
+        }
+      },
+      "combined": {
+        "model": "hist_gb_binary_acute_flare_up_of_triaditis_chronic_enteropathy",
+        "n_folds": 5,
+        "balanced_accuracy": {
+          "mean": 0.5055555555555555,
+          "std": 0.04795187917120018
+        },
+        "recall": {
+          "mean": 0.18888888888888888,
+          "std": 0.06334307917217434
+        },
+        "precision": {
+          "mean": 0.3013752913752914,
+          "std": 0.09969451985263604
+        },
+        "f1": {
+          "mean": 0.2318819852746438,
+          "std": 0.07703666467014564
+        },
+        "roc_auc": {
+          "mean": 0.5777777777777778,
+          "std": 0.06250133362393652
+        }
+      },
+      "environmental_only": {
+        "model": "hist_gb_binary_acute_flare_up_of_triaditis_chronic_enteropathy",
+        "n_folds": 5,
+        "balanced_accuracy": {
+          "mean": 0.49444444444444446,
+          "std": 0.057868518488887945
+        },
+        "recall": {
+          "mean": 0.16666666666666666,
+          "std": 0.11785113019775792
+        },
+        "precision": {
+          "mean": 0.2502747252747253,
+          "std": 0.13825397620670493
+        },
+        "f1": {
+          "mean": 0.1979168734491315,
+          "std": 0.13044076515786623
+        },
+        "roc_auc": {
+          "mean": 0.5074074074074074,
+          "std": 0.07435645763655822
+        }
+      }
+    },
+    "acute gastroenteritis": {
+      "clinical_only": {
+        "model": "hist_gb_binary_acute_gastroenteritis",
+        "n_folds": 5,
+        "balanced_accuracy": {
+          "mean": 0.7857843137254902,
+          "std": 0.078767661402959
+        },
+        "recall": {
+          "mean": 0.5833333333333333,
+          "std": 0.16666666666666669
+        },
+        "precision": {
+          "mean": 0.9333333333333333,
+          "std": 0.09128709291752767
+        },
+        "f1": {
+          "mean": 0.7044444444444444,
+          "std": 0.11265592760565847
+        },
+        "roc_auc": {
+          "mean": 0.8444444444444444,
+          "std": 0.05842959962802842
+        }
+      },
+      "combined": {
+        "model": "hist_gb_binary_acute_gastroenteritis",
+        "n_folds": 5,
+        "balanced_accuracy": {
+          "mean": 0.7970588235294118,
+          "std": 0.0833585601954734
+        },
+        "recall": {
+          "mean": 0.6333333333333333,
+          "std": 0.17280367794439763
+        },
+        "precision": {
+          "mean": 0.7952380952380953,
+          "std": 0.08591980065221813
+        },
+        "f1": {
+          "mean": 0.6955465587044534,
+          "std": 0.10887739020844199
+        },
+        "roc_auc": {
+          "mean": 0.8911764705882351,
+          "std": 0.040349883753065495
+        }
+      },
+      "environmental_only": {
+        "model": "hist_gb_binary_acute_gastroenteritis",
+        "n_folds": 5,
+        "balanced_accuracy": {
+          "mean": 0.5377450980392157,
+          "std": 0.03571205435990977
+        },
+        "recall": {
+          "mean": 0.14999999999999997,
+          "std": 0.06972166887783963
+        },
+        "precision": {
+          "mean": 0.3123809523809523,
+          "std": 0.10825350276863102
+        },
+        "f1": {
+          "mean": 0.20171998624011006,
+          "std": 0.08469935978882064
+        },
+        "roc_auc": {
+          "mean": 0.5962418300653594,
+          "std": 0.04703711713436726
+        }
+      }
+    },
+    "acute pancreatitis": {
+      "clinical_only": {
+        "model": "hist_gb_binary_acute_pancreatitis",
+        "n_folds": 5,
+        "balanced_accuracy": {
+          "mean": 0.5852712550607289,
+          "std": 0.08716300853690556
+        },
+        "recall": {
+          "mean": 0.45866666666666667,
+          "std": 0.1800246896647482
+        },
+        "precision": {
+          "mean": 0.5035773341399474,
+          "std": 0.08503581704467676
+        },
+        "f1": {
+          "mean": 0.47221905465807906,
+          "std": 0.1264502356458547
+        },
+        "roc_auc": {
+          "mean": 0.6517840755735492,
+          "std": 0.0838005209638981
+        }
+      },
+      "combined": {
+        "model": "hist_gb_binary_acute_pancreatitis",
+        "n_folds": 5,
+        "balanced_accuracy": {
+          "mean": 0.5588063427800269,
+          "std": 0.03947199729373534
+        },
+        "recall": {
+          "mean": 0.4109999999999999,
+          "std": 0.07486654793697918
+        },
+        "precision": {
+          "mean": 0.4752923976608187,
+          "std": 0.048495278165790676
+        },
+        "f1": {
+          "mean": 0.439511658201133,
+          "std": 0.0614020680755095
+        },
+        "roc_auc": {
+          "mean": 0.628591542959964,
+          "std": 0.05422463959996889
+        }
+      },
+      "environmental_only": {
+        "model": "hist_gb_binary_acute_pancreatitis",
+        "n_folds": 5,
+        "balanced_accuracy": {
+          "mean": 0.4830587044534413,
+          "std": 0.06982622545444912
+        },
+        "recall": {
+          "mean": 0.30633333333333335,
+          "std": 0.09574561202594206
+        },
+        "precision": {
+          "mean": 0.3670556826849733,
+          "std": 0.10376889082676585
+        },
+        "f1": {
+          "mean": 0.33348484848484844,
+          "std": 0.0982955315842779
+        },
+        "roc_auc": {
+          "mean": 0.47760548807917225,
+          "std": 0.0654279619932476
+        }
+      }
+    },
+    "parvovirus enteritis": {
+      "clinical_only": {
+        "model": "hist_gb_binary_parvovirus_enteritis",
+        "n_folds": 5,
+        "balanced_accuracy": {
+          "mean": 0.8547979797979798,
+          "std": 0.0583329917126732
+        },
+        "recall": {
+          "mean": 0.7277777777777777,
+          "std": 0.10962548478150617
+        },
+        "precision": {
+          "mean": 0.8642857142857142,
+          "std": 0.13458174058154837
+        },
+        "f1": {
+          "mean": 0.7854147812971343,
+          "std": 0.10011452962058841
+        },
+        "roc_auc": {
+          "mean": 0.9566647961092405,
+          "std": 0.038052361615620554
+        }
+      },
+      "combined": {
+        "model": "hist_gb_binary_parvovirus_enteritis",
+        "n_folds": 5,
+        "balanced_accuracy": {
+          "mean": 0.8547979797979798,
+          "std": 0.05584484768588674
+        },
+        "recall": {
+          "mean": 0.7277777777777777,
+          "std": 0.10962548478150617
+        },
+        "precision": {
+          "mean": 0.8666666666666668,
+          "std": 0.12638125740085918
+        },
+        "f1": {
+          "mean": 0.7849385908209439,
+          "std": 0.08956875843883352
+        },
+        "roc_auc": {
+          "mean": 0.9597979797979799,
+          "std": 0.017642824553878975
+        }
+      },
+      "environmental_only": {
+        "model": "hist_gb_binary_parvovirus_enteritis",
+        "n_folds": 5,
+        "balanced_accuracy": {
+          "mean": 0.5647222222222222,
+          "std": 0.03326566152675416
+        },
+        "recall": {
+          "mean": 0.16944444444444445,
+          "std": 0.061645391725478185
+        },
+        "precision": {
+          "mean": 0.45,
+          "std": 0.3095695936834452
+        },
+        "f1": {
+          "mean": 0.23593073593073594,
+          "std": 0.08579186659136975
+        },
+        "roc_auc": {
+          "mean": 0.6200430228208005,
+          "std": 0.09415458707102396
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+disease,feature_block,feature_name,mean_abs_shap,shap_std,rank_position
+acute flare-up of triaditis/chronic enteropathy,combined,num__moon_phase_sin,0.389392158444758,0.2403479043539145,14
+acute flare-up of triaditis/chronic enteropathy,combined,num__moon_phase_cos,0.3514038957052742,0.1411424428365787,18
+acute flare-up of triaditis/chronic enteropathy,environmental_only,num__moon_phase_sin,0.5150091492195922,0.1271630007767349,9
+acute flare-up of triaditis/chronic enteropathy,environmental_only,num__moon_phase_cos,0.4354792837036995,0.2249801953050598,13
+acute gastroenteritis,combined,num__moon_phase_sin,0.284119216407712,0.2360918855880991,16
+acute gastroenteritis,combined,num__moon_phase_cos,0.1350374237747013,0.0677302284300131,36
+acute gastroenteritis,environmental_only,num__moon_phase_sin,0.3579876704099581,0.2216165707409555,17
+acute gastroenteritis,environmental_only,num__moon_phase_cos,0.3557749948013141,0.0724080095216104,18
+acute pancreatitis,combined,num__moon_phase_sin,0.4291083091038114,0.1906006521842549,9
+acute pancreatitis,combined,num__moon_phase_cos,0.310652173798777,0.2174269053833309,22
+acute pancreatitis,environmental_only,num__moon_phase_sin,0.6066672656986736,0.1063765568468695,2
+acute pancreatitis,environmental_only,num__moon_phase_cos,0.2314918842323216,0.1110268410358034,21
+parvovirus enteritis,combined,num__moon_phase_cos,0.1639045390847168,0.1295795445391042,24
+parvovirus enteritis,combined,num__moon_phase_sin,0.1482564020436424,0.105478902494426,25
+parvovirus enteritis,environmental_only,num__moon_phase_sin,0.3100248551395154,0.1151283171308406,22
+parvovirus enteritis,environmental_only,num__moon_phase_cos,0.2917503330441345,0.1434608483102959,25

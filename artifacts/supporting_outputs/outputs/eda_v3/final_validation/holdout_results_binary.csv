@@ -1,0 +1,9 @@
+disease,block,test_auc,test_balanced_accuracy
+acute flare-up of triaditis/chronic enteropathy,combined,0.6098765432098765,0.5611111111111111
+acute gastroenteritis,combined,0.8447712418300654,0.7622549019607843
+acute pancreatitis,combined,0.5768421052631578,0.5089473684210526
+parvovirus enteritis,combined,0.9431818181818181,0.8477272727272727
+acute flare-up of triaditis/chronic enteropathy,environmental_only,0.528395061728395,0.4888888888888889
+acute gastroenteritis,environmental_only,0.7287581699346405,0.6053921568627452
+acute pancreatitis,environmental_only,0.44526315789473686,0.4363157894736842
+parvovirus enteritis,environmental_only,0.759090909090909,0.6602272727272727

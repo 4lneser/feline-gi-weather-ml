@@ -1,0 +1,61 @@
+model,disease,feature_block,fold,n_train,n_test,n_positive_train,n_positive_test,n_numeric_features,n_categorical_features,balanced_accuracy,recall,precision,f1,roc_auc
+hist_gb_binary_acute_flare_up_of_triaditis_chronic_enteropathy,acute flare-up of triaditis/chronic enteropathy,clinical_only,1,252,63,72,18,27,25,0.5944444444444444,0.3888888888888889,0.4375,0.4117647058823529,0.6753086419753087
+hist_gb_binary_acute_flare_up_of_triaditis_chronic_enteropathy,acute flare-up of triaditis/chronic enteropathy,clinical_only,2,252,63,72,18,27,25,0.6,0.3333333333333333,0.5,0.4,0.7432098765432099
+hist_gb_binary_acute_flare_up_of_triaditis_chronic_enteropathy,acute flare-up of triaditis/chronic enteropathy,clinical_only,3,252,63,72,18,27,25,0.6,0.3333333333333333,0.5,0.4,0.6222222222222222
+hist_gb_binary_acute_flare_up_of_triaditis_chronic_enteropathy,acute flare-up of triaditis/chronic enteropathy,clinical_only,4,252,63,72,18,27,25,0.5444444444444445,0.2222222222222222,0.4,0.2857142857142857,0.562962962962963
+hist_gb_binary_acute_flare_up_of_triaditis_chronic_enteropathy,acute flare-up of triaditis/chronic enteropathy,clinical_only,5,252,63,72,18,27,25,0.538888888888889,0.2777777777777778,0.35714285714285715,0.3125,0.6234567901234568
+hist_gb_binary_acute_flare_up_of_triaditis_chronic_enteropathy,acute flare-up of triaditis/chronic enteropathy,environmental_only,1,252,63,72,18,31,5,0.45,0.05555555555555555,0.125,0.07692307692307693,0.5777777777777778
+hist_gb_binary_acute_flare_up_of_triaditis_chronic_enteropathy,acute flare-up of triaditis/chronic enteropathy,environmental_only,2,252,63,72,18,31,5,0.5888888888888889,0.3333333333333333,0.46153846153846156,0.3870967741935484,0.5666666666666667
+hist_gb_binary_acute_flare_up_of_triaditis_chronic_enteropathy,acute flare-up of triaditis/chronic enteropathy,environmental_only,3,252,63,72,18,31,5,0.46111111111111114,0.05555555555555555,0.14285714285714285,0.08,0.408641975308642
+hist_gb_binary_acute_flare_up_of_triaditis_chronic_enteropathy,acute flare-up of triaditis/chronic enteropathy,environmental_only,4,252,63,72,18,31,5,0.5111111111111111,0.2222222222222222,0.3076923076923077,0.25806451612903225,0.5333333333333333
+hist_gb_binary_acute_flare_up_of_triaditis_chronic_enteropathy,acute flare-up of triaditis/chronic enteropathy,environmental_only,5,252,63,72,18,31,5,0.4611111111111111,0.16666666666666666,0.21428571428571427,0.1875,0.4506172839506173
+hist_gb_binary_acute_flare_up_of_triaditis_chronic_enteropathy,acute flare-up of triaditis/chronic enteropathy,combined,1,252,63,72,18,58,30,0.5611111111111111,0.2777777777777778,0.4166666666666667,0.3333333333333333,0.6654320987654322
+hist_gb_binary_acute_flare_up_of_triaditis_chronic_enteropathy,acute flare-up of triaditis/chronic enteropathy,combined,2,252,63,72,18,58,30,0.5055555555555555,0.16666666666666666,0.3,0.21428571428571427,0.6209876543209877
+hist_gb_binary_acute_flare_up_of_triaditis_chronic_enteropathy,acute flare-up of triaditis/chronic enteropathy,combined,3,252,63,72,18,58,30,0.43333333333333335,0.1111111111111111,0.15384615384615385,0.12903225806451613,0.5493827160493827
+hist_gb_binary_acute_flare_up_of_triaditis_chronic_enteropathy,acute flare-up of triaditis/chronic enteropathy,combined,4,252,63,72,18,58,30,0.5333333333333333,0.2222222222222222,0.36363636363636365,0.27586206896551724,0.5296296296296297
+hist_gb_binary_acute_flare_up_of_triaditis_chronic_enteropathy,acute flare-up of triaditis/chronic enteropathy,combined,5,252,63,72,18,58,30,0.4944444444444444,0.16666666666666666,0.2727272727272727,0.20689655172413793,0.5234567901234568
+hist_gb_binary_acute_gastroenteritis,acute gastroenteritis,clinical_only,1,252,63,48,12,27,25,0.6985294117647058,0.4166666666666667,0.8333333333333334,0.5555555555555556,0.8006535947712419
+hist_gb_binary_acute_gastroenteritis,acute gastroenteritis,clinical_only,2,252,63,48,12,27,25,0.8970588235294118,0.8333333333333334,0.8333333333333334,0.8333333333333334,0.8986928104575164
+hist_gb_binary_acute_gastroenteritis,acute gastroenteritis,clinical_only,3,252,63,48,12,27,25,0.8333333333333333,0.6666666666666666,1.0,0.8,0.9068627450980392
+hist_gb_binary_acute_gastroenteritis,acute gastroenteritis,clinical_only,4,252,63,48,12,27,25,0.75,0.5,1.0,0.6666666666666666,0.8415032679738561
+hist_gb_binary_acute_gastroenteritis,acute gastroenteritis,clinical_only,5,252,63,48,12,27,25,0.75,0.5,1.0,0.6666666666666666,0.7745098039215687
+hist_gb_binary_acute_gastroenteritis,acute gastroenteritis,environmental_only,1,252,63,48,12,31,5,0.553921568627451,0.16666666666666666,0.4,0.23529411764705882,0.5482026143790849
+hist_gb_binary_acute_gastroenteritis,acute gastroenteritis,environmental_only,2,252,63,48,12,31,5,0.5857843137254901,0.25,0.42857142857142855,0.3157894736842105,0.6511437908496731
+hist_gb_binary_acute_gastroenteritis,acute gastroenteritis,environmental_only,3,252,63,48,12,31,5,0.5024509803921569,0.08333333333333333,0.2,0.11764705882352941,0.5661764705882353
+hist_gb_binary_acute_gastroenteritis,acute gastroenteritis,environmental_only,4,252,63,48,12,31,5,0.5024509803921569,0.08333333333333333,0.2,0.11764705882352941,0.642156862745098
+hist_gb_binary_acute_gastroenteritis,acute gastroenteritis,environmental_only,5,252,63,48,12,31,5,0.5441176470588235,0.16666666666666666,0.3333333333333333,0.2222222222222222,0.5735294117647058
+hist_gb_binary_acute_gastroenteritis,acute gastroenteritis,combined,1,252,63,48,12,58,30,0.7720588235294118,0.5833333333333334,0.7777777777777778,0.6666666666666666,0.8758169934640523
+hist_gb_binary_acute_gastroenteritis,acute gastroenteritis,combined,2,252,63,48,12,58,30,0.928921568627451,0.9166666666666666,0.7857142857142857,0.8461538461538461,0.9117647058823528
+hist_gb_binary_acute_gastroenteritis,acute gastroenteritis,combined,3,252,63,48,12,58,30,0.8235294117647058,0.6666666666666666,0.8888888888888888,0.7619047619047619,0.9411764705882353
+hist_gb_binary_acute_gastroenteritis,acute gastroenteritis,combined,4,252,63,48,12,58,30,0.7205882352941176,0.5,0.6666666666666666,0.5714285714285714,0.8333333333333333
+hist_gb_binary_acute_gastroenteritis,acute gastroenteritis,combined,5,252,63,48,12,58,30,0.7401960784313726,0.5,0.8571428571428571,0.631578947368421,0.8937908496732025
+hist_gb_binary_acute_pancreatitis,acute pancreatitis,clinical_only,1,252,63,99,25,27,25,0.5815789473684211,0.4,0.5263157894736842,0.45454545454545453,0.6694736842105262
+hist_gb_binary_acute_pancreatitis,acute pancreatitis,clinical_only,2,252,63,99,25,27,25,0.7352631578947368,0.76,0.6333333333333333,0.6909090909090909,0.7810526315789473
+hist_gb_binary_acute_pancreatitis,acute pancreatitis,clinical_only,3,252,63,99,25,27,25,0.5163157894736843,0.48,0.41379310344827586,0.4444444444444444,0.5547368421052632
+hist_gb_binary_acute_pancreatitis,acute pancreatitis,clinical_only,4,252,63,99,25,27,25,0.5547368421052632,0.32,0.5,0.3902439024390244,0.6126315789473684
+hist_gb_binary_acute_pancreatitis,acute pancreatitis,clinical_only,5,252,63,100,24,27,25,0.5384615384615384,0.3333333333333333,0.4444444444444444,0.38095238095238093,0.6410256410256411
+hist_gb_binary_acute_pancreatitis,acute pancreatitis,environmental_only,1,252,63,99,25,31,5,0.40263157894736845,0.2,0.25,0.2222222222222222,0.3778947368421053
+hist_gb_binary_acute_pancreatitis,acute pancreatitis,environmental_only,2,252,63,99,25,31,5,0.5484210526315789,0.36,0.47368421052631576,0.4090909090909091,0.5578947368421052
+hist_gb_binary_acute_pancreatitis,acute pancreatitis,environmental_only,3,252,63,99,25,31,5,0.5621052631578948,0.44,0.4782608695652174,0.4583333333333333,0.4747368421052632
+hist_gb_binary_acute_pancreatitis,acute pancreatitis,environmental_only,4,252,63,99,25,31,5,0.4357894736842105,0.24,0.3,0.26666666666666666,0.5042105263157894
+hist_gb_binary_acute_pancreatitis,acute pancreatitis,environmental_only,5,252,63,100,24,31,5,0.46634615384615385,0.2916666666666667,0.3333333333333333,0.3111111111111111,0.47329059829059833
+hist_gb_binary_acute_pancreatitis,acute pancreatitis,combined,1,252,63,99,25,58,30,0.5752631578947368,0.44,0.5,0.46808510638297873,0.6810526315789474
+hist_gb_binary_acute_pancreatitis,acute pancreatitis,combined,2,252,63,99,25,58,30,0.6152631578947368,0.52,0.5416666666666666,0.5306122448979592,0.6842105263157895
+hist_gb_binary_acute_pancreatitis,acute pancreatitis,combined,3,252,63,99,25,58,30,0.5157894736842106,0.4,0.4166666666666667,0.40816326530612246,0.5747368421052631
+hist_gb_binary_acute_pancreatitis,acute pancreatitis,combined,4,252,63,99,25,58,30,0.5284210526315789,0.32,0.4444444444444444,0.37209302325581395,0.5736842105263158
+hist_gb_binary_acute_pancreatitis,acute pancreatitis,combined,5,252,63,100,24,58,30,0.5592948717948718,0.375,0.47368421052631576,0.4186046511627907,0.6292735042735043
+hist_gb_binary_parvovirus_enteritis,parvovirus enteritis,clinical_only,1,252,63,33,8,27,25,0.7943181818181818,0.625,0.7142857142857143,0.6666666666666666,0.9
+hist_gb_binary_parvovirus_enteritis,parvovirus enteritis,clinical_only,2,252,63,33,8,27,25,0.865909090909091,0.75,0.8571428571428571,0.8,0.9386363636363637
+hist_gb_binary_parvovirus_enteritis,parvovirus enteritis,clinical_only,3,252,63,33,8,27,25,0.8568181818181818,0.75,0.75,0.75,0.9659090909090909
+hist_gb_binary_parvovirus_enteritis,parvovirus enteritis,clinical_only,4,252,63,33,8,27,25,0.8125,0.625,1.0,0.7692307692307693,0.9931818181818182
+hist_gb_binary_parvovirus_enteritis,parvovirus enteritis,clinical_only,5,252,63,32,9,27,25,0.9444444444444444,0.8888888888888888,1.0,0.9411764705882353,0.98559670781893
+hist_gb_binary_parvovirus_enteritis,parvovirus enteritis,environmental_only,1,252,63,33,8,31,5,0.5352272727272727,0.125,0.25,0.16666666666666666,0.6818181818181819
+hist_gb_binary_parvovirus_enteritis,parvovirus enteritis,environmental_only,2,252,63,33,8,31,5,0.5443181818181818,0.125,0.3333333333333333,0.18181818181818182,0.6659090909090909
+hist_gb_binary_parvovirus_enteritis,parvovirus enteritis,environmental_only,3,252,63,33,8,31,5,0.5886363636363636,0.25,0.3333333333333333,0.2857142857142857,0.7125
+hist_gb_binary_parvovirus_enteritis,parvovirus enteritis,environmental_only,4,252,63,33,8,31,5,0.5443181818181818,0.125,0.3333333333333333,0.18181818181818182,0.5420454545454546
+hist_gb_binary_parvovirus_enteritis,parvovirus enteritis,environmental_only,5,252,63,32,9,31,5,0.6111111111111112,0.2222222222222222,1.0,0.36363636363636365,0.49794238683127573
+hist_gb_binary_parvovirus_enteritis,parvovirus enteritis,combined,1,252,63,33,8,58,30,0.803409090909091,0.625,0.8333333333333334,0.7142857142857143,0.9409090909090909
+hist_gb_binary_parvovirus_enteritis,parvovirus enteritis,combined,2,252,63,33,8,58,30,0.8568181818181818,0.75,0.75,0.75,0.9818181818181818
+hist_gb_binary_parvovirus_enteritis,parvovirus enteritis,combined,3,252,63,33,8,58,30,0.8568181818181818,0.75,0.75,0.75,0.9727272727272727
+hist_gb_binary_parvovirus_enteritis,parvovirus enteritis,combined,4,252,63,33,8,58,30,0.8125,0.625,1.0,0.7692307692307693,0.9590909090909091
+hist_gb_binary_parvovirus_enteritis,parvovirus enteritis,combined,5,252,63,32,9,58,30,0.9444444444444444,0.8888888888888888,1.0,0.9411764705882353,0.9444444444444444

@@ -1,0 +1,20 @@
+\begin{table}[htbp]
+\centering
+\small
+\begin{tabular}{p{0.30\linewidth} p{0.64\linewidth}}
+\toprule
+Element & Description \\
+\midrule
+target\_permutation\_unit & Entire binary y vector permuted globally per disease and permutation index. \\
+folding\_scheme & StratifiedKFold with fixed splits computed once from non-permuted y. \\
+stratification\_preservation & Preserved at initial split construction; not re-stratified after permutation. \\
+permutation\_timing & Permutation applied after fixed split indices are defined, before fold-wise model fit/evaluation. \\
+auc\_computation & ROC-AUC computed on validation fold predictions only, then averaged across folds per permutation. \\
+null\_distribution & Distribution of per-permutation fold-mean AUC values. \\
+p\_value\_formula & (count(perm\_mean\_auc >= observed\_auc) + 1) / (n\_perm + 1). \\
+n\_perm\_parameter & CLI --perm-n (default 200; observed runs used n\_perm=200). \\
+\bottomrule
+\end{tabular}
+\caption{Permutation test design used for environmental-only binary robustness screening.}
+\label{tab:permutation_protocol}
+\end{table}

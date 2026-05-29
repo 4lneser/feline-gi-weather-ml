@@ -1,0 +1,5 @@
+variant,max_category_rr,max_window_rr,any_ci_excludes_1
+original_d7_twice,1.4,1.371951219512195,False
+d7_first_only,1.41123595505618,1.367595818815331,False
+d7_second_only,1.3955555555555557,1.367595818815331,False
+no_d7,1.406741573033708,1.3632404181184667,False

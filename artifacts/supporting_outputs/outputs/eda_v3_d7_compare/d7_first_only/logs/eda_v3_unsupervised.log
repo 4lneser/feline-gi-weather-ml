@@ -1,0 +1,17 @@
+$ /opt/conda/bin/python3 /workspace/TYP/run_eda_v3.py --input outputs/eda_v3_d7_compare/datasets/d7_first_only.csv --outdir outputs/eda_v3_d7_compare/d7_first_only/eda_v3 --seed 42 --cv-folds 5 --corr-threshold 0.85 --run-unsupervised
+
+2026-03-04 02:06:50,019 | INFO | Detected CPU count: 48
+2026-03-04 02:06:50,019 | INFO | Current load average (1m): 91.29
+2026-03-04 02:06:50,019 | INFO | Selected perm_jobs: 24 (auto_high_load)
+2026-03-04 02:06:50,019 | WARNING | System load warning: load_avg (91.29) is greater than cpu_count (48).
+Reminder: set OMP_NUM_THREADS=1 to avoid oversubscription
+2026-03-04 02:06:50,019 | INFO | Run mode: unsupervised_only
+2026-03-04 02:06:50,019 | INFO | Output directory: outputs/eda_v3_d7_compare/d7_first_only/eda_v3/unsupervised
+2026-03-04 02:06:50,019 | INFO | Loading dataset: outputs/eda_v3_d7_compare/datasets/d7_first_only.csv
+2026-03-04 02:06:50,040 | INFO | Loaded shape: (314, 205)
+2026-03-04 02:06:50,044 | INFO | Dropped weather-missing-reason columns: ['weather_missing_reason', 'weather_missing_reason__missing']
+2026-03-04 02:06:50,044 | INFO | Shape after drop: (314, 203)
+2026-03-04 02:06:50,060 | INFO | Unsupervised output directory: outputs/eda_v3_d7_compare/d7_first_only/eda_v3/unsupervised
+2026-03-04 02:06:50,867 | INFO | Unsupervised environmental numeric alignment (kept_weather_numeric): 31/136
+2026-03-04 02:07:00,554 | INFO | Unsupervised summary: outputs/eda_v3_d7_compare/d7_first_only/eda_v3/unsupervised/unsupervised_summary.md
+2026-03-04 02:07:00,554 | INFO | Unsupervised module completed.

@@ -1,0 +1,4 @@
+feature_block,n_numeric,n_categorical,n_total
+clinical_only,27,25,52
+combined,58,30,88
+environmental_only,31,5,36

@@ -1,0 +1,9 @@
+split,class_label,n,pct_within_split
+test,acute flare-up of triaditis/chronic enteropathy,18,28.571428571428573
+test,acute gastroenteritis,12,19.047619047619047
+test,acute pancreatitis,25,39.682539682539684
+test,parvovirus enteritis,8,12.698412698412698
+train,acute flare-up of triaditis/chronic enteropathy,71,28.286852589641434
+train,acute gastroenteritis,48,19.12350597609562
+train,acute pancreatitis,99,39.44223107569721
+train,parvovirus enteritis,33,13.147410358565738

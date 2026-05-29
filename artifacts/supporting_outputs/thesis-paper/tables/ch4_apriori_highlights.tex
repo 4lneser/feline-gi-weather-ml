@@ -1,0 +1,17 @@
+\begin{table}[htbp]
+\centering
+\small
+\begin{tabularx}{\textwidth}{>{\raggedright\arraybackslash}p{0.12\textwidth}>{\raggedright\arraybackslash}p{0.19\textwidth}>{\raggedright\arraybackslash}Xccc}
+\toprule
+Track & Consequent & Antecedents & Support & Confidence & Lift \\
+\midrule
+Diagnosis & acute gastroenteritis & low snowfall (13d mean), low day1 pressure max & 0.051 & 0.340 & 1.782 \\
+Diagnosis & acute gastroenteritis & high precipitation-hours (7d peak), high precipitation sum (7d mean) & 0.057 & 0.340 & 1.777 \\
+Severity & total protein increased & low precipitation-hours (13d mean), low precipitation-hours (7d mean), low precipitation sum (2d mean) & 0.051 & 0.457 & 2.175 \\
+Cluster $k_{best}$ & clinical cluster 1 & high precipitation-hours (13d mean), high precipitation sum (13d mean), low snowfall (13d mean) & 0.051 & 0.500 & 2.343 \\
+Cluster $k=6$ & combined cluster 5 & high precipitation-hours (13d mean), low snowfall (13d mean) & 0.051 & 0.400 & 5.024 \\
+\bottomrule
+\end{tabularx}
+\caption{Top Apriori rules retained for reporting across diagnosis, severity, and cluster tracks.}
+\label{tab:ch4_apriori_highlights}
+\end{table}

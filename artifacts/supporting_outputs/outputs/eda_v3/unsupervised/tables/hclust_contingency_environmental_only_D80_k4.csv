@@ -1,0 +1,17 @@
+cluster,diagnosis,count,row_pct,col_pct
+1,acute flare-up of triaditis/chronic enteropathy,47,30.92105263157895,52.22222222222223
+1,acute gastroenteritis,27,17.763157894736842,45.0
+1,acute pancreatitis,62,40.78947368421053,50.0
+1,parvovirus enteritis,16,10.526315789473683,39.02439024390244
+2,acute flare-up of triaditis/chronic enteropathy,2,50.0,2.2222222222222223
+2,acute gastroenteritis,0,0.0,0.0
+2,acute pancreatitis,2,50.0,1.6129032258064515
+2,parvovirus enteritis,0,0.0,0.0
+3,acute flare-up of triaditis/chronic enteropathy,11,19.642857142857142,12.222222222222221
+3,acute gastroenteritis,16,28.57142857142857,26.666666666666668
+3,acute pancreatitis,21,37.5,16.93548387096774
+3,parvovirus enteritis,8,14.285714285714285,19.51219512195122
+4,acute flare-up of triaditis/chronic enteropathy,30,29.126213592233007,33.33333333333333
+4,acute gastroenteritis,17,16.50485436893204,28.333333333333332
+4,acute pancreatitis,39,37.86407766990291,31.451612903225808
+4,parvovirus enteritis,17,16.50485436893204,41.46341463414634

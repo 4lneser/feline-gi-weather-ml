@@ -1,0 +1,209 @@
+variable,missing_n,missing_pct
+ID,0,0.0
+zip code,0,0.0
+date of presentation,0,0.0
+zip5,0,0.0
+presentation_date,0,0.0
+weather_job_id,0,0.0
+name,0,0.0
+breed,0,0.0
+sex,0,0.0
+neuter status,0,0.0
+body weight,0,0.0
+date of birth,0,0.0
+town/village,0,0.0
+state,0,0.0
+urban or rural region,0,0.0
+altitude (MASL),0,0.0
+weather station,0,0.0
+clostest Weather station ID,0,0.0
+(suspected) diagnosis,0,0.0
+group,0,0.0
+clinical course,0,0.0
+hospitalization time (days),0,0.0
+travel history,0,0.0
+BARF diet,0,0.0
+regularly dewormed,0,0.0
+regularly vaccinated,0,0.0
+hematocrit interpretation,0,0.0
+initial hematocrit,0,0.0
+leukocyte count interpreatation,0,0.0
+leukocyte count,0,0.0
+neutrophil count interpretation,0,0.0
+neutrophil count (x 10^9/L),0,0.0
+left shift,0,0.0
+lymphocyte count interpreatation,0,0.0
+lymphocyte count,0,0.0
+initial total protein interpreatation,0,0.0
+Initial total protein concentration (in g/l),0,0.0
+Albumin interpretation,0,0.0
+Albumin concentration (in g/l),0,0.0
+CREA interpretation,0,0.0
+CREA concentration ,0,0.0
+BUN interpreattion,0,0.0
+BUN concentration,0,0.0
+K interpreatation,0,0.0
+K value,0,0.0
+Na interpreatation,0,0.0
+Na value,0,0.0
+Cl interpreatation,0,0.0
+Cl value,0,0.0
+fecal examination,0,0.0
+temperature_2m_max__day1,0,0.0
+temperature_2m_max__mean_2d,0,0.0
+temperature_2m_max__mean_3d,0,0.0
+temperature_2m_max__mean_7d,0,0.0
+temperature_2m_max__mean_13d,0,0.0
+temperature_2m_max__peak_7d,0,0.0
+temperature_2m_max__peak_14d,0,0.0
+temperature_2m_min__day1,0,0.0
+temperature_2m_min__mean_2d,0,0.0
+temperature_2m_min__mean_3d,0,0.0
+temperature_2m_min__mean_7d,0,0.0
+temperature_2m_min__mean_13d,0,0.0
+temperature_2m_min__peak_7d,0,0.0
+temperature_2m_min__peak_14d,0,0.0
+temperature_2m_mean__day1,0,0.0
+temperature_2m_mean__mean_2d,0,0.0
+temperature_2m_mean__mean_3d,0,0.0
+temperature_2m_mean__mean_7d,0,0.0
+temperature_2m_mean__mean_13d,0,0.0
+temperature_2m_mean__peak_7d,0,0.0
+temperature_2m_mean__peak_14d,0,0.0
+apparent_temperature_max__day1,0,0.0
+apparent_temperature_max__mean_2d,0,0.0
+apparent_temperature_max__mean_3d,0,0.0
+apparent_temperature_max__mean_7d,0,0.0
+apparent_temperature_max__mean_13d,0,0.0
+apparent_temperature_max__peak_7d,0,0.0
+apparent_temperature_max__peak_14d,0,0.0
+apparent_temperature_min__day1,0,0.0
+apparent_temperature_min__mean_2d,0,0.0
+apparent_temperature_min__mean_3d,0,0.0
+apparent_temperature_min__mean_7d,0,0.0
+apparent_temperature_min__mean_13d,0,0.0
+apparent_temperature_min__peak_7d,0,0.0
+apparent_temperature_min__peak_14d,0,0.0
+apparent_temperature_mean__day1,0,0.0
+apparent_temperature_mean__mean_2d,0,0.0
+apparent_temperature_mean__mean_3d,0,0.0
+apparent_temperature_mean__mean_7d,0,0.0
+apparent_temperature_mean__mean_13d,0,0.0
+apparent_temperature_mean__peak_7d,0,0.0
+apparent_temperature_mean__peak_14d,0,0.0
+sunrise__day1,0,0.0
+sunset__day1,0,0.0
+daylight_duration__day1,0,0.0
+daylight_duration__mean_2d,0,0.0
+daylight_duration__mean_3d,0,0.0
+daylight_duration__mean_7d,0,0.0
+daylight_duration__mean_13d,0,0.0
+daylight_duration__peak_7d,0,0.0
+daylight_duration__peak_14d,0,0.0
+sunshine_duration__day1,0,0.0
+sunshine_duration__mean_2d,0,0.0
+sunshine_duration__mean_3d,0,0.0
+sunshine_duration__mean_7d,0,0.0
+sunshine_duration__mean_13d,0,0.0
+sunshine_duration__peak_7d,0,0.0
+sunshine_duration__peak_14d,0,0.0
+precipitation_sum__day1,0,0.0
+precipitation_sum__mean_2d,0,0.0
+precipitation_sum__mean_3d,0,0.0
+precipitation_sum__mean_7d,0,0.0
+precipitation_sum__mean_13d,0,0.0
+precipitation_sum__peak_7d,0,0.0
+precipitation_sum__peak_14d,0,0.0
+precipitation_hours__day1,0,0.0
+precipitation_hours__mean_2d,0,0.0
+precipitation_hours__mean_3d,0,0.0
+precipitation_hours__mean_7d,0,0.0
+precipitation_hours__mean_13d,0,0.0
+precipitation_hours__peak_7d,0,0.0
+precipitation_hours__peak_14d,0,0.0
+rain_sum__day1,0,0.0
+rain_sum__mean_2d,0,0.0
+rain_sum__mean_3d,0,0.0
+rain_sum__mean_7d,0,0.0
+rain_sum__mean_13d,0,0.0
+rain_sum__peak_7d,0,0.0
+rain_sum__peak_14d,0,0.0
+snowfall_sum__day1,0,0.0
+snowfall_sum__mean_2d,0,0.0
+snowfall_sum__mean_3d,0,0.0
+snowfall_sum__mean_7d,0,0.0
+snowfall_sum__mean_13d,0,0.0
+snowfall_sum__peak_7d,0,0.0
+snowfall_sum__peak_14d,0,0.0
+shortwave_radiation_sum__day1,0,0.0
+shortwave_radiation_sum__mean_2d,0,0.0
+shortwave_radiation_sum__mean_3d,0,0.0
+shortwave_radiation_sum__mean_7d,0,0.0
+shortwave_radiation_sum__mean_13d,0,0.0
+shortwave_radiation_sum__peak_7d,0,0.0
+shortwave_radiation_sum__peak_14d,0,0.0
+wind_speed_10m_max__day1,0,0.0
+wind_speed_10m_max__mean_2d,0,0.0
+wind_speed_10m_max__mean_3d,0,0.0
+wind_speed_10m_max__mean_7d,0,0.0
+wind_speed_10m_max__mean_13d,0,0.0
+wind_speed_10m_max__peak_7d,0,0.0
+wind_speed_10m_max__peak_14d,0,0.0
+wind_gusts_10m_max__day1,0,0.0
+wind_gusts_10m_max__mean_2d,0,0.0
+wind_gusts_10m_max__mean_3d,0,0.0
+wind_gusts_10m_max__mean_7d,0,0.0
+wind_gusts_10m_max__mean_13d,0,0.0
+wind_gusts_10m_max__peak_7d,0,0.0
+wind_gusts_10m_max__peak_14d,0,0.0
+wind_direction_10m_dominant__day1,0,0.0
+wind_direction_10m_dominant__mean_2d,0,0.0
+wind_direction_10m_dominant__mean_3d,0,0.0
+wind_direction_10m_dominant__mean_7d,0,0.0
+wind_direction_10m_dominant__mean_13d,0,0.0
+wind_direction_10m_dominant__peak_7d,0,0.0
+wind_direction_10m_dominant__peak_14d,0,0.0
+et0_fao_evapotranspiration__day1,0,0.0
+et0_fao_evapotranspiration__mean_2d,0,0.0
+et0_fao_evapotranspiration__mean_3d,0,0.0
+et0_fao_evapotranspiration__mean_7d,0,0.0
+et0_fao_evapotranspiration__mean_13d,0,0.0
+et0_fao_evapotranspiration__peak_7d,0,0.0
+et0_fao_evapotranspiration__peak_14d,0,0.0
+uv_index_max__day1,0,0.0
+uv_index_max__mean_2d,0,0.0
+uv_index_max__mean_3d,0,0.0
+uv_index_max__mean_7d,0,0.0
+uv_index_max__mean_13d,0,0.0
+uv_index_max__peak_7d,0,0.0
+uv_index_max__peak_14d,0,0.0
+surface_pressure_max__day1,0,0.0
+surface_pressure_max__mean_2d,0,0.0
+surface_pressure_max__mean_3d,0,0.0
+surface_pressure_max__mean_7d,0,0.0
+surface_pressure_max__mean_13d,0,0.0
+surface_pressure_max__peak_7d,0,0.0
+surface_pressure_max__peak_14d,0,0.0
+body weight__missing,0,0.0
+hospitalization time (days)__missing,0,0.0
+initial hematocrit__missing,0,0.0
+leukocyte count__missing,0,0.0
+neutrophil count (x 10^9/L)__missing,0,0.0
+lymphocyte count__missing,0,0.0
+Initial total protein concentration (in g/l)__missing,0,0.0
+Albumin concentration (in g/l)__missing,0,0.0
+CREA concentration __missing,0,0.0
+BUN concentration__missing,0,0.0
+K value__missing,0,0.0
+Na value__missing,0,0.0
+Cl value__missing,0,0.0
+moon_phase_fraction_illuminated,0,0.0
+moon_phase_angle_deg,0,0.0
+moon_phase_category,0,0.0
+is_full_moon,0,0.0
+is_new_moon,0,0.0
+eda3_month,0,0.0
+eda3_weekday,0,0.0
+eda3_season,0,0.0
+moon_phase_sin,0,0.0
+moon_phase_cos,0,0.0

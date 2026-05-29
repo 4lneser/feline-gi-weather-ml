@@ -1,0 +1,5 @@
+variant,disease,best_metric,best_level,best_rr,best_rr_ci_low,best_rr_ci_high,ci_excludes_1
+no_d7,acute flare-up of triaditis/chronic enteropathy,moon_category,new,1.406741573033708,0.8026329775225005,2.2994932358918865,False
+no_d7,acute gastroenteritis,moon_category,waxing,1.2558641975308642,0.7111139918668529,2.1680254682294104,False
+no_d7,acute pancreatitis,moon_category,waning,1.1472077835532457,0.8154437939086969,1.583884823469365,False
+no_d7,parvovirus enteritis,near_new,yes,1.3632404181184667,0.4557044292141039,3.630134088160191,False

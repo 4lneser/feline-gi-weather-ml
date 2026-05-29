@@ -1,0 +1,6 @@
+sex_neuter,total_n,case_n_acute_flare_up_of_triaditis_chronic_enteropathy,baseline_risk_acute_flare_up_of_triaditis_chronic_enteropathy,case_n_acute_gastroenteritis,baseline_risk_acute_gastroenteritis,case_n_acute_pancreatitis,baseline_risk_acute_pancreatitis,case_n_parvovirus_enteritis,baseline_risk_parvovirus_enteritis
+male_neutered,129,42,0.32558139534883723,22,0.17054263565891473,60,0.46511627906976744,5,0.03875968992248062
+female_neutered,95,36,0.37894736842105264,15,0.15789473684210525,41,0.43157894736842106,3,0.031578947368421054
+male_intact,51,8,0.1568627450980392,13,0.2549019607843137,11,0.21568627450980393,19,0.37254901960784315
+female_intact,39,4,0.10256410256410256,10,0.2564102564102564,12,0.3076923076923077,13,0.3333333333333333
+unknown_intact,1,0,0.0,0,0.0,0,0.0,1,1.0

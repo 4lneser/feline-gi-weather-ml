@@ -1,0 +1,24 @@
+model,hyperparameter,value,explicitly_set
+hist_gb_multiclass,random_state,42,True
+hist_gb_multiclass,max_iter,300,True
+hist_gb_multiclass,learning_rate,0.1,True
+hist_gb_multiclass,max_depth,None,True
+hist_gb_multiclass,class_weight,balanced,True
+hist_gb_multiclass,early_stopping,auto,False
+hist_gb_binary_ovr,random_state,42,True
+hist_gb_binary_ovr,max_iter,300,True
+hist_gb_binary_ovr,learning_rate,0.1,True
+hist_gb_binary_ovr,max_depth,None,True
+hist_gb_binary_ovr,class_weight,not set,False
+hist_gb_binary_ovr,early_stopping,auto,False
+random_forest,random_state,42,True
+random_forest,n_estimators,700,True
+random_forest,min_samples_leaf,2,True
+random_forest,class_weight,balanced_subsample,True
+random_forest,n_jobs,-1,True
+random_forest,max_depth,None (default),False
+logistic_ovr,solver,liblinear,True
+logistic_ovr,class_weight,balanced,True
+logistic_ovr,max_iter,3000,True
+logistic_ovr,random_state,42,True
+logistic_ovr,multiclass_wrapper,OneVsRestClassifier,True

@@ -1,0 +1,16 @@
+\begin{table}[!htbp]
+\centering
+\small
+\begin{tabularx}{\textwidth}{>{\raggedright\arraybackslash}Xrrr}
+\toprule
+Track & Stable Rules & Strongest Lift & Median Support \\
+\midrule
+Diagnosis & 117 & 1.782 & 0.057 \\
+Severity & 1791 & 2.175 & 0.061 \\
+Cluster ($k_{\mathrm{best}}$) & 423 & 2.343 & 0.064 \\
+Cluster ($k=6$) & 980 & 5.024 & 0.070 \\
+\bottomrule
+\end{tabularx}
+\caption{Apriori rule-track summary for the final refined pass. Stable-rule counts are based on fold recurrence ($\geq 3/5$ folds), strongest lift is taken from the full qualifying rule set for each track, and median support is computed on the stable subset.}
+\label{tab:ch4_apriori_track_summary}
+\end{table}

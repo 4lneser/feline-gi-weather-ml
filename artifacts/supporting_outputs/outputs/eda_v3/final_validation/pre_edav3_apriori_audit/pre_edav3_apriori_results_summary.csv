@@ -1,0 +1,2 @@
+run_id,artifact_dir,n_itemsets_total,n_rules_total,n_rules_after_filter,n_rules_top50,n_rules_stable,n_rules_relaxed_sup_0_08,n_rules_relaxed_sup_0_10,n_rules_relaxed_sup_0_12,strongest_lift,strongest_support,strongest_confidence
+pre_v3_outputs_apriori,/Users/omaralneser/Documents/TYP/outputs/apriori,1088514,6350440,0,0,0,4,0,0,,,

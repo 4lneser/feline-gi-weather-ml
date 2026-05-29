@@ -1,0 +1,4 @@
+block,Dtag,n_dim,method,k_label,k,ari,nmi
+environmental_only,Dfixed6,6,kmeans,k4,4,0.003979432826585445,0.02301763657881222
+environmental_only,Dfixed6,6,kmeans,k6,6,0.013264503555105512,0.04236476107577451
+environmental_only,Dfixed6,6,kmeans,kbest,2,0.018241656696343877,0.013707928951737728

@@ -1,0 +1,25 @@
+$ /opt/conda/bin/python3 /workspace/TYP/holdout_forensic_audit.py --input outputs/eda_v3_d7_compare/datasets/d7_first_only.csv --outdir outputs/eda_v3_d7_compare/d7_first_only/final_validation/holdout_audit --seed 42 --corr-threshold 0.85 --bootstrap-n 2000
+
+=== HOLDOUT FORENSIC AUDIT ===
+total N: 314
+total test N: 63
+per-class test counts:
+                                    class_label  n  pct_within_split
+acute flare-up of triaditis/chronic enteropathy 18         28.571429
+                          acute gastroenteritis 12         19.047619
+                             acute pancreatitis 25         39.682540
+                           parvovirus enteritis  8         12.698413
+any class with n_test_positive < 10: True
+feature diff detected (CV vs holdout env): False
+NO LEAKAGE DETECTED
+used_saved_predictions: False
+bootstrap AUC table:
+                                        disease  n_test_total  n_test_positive  n_test_negative  high_variance_risk      auc   ci_low  ci_high  ci_width  unstable
+acute flare-up of triaditis/chronic enteropathy            63               18               45               False 0.501235 0.338990 0.658462  0.319472      True
+                          acute gastroenteritis            63               12               51               False 0.727124 0.558668 0.872889  0.314221      True
+                             acute pancreatitis            63               25               38               False 0.526316 0.371760 0.668947  0.297187      True
+                           parvovirus enteritis            63                8               55                True 0.695455 0.500000 0.881356  0.381356      True
+acute flare-up of triaditis/chronic enteropathy: Unstable
+acute gastroenteritis: Unstable
+acute pancreatitis: Unstable
+parvovirus enteritis: Unstable

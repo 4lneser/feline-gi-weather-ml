@@ -1,0 +1,15 @@
+{
+  "input": "outputs/imputed_dataset_enriched.csv",
+  "output_root": "outputs/eda_v3_d7_compare",
+  "id_col": "ID",
+  "target_id": "D7",
+  "date_col": "presentation_date",
+  "seed": 42,
+  "corr_threshold": 0.85,
+  "cv_folds": 5,
+  "run_permutation_test": true,
+  "run_lightgbm_replication": true,
+  "run_shap_stability": true,
+  "execute": true,
+  "continue_on_error": true
+}

@@ -1,0 +1,21 @@
+track,consequent_name,antecedents,support,support_count,confidence,lift,baseline_prevalence,leverage,conviction
+cluster_clin,cluster_clin_kbest_0,"daylight_duration_day1_high, precipitation_hours_mean_2d_low",0.07301587301587302,23,1.0,1.2701612903225807,0.7873015873015873,0.01553036029226506,inf
+cluster_clin,cluster_clin_kbest_0,"daylight_duration_day1_high, precipitation_sum_mean_2d_low",0.050793650793650794,16,1.0,1.2701612903225807,0.7873015873015873,0.010803728898966997,inf
+cluster_clin,cluster_clin_kbest_0,"eda3_weekday__mon, precipitation_hours_day1_low",0.050793650793650794,16,1.0,1.2701612903225807,0.7873015873015873,0.010803728898966997,inf
+cluster_clin,cluster_clin_kbest_0,"eda3_season__summer, precipitation_hours_mean_2d_low",0.06984126984126984,22,1.0,1.2701612903225807,0.7873015873015873,0.014855127236079617,inf
+cluster_clin,cluster_clin_kbest_0,"eda3_weekday__mon, precipitation_sum_day1_low",0.050793650793650794,16,1.0,1.2701612903225807,0.7873015873015873,0.010803728898966997,inf
+cluster_clin,cluster_clin_kbest_0,"surface_pressure_max_day1_high, wind_gusts_10m_max_peak_14d_low",0.06031746031746032,19,1.0,1.2701612903225807,0.7873015873015873,0.01282942806752331,inf
+cluster_clin,cluster_clin_kbest_0,"surface_pressure_max_mean_13d_high, wind_gusts_10m_max_peak_14d_low",0.06031746031746032,19,1.0,1.2701612903225807,0.7873015873015873,0.01282942806752331,inf
+cluster_clin,cluster_clin_kbest_0,"apparent_temperature_max_day1_high, daylight_duration_day1_high, precipitation_hours_mean_2d_low",0.05714285714285714,18,1.0,1.2701612903225807,0.7873015873015873,0.012154195011337868,inf
+cluster_clin,cluster_clin_kbest_0,"apparent_temperature_max_day1_high, daylight_duration_day1_high, precipitation_hours_mean_7d_low",0.06349206349206349,20,1.0,1.2701612903225807,0.7873015873015873,0.013504661123708746,inf
+cluster_clin,cluster_clin_kbest_0,"apparent_temperature_max_day1_high, daylight_duration_day1_high, precipitation_hours_peak_7d_low",0.05714285714285714,18,1.0,1.2701612903225807,0.7873015873015873,0.012154195011337868,inf
+cluster_clin,cluster_clin_kbest_1,"precipitation_hours_mean_13d_high, precipitation_sum_mean_13d_high, snowfall_sum_mean_13d_low",0.050793650793650794,16,0.5,2.3507462686567164,0.2126984126984127,0.029186192995716807,1.5746031746031746
+cluster_clin,cluster_clin_kbest_1,"precipitation_hours_mean_7d_high, snowfall_sum_mean_13d_low",0.06031746031746032,19,0.48717948717948717,2.2904707233065444,0.2126984126984127,0.03398337112622827,1.5352380952380953
+cluster_clin,cluster_clin_kbest_1,"precipitation_hours_mean_13d_high, snowfall_sum_mean_13d_low",0.06031746031746032,19,0.47500000000000003,2.2332089552238807,0.2126984126984127,0.033308138070042834,1.4996220710506427
+cluster_clin,cluster_clin_kbest_1,"precipitation_sum_mean_13d_high, precipitation_sum_mean_7d_high, snowfall_sum_mean_13d_low",0.050793650793650794,16,0.41025641025641024,1.928817451205511,0.2126984126984127,0.024459561602418745,1.3349896480331263
+cluster_clin,cluster_clin_kbest_1,"precipitation_hours_mean_13d_high, precipitation_hours_mean_7d_high",0.06984126984126984,22,0.3793103448275862,1.7833247555326814,0.2126984126984127,0.03067775258251449,1.2684303350970016
+cluster_clin,cluster_clin_kbest_1,"precipitation_hours_peak_7d_high, precipitation_sum_peak_14d_high",0.050793650793650794,16,0.372093023255814,1.7493925720236032,0.2126984126984127,0.021758629377677,1.2538506760728982
+cluster_clin,cluster_clin_kbest_1,"precipitation_hours_peak_7d_high, precipitation_sum_mean_13d_high",0.05396825396825397,17,0.3617021276595745,1.7005398539218801,0.2126984126984127,0.022232300327538423,1.2334391534391533
+cluster_clin,cluster_clin_kbest_1,"snowfall_sum_mean_13d_low, surface_pressure_max_day1_low",0.05396825396825397,17,0.3617021276595745,1.7005398539218801,0.2126984126984127,0.022232300327538423,1.2334391534391533
+cluster_clin,cluster_clin_kbest_1,"precipitation_sum_mean_13d_high, precipitation_sum_peak_14d_high, snowfall_sum_mean_13d_low",0.05396825396825397,17,0.3617021276595745,1.7005398539218801,0.2126984126984127,0.022232300327538423,1.2334391534391533
+cluster_clin,cluster_clin_kbest_1,"precipitation_hours_peak_7d_high, snowfall_sum_mean_13d_low",0.06031746031746032,19,0.3584905660377358,1.6854407209236835,0.2126984126984127,0.02453010833963215,1.2272642390289448

@@ -1,0 +1,7 @@
+$ /opt/conda/bin/python3 /workspace/TYP/bun_rule_validation.py --input outputs/eda_v3_d7_compare/d7_first_only/clinical_threshold_extension/imputed_dataset_enriched_with_clinical_states.csv --rules outputs/eda_v3_d7_compare/d7_first_only/clinical_threshold_extension/severity_rules_clinical_thresholds.csv --outdir outputs/eda_v3_d7_compare/d7_first_only/clinical_threshold_extension/bun_rule_validation
+
+=== BUN Rule Validation ===
+Full rule lift: 1.9962
+Strongest ablation variant lift: 1.5430
+20/80 lift: 1.5969
+Final robustness classification: Moderately sensitive

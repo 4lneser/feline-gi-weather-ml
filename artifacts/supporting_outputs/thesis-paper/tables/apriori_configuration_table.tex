@@ -1,0 +1,27 @@
+\begin{table}[htbp]
+\centering
+\small
+\setlength{\tabcolsep}{5pt}
+\renewcommand{\arraystretch}{1.15}
+\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.23\linewidth} >{\raggedright\arraybackslash}X >{\raggedright\arraybackslash}p{0.31\linewidth}}
+\toprule
+Parameter & Value & Applied To \\
+\midrule
+min support & 0.05 & disease, cluster\_clin, cluster\_comb, severity \\
+min confidence & baseline prevalence of consequent & all tracks \\
+lift threshold & 1.25 & disease \\
+lift threshold & 1.20 & cluster\_clin, cluster\_comb, severity \\
+singleton lift min & 1.50 & disease \\
+singleton lift min & 1.20 & cluster\_clin, cluster\_comb, severity \\
+apriori max len & 4 & frequent itemset mining \\
+antecedent length & 1 to 3 & rule filtering \\
+numeric discretization & LOW<=25th percentile; HIGH>=75th percentile; middle omitted & environmental numeric antecedents \\
+categorical encoding & one-hot boolean item flags & environmental categoricals \\
+lunar items & moon\_near\_full, moon\_near\_new booleans & environmental antecedents \\
+cluster reporting & k\_best only & cluster consequents \\
+top n rules & 10 per consequent & all tracks \\
+\bottomrule
+\end{tabularx}
+\caption{Apriori configuration and rule-filtering settings for exploratory association mining.}
+\label{tab:apriori_protocol}
+\end{table}

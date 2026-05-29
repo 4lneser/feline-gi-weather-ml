@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/1252925985.svg)](https://doi.org/10.5281/zenodo.20437783)
+
 # AI Modeling of Meteorological Influences on Acute Gastrointestinal Disease in Cats
 
 This repository contains the reproducibility artifacts, notebook mirrors, and supporting outputs accompanying the bachelor's thesis:

@@ -1,4 +1,4 @@
-[![DOI](https://zenodo.org/badge/1252925985.svg)](https://doi.org/10.5281/zenodo.20437783)
+[![DOI](https://zenodo.org/badge/1252925985.svg)](https://doi.org/10.5281/zenodo.20437783) [![DOI](https://zenodo.org/badge/DOI/10.2139/ssrn.7004998.svg)](https://doi.org/10.2139/ssrn.7004998)
 
 # AI Modeling of Meteorological Influences on Acute Gastrointestinal Disease in Cats
 
@@ -90,12 +90,13 @@ git clone https://github.com/4lneser/feline-gi-weather-ml.git
 
 ## Citation
 
-If you use this repository, please cite:
+If you use this project, please cite:
 
 Alneser, O. (2026). *AI Modeling of Meteorological Influences on Acute Gastrointestinal Disease in Cats*. Lancaster University Leipzig.
 
-DOI: Pending Zenodo publication<br>
-arXiv: Pending submission
+SSRN DOI: [10.2139/ssrn.7004998](https://doi.org/10.2139/ssrn.7004998)<br>
+
+Zenodo DOI: [10.5281/zenodo.20437783](https://doi.org/10.5281/zenodo.20437783)
 
 ## License
 
